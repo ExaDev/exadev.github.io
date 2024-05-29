@@ -2,5 +2,6 @@
   "settings-search",
   "obsidian-better-command-palette",
   "obsidian-git",
-  "open-vscode"
+  "open-vscode",
+  "obsidian-plugin-prettier"
 ]
