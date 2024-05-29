@@ -16,3 +16,6 @@
 
 ## Contract 2
 ### [ExaDev](https://github.com/ExaDev)/[breadboard-examples](https://github.com/ExaDev/breadboard-examples)
+### [[BreadBot]]
+### [[Invoker API]]
+### [[BGL JSX]]
