@@ -56,6 +56,8 @@ https://github.com/ExaDev/breadboard/tree/breadboard-chrome-extension-for-summar
 
 https://github.com/ExaDev/create-breadboard
 
+### Slack Summariser
+
 ### Reserved NPM Packages
 
 [react-breadboard-components](https://www.npmjs.com/package/react-breadboard-components)
