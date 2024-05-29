@@ -69,11 +69,7 @@ https://github.com/ExaDev/breadboard/tree/881-breadboard-invoker-endpoint-fireba
 - [Entity Search](https://github.com/breadboard-ai/breadboard/blob/main/packages/breadboard-web/src/boards/open-alex-entity-search-list.ts)
   [🔗](https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/breadboard-ai/breadboard/main/packages/breadboard-web/public/graphs/open-alex-entity-search-list.json)
 
-view: https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/breadboard-ai/breadboard/main/packages/breadboard-web/public/graphs/open-alex-entity-search-list.json
-
 ### Holiday Tool
-
-[https://github.com/breadboard-ai/breadboard/pull/1250](https://github.com/breadboard-ai/breadboard/pull/1250)
 
 - [Available Countries](https://github.com/breadboard-ai/breadboard/blob/main/packages/breadboard-web/src/boards/nager.date/available-countries.ts)
   [🔗](https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/breadboard-ai/breadboard/main/packages/breadboard-web/public/graphs/nager.date/available-countries.json)
@@ -89,8 +85,6 @@ view: https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/bre
   [🔗](https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/breadboard-ai/breadboard/main/packages/breadboard-web/public/graphs/nager.date/public-holidays.json)
 
 ### HackerNews Tool
-
-[https://github.com/breadboard-ai/breadboard/pull/1523](https://github.com/breadboard-ai/breadboard/pull/1523)
 
 - [Algolia Search](https://github.com/ExaDev/breadboard/blob/hackersnews-toolworker/packages/breadboard-web/src/boards/hacker_news_algolia_search.ts)
   [🔗](https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/ExaDev/breadboard/hackersnews-toolworker/packages/breadboard-web/public/graphs/hacker_news_algolia_search.json)
@@ -129,7 +123,7 @@ Currently the package supports:
 - Vite React Web App
 - Vite Svelte Web App
 - Vite Vue Web App
-- 
+- Vanilla HTML page embedding a breadboard
 
 ### Slack Summariser
 
