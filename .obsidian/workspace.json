@@ -141,7 +141,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -162,6 +163,8 @@
   },
   "active": "8edd635c6eb2833e",
   "lastOpenFiles": [
+    "files/Pasted image 20240529141346.png",
+    "files",
     "Contract 2.md",
     "Contract 1.md",
     "README.md"

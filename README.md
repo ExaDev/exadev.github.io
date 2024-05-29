@@ -55,8 +55,11 @@
 [github.com/ExaDev/breadbot](https://github.com/ExaDev/breadbot/branches)
 
 A package too experiment with interacting with the Discord API. The current version of the board is able to accept, validate and execute boards.
+
 In a limited capacity it is also possible to prompt the user for input. This is achieved by creating a promise on the server thread which is resolved when the user responds to the prompt.
+
 Once it is possible to serially execute boards node-by-node, it will be possible to interactively prompt the user for input.
+
 When working in a server-client environment, the server will be able to prompt the user for input, store the serialised board state, and then deserialise and resume execution once a response is received from the user/client.
 
 ### Invoker API
@@ -130,6 +133,8 @@ Boards intended for use as nested boards to interact with both the Algolia and F
 ### Chrome Summariser Extension
 
 A Chrome extension for using Breadboard with the Google Chrome API. Currently, the extension has a single purpose: it is used to summarise web page content and select text. This version of the extension is exploratory. When feasible, a more generalised version will be created that can be used with any board.
+
+![](files/Pasted%20image%2020240529141346.png)
 
 - [breadboard-chrome-extension](https://github.com/ExaDev/breadboard/tree/breadboard-chrome-extension/packages/breadboard-chrome-extension)
 - [create-breadboard-chrome-extension-templates](https://github.com/ExaDev/breadboard/tree/create-breadboard-chrome-extension-templates/packages/breadboard-chrome-extensions)
