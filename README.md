@@ -116,15 +116,31 @@ view: https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/bre
 
 ### Create Breadboard Package
 
-https://github.com/ExaDev/create-breadboard
+[github.com/ExaDev/create-breadboard](https://github.com/ExaDev/create-breadboard)
+
+```bash
+npm init breadboard
+```
+
+A package for bootstrapping breadboard, kits and apps that use breadboards.
+
+Currently the package supports:
+- Typescript breadboard
+- Vite React Web App
+- Vite Svelte Web App
+- Vite Vue Web App
+- 
 
 ### Slack Summariser
+
 A board for interfacing with Slack API
 Uses:
+
 - For messages within a given channel and time frame
-  - Summarisation of content
+  - Summarisation of discussions
   - Sentiment Analysis
   - Keyword Extraction
+  - Question Answering
 
 ### Reserved NPM Packages
 
