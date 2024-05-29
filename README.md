@@ -1,3 +1,6 @@
+> [!TIP]
+> The `🔗` links are to the Breadboard Web App with the respective board loaded.
+
 ## Contract 1
 
 [GoogleChromeLabs](https://github.com/GoogleChromeLabs)/[breadboard-samples](https://github.com/GoogleChromeLabs/breadboard-samples)
@@ -51,12 +54,33 @@
 
 [github.com/ExaDev/breadbot](https://github.com/ExaDev/breadbot/branches)
 
+A package too experiment with interacting with the Discord API. The current version of the board is able to accept, validate and execute boards. Though because of the currently limitations of 
+
 ### Invoker API
 
 https://github.com/ExaDev/breadboard/tree/881-breadboard-invoker-endpoint-firebase-functions/packages/invoker-api
 
 ### BGL JSX
 
+A work-in-progress package which allows for the creation of Breadboard Graphs using JSX-like syntax in `TSX` files.
+
+e.g.
+
+```tsx
+<board>
+	<nodes>
+		<node id="input-1" type="input" />
+		<node id="output-1" type="output" />
+	</nodes>
+	<edges>
+		<edge from="input-1" out="say" to="output-1" in="hear" />
+	</edges>
+</board>
+```
+
+`XML`-like syntax will allow for web-developers to write type-safe Breadboard Graphs in a familiar way.
+
+The experimental branches can be found at:
 - [jsx-board](https://github.com/ExaDev/breadboard/tree/jsx-board/packages/jsx-board)
 - [xml-board](https://github.com/ExaDev/breadboard/tree/xml-board/packages/xml)
 
@@ -70,6 +94,8 @@ https://github.com/ExaDev/breadboard/tree/881-breadboard-invoker-endpoint-fireba
   [🔗](https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/breadboard-ai/breadboard/main/packages/breadboard-web/public/graphs/open-alex-entity-search-list.json)
 
 ### Holiday Tool
+
+Tool-worker boards using the free public [Nager.Date](https://date.nager.at/Api) API for holiday information. Useful for boards that be used for planning and/or scheduling.
 
 - [Available Countries](https://github.com/breadboard-ai/breadboard/blob/main/packages/breadboard-web/src/boards/nager.date/available-countries.ts)
   [🔗](https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/breadboard-ai/breadboard/main/packages/breadboard-web/public/graphs/nager.date/available-countries.json)
@@ -86,6 +112,8 @@ https://github.com/ExaDev/breadboard/tree/881-breadboard-invoker-endpoint-fireba
 
 ### HackerNews Tool
 
+Boards intended for use as nested boards to interact with both the Algolia and Firebase APIs for HackerNews. Abstracted and generalised after being used for [DevPulse](DevPulse)
+
 - [Algolia Search](https://github.com/ExaDev/breadboard/blob/hackersnews-toolworker/packages/breadboard-web/src/boards/hacker_news_algolia_search.ts)
   [🔗](https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/ExaDev/breadboard/hackersnews-toolworker/packages/breadboard-web/public/graphs/hacker_news_algolia_search.json)
 - [Algolia Story](https://github.com/ExaDev/breadboard/blob/hackersnews-toolworker/packages/breadboard-web/src/boards/hacker_news_algolia_story_from_id.ts)
@@ -97,6 +125,8 @@ https://github.com/ExaDev/breadboard/tree/881-breadboard-invoker-endpoint-fireba
 
 ### Chrome Summariser Extension
 
+A Chrome extension for using Breadboard with the Google Chrome API. Currently, the extension has a single purpose: it is used to summarise web page content and select text. This version of the extension is exploratory. When feasible, a more generalised version will be created that can be used with any board.
+
 - [breadboard-chrome-extension](https://github.com/ExaDev/breadboard/tree/breadboard-chrome-extension/packages/breadboard-chrome-extension)
 - [create-breadboard-chrome-extension-templates](https://github.com/ExaDev/breadboard/tree/create-breadboard-chrome-extension-templates/packages/breadboard-chrome-extensions)
 - [breadboard-chrome-extension-with-board-settings](https://github.com/ExaDev/breadboard/tree/breadboard-chrome-extension-with-board-settings/packages/breadboard-chrome-extension)
@@ -106,7 +136,11 @@ https://github.com/ExaDev/breadboard/tree/881-breadboard-invoker-endpoint-fireba
 
 ### Breadboard React Components
 
-[ExaDev/react-breadboard-components](https://github.com/ExaDev/react-breadboard-components)
+[github.com/ExaDev/react-breadboard-components](https://github.com/ExaDev/react-breadboard-components)
+
+[npmjs.com/react-breadboard-components](https://www.npmjs.com/react-breadboard-components)
+
+A collection of React components which wrap the native Breadboard Lit components to allow for easier integration with React applications.
 
 ### Create Breadboard Package
 
@@ -118,7 +152,8 @@ npm init breadboard
 
 A package for bootstrapping breadboard, kits and apps that use breadboards.
 
-Currently the package supports:
+Currently, the package supports:
+
 - Typescript breadboard
 - Vite React Web App
 - Vite Svelte Web App
@@ -128,6 +163,7 @@ Currently the package supports:
 ### Slack Summariser
 
 A board for interfacing with Slack API
+
 Uses:
 
 - For messages within a given channel and time frame
@@ -138,9 +174,7 @@ Uses:
 
 ### Reserved NPM Packages
 
-#### [react-breadboard-components](https://www.npmjs.com/package/react-breadboard-components)
-
-##### [breadboard-cli](https://www.npmjs.com/package/breadboard-cli)
+#### [npmjs.com/breadboard-cli](https://www.npmjs.com/package/breadboard-cli)
 
 #### `create` packages
 
