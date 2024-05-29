@@ -146,7 +146,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -161,7 +162,7 @@
       "open-vscode:VSCode": false
     }
   },
-  "active": "8edd635c6eb2833e",
+  "active": "5978e4508feaa2ec",
   "lastOpenFiles": [
     "files/Pasted image 20240529142130.png",
     "files/333637740-a11a3778-4426-421b-8d26-df431da5abc5.mov",

@@ -66,7 +66,7 @@ Once boards can be executed node-by-node serially, prompting the user for input 
 
 When working in a server-client environment, the server can prompt the user for input, store the serialised board state, and then deserialise and resume execution once a response is received from the user/client.
 
-A further development of this will be to template a bot to 
+A further development of this will be to template a bot where the underlying logic of the board is 
 
 ### Invoker API
 
