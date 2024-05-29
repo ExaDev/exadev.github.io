@@ -55,9 +55,9 @@
 [github.com/ExaDev/breadbot](https://github.com/ExaDev/breadbot/branches)
 
 A package too experiment with interacting with the Discord API. The current version of the board is able to accept, validate and execute boards.
-<!-- In a limited capacity it is also possible to prompt the user for input, however, this is not yet fully implemented due to the current limitations with interactively (synchronously and incrementally) executing boards node-by-node. -->
 In a limited capacity it is also possible to prompt the user for input. This is achieved by creating a promise on the server thread which is resolved when the user responds to the prompt.
 Once it is possible to serially execute boards node-by-node, it will be possible to interactively prompt the user for input.
+When working in a server-client environment, the server will be able to prompt the user for input, store the serialised board state, and then deserialise and resume execution once a response is received from the user/client.
 
 ### Invoker API
 
@@ -84,6 +84,7 @@ e.g.
 `XML`-like syntax will allow for web-developers to write type-safe Breadboard Graphs in a familiar way.
 
 The experimental branches can be found at:
+
 - [jsx-board](https://github.com/ExaDev/breadboard/tree/jsx-board/packages/jsx-board)
 - [xml-board](https://github.com/ExaDev/breadboard/tree/xml-board/packages/xml)
 
