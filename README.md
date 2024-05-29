@@ -26,6 +26,17 @@
 
 [github.com/ExaDev/breadboard-examples](https://github.com/ExaDev/breadboard-examples)
 
+- [code-node-dynamic](https://github.com/ExaDev/breadboard-examples/tree/main/src/examples/code-node-dynamic)
+- [code-node](https://github.com/ExaDev/breadboard-examples/tree/main/src/examples/code-node)
+- [harness-with-diagnostics](https://github.com/ExaDev/breadboard-examples/tree/main/src/examples/harness-with-diagnostics)
+- [hello-world](https://github.com/ExaDev/breadboard-examples/tree/main/src/examples/hello-world)
+- [kit-with-code-node](https://github.com/ExaDev/breadboard-examples/tree/main/src/examples/kit-with-code-node)
+- [making-a-kit](https://github.com/ExaDev/breadboard-examples/tree/main/src/examples/making-a-kit)
+- [multiple-inputs-one-output](https://github.com/ExaDev/breadboard-examples/tree/main/src/examples/multiple-inputs-one-output)
+- [one-input-multiple-outputs](https://github.com/ExaDev/breadboard-examples/tree/main/src/examples/one-input-multiple-outputs)
+- [running-serialized-board-with-code-node](https://github.com/ExaDev/breadboard-examples/tree/main/src/examples/running-serialized-board-with-code-node)
+- [wiring-nodes](https://github.com/ExaDev/breadboard-examples/tree/main/src/examples/wiring-nodes)
+
 ### BreadBot
 
 [github.com/ExaDev/breadbot](https://github.com/ExaDev/breadbot/branches)
