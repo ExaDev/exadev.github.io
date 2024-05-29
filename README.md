@@ -4,20 +4,20 @@
 
 ### DevPulse
 
-> [!NOTE] Brief
->
+> [!NOTE]
+> Brief:\
 > Summarizing Developer Sentiment
 
 ### AutoBake
 
-> [!NOTE] Brief
->
+> [!NOTE]
+> Brief:\
 > Creating Bootstrapped projects (docs, code, etc)
 
 ### CourseCrafter
 
-> [!NOTE] Brief
->
+> [!NOTE]
+> Brief:\
 > Merging multiple docs into a learning path
 
 ## Contract 2
