@@ -39,3 +39,9 @@
 [https://github.com/breadboard-ai/breadboard/pull/1523](https://github.com/breadboard-ai/breadboard/pull/1523)
 
 ### Chrome Summariser Extension
+
+https://github.com/ExaDev/breadboard/tree/breadboard-chrome-extension-for-summarising-page/packages/breadboard-chrome-extension
+
+### Breadboard React Components
+
+https://github.com/ExaDev/react-breadboard-components
