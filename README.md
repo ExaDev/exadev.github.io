@@ -3,7 +3,7 @@
 
 ## Contract 1
 
-[GoogleChromeLabs](https://github.com/GoogleChromeLabs)/[breadboard-samples](https://github.com/GoogleChromeLabs/breadboard-samples)
+[github.com/GoogleChromeLabs/breadboard-samples](https://github.com/GoogleChromeLabs/breadboard-samples)
 
 ### Projects
 
@@ -70,6 +70,8 @@ A further development of this will be to template a bot where the underlying log
 
 https://github.com/ExaDev/breadboard/tree/881-breadboard-invoker-endpoint-firebase-functions/packages/invoker-api
 
+A package to serve as an API for invoking Breadboard Graphs.
+
 ### BGL JSX
 
 A work-in-progress package which allows for the creation of Breadboard Graphs using JSX-like syntax in `TSX` files.
@@ -100,6 +102,8 @@ The experimental branches can be found at:
 - [github.com/ExaDev/breadboard-gallery](https://github.com/ExaDev/breadboard-gallery)
 
 ### OpenAlex Tool
+
+OpenAlex is a free public API for scholarly data. The repository allows easy access to open-access academic literature which can be fed into Breadboard boards for analysis.
 
 - [Entity Search](https://github.com/breadboard-ai/breadboard/blob/main/packages/breadboard-web/src/boards/open-alex-entity-search-list.ts)
   [🔗](https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/breadboard-ai/breadboard/main/packages/breadboard-web/public/graphs/open-alex-entity-search-list.json)
@@ -207,42 +211,42 @@ Uses:
 
 #### `create` packages
 
-##### [create-breadboard](https://www.npmjs.com/package/create-breadboard)
+##### [npmjs.com/create-breadboard](https://www.npmjs.com/package/create-breadboard)
 
 ```bash
 npx create-breadboard
 npm init breadboard
 ```
 
-##### [create-board](https://www.npmjs.com/package/create-board)
+##### [npmjs.com/create-board](https://www.npmjs.com/package/create-board)
 
 ```bash
 npx create-board
 npm init board
 ```
 
-##### [create-breadboard-app](https://www.npmjs.com/package/create-breadboard-app)
+##### [npmjs.com/create-breadboard-app](https://www.npmjs.com/package/create-breadboard-app)
 
 ```bash
 npx create-breadboard-app
 npm init breadboard-app
 ```
 
-##### [create-breadboard-kit](https://www.npmjs.com/package/create-breadboard-kit)
+##### [npmjs.com/create-breadboard-kit](https://www.npmjs.com/package/create-breadboard-kit)
 
 ```bash
 npx create-breadboard-kit
 npm init breadboard-kit
 ```
 
-##### [create-breadboard-chrome-extension](https://www.npmjs.com/package/create-breadboard-chrome-extension)
+##### [npmjs.com/create-breadboard-chrome-extension](https://www.npmjs.com/package/create-breadboard-chrome-extension)
 
 ```bash
 npx create-breadboard-chrome-extension
 npm init breadboard-chrome-extension
 ```
 
-##### [create-breadboard-extension](https://www.npmjs.com/package/create-breadboard-extension)
+##### [npmjs.com/create-breadboard-extension](https://www.npmjs.com/package/create-breadboard-extension)
 
 ```bash
 npx create-breadboard-extension
