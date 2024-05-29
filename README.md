@@ -6,7 +6,7 @@
 
 #### DevPulse
 
-> Summarizing Developer Sentiment
+> Summarising Developer Sentiment
 
 #### AutoBake
 
@@ -17,7 +17,7 @@
 > Merging multiple docs into a learning path
 
 ### breadboard-kits
-[text](https://github.com/ExaDev/breadboard-kits)
+[ExaDev/breadboard-kits](https://github.com/ExaDev/breadboard-kits)
 
 ## Contract 2
 
@@ -54,3 +54,11 @@ https://github.com/ExaDev/breadboard/tree/breadboard-chrome-extension-for-summar
 ### Create Breadboard Package
 
 https://github.com/ExaDev/create-breadboard
+
+### Reserved NPM Packages
+
+[react-breadboard-components](https://www.npmjs.com/package/react-breadboard-components)
+
+[create-breadboard-app](https://www.npmjs.com/package/create-breadboard-app)
+
+[create-board](https://www.npmjs.com/package/create-board)
