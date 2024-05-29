@@ -30,6 +30,9 @@
 
 ### BGL JSX
 
+[jsx-board](https://github.com/ExaDev/breadboard/tree/jsx-board/packages/jsx-board)
+[xml-board](https://github.com/ExaDev/breadboard/tree/xml-board/packages/xml)
+
 ### Breadboard Gallery
 
 ### OpenAlex Tool
