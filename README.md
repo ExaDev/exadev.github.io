@@ -50,8 +50,14 @@ view: https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/bre
 ### HackerNews Tool
 
 [https://github.com/breadboard-ai/breadboard/pull/1523](https://github.com/breadboard-ai/breadboard/pull/1523)
+
 ##### Boards
 
+- [Algolia Search](https://github.com/ExaDev/breadboard/blob/hackersnews-toolworker/packages/breadboard-web/src/boards/hacker_news_algolia_search.ts)
+  - 
+- [Algolia Story](https://github.com/ExaDev/breadboard/blob/hackersnews-toolworker/packages/breadboard-web/src/boards/hacker_news_algolia_story_from_id.ts)
+- [Firebase Story](https://github.com/ExaDev/breadboard/blob/hackersnews-toolworker/packages/breadboard-web/src/boards/hacker_news_firebase_story_from_id.ts)
+- [Firebase Top Stories](https://github.com/ExaDev/breadboard/blob/hackersnews-toolworker/packages/breadboard-web/src/boards/hacker_news_firebase_top_story_ids.ts)
 
 ### Chrome Summariser Extension
 
