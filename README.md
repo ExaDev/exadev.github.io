@@ -2,17 +2,22 @@
 
 [GoogleChromeLabs](https://github.com/GoogleChromeLabs)/[breadboard-samples](https://github.com/GoogleChromeLabs/breadboard-samples)
 
-### DevPulse
+### Projects
+
+#### DevPulse
 
 > Summarizing Developer Sentiment
 
-### AutoBake
+#### AutoBake
 
 > Creating Bootstrapped projects (docs, code, etc)
 
-### CourseCrafter
+#### CourseCrafter
 
 > Merging multiple docs into a learning path
+
+### breadboard-kits
+[text](https://github.com/ExaDev/breadboard-kits)
 
 ## Contract 2
 
@@ -47,4 +52,5 @@ https://github.com/ExaDev/breadboard/tree/breadboard-chrome-extension-for-summar
 [ExaDev/react-breadboard-components](https://github.com/ExaDev/react-breadboard-components)
 
 ### Create Breadboard Package
+
 https://github.com/ExaDev/create-breadboard
