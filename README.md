@@ -32,8 +32,8 @@ https://github.com/ExaDev/breadboard/tree/881-breadboard-invoker-endpoint-fireba
 
 ### BGL JSX
 
-[jsx-board](https://github.com/ExaDev/breadboard/tree/jsx-board/packages/jsx-board)
-[xml-board](https://github.com/ExaDev/breadboard/tree/xml-board/packages/xml)
+- [jsx-board](https://github.com/ExaDev/breadboard/tree/jsx-board/packages/jsx-board)
+- [xml-board](https://github.com/ExaDev/breadboard/tree/xml-board/packages/xml)
 
 ### Breadboard Gallery
 
