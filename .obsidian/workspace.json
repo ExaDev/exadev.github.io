@@ -145,8 +145,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -157,11 +156,14 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
-      "zk-prefixer:Create new unique note": false
+      "zk-prefixer:Create new unique note": false,
+      "open-vscode:VSCode": false
     }
   },
   "active": "8edd635c6eb2833e",
   "lastOpenFiles": [
+    "Contract 2.md",
+    "Contract 1.md",
     "README.md"
   ]
 }
