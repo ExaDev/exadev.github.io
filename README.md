@@ -119,12 +119,18 @@ view: https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/bre
 https://github.com/ExaDev/create-breadboard
 
 ### Slack Summariser
+A board for interfacing with Slack API
+Uses:
+- For messages within a given channel and time frame
+  - Summarisation of content
+  - Sentiment Analysis
+  - Keyword Extraction
 
 ### Reserved NPM Packages
 
-[react-breadboard-components](https://www.npmjs.com/package/react-breadboard-components)
+#### [react-breadboard-components](https://www.npmjs.com/package/react-breadboard-components)
 
-[breadboard-cli](https://www.npmjs.com/package/breadboard-cli)
+##### [breadboard-cli](https://www.npmjs.com/package/breadboard-cli)
 
 #### `create` packages
 
