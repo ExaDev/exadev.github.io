@@ -16,16 +16,6 @@
 
 > Merging multiple docs into a learning path
 
-<div>
-    	<script
-    		type="module"
-    		src="https://esm.sh/@google-labs/breadboard-web/embed.js?alias=fs/promises:fs"
-    	>
-    </script>
-    	<bb-embed url="./board.json" />
-
-</div>
-
 ### [ExaDev/breadboard-kits](https://github.com/ExaDev/breadboard-kits)
 
 ## Contract 2
@@ -49,7 +39,9 @@ https://github.com/ExaDev/breadboard/tree/881-breadboard-invoker-endpoint-fireba
 
 ### OpenAlex Tool
 
-[https://github.com/breadboard-ai/breadboard/pull/1158](https://github.com/breadboard-ai/breadboard/pull/1158)
+source: https://github.com/breadboard-ai/breadboard/blob/main/packages/breadboard-web/src/boards/open-alex-entity-search-list.ts
+
+view: https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/breadboard-ai/breadboard/main/packages/breadboard-web/public/graphs/open-alex-entity-search-list.json
 
 ### Holiday Tool
 
@@ -58,6 +50,8 @@ https://github.com/ExaDev/breadboard/tree/881-breadboard-invoker-endpoint-fireba
 ### HackerNews Tool
 
 [https://github.com/breadboard-ai/breadboard/pull/1523](https://github.com/breadboard-ai/breadboard/pull/1523)
+##### Boards
+
 
 ### Chrome Summariser Extension
 
