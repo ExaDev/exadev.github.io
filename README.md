@@ -16,6 +16,16 @@
 
 > Merging multiple docs into a learning path
 
+<div>
+    	<script
+    		type="module"
+    		src="https://esm.sh/@google-labs/breadboard-web/embed.js?alias=fs/promises:fs"
+    	>
+    </script>
+    	<bb-embed url="./board.json" />
+
+</div>
+
 ### [ExaDev/breadboard-kits](https://github.com/ExaDev/breadboard-kits)
 
 ## Contract 2
@@ -23,9 +33,11 @@
 ### [ExaDev/breadboard-examples](https://github.com/ExaDev/breadboard-examples)
 
 ### BreadBot
+
 [github.com/ExaDev/breadbot](https://github.com/ExaDev/breadbot/branches)
 
 ### Invoker API
+
 https://github.com/ExaDev/breadboard/tree/881-breadboard-invoker-endpoint-firebase-functions/packages/invoker-api
 
 ### BGL JSX
