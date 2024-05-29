@@ -44,4 +44,4 @@ https://github.com/ExaDev/breadboard/tree/breadboard-chrome-extension-for-summar
 
 ### Breadboard React Components
 
-https://github.com/ExaDev/react-breadboard-components
+[ExaDev/react-breadboard-components](https://github.com/ExaDev/react-breadboard-components)
