@@ -16,11 +16,15 @@
 
 > Merging multiple docs into a learning path
 
-### [ExaDev/breadboard-kits](https://github.com/ExaDev/breadboard-kits)
+### breadboard-kits
+
+[ExaDev/breadboard-kits](https://github.com/ExaDev/breadboard-kits)
 
 ## Contract 2
 
-### [ExaDev/breadboard-examples](https://github.com/ExaDev/breadboard-examples)
+### breadboard-examples
+
+[github.com/ExaDev/breadboard-examples](https://github.com/ExaDev/breadboard-examples)
 
 ### BreadBot
 
@@ -36,6 +40,8 @@ https://github.com/ExaDev/breadboard/tree/881-breadboard-invoker-endpoint-fireba
 - [xml-board](https://github.com/ExaDev/breadboard/tree/xml-board/packages/xml)
 
 ### Breadboard Gallery
+
+- [github.com/ExaDev/breadboard-gallery](https://github.com/ExaDev/breadboard-gallery)
 
 ### OpenAlex Tool
 
