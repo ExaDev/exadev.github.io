@@ -17,6 +17,7 @@
 > Merging multiple docs into a learning path
 
 ### breadboard-kits
+
 [ExaDev/breadboard-kits](https://github.com/ExaDev/breadboard-kits)
 
 ## Contract 2
@@ -59,6 +60,48 @@ https://github.com/ExaDev/create-breadboard
 
 [react-breadboard-components](https://www.npmjs.com/package/react-breadboard-components)
 
-[create-breadboard-app](https://www.npmjs.com/package/create-breadboard-app)
+[breadboard-cli](https://www.npmjs.com/package/breadboard-cli)
 
-[create-board](https://www.npmjs.com/package/create-board)
+#### `create` packages
+
+##### [create-breadboard](https://www.npmjs.com/package/create-breadboard)
+
+```bash
+npx create-breadboard
+npm init breadboard
+```
+
+##### [create-board](https://www.npmjs.com/package/create-board)
+
+```bash
+npx create-board
+npm init board
+```
+
+##### [create-breadboard-app](https://www.npmjs.com/package/create-breadboard-app)
+
+```bash
+npx create-breadboard-app
+npm init breadboard-app
+```
+
+##### [create-breadboard-kit](https://www.npmjs.com/package/create-breadboard-kit)
+
+```bash
+npx create-breadboard-kit
+npm init breadboard-kit
+```
+
+##### [create-breadboard-chrome-extension](https://www.npmjs.com/package/create-breadboard-chrome-extension)
+
+```bash
+npx create-breadboard-chrome-extension
+npm init breadboard-chrome-extension
+```
+
+##### [create-breadboard-extension](https://www.npmjs.com/package/create-breadboard-extension)
+
+```bash
+npx create-breadboard-extension
+npm init breadboard-extension
+```
