@@ -58,13 +58,15 @@
 
 [github.com/ExaDev/breadbot](https://github.com/ExaDev/breadbot/branches)
 
-A package too experiment with interacting with the Discord API. The current version of the board is able to accept, validate and execute boards.
+A package to experiment with interacting with the Discord API. The current version of the bot can accept, validate, and execute boards.
 
-In a limited capacity it is also possible to prompt the user for input. This is achieved by creating a promise on the server thread which is resolved when the user responds to the prompt.
+It is also possible to prompt the user for input in a limited capacity. This is achieved by creating a promise on the server thread, which is resolved when the user responds to the prompt.
 
-Once it is possible to serially execute boards node-by-node, it will be possible to interactively prompt the user for input.
+Once boards can be executed node-by-node serially, prompting the user for input interactively will be possible.
 
-When working in a server-client environment, the server will be able to prompt the user for input, store the serialised board state, and then deserialise and resume execution once a response is received from the user/client.
+When working in a server-client environment, the server can prompt the user for input, store the serialised board state, and then deserialise and resume execution once a response is received from the user/client.
+
+A further development of this will be to template a bot to 
 
 ### Invoker API
 
@@ -88,7 +90,7 @@ e.g.
 </board>
 ```
 
-`XML`-like syntax will allow for web-developers to write type-safe Breadboard Graphs in a familiar way.
+`XML`-like syntax will allow web developers to write type-safe Breadboard Graphs familiarly.
 
 The experimental branches can be found at:
 
@@ -106,7 +108,7 @@ The experimental branches can be found at:
 
 ### Holiday Tool
 
-Tool-worker boards using the free public [Nager.Date](https://date.nager.at/Api) API for holiday information. Useful for boards that be used for planning and/or scheduling.
+Tool-worker boards using the free public [Nager.Date](https://date.nager.at/Api) API for holiday information. Useful for boards that are used for planning and/or scheduling.
 
 - [Available Countries](https://github.com/breadboard-ai/breadboard/blob/main/packages/breadboard-web/src/boards/nager.date/available-countries.ts)
   [🔗](https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/breadboard-ai/breadboard/main/packages/breadboard-web/public/graphs/nager.date/available-countries.json)
