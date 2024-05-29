@@ -16,13 +16,11 @@
 
 > Merging multiple docs into a learning path
 
-### breadboard-kits
-
-[ExaDev/breadboard-kits](https://github.com/ExaDev/breadboard-kits)
+### [ExaDev/breadboard-kits](https://github.com/ExaDev/breadboard-kits)
 
 ## Contract 2
 
-### [ExaDev](https://github.com/ExaDev)/[breadboard-examples](https://github.com/ExaDev/breadboard-examples)
+### [ExaDev/breadboard-examples](https://github.com/ExaDev/breadboard-examples)
 
 ### BreadBot
 
@@ -49,7 +47,12 @@
 
 ### Chrome Summariser Extension
 
-https://github.com/ExaDev/breadboard/tree/breadboard-chrome-extension-for-summarising-page/packages/breadboard-chrome-extension
+- [breadboard-chrome-extension](https://github.com/ExaDev/breadboard/tree/breadboard-chrome-extension/packages/breadboard-chrome-extension)
+- [create-breadboard-chrome-extension-templates](https://github.com/ExaDev/breadboard/tree/create-breadboard-chrome-extension-templates/packages/breadboard-chrome-extensions)
+- [breadboard-chrome-extension-with-board-settings](https://github.com/ExaDev/breadboard/tree/breadboard-chrome-extension-with-board-settings/packages/breadboard-chrome-extension)
+- [breadboard-sentiment-analysis-chrome-extension](https://github.com/ExaDev/breadboard/tree/breadboard-sentiment-analysis-chrome-extension/packages/breadboard-chrome-extension)
+- [breadboard-chrome-extension](https://github.com/ExaDev/breadboard/tree/breadboard-chrome-extension-for-summarising-page/packages/breadboard-chrome-extension)
+- [breadboard-chrome-extension-for-summarising-page](https://github.com/ExaDev/breadboard/tree/breadboard-chrome-extension-for-summarising-page/packages/breadboard-chrome-extension)
 
 ### Breadboard React Components
 
