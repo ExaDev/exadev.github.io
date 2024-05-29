@@ -14,6 +14,7 @@
 #### AutoBake
 
 > Creating Bootstrapped projects (docs, code, etc)
+
 ![](files/Pasted%20image%2020240529142130.png)
 
 #### CourseCrafter
