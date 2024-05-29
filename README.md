@@ -39,7 +39,8 @@ https://github.com/ExaDev/breadboard/tree/881-breadboard-invoker-endpoint-fireba
 
 ### OpenAlex Tool
 
-source: https://github.com/breadboard-ai/breadboard/blob/main/packages/breadboard-web/src/boards/open-alex-entity-search-list.ts
+- [Entity Search](https://github.com/breadboard-ai/breadboard/blob/main/packages/breadboard-web/src/boards/open-alex-entity-search-list.ts)
+  [🔗](https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/breadboard-ai/breadboard/main/packages/breadboard-web/public/graphs/open-alex-entity-search-list.json)
 
 view: https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/breadboard-ai/breadboard/main/packages/breadboard-web/public/graphs/open-alex-entity-search-list.json
 
