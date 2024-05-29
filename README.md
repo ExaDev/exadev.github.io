@@ -52,6 +52,8 @@
 
 ### BreadBot
 
+![](files/Pasted%20image%2020240529141552.png)
+
 [github.com/ExaDev/breadbot](https://github.com/ExaDev/breadbot/branches)
 
 A package too experiment with interacting with the Discord API. The current version of the board is able to accept, validate and execute boards.
