@@ -75,8 +75,6 @@ view: https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/bre
 
 [https://github.com/breadboard-ai/breadboard/pull/1250](https://github.com/breadboard-ai/breadboard/pull/1250)
 
-#### Boards
-
 - [Available Countries](https://github.com/breadboard-ai/breadboard/blob/main/packages/breadboard-web/src/boards/nager.date/available-countries.ts)
   [🔗](https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/breadboard-ai/breadboard/main/packages/breadboard-web/public/graphs/nager.date/available-countries.json)
 - [Country Info](https://github.com/breadboard-ai/breadboard/blob/main/packages/breadboard-web/src/boards/nager.date/country-info.ts)
@@ -93,8 +91,6 @@ view: https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/bre
 ### HackerNews Tool
 
 [https://github.com/breadboard-ai/breadboard/pull/1523](https://github.com/breadboard-ai/breadboard/pull/1523)
-
-##### Boards
 
 - [Algolia Search](https://github.com/ExaDev/breadboard/blob/hackersnews-toolworker/packages/breadboard-web/src/boards/hacker_news_algolia_search.ts)
   [🔗](https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/ExaDev/breadboard/hackersnews-toolworker/packages/breadboard-web/public/graphs/hacker_news_algolia_search.json)
