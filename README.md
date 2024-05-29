@@ -12,6 +12,7 @@
 > Summarising Developer Sentiment
 
 ![](files/Pasted%20image%2020240529151406.png)
+
 #### AutoBake
 
 > Creating Bootstrapped projects (docs, code, etc)
