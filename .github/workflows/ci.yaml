@@ -78,5 +78,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 18
+      - run: npm ci
+        name: Install dependencies
       - name: Build
         run: npx -y quartz build --bundleInfo
