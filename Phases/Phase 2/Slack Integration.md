@@ -1,6 +1,9 @@
 ---
-tags: Slack
+tags:
+  - Slack
+  - phase_2
 ---
+
 Slack Summariser
 
 A board for interfacing with Slack API

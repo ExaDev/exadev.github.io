@@ -29,8 +29,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +95,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Phases/Phase 2/Slack Integration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +111,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Phases/Phase 2/Slack Integration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,9 +132,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Phases/Phase 2/Slack Integration.md"
-              }
+              "state": {}
             }
           },
           {
@@ -173,11 +168,11 @@
       "open-vscode:VSCode": false
     }
   },
-  "active": "eec98c29c74000c9",
+  "active": "67ccbbbc0c513b40",
   "lastOpenFiles": [
+    "Phases/Phase 2/Slack Integration.md",
     "README.md",
     "Phases/Phase 2/---Slack Integration.md",
-    "Phases/Phase 2/Slack Integration.md",
     "Phases/Phase 2/NPM Packages.md",
     "Phases/Phase 2/Market Research Board.md",
     "Phases/Phase 2/Create Breadboard Package.md",
