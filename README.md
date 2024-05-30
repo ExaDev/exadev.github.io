@@ -16,9 +16,7 @@
 
 #### [CourseCrafter](Phases/Phase%201/Projects/CourseCrafter.md)
 
-### breadboard-kits
-
-[ExaDev/breadboard-kits](https://github.com/ExaDev/breadboard-kits)
+### [ExaDev/breadboard-kits](https://github.com/ExaDev/breadboard-kits)
 
 ## Phase 2
 
