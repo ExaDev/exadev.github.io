@@ -55,6 +55,7 @@ A series of demo walkthroughs that introduce Breadboard concepts and features.
 > Merging multiple docs into a learning path
 
 - [github.com/ExaDev/samples/CourseCrafter](https://github.com/ExaDev/breadboard-samples/tree/develop/samples/CourseCrafter)
+- [AutoBake New Syntax](https://github.com/ExaDev/breadboard-samples/tree/recreating-course-crafter-in-new-syntax/samples/CourseCrafter)
 
 ### breadboard-kits
 
