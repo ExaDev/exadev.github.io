@@ -57,6 +57,8 @@ A series of demo walkthroughs that introduce Breadboard concepts and features.
 - [github.com/ExaDev/samples/CourseCrafter](https://github.com/ExaDev/breadboard-samples/tree/develop/samples/CourseCrafter)
 - [AutoBake New Syntax](https://github.com/ExaDev/breadboard-samples/tree/recreating-course-crafter-in-new-syntax/samples/CourseCrafter)
 
+![](files/mermaid-diagram-2024-05-30-091429.svg)
+
 ### breadboard-kits
 
 [ExaDev/breadboard-kits](https://github.com/ExaDev/breadboard-kits)
