@@ -1,3 +1,6 @@
+---
+tags: Slack
+---
 Slack Summariser
 
 A board for interfacing with Slack API
