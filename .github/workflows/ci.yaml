@@ -1,12 +1,10 @@
 name: Build and Test
 
 on:
-  pull_request:
-    branches:
-      - v4
   push:
     branches:
-      - v4
+      - main
+  workflow_dispatch:
 
 jobs:
   build-and-test:
@@ -69,3 +67,16 @@ jobs:
           version: ${{ env.PACKAGE_VERSION }}
           git_commit_sha: ${{ github.sha }}
           git_tag_prefix: "v"
+
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+      - name: Build
+        run: npx -y quartz build --bundleInfo
