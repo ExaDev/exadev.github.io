@@ -101,11 +101,11 @@ The experimental branches can be found at:
 
 - [github.com/ExaDev/breadboard-gallery](https://github.com/ExaDev/breadboard-gallery)
 
-A proof of concept application built with NextJS and StaticCMS. The application is capable at **both, build and runtime** of fetching the contents of git repositories and using a Breadboard Graph to process the contents of the repository. At present the application is operating on the Breadboard repository itself and uses Claude to summarise `README.md` and `package.json` files.
+A proof of concept application built with NextJS and StaticCMS. The application can **both build and runtime** of fetching the contents of git repositories and using a Breadboard Graph to process the repository's contents. Currently, the application operates on the Breadboard repository and uses Claude to summarise `README.md` and `package.json` files.
 
 ### OpenAlex Tool
 
-OpenAlex is a free public API for scholarly data. The repository allows easy access to open-access academic literature which can be fed into Breadboard boards for analysis.
+OpenAlex is a free public API for scholarly data. The repository allows easy access to open-access academic literature, which can be fed into Breadboard boards for analysis.
 
 - [Entity Search](https://github.com/breadboard-ai/breadboard/blob/main/packages/breadboard-web/src/boards/open-alex-entity-search-list.ts)
   [🔗](https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/breadboard-ai/breadboard/main/packages/breadboard-web/public/graphs/open-alex-entity-search-list.json)
