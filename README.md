@@ -1,5 +1,5 @@
 > [!TIP]
-> The `🔗` links are to the Breadboard Web App with the respective board loaded.
+> The `🔗` links will open the board in Breadboard Web
 
 ## Contract 1
 
@@ -101,6 +101,8 @@ The experimental branches can be found at:
 
 - [github.com/ExaDev/breadboard-gallery](https://github.com/ExaDev/breadboard-gallery)
 
+A proof of concept application built with NextJS and StaticCMS. The application is capable at **both, build and runtime** of fetching the contents of git repositories and using a Breadboard Graph to process the contents of the repository. At present the application is operating on the Breadboard repository itself and uses Claude to summarise `README.md` and `package.json` files.
+
 ### OpenAlex Tool
 
 OpenAlex is a free public API for scholarly data. The repository allows easy access to open-access academic literature which can be fed into Breadboard boards for analysis.
@@ -129,14 +131,14 @@ Tool-worker boards using the free public [Nager.Date](https://date.nager.at/Api)
 
 Boards intended for use as nested boards to interact with both the Algolia and Firebase APIs for HackerNews. Abstracted and generalised after being used for [DevPulse](DevPulse)
 
-- [Algolia Search](https://github.com/ExaDev/breadboard/blob/hackersnews-toolworker/packages/breadboard-web/src/boards/hacker_news_algolia_search.ts)
-  [🔗](https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/ExaDev/breadboard/hackersnews-toolworker/packages/breadboard-web/public/graphs/hacker_news_algolia_search.json)
-- [Algolia Story](https://github.com/ExaDev/breadboard/blob/hackersnews-toolworker/packages/breadboard-web/src/boards/hacker_news_algolia_story_from_id.ts)
-  [🔗](https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/ExaDev/breadboard/hackersnews-toolworker/packages/breadboard-web/public/graphs/hacker_news_algolia_story_from_id.json)
-- [Firebase Story](https://github.com/ExaDev/breadboard/blob/hackersnews-toolworker/packages/breadboard-web/src/boards/hacker_news_firebase_story_from_id.ts)
-  [🔗](https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/ExaDev/breadboard/hackersnews-toolworker/packages/breadboard-web/public/graphs/hacker_news_firebase_story_from_id.json)
-- [Firebase Top Stories](https://github.com/ExaDev/breadboard/blob/hackersnews-toolworker/packages/breadboard-web/src/boards/hacker_news_firebase_top_story_ids.ts)
-  [🔗](https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/ExaDev/breadboard/hackersnews-toolworker/packages/breadboard-web/public/graphs/hacker_news_firebase_top_story_ids.json)
+- [Algolia Search](https://github.com/breadboard-ai/breadboard/blob/main/packages/breadboard-web/src/boards/hacker_news_algolia_search.ts)
+  [🔗](https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/breadboard-ai/breadboard/main/packages/breadboard-web/public/graphs/hacker_news_algolia_search.json)
+- [Algolia Story](https://github.com/breadboard-ai/breadboard/blob/main/packages/breadboard-web/src/boards/hacker_news_algolia_story_from_id.ts)
+  [🔗](https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/breadboard-ai/breadboard/main/packages/breadboard-web/public/graphs/hacker_news_algolia_story_from_id.json)
+- [Firebase Story](https://github.com/breadboard-ai/breadboard/blob/main/packages/breadboard-web/src/boards/hacker_news_firebase_story_from_id.ts)
+  [🔗](https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/breadboard-ai/breadboard/main/packages/breadboard-web/public/graphs/hacker_news_firebase_story_from_id.json)
+- [Firebase Top Stories](https://github.com/breadboard-ai/breadboard/blob/main/packages/breadboard-web/src/boards/hacker_news_firebase_top_story_ids.ts)
+  [🔗](https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/breadboard-ai/breadboard/main/packages/breadboard-web/public/graphs/hacker_news_firebase_top_story_ids.json)
 
 ### Chrome Summariser Extension
 
