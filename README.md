@@ -1,80 +1,26 @@
 > [!TIP]
 > The `🔗` links will open the board in Breadboard Web
 
-## Contract 1
+## Phase 1
 
 - [github.com/GoogleChromeLabs/breadboard-samples](https://github.com/GoogleChromeLabs/breadboard-samples)
-
 - [github.com/ExaDev/breadboard-samples](https://github.com/ExaDev/breadboard-samples)
 
-### Walkthroughs
-
-[github.com/GoogleChromeLabs/breadboard-samples/Breadboard Walkthrough](https://github.com/GoogleChromeLabs/breadboard-samples/tree/main/samples/Breadboard%20Walkthrough)
-
-A series of demo walkthroughs that introduce Breadboard concepts and features.
-
-1. [Hello World](https://github.com/GoogleChromeLabs/breadboard-samples/blob/main/samples/Breadboard%20Walkthrough/src/hello-world/README.md)
-2. [Multiple Inputs](https://github.com/GoogleChromeLabs/breadboard-samples/blob/main/samples/Breadboard%20Walkthrough/src/multiple-inputs/README.md)
-3. [Multiple Outputs](https://github.com/GoogleChromeLabs/breadboard-samples/blob/main/samples/Breadboard%20Walkthrough/src/multiple-outputs/README.md)
-4. [Specific Outputs](https://github.com/GoogleChromeLabs/breadboard-samples/blob/main/samples/Breadboard%20Walkthrough/src/specific-outputs/README.md)
-5. [Nodes by ID](https://github.com/GoogleChromeLabs/breadboard-samples/blob/main/samples/Breadboard%20Walkthrough/src/nodes-by-id/README.md)
-6. [One Input Multiple Outputs](https://github.com/GoogleChromeLabs/breadboard-samples/blob/main/samples/Breadboard%20Walkthrough/src/one-input-multiple-outputs/README.md)
-7. [Multiple Inputs One Output](https://github.com/GoogleChromeLabs/breadboard-samples/blob/main/samples/Breadboard%20Walkthrough/src/multiple-inputs-one-output/README.md)
-8. [Naming Wiring Parameters](https://github.com/GoogleChromeLabs/breadboard-samples/blob/main/samples/Breadboard%20Walkthrough/src/naming-wiring-parameters/README.md)
-9. [Arrow Directions](https://github.com/GoogleChromeLabs/breadboard-samples/blob/main/samples/Breadboard%20Walkthrough/src/arrow-directions/README.md)
-10. [Custom Kit Node Values and Handlers](https://github.com/GoogleChromeLabs/breadboard-samples/blob/main/samples/Breadboard%20Walkthrough/src/custom-kit-node-values-and-handlers/README.md)
-11. [Include Board as a Node](https://github.com/GoogleChromeLabs/breadboard-samples/blob/main/samples/Breadboard%20Walkthrough/src/include-board-as-a-node/README.md)
-12. [Include Board as a Node with URL](https://github.com/GoogleChromeLabs/breadboard-samples/blob/main/samples/Breadboard%20Walkthrough/src/include-board-as-a-node-with-url/README.md)
-13. [Adding Slot to a Board](https://github.com/GoogleChromeLabs/breadboard-samples/blob/main/samples/Breadboard%20Walkthrough/src/adding-slot-to-a-board/README.md)
-14. [Adding Slot to a Board with URL](https://github.com/GoogleChromeLabs/breadboard-samples/blob/main/samples/Breadboard%20Walkthrough/src/adding-slot-to-a-board-with-url/README.md)
+### [Walkthroughs](Phases/Phase%201/Walkthroughs.md)
 
 ### Projects
 
-#### DevPulse
+#### [DevPulse](Phases/Phase%201/Projects/DevPulse.md)
 
-> [!NOTE]
-> Summarising Developer Sentiment
+#### [AutoBake](Phases/Phase%201/Projects/AutoBake.md)
 
-- Initial Prototype: [github.com/ExaDev/dev-pulse](https://github.com/ExaDev/dev-pulse)
-- [github.com/ExaDev/samples/DevPulse](https://github.com/ExaDev/breadboard-samples/tree/develop/samples/DevPulse)
-
-![](files/Pasted%20image%2020240529151406.png)
-
-#### AutoBake
-
-> [!NOTE]
-> Creating Bootstrapped projects (docs, code, etc)
-
-- [github.com/ExaDev/samples/AutoBake](https://github.com/ExaDev/breadboard-samples/tree/develop/samples/AutoBake)
-- [AutoBake New Syntax](https://github.com/ExaDev/breadboard-examples/pull/7/files)
-
-![](files/Pasted%20image%2020240529142130.png)
-
-#### CourseCrafter
-
-> [!NOTE]
-> Merging multiple docs into a learning path
-
-- [github.com/ExaDev/samples/CourseCrafter](https://github.com/ExaDev/breadboard-samples/tree/develop/samples/CourseCrafter)
-- [CourseCrafter New Syntax](https://github.com/ExaDev/breadboard-samples/tree/recreating-course-crafter-in-new-syntax/samples/CourseCrafter)
-
-##### CourseCrafter Single Source
-
-[github.com/samples/CourseCrafter/src/single](https://github.com/ExaDev/breadboard-samples/tree/recreating-course-crafter-in-new-syntax/samples/CourseCrafter/src/single)
-
-![](files/mermaid-diagram-2024-05-30-091429.svg)
-
-##### CourseCrafter Multi-Source
-
-[github.com/samples/CourseCrafter/src/multiple](https://github.com/ExaDev/breadboard-samples/tree/recreating-course-crafter-in-new-syntax/samples/CourseCrafter/src/multiple)
-
-![](files/mermaid-diagram-2024-05-30-091559.svg)
+#### [CourseCrafter](Phases/Phase%201/Projects/CourseCrafter.md)
 
 ### breadboard-kits
 
 [ExaDev/breadboard-kits](https://github.com/ExaDev/breadboard-kits)
 
-## Contract 2
+## Phase 2
 
 ### breadboard-examples
 

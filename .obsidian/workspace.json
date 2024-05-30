@@ -146,8 +146,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -164,6 +163,13 @@
   },
   "active": "8edd635c6eb2833e",
   "lastOpenFiles": [
+    "Phases/Phase 1/Projects/CourseCrafter.md",
+    "Phases/Phase 1/Projects/AutoBake.md",
+    "Phases/Phase 1/Projects/DevPulse.md",
+    "Phases/Phase 1/Projects",
+    "Phases",
+    "Phases/Phase 1/Walkthroughs.md",
+    "Phases/Phase 1",
     "files/mermaid-diagram-2024-05-30-091559.svg",
     "files/mermaid-diagram-2024-05-30-091429.svg",
     "files/Pasted image 20240529151406.png",
