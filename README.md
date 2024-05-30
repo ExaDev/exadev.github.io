@@ -32,6 +32,7 @@ A series of demo walkthroughs that introduce Breadboard concepts and features.
 
 #### DevPulse
 
+> [!NOTE]
 > Summarising Developer Sentiment
 
 [github.com/ExaDev/samples/DevPulse](https://github.com/ExaDev/breadboard-samples/tree/develop/samples/DevPulse)
@@ -40,6 +41,7 @@ A series of demo walkthroughs that introduce Breadboard concepts and features.
 
 #### AutoBake
 
+> [!NOTE]
 > Creating Bootstrapped projects (docs, code, etc)
 
 [github.com/ExaDev/samples/AutoBake](https://github.com/ExaDev/breadboard-samples/tree/develop/samples/AutoBake)
@@ -48,6 +50,7 @@ A series of demo walkthroughs that introduce Breadboard concepts and features.
 
 #### CourseCrafter
 
+> [!NOTE]
 > Merging multiple docs into a learning path
 
 [github.com/ExaDev/samples/CourseCrafter](https://github.com/ExaDev/breadboard-samples/tree/develop/samples/CourseCrafter)
