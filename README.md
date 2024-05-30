@@ -142,7 +142,7 @@ Boards intended for use as nested boards to interact with both the Algolia and F
 
 ### Chrome Summariser Extension
 
-A Chrome extension for using Breadboard with the Google Chrome API. Currently, the extension has a single purpose: it is used to summarise web page content and select text. This version of the extension is exploratory. When feasible, a more generalised version will be created that can be used with any board.
+A Chrome extension for using Breadboard with the Google Chrome API. Currently, the extension has a single purpose: to summarise web page content and select text. This version of the extension is exploratory. When feasible, a more generalised version will be created to be used with any board.
 
 ![](files/Pasted%20image%2020240529141346.png)
 
