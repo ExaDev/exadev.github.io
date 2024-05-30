@@ -34,17 +34,23 @@ A series of demo walkthroughs that introduce Breadboard concepts and features.
 
 > Summarising Developer Sentiment
 
+[github.com/ExaDev/samples/DevPulse](https://github.com/ExaDev/breadboard-samples/tree/develop/samples/DevPulse)
+
 ![](files/Pasted%20image%2020240529151406.png)
 
 #### AutoBake
 
 > Creating Bootstrapped projects (docs, code, etc)
 
+[github.com/ExaDev/samples/AutoBake](https://github.com/ExaDev/breadboard-samples/tree/develop/samples/AutoBake)
+
 ![](files/Pasted%20image%2020240529142130.png)
 
 #### CourseCrafter
 
 > Merging multiple docs into a learning path
+
+[github.com/ExaDev/samples/CourseCrafter](https://github.com/ExaDev/breadboard-samples/tree/develop/samples/CourseCrafter)
 
 ### breadboard-kits
 
