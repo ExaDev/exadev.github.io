@@ -1,6 +1,6 @@
 ---
 tags:
-  - phase/01
+  - phase/1
 ---
 
 # AutoBake
