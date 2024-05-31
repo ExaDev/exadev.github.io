@@ -17,7 +17,6 @@ export const sharedPageComponents: SharedLayout = {
 const graphOptions: GraphOptions = {
   localGraph: {
     ...defaultOptions.localGraph,
-    depth: 3,
   },
   globalGraph: {
     ...defaultOptions.globalGraph,

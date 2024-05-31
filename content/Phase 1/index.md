@@ -13,10 +13,10 @@ tags:
 
 ### Projects
 
-#### [[Projects/DevPulse]]
+#### [[Projects/DevPulse|DevPulse]]
 
-#### [[Projects/AutoBake]]
+#### [[Projects/AutoBake|AutoBake]]
 
-#### [[Projects/CourseCrafter]]
+#### [[Projects/CourseCrafter|CourseCrafter]]
 
 ### [ExaDev/breadboard-kits](https://github.com/ExaDev/breadboard-kits)
