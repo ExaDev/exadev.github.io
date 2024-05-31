@@ -1,5 +1,8 @@
 ---
-tags: phase/2
+tags:
+  - phase/2
+  - npm
+  - npm_package
 ---
 
 Reserved NPM Packages

@@ -1,8 +1,14 @@
 ---
-tags: phase/2
+tags:
+  - phase/2
+  - documentation
+title: Examples
+aliases:
+  - Breadboard Examples
+  - Examples
 ---
 
-breadboard-examples
+# Examples
 
 [github.com/ExaDev/breadboard-examples](https://github.com/ExaDev/breadboard-examples)
 

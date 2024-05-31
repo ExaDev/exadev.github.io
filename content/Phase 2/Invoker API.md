@@ -1,5 +1,7 @@
 ---
-tags: phase/2
+tags:
+  - phase/2
+  - Firebase
 ---
 
 Invoker API

@@ -1,8 +1,10 @@
 ---
-tags: phase/2
+tags:
+  - phase/2
+  - React
 ---
 
-Breadboard React Components
+# React Component Library
 
 [github.com/ExaDev/react-breadboard-components](https://github.com/ExaDev/react-breadboard-components)
 

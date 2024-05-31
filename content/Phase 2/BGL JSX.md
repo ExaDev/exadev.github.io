@@ -1,5 +1,8 @@
 ---
-tags: phase/2
+tags:
+  - phase/2
+  - JSX
+  - XML
 ---
 
 BGL JSX

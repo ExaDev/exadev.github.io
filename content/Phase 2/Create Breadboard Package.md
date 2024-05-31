@@ -1,5 +1,11 @@
 ---
-tags: phase/2
+tags:
+  - phase/2
+  - npm
+  - npm_package
+title: Create Breadboard Package
+aliases:
+  - Create Breadboard Package
 ---
 
 Create Breadboard Package

@@ -1,8 +1,15 @@
 ---
-tags: phase/2
+tags:
+  - phase/2
+  - Discord
+title: BreadBot - Discord Bot
+aliases:
+  - BreadBot - Discord Bot
+  - BreadBot - Breadboard Discord Bot
+  - BreadBot
 ---
 
-BreadBot
+# BreadBot - Breadboard Discord Bot
 
 ![Pasted image 20240529141552](../files/Pasted%20image%2020240529141552.png)
 
