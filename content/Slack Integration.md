@@ -1,7 +1,7 @@
 ---
 tags:
   - Slack
-  - phase_2
+  - phase/2
 ---
 
 Slack Summariser
