@@ -18,12 +18,12 @@
             }
           },
           {
-            "id": "eec98c29c74000c9",
+            "id": "17c8abe4f1ca91c2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Phases/Phase 1/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "Phases/Phase 1/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "Phases/Phase 1/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "Phases/Phase 1/index.md"
               }
             }
           },
@@ -173,8 +173,11 @@
       "open-vscode:VSCode": false
     }
   },
-  "active": "eec98c29c74000c9",
+  "active": "17c8abe4f1ca91c2",
   "lastOpenFiles": [
+    "Phases/Phase 2/index.md",
+    "Phases/Phase 1/index.md",
+    "index.md",
     "Phases/Phase 2/Slack Integration.md",
     "README.md",
     "Phases/Phase 2/---Slack Integration.md",
