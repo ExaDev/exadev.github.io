@@ -1,5 +1,5 @@
 ---
-title: HuggingFace Labelling
+title: Labelling
 tags:
   - phase/2
   - HuggingFace

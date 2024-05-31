@@ -1,5 +1,5 @@
 ---
-title: HuggingFace Sentence Similarity
+title: Sentence Similarity
 aliases:
   - HuggingFace Sentence Similarity
   - Sentence Similarity

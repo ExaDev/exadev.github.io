@@ -1,5 +1,5 @@
 ---
-title: HuggingFace Audio Transcript
+title: Audio Transcript
 tags:
   - HuggingFace
   - phase/2

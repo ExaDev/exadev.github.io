@@ -1,5 +1,5 @@
 ---
-title: HuggingFace Question Answering
+title: Question Answering
 tags:
   - phase/2
   - HuggingFace

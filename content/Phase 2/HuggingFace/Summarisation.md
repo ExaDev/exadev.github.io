@@ -1,5 +1,5 @@
 ---
-title: HuggingFace Summarisation
+title: Summarisation
 tags:
   - phase/2
   - HuggingFace

@@ -1,5 +1,5 @@
 ---
-title: HuggingFace Translation RU-ENG
+title: Translation RU-ENG
 tags:
   - phase/2
   - HuggingFace

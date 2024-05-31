@@ -1,5 +1,5 @@
 ---
-title: HuggingFace Text Generation
+title: Text Generation
 aliases:
   - HuggingFace Text Generation
   - Text Generation

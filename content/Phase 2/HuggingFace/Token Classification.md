@@ -1,5 +1,5 @@
 ---
-title: HuggingFace Token Classification
+title: Token Classification
 tags:
   - phase/2
   - HuggingFace
