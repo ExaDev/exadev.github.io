@@ -1,3 +1,7 @@
+---
+tags: phase/2
+---
+
 Chrome Summariser Extension
 
 A Chrome extension for using Breadboard with the Google Chrome API. Currently, the extension has a single purpose: to summarise web page content and select text. This version of the extension is exploratory. When feasible, a more generalised version will be created to be used with any board.

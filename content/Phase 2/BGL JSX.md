@@ -1,3 +1,7 @@
+---
+tags: phase/2
+---
+
 BGL JSX
 
 A work-in-progress package which allows for the creation of Breadboard Graphs using JSX-like syntax in `TSX` files.

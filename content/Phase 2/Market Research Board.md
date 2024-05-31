@@ -1,3 +1,7 @@
+---
+tags: phase/2
+---
+
 Market Research and Competitor Analysis boards `[WIP]`
 
 A set of boards to:

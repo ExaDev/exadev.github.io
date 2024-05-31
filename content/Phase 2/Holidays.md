@@ -1,3 +1,7 @@
+---
+tags: phase/2
+---
+
 Holiday Tool
 
 Tool-worker boards using the free public [Nager.Date](https://date.nager.at/Api) API for holiday information. Useful for boards that are used for planning and/or scheduling.

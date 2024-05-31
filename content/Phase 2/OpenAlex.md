@@ -1,3 +1,7 @@
+---
+tags: phase/2
+---
+
 OpenAlex Tool
 
 OpenAlex is a free public API for scholarly data. The repository allows easy access to open-access academic literature, which can be fed into Breadboard boards for analysis.
