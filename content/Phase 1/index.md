@@ -3,8 +3,10 @@ aliases:
   - Phase 1
 title: Phase 1
 tags:
-  - phase_1
+  - phase/1
 ---
+
+# Phase 1
 
 - [github.com/GoogleChromeLabs/breadboard-samples](https://github.com/GoogleChromeLabs/breadboard-samples)
 - [github.com/ExaDev/breadboard-samples](https://github.com/ExaDev/breadboard-samples)

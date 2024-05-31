@@ -4,6 +4,8 @@ aliases:
 title: Phase 2
 ---
 
+# Phase 2
+
 ### [Breadboard Examples](Breadboard%20Examples.md)
 
 ### [BreadBot - Breadboard Discord Bot](BreadBot%20-%20Breadboard%20Discord%20Bot.md)
