@@ -1,9 +1,9 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 // @ts-ignore
-import script from "./scripts/graph.inline"
-import style from "./styles/graph.scss"
 import { i18n } from "../i18n"
 import { classNames } from "../util/lang"
+import script from "./scripts/graph.inline"
+import style from "./styles/graph.scss"
 
 export interface D3Config {
   drag: boolean
@@ -20,12 +20,12 @@ export interface D3Config {
   focusOnHover?: boolean
 }
 
-interface GraphOptions {
+export interface GraphOptions {
   localGraph: Partial<D3Config> | undefined
   globalGraph: Partial<D3Config> | undefined
 }
 
-const defaultOptions: GraphOptions = {
+export const defaultOptions: GraphOptions = {
   localGraph: {
     drag: true,
     zoom: true,
