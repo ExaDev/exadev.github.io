@@ -2,19 +2,21 @@
 aliases:
   - Phase 1
 title: Phase 1
+tags:
+  - phase_1
 ---
 
 - [github.com/GoogleChromeLabs/breadboard-samples](https://github.com/GoogleChromeLabs/breadboard-samples)
 - [github.com/ExaDev/breadboard-samples](https://github.com/ExaDev/breadboard-samples)
 
-### [Walkthroughs](Walkthroughs.md)
+### [[Walkthroughs]]
 
 ### Projects
 
-#### [DevPulse](Projects/DevPulse.md)
+#### [[Projects/DevPulse]]
 
-#### [AutoBake](Projects/AutoBake.md)
+#### [[Projects/AutoBake]]
 
-#### [CourseCrafter](Projects/CourseCrafter.md)
+#### [[Projects/CourseCrafter]]
 
 ### [ExaDev/breadboard-kits](https://github.com/ExaDev/breadboard-kits)
