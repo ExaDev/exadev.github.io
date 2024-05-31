@@ -8,35 +8,35 @@ title: ExaDev Breadboard Activity
 ## Phase 1
 - [github.com/GoogleChromeLabs/breadboard-samples](https://github.com/GoogleChromeLabs/breadboard-samples)
 - [github.com/ExaDev/breadboard-samples](https://github.com/ExaDev/breadboard-samples)
-### [Walkthroughs](Walkthroughs.md)
-### [DevPulse](DevPulse.md)
+### [Walkthroughs](Phase%201/Walkthroughs.md)
+### [DevPulse](Phase%201/DevPulse.md)
 
-### [AutoBake](AutoBake.md)
+### [AutoBake](Phase%201/AutoBake.md)
 
-### [CourseCrafter](CourseCrafter.md)
+### [CourseCrafter](Phase%201/CourseCrafter.md)
 
-### [[breadboard-kits]]
+### [ExaDev/breadboard-kits](Phase%201/breadboard-kits.md)
 ## Phase 2
-### [Breadboard Examples](Breadboard%20Examples.md)
-### [BreadBot - Breadboard Discord Bot](BreadBot%20-%20Breadboard%20Discord%20Bot.md)
+### [Breadboard Examples](Phase%202/Breadboard%20Examples.md)
+### [BreadBot - Breadboard Discord Bot](Phase%202/BreadBot%20-%20Breadboard%20Discord%20Bot.md)
 
-### [Invoker API](Invoker%20API.md)
+### [Invoker API](Phase%202/Invoker%20API.md)
 
-### [BGL JSX](BGL%20JSX.md)
-### [Breadboard Gallery](Breadboard%20Gallery.md)
+### [BGL JSX](Phase%202/BGL%20JSX.md)
+### [Breadboard Gallery](Phase%202/Breadboard%20Gallery.md)
 
-### [OpenAlex](OpenAlex.md)
+### [OpenAlex](Phase%202/OpenAlex.md)
 
-### [Holidays](Holidays.md)
+### [Holidays](Phase%202/Holidays.md)
 
-### [HackerNews](HackerNews.md)
+### [HackerNews](Phase%202/HackerNews.md)
 
-### [Breadboard Chrome Extension](Breadboard%20Chrome%20Extension.md)
+### [Breadboard Chrome Extension](Phase%202/Breadboard%20Chrome%20Extension.md)
 
-### [Create Breadboard Package](Create%20Breadboard%20Package.md)
+### [Create Breadboard Package](Phase%202/Create%20Breadboard%20Package.md)
 
-### [Market Research Board](Market%20Research%20Board.md)
+### [Market Research Board](Phase%202/Market%20Research%20Board.md)
 
-### [Slack Integration](Slack%20Integration.md)
+### [Slack Integration](Phase%202/Slack%20Integration.md)
 
-### [NPM Packages](NPM%20Packages.md)
+### [NPM Packages](Phase%202/NPM%20Packages.md)
