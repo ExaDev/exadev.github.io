@@ -3,6 +3,9 @@ title: Fill Mask
 tags:
   - phase/2
   - HuggingFace
+aliases:
+  - HuggingFace Fill Mask
+  - Fill Mask
 ---
 
 - [github.com/ExaDev/breadboard-examples/fill-mask](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/fill-mask)
