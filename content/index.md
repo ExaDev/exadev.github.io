@@ -1,4 +1,6 @@
-# ExaDev Breadboard Activity
+---
+title: ExaDev Breadboard Activity
+---
 
 > [!TIP]
 > The `🔗` links will open the board in Breadboard Web

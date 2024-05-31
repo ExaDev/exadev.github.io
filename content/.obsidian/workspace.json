@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Phase 1/index.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Phase 1/index.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Phase 1/index.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Phase 1/index.md"
+                "file": "index.md"
               }
             }
           },
@@ -173,10 +173,10 @@
       "open-vscode:VSCode": false
     }
   },
-  "active": "5978e4508feaa2ec",
+  "active": "17c8abe4f1ca91c2",
   "lastOpenFiles": [
-    "Phase 2/index.md",
     "Phase 1/index.md",
+    "Phase 2/index.md",
     "index.md",
     "Phase 2/Slack Integration.md",
     "README.md",
