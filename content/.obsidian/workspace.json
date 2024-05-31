@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Phases/Phase 1/index.md",
+                "file": "Phase 1/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Phases/Phase 1/index.md",
+                "file": "Phase 1/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Phases/Phase 1/index.md",
+                "file": "Phase 1/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Phases/Phase 1/index.md"
+                "file": "Phase 1/index.md"
               }
             }
           },
@@ -173,35 +173,35 @@
       "open-vscode:VSCode": false
     }
   },
-  "active": "17c8abe4f1ca91c2",
+  "active": "5978e4508feaa2ec",
   "lastOpenFiles": [
-    "Phases/Phase 2/index.md",
-    "Phases/Phase 1/index.md",
+    "Phase 2/index.md",
+    "Phase 1/index.md",
     "index.md",
-    "Phases/Phase 2/Slack Integration.md",
+    "Phase 2/Slack Integration.md",
     "README.md",
     "Phases/Phase 2/---Slack Integration.md",
-    "Phases/Phase 2/NPM Packages.md",
-    "Phases/Phase 2/Market Research Board.md",
-    "Phases/Phase 2/Create Breadboard Package.md",
-    "Phases/Phase 2/Breadboard React Component Library.md",
-    "Phases/Phase 2/Breadboard Chrome Extension.md",
-    "Phases/Phase 2/HackerNews.md",
-    "Phases/Phase 2/Holidays.md",
-    "Phases/Phase 2/OpenAlex.md",
-    "Phases/Phase 2/Breadboard Gallery.md",
-    "Phases/Phase 2/BGL JSX.md",
-    "Phases/Phase 2/Invoker API.md",
-    "Phases/Phase 2/BreadBot - Breadboard Discord Bot.md",
-    "Phases/Phase 2/Breadboard Examples.md",
-    "Phases/Phase 2",
-    "Phases/Phase 1/Projects/CourseCrafter.md",
-    "Phases/Phase 1/Projects/AutoBake.md",
-    "Phases/Phase 1/Projects/DevPulse.md",
-    "Phases/Phase 1/Projects",
+    "Phase 2/NPM Packages.md",
+    "Phase 2/Market Research Board.md",
+    "Phase 2/Create Breadboard Package.md",
+    "Phase 2/Breadboard React Component Library.md",
+    "Phase 2/Breadboard Chrome Extension.md",
+    "Phase 2/HackerNews.md",
+    "Phase 2/Holidays.md",
+    "Phase 2/OpenAlex.md",
+    "Phase 2/Breadboard Gallery.md",
+    "Phase 2/BGL JSX.md",
+    "Phase 2/Invoker API.md",
+    "Phase 2/BreadBot - Breadboard Discord Bot.md",
+    "Phase 2/Breadboard Examples.md",
+    "Phase 2",
+    "Phase 1/Projects/CourseCrafter.md",
+    "Phase 1/Projects/AutoBake.md",
+    "Phase 1/Projects/DevPulse.md",
+    "Phase 1/Projects",
     "Phases",
-    "Phases/Phase 1/Walkthroughs.md",
-    "Phases/Phase 1",
+    "Phase 1/Walkthroughs.md",
+    "Phase 1",
     "files/mermaid-diagram-2024-05-30-091559.svg",
     "files/mermaid-diagram-2024-05-30-091429.svg",
     "files/Pasted image 20240529151406.png",
