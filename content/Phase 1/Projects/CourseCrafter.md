@@ -4,6 +4,8 @@ tags:
 title: CourseCrafter
 ---
 
+# CourseCrafter
+
 > [!NOTE]
 > Merging multiple docs into a learning path
 

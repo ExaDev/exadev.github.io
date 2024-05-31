@@ -1,6 +1,5 @@
 ---
 tags:
-  - phase_1
   - phase/01
 ---
 

@@ -1,6 +1,7 @@
 ---
 tags:
-  - phase_1
+  - phase/01
+title: Walkthroughs
 ---
 
 # Walkthroughs
