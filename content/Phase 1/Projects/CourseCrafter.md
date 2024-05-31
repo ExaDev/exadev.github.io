@@ -16,10 +16,10 @@ title: CourseCrafter
 
 [github.com/samples/CourseCrafter/src/single](https://github.com/ExaDev/breadboard-samples/tree/recreating-course-crafter-in-new-syntax/samples/CourseCrafter/src/single)
 
-![[../../files/mermaid-diagram-2024-05-30-091429.svg]]
+![mermaid-diagram-2024-05-30-091429](../../files/mermaid-diagram-2024-05-30-091429.svg)
 
 ##### CourseCrafter Multi-Source
 
 [github.com/samples/CourseCrafter/src/multiple](https://github.com/ExaDev/breadboard-samples/tree/recreating-course-crafter-in-new-syntax/samples/CourseCrafter/src/multiple)
 
-![[../../files/mermaid-diagram-2024-05-30-091559.svg]]
+![mermaid-diagram-2024-05-30-091559](../../files/mermaid-diagram-2024-05-30-091559.svg)

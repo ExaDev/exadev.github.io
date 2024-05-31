@@ -9,14 +9,14 @@ tags:
 - [github.com/GoogleChromeLabs/breadboard-samples](https://github.com/GoogleChromeLabs/breadboard-samples)
 - [github.com/ExaDev/breadboard-samples](https://github.com/ExaDev/breadboard-samples)
 
-### [[Walkthroughs]]
+### [Walkthroughs](Walkthroughs.md)
 
 ### Projects
 
-#### [[Projects/DevPulse|DevPulse]]
+#### [DevPulse](Projects/DevPulse.md)
 
-#### [[Projects/AutoBake|AutoBake]]
+#### [AutoBake](Projects/AutoBake.md)
 
-#### [[Projects/CourseCrafter|CourseCrafter]]
+#### [CourseCrafter](Projects/CourseCrafter.md)
 
 ### [ExaDev/breadboard-kits](https://github.com/ExaDev/breadboard-kits)

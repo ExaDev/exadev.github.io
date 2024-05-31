@@ -4,30 +4,30 @@ aliases:
 title: Phase 2
 ---
 
-### [[Breadboard Examples]]
+### [Breadboard Examples](Breadboard%20Examples.md)
 
-### [[BreadBot - Breadboard Discord Bot]]
+### [BreadBot - Breadboard Discord Bot](BreadBot%20-%20Breadboard%20Discord%20Bot.md)
 
-### [[Invoker API]]
+### [Invoker API](Invoker%20API.md)
 
-### [[BGL JSX]]
+### [BGL JSX](BGL%20JSX.md)
 
-### [[Breadboard Gallery]]
+### [Breadboard Gallery](Breadboard%20Gallery.md)
 
-### [[OpenAlex]]
+### [OpenAlex](OpenAlex.md)
 
-### [[Holidays]]
+### [Holidays](Holidays.md)
 
-### [[HackerNews]]
+### [HackerNews](HackerNews.md)
 
-### [[Breadboard Chrome Extension]]
+### [Breadboard Chrome Extension](Breadboard%20Chrome%20Extension.md)
 
-### [[Breadboard React Component Library]]
+### [Breadboard React Component Library](Breadboard%20React%20Component%20Library.md)
 
-### [[Create Breadboard Package]]
+### [Create Breadboard Package](Create%20Breadboard%20Package.md)
 
-### [[Market Research Board]]
+### [Market Research Board](Market%20Research%20Board.md)
 
-### [[Slack Integration]]
+### [Slack Integration](Slack%20Integration.md)
 
-### [[NPM Packages]]
+### [NPM Packages](NPM%20Packages.md)

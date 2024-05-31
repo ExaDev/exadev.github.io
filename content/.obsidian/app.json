@@ -1,7 +1,7 @@
 {
   "newFileLocation": "root",
   "newFileFolderPath": "files",
-  "useMarkdownLinks": false,
+  "useMarkdownLinks": true,
   "newLinkFormat": "relative",
   "attachmentFolderPath": "./files",
   "alwaysUpdateLinks": true
