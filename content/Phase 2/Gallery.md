@@ -3,13 +3,13 @@ tags:
   - phase/2
   - NextJS
   - StaticCMS
-title: Breadboard Gallery
+title: Gallery
 aliases:
   - Breadboard Gallery
   - Gallery
 ---
 
-# Breadboard Gallery
+# Gallery
 
 - [github.com/ExaDev/breadboard-gallery](https://github.com/ExaDev/breadboard-gallery)
 
