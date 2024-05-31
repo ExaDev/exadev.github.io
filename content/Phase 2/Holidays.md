@@ -18,3 +18,11 @@ Tool-worker boards using the free public [Nager.Date](https://date.nager.at/Api)
   [🔗](https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/breadboard-ai/breadboard/main/packages/breadboard-web/public/graphs/nager.date/next-holiday-worldwide.json)
 - [Public Holidays](https://github.com/breadboard-ai/breadboard/blob/main/packages/breadboard-web/src/boards/nager.date/public-holidays.ts)
   [🔗](https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/breadboard-ai/breadboard/main/packages/breadboard-web/public/graphs/nager.date/public-holidays.json)
+
+<div>
+		<bb-embed url="./board.json" />
+		<script
+			type="module"
+			src="https://esm.sh/@google-labs/breadboard-web/embed.js?alias=fs/promises:fs"
+		></script>
+</div>
