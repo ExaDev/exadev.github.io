@@ -1,6 +1,7 @@
 ---
 tags:
   - phase/1
+  - documentation
 title: Walkthroughs
 ---
 
