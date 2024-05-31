@@ -1,6 +1,6 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg";
 import * as Component from "./quartz/components";
-import { GraphOptions, defaultOptions } from "./quartz/components/Graph";
+import { defaultOptions } from "./quartz/components/Graph";
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
@@ -12,17 +12,8 @@ export const sharedPageComponents: SharedLayout = {
       // "Discord Community": "https://discord.gg/cRFFHYye7t",
     },
   }),
-}
+};
 
-const graphOptions: GraphOptions = {
-  localGraph: {
-    ...defaultOptions.localGraph,
-    depth: 2
-  },
-  globalGraph: {
-    ...defaultOptions.globalGraph,
-  },
-}
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
@@ -39,15 +30,35 @@ export const defaultContentPageLayout: PageLayout = {
     Component.DesktopOnly(Component.Explorer()),
   ],
   right: [
-    Component.Graph(graphOptions),
+    Component.Graph({
+      localGraph: {
+        ...defaultOptions.localGraph,
+      },
+      globalGraph: {
+        ...defaultOptions.globalGraph,
+      },
+    }),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
   ],
-}
+};
 
 // components for pages that display lists of pages  (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
-  beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
+  beforeBody: [
+    Component.Breadcrumbs(),
+    Component.ArticleTitle(),
+    Component.ContentMeta(),
+    Component.Graph({
+      localGraph: {
+        ...defaultOptions.localGraph,
+        depth: 2,
+      },
+      globalGraph: {
+        ...defaultOptions.globalGraph,
+      },
+    }),
+  ],
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
@@ -55,5 +66,5 @@ export const defaultListPageLayout: PageLayout = {
     Component.Darkmode(),
     Component.DesktopOnly(Component.Explorer()),
   ],
-  right: [],
-}
+  right: [Component.Backlinks()],
+};
