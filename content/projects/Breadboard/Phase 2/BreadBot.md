@@ -5,15 +5,15 @@ aliases:
   - BreadBot - Breadboard Discord Bot
   - BreadBot - Discord Bot
 tags:
-  - Discord
   - breadboard/phase/2
+  - Discord
 created: 2024-05-30T11:43:22
-modified: 2024-06-12T10:01:58
+modified: 2024-06-12T10:22:28
 ---
 
 ## BreadBot - Breadboard Discord Bot
 
-![Pasted image 20240529141552](../files/Pasted%20image%2020240529141552.png)
+![Pasted image 20240529141552](projects/Breadboard/files/Pasted%20image%2020240529141552.png)
 
 [github.com/ExaDev/breadbot](https://github.com/ExaDev/breadbot/branches)
 
