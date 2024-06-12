@@ -17,18 +17,20 @@ A board that generates a response based on the provided task of generating a rep
 - [business-review-replier.ts](https://github.com/ExaDev/breadboard/blob/business-review-reply/packages/breadboard-web/src/boards/business-review-replier.ts)
 - [business-review-replier.json](https://github.com/ExaDev/breadboard/blob/business-review-reply/packages/breadboard-web/public/graphs/business-review-replier.json) [🔗](https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/ExaDev/breadboard/business-review-reply/packages/breadboard-web/public/graphs/business-review-replier.json)
 
-[This demo board](https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/ExaDev/breadboard/business-review-reply/packages/breadboard-web/public/graphs/business-review-replier-demo.json) is a wrapper which passes a randomly selected review to the `business-review-replier` board.
-
-![Pasted image 20240612092655.png](projects/Breadboard/Phase%202/files/Pasted%20image%2020240612092655.png)
-
-![Pasted image 20240612092647.png](projects/Breadboard/Phase%202/files/Pasted%20image%2020240612092647.png)
-
 Presently this board is just operates on textual input and output.
 
 Work has been started on a [GBP API Board](projects/Breadboard/Phase%202/GBP%20API%20Board.md)
 
-## Live Demo
+## Demo Board
+
+This demo board is a wrapper which passes a randomly selected review to the `business-review-replier` board.
+
+[Open in breadboard web](https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/ExaDev/breadboard/business-review-reply/packages/breadboard-web/public/graphs/business-review-replier-demo.json)
+
+### Preview Mode
 
 <iframe src="https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/ExaDev/breadboard/business-review-reply/packages/breadboard-web/public/graphs/business-review-replier-demo.json&embed" style="width: 100%; height: 500px; border: 0;"></iframe>
 
-[Open in breadboard web](https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/ExaDev/breadboard/business-review-reply/packages/breadboard-web/public/graphs/business-review-replier-demo.json)
+### Edit Mode
+
+<iframe src="https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/ExaDev/breadboard/business-review-reply/packages/breadboard-web/public/graphs/business-review-replier-demo.json" style="width: 100%; height: 500px; border: 0;"></iframe>
