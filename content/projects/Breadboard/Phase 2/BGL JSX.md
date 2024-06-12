@@ -1,12 +1,12 @@
 ---
-title: 
+title: BGL JSX
 aliases: []
 tags:
-  - JSX
   - breadboard/phase/2
+  - JSX
   - XML
 created: 2024-05-30T11:44:38
-modified: 2024-06-12T10:01:58
+modified: 2024-06-12T10:34:25
 ---
 
 BGL JSX

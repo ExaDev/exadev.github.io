@@ -1,10 +1,10 @@
 ---
-title:
+title: AutoBake
 aliases: []
 tags:
   - breadboard/phase/1
 created: 2024-05-30T11:38:30
-modified: 2024-06-12T10:22:10
+modified: 2024-06-12T10:34:26
 ---
 
 ## AutoBake

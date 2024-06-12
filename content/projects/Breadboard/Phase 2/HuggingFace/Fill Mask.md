@@ -4,10 +4,10 @@ aliases:
   - Fill Mask
   - HuggingFace Fill Mask
 tags:
-  - HuggingFace
   - breadboard/phase/2
+  - HuggingFace
 created: 2024-05-31T19:08:34
-modified: 2024-06-12T10:02:01
+modified: 2024-06-12T10:34:26
 ---
 
 - [github.com/ExaDev/breadboard-examples/fill-mask](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/fill-mask)

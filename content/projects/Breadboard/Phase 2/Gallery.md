@@ -4,11 +4,11 @@ aliases:
   - Breadboard Gallery
   - Gallery
 tags:
-  - NextJS
   - breadboard/phase/2
+  - NextJS
   - StaticCMS
 created: 2024-05-30T11:45:25
-modified: 2024-06-12T10:01:54
+modified: 2024-06-12T10:34:25
 ---
 
 ## Gallery

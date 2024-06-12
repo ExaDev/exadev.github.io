@@ -4,12 +4,11 @@ aliases:
   - Google Business Platform Board
 tags:
   - board
-  - breadboard
-  - GBP
   - breadboard/phase/2
-complete: 
+  - GBP
+complete:
 created: 2024-06-12T09:55:08
-modified: 2024-06-12T10:05:40
+modified: 2024-06-12T10:34:26
 started: true
 ---
 

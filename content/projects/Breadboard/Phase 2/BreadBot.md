@@ -8,7 +8,7 @@ tags:
   - breadboard/phase/2
   - Discord
 created: 2024-05-30T11:43:22
-modified: 2024-06-12T10:22:28
+modified: 2024-06-12T10:34:25
 ---
 
 ## BreadBot - Breadboard Discord Bot

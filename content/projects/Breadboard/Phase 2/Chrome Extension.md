@@ -1,5 +1,5 @@
 ---
-title:
+title: Breadboard Chrome Extension
 aliases: []
 tags:
   - breadboard/phase/2
@@ -8,7 +8,7 @@ tags:
   - React
   - Vite
 created: 2024-06-07T10:05:18
-modified: 2024-06-12T10:23:25
+modified: 2024-06-12T10:34:25
 ---
 
 ## Chrome Summariser Extension

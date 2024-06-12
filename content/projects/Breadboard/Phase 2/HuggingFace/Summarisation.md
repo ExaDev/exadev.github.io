@@ -5,12 +5,12 @@ aliases:
   - Summarisation
   - Summarization
 tags:
-  - HuggingFace
   - breadboard/phase/2
+  - HuggingFace
   - summarisation
   - summarization
 created: 2024-05-31T19:12:02
-modified: 2024-06-12T10:02:05
+modified: 2024-06-12T10:34:26
 ---
 
 - [github.com/ExaDev/breadboard-examples/summarization](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/summarization)

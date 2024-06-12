@@ -4,12 +4,12 @@ aliases:
   - HuggingFace Image Classification
   - Image Classification
 tags:
+  - breadboard/phase/2
   - classification
   - HuggingFace
   - image_classification
-  - breadboard/phase/2
 created: 2024-05-31T19:11:08
-modified: 2024-06-12T10:02:02
+modified: 2024-06-12T10:34:26
 ---
 
 Image Classification

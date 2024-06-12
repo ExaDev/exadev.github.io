@@ -4,11 +4,11 @@ aliases:
   - HuggingFace Labelling
   - Labelling
 tags:
+  - breadboard/phase/2
   - HuggingFace
   - labelling
-  - breadboard/phase/2
 created: 2024-05-31T19:11:18
-modified: 2024-06-12T10:02:03
+modified: 2024-06-12T10:34:26
 ---
 
 Labelling

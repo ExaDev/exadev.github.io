@@ -1,12 +1,10 @@
 ---
 title: Breadboard
 aliases:
-  - Breadboard
   - ExaDev Breadboard Activity
 tags:
-  - breadboard
 created: 2024-05-30T13:14:15
-modified: 2024-06-12T10:09:34
+modified: 2024-06-12T10:34:25
 ---
 
 A collection of activities, examples, projects and contributions by the [ExaDev](https://exadev.io/) team members using Google Labs' [Breadboard](https://breadboard-ai.github.io/breadboard/).

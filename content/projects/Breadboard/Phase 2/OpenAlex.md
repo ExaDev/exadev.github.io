@@ -1,12 +1,12 @@
 ---
-title: 
+title: OpenAlex Tool
 aliases: []
 tags:
-  - OpenAlex
   - breadboard/phase/2
+  - OpenAlex
   - toolworker
 created: 2024-05-30T11:45:43
-modified: 2024-06-12T10:01:46
+modified: 2024-06-12T10:34:26
 ---
 
 OpenAlex Tool

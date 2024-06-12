@@ -4,11 +4,11 @@ aliases:
   - HuggingFace Translation RU-ENG
   - Translation RU-ENG
 tags:
-  - HuggingFace
   - breadboard/phase/2
+  - HuggingFace
   - translation
 created: 2024-05-31T19:12:41
-modified: 2024-06-12T10:02:08
+modified: 2024-06-12T10:34:26
 ---
 
 - [github.com/ExaDev/breadboard-examples/translation-RU-ENG](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/translation-RU-ENG)

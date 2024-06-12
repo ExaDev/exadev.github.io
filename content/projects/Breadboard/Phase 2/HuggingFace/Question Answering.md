@@ -4,11 +4,11 @@ aliases:
   - HuggingFace Question Answering
   - Question Answering
 tags:
-  - HuggingFace
   - breadboard/phase/2
+  - HuggingFace
   - Question Answering
 created: 2024-05-31T19:11:44
-modified: 2024-06-12T10:02:04
+modified: 2024-06-12T10:34:26
 ---
 
 - [github.com/ExaDev/breadboard-examples/question-answering](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/question-answering)

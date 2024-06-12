@@ -4,12 +4,12 @@ aliases:
   - HuggingFace Token Classification
   - Token Classification
 tags:
+  - breadboard/phase/2
   - classification
   - HuggingFace
-  - breadboard/phase/2
   - token_classification
 created: 2024-05-31T19:12:27
-modified: 2024-06-12T10:02:08
+modified: 2024-06-12T10:34:26
 ---
 
 - [github.com/ExaDev/breadboard-examples/token-classification](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/token-classification)
