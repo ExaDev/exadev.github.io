@@ -19,6 +19,11 @@ A board generates a response based on the provided task of generating a reply to
 
 [This demo board](https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/ExaDev/breadboard/business-review-reply/packages/breadboard-web/public/graphs/business-review-replier-demo.json) is a wraper which passes a randomly selected review to the `business-review-replier` board.
 
+<iframe
+src="https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/ExaDev/breadboard/business-review-reply/packages/breadboard-web/public/graphs/business-review-replier-demo.json"
+style="width: 100%; height: 500px; border: 0;"
+/>
+
 ![](projects/Breadboard/Phase%202/files/Pasted%20image%2020240612092655.png)
 
 ![](projects/Breadboard/Phase%202/files/Pasted%20image%2020240612092647.png)
