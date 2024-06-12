@@ -24,9 +24,9 @@ src="https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/ExaD
 style="width: 100%; height: 500px; border: 0;"
 />
 
-![](projects/Breadboard/Phase%202/files/Pasted%20image%2020240612092655.png)
+![Pasted image 20240612092655.png](projects/Breadboard/Phase%202/files/Pasted%20image%2020240612092655.png)
 
-![](projects/Breadboard/Phase%202/files/Pasted%20image%2020240612092647.png)
+![Pasted image 20240612092647.png](projects/Breadboard/Phase%202/files/Pasted%20image%2020240612092647.png)
 
 Presently this board is just operates on textual input and output.
 
