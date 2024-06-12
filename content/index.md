@@ -1,6 +1,10 @@
 ---
-title: ExaDev Breadboard Activity
+title: index
+tags: []
+created: 2024-05-30T13:14:15
+modified: 2024-06-12T09:24:58
 ---
+# Index
 
 A collection of activities, examples, projects and contributions by the [ExaDev](https://exadev.io/) team members using Google Labs' [Breadboard](https://breadboard-ai.github.io/breadboard/).
 
