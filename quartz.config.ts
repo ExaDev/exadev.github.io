@@ -8,14 +8,14 @@ import * as Plugin from "./quartz/plugins";
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "ExaDev Breadboard Activity",
+    pageTitle: "ExaDev Public Notebook",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "exadev.github.io/Breadboard-Activity",
+    baseUrl: "exadev.github.io",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
