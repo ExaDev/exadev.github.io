@@ -20,4 +20,4 @@ A board generates a response based on the provided task of generating a reply to
 
 Presently this board is just operates on textual input and output.
 
-Work has been started on a [[GBP API Board]]
+Work has been started on a [GBP API Board](projects/Breadboard/Phase%202/GBP%20API%20Board.md)
