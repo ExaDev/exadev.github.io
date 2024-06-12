@@ -1,1 +1,1 @@
-# [exadev.github.io/public](https://exadev.github.io/public/)
+# [exadev.github.io](https://exadev.github.io/)
