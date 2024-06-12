@@ -6,7 +6,7 @@ aliases:
 tags:
   - HuggingFace
   - labelling
-  - phase/2
+  - breadboard/phase/2
 created: 2024-05-31T19:11:18
 modified: 2024-06-12T10:02:03
 ---

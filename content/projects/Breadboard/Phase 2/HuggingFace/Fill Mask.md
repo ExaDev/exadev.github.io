@@ -5,7 +5,7 @@ aliases:
   - HuggingFace Fill Mask
 tags:
   - HuggingFace
-  - phase/2
+  - breadboard/phase/2
 created: 2024-05-31T19:08:34
 modified: 2024-06-12T10:02:01
 ---

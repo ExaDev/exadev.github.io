@@ -5,7 +5,7 @@ aliases:
   - Text Generation
 tags:
   - HuggingFace
-  - phase/2
+  - breadboard/phase/2
   - text_generation
 created: 2024-05-31T19:12:19
 modified: 2024-06-12T10:02:07

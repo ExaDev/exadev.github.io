@@ -3,7 +3,7 @@ title:
 aliases: []
 tags:
   - HackerNews
-  - phase/2
+  - breadboard/phase/2
   - toolworker
 created: 2024-05-30T11:46:06
 modified: 2024-06-12T10:01:53

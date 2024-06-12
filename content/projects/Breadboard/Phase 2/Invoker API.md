@@ -3,7 +3,7 @@ title:
 aliases: []
 tags:
   - Firebase
-  - phase/2
+  - breadboard/phase/2
 created: 2024-05-30T11:43:50
 modified: 2024-06-12T10:01:50
 ---

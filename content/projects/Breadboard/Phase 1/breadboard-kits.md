@@ -2,7 +2,7 @@
 aliases:
   - ExaDev/breadboard-kits
 tags:
-  - phase/1
+  - breadboard/phase/1
   - npm
   - npm_package
 title: ExaDev/breadboard-kits

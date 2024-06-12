@@ -3,7 +3,7 @@ title: Phase 1
 aliases:
   - Phase 1
 tags:
-  - phase/1
+  - breadboard/phase/1
 ---
 
 - [github.com/GoogleChromeLabs/breadboard-samples](https://github.com/GoogleChromeLabs/breadboard-samples)

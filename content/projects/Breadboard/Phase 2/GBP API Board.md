@@ -6,7 +6,7 @@ tags:
   - board
   - breadboard
   - GBP
-  - phase/2
+  - breadboard/phase/2
 complete: 
 created: 2024-06-12T09:55:08
 modified: 2024-06-12T10:05:40

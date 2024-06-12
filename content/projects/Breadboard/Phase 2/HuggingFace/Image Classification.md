@@ -7,7 +7,7 @@ tags:
   - classification
   - HuggingFace
   - image_classification
-  - phase/2
+  - breadboard/phase/2
 created: 2024-05-31T19:11:08
 modified: 2024-06-12T10:02:02
 ---

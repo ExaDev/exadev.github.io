@@ -6,7 +6,7 @@ aliases:
 tags:
   - classification
   - HuggingFace
-  - phase/2
+  - breadboard/phase/2
   - text_classification
 created: 2024-05-31T19:12:12
 modified: 2024-06-12T10:02:06

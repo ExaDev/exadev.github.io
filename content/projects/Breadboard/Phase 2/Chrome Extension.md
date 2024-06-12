@@ -4,7 +4,7 @@ aliases: []
 tags:
   - Chrome
   - chrome_extension
-  - phase/2
+  - breadboard/phase/2
   - React
   - Vite
 created: 2024-06-07T10:05:18

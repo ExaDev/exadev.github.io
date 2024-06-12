@@ -5,7 +5,7 @@ aliases:
   - Translation RU-ENG
 tags:
   - HuggingFace
-  - phase/2
+  - breadboard/phase/2
   - translation
 created: 2024-05-31T19:12:41
 modified: 2024-06-12T10:02:08

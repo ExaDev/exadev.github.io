@@ -6,7 +6,7 @@ aliases:
   - Summarization
 tags:
   - HuggingFace
-  - phase/2
+  - breadboard/phase/2
   - summarisation
   - summarization
 created: 2024-05-31T19:12:02

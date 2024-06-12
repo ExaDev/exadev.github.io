@@ -5,7 +5,7 @@ aliases:
 tags:
   - npm
   - npm_package
-  - phase/2
+  - breadboard/phase/2
 created: 2024-05-30T11:47:23
 modified: 2024-06-12T10:01:56
 ---

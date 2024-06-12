@@ -5,7 +5,7 @@ aliases:
   - Sentence Similarity
 tags:
   - HuggingFace
-  - phase/2
+  - breadboard/phase/2
   - sentence_similarity
 created: 2024-05-31T19:11:53
 modified: 2024-06-12T10:02:05

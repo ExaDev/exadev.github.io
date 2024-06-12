@@ -1,6 +1,6 @@
 ---
 tags:
-  - phase/1
+  - breadboard/phase/1
   - documentation
 title: Walkthroughs
 ---
