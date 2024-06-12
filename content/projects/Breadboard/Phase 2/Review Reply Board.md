@@ -7,7 +7,7 @@ tags:
   - Chrome
   - marketing
 created: 2024-06-12T09:26:13
-modified: 2024-06-12T10:38:53
+modified: 2024-06-12T11:09:46
 ---
 
 ## Review Reply Board
@@ -16,6 +16,8 @@ A board generates a response based on the provided task of generating a reply to
 
 - [business-review-replier.ts](https://github.com/ExaDev/breadboard/blob/business-review-reply/packages/breadboard-web/src/boards/business-review-replier.ts)
 - [business-review-replier.json](https://github.com/ExaDev/breadboard/blob/business-review-reply/packages/breadboard-web/public/graphs/business-review-replier.json) [🔗](https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/ExaDev/breadboard/business-review-reply/packages/breadboard-web/public/graphs/business-review-replier.json)
+
+- [Demo Board](https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/ExaDev/breadboard/business-review-reply/packages/breadboard-web/public/graphs/business-review-replier-demo.json)
 
 ![](projects/Breadboard/Phase%202/files/Pasted%20image%2020240612092655.png)
 
