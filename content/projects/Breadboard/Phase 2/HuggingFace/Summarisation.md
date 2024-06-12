@@ -1,14 +1,16 @@
 ---
 title: Summarisation
-tags:
-  - phase/2
-  - HuggingFace
-  - summarisation
-  - summarization
 aliases:
   - HuggingFace Summarisation
   - Summarisation
   - Summarization
+tags:
+  - HuggingFace
+  - phase/2
+  - summarisation
+  - summarization
+created: 2024-05-31T19:12:02
+modified: 2024-06-12T10:02:05
 ---
 
 - [github.com/ExaDev/breadboard-examples/summarization](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/summarization)

@@ -1,13 +1,15 @@
 ---
 title: Text Classification
-tags:
-  - phase/2
-  - HuggingFace
-  - text_classification
-  - classification
 aliases:
   - HuggingFace Text Classification
   - Text Classification
+tags:
+  - classification
+  - HuggingFace
+  - phase/2
+  - text_classification
+created: 2024-05-31T19:12:12
+modified: 2024-06-12T10:02:06
 ---
 
 - [github.com/ExaDev/breadboard-examples/text-classification](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/text-classification)

@@ -1,13 +1,16 @@
 ---
 title: Labelling
-tags:
-  - phase/2
-  - HuggingFace
-  - labelling
 aliases:
   - HuggingFace Labelling
   - Labelling
+tags:
+  - HuggingFace
+  - labelling
+  - phase/2
+created: 2024-05-31T19:11:18
+modified: 2024-06-12T10:02:03
 ---
+
 Labelling
 
 - [github.com/ExaDev/breadboard-examples/labelling](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/labelling)

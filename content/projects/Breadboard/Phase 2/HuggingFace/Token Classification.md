@@ -1,13 +1,15 @@
 ---
 title: Token Classification
-tags:
-  - phase/2
-  - HuggingFace
-  - token_classification
-  - classification
 aliases:
   - HuggingFace Token Classification
   - Token Classification
+tags:
+  - classification
+  - HuggingFace
+  - phase/2
+  - token_classification
+created: 2024-05-31T19:12:27
+modified: 2024-06-12T10:02:08
 ---
 
 - [github.com/ExaDev/breadboard-examples/token-classification](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/token-classification)

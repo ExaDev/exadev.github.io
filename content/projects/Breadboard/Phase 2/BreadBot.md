@@ -1,15 +1,17 @@
 ---
-tags:
-  - phase/2
-  - Discord
 title: BreadBot - Discord Bot
 aliases:
-  - BreadBot - Discord Bot
-  - BreadBot - Breadboard Discord Bot
   - BreadBot
+  - BreadBot - Breadboard Discord Bot
+  - BreadBot - Discord Bot
+tags:
+  - Discord
+  - phase/2
+created: 2024-05-30T11:43:22
+modified: 2024-06-12T10:01:58
 ---
 
-# BreadBot - Breadboard Discord Bot
+## BreadBot - Breadboard Discord Bot
 
 ![Pasted image 20240529141552](../files/Pasted%20image%2020240529141552.png)
 

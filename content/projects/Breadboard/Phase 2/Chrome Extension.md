@@ -1,13 +1,17 @@
 ---
+title: 
+aliases: []
 tags:
-  - phase/2
   - Chrome
   - chrome_extension
-  - Vite
+  - phase/2
   - React
+  - Vite
+created: 2024-06-07T10:05:18
+modified: 2024-06-12T10:01:57
 ---
 
-# Chrome Summariser Extension
+## Chrome Summariser Extension
 
 A Chrome extension for using Breadboard with the Google Chrome API. Currently, the extension has a single purpose: to summarise web page content and select text. This version of the extension is exploratory. When feasible, a more generalised version will be created to be used with any board.
 
@@ -23,7 +27,7 @@ Two basic chrome extensions that were built initially while exploring the availa
 
 An initial chrome extension built with Vite, React and Typescript that runs a basic breadboard. Users can type a message into the extension's popup window and have the message logged back to them as they type it.
 
-- [breadboard-chrome-extension-for-summarising-page](https://github.com/ExaDev/breadboard/tree/breadboard-chrome-extension-for-summarising-page/packages/breadboard-chrome-extension)
+-# [breadboaBd-chrome-extension-for-summarising-page](https://github.com/ExaDev/breadboard/tree/breadboard-chrome-extension-for-summarising-page/packages/breadboard-chrome-extension)
 
 The most up-to-date and stable version of this project, that uses the Claude API and Breadboard to summarise either all the text in the current chrome tab or a selected piece of text. The summariser can be run both from the extension's main popup window and from the context menu after selecting a bit of text from a page, right-clicking and selecting the "Breadboard > Get summary" option in the context menu. Compared to the initial branches that were the starting point for this project, the summariser follows a different structure in terms of organising files which seemed like a better choice for a chrome extension built with Vite and React.
 
@@ -31,7 +35,7 @@ The most up-to-date and stable version of this project, that uses the Claude API
 
 This follows the same structure as the summariser, but the focus here was to integrate a board that performs sentiment analysis on a selected piece of text.
 
-# Reusable boards
+## Reusable Boards
 
 - [Claude summary](https://github.com/ExaDev/breadboard/blob/claude-summarisation-board-test/packages/breadboard-chrome-extension/src/breadboard/graphs/claudeBoard.json)
   [🔗](https://breadboard-ai.web.app/?board=https%3A%2F%2Fraw.githubusercontent.com%2FExaDev%2Fbreadboard%2Fclaude-summarisation-board-test%2Fpackages%2Fbreadboard-chrome-extension%2Fsrc%2Fbreadboard%2Fgraphs%2FclaudeBoard.json)

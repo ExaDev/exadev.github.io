@@ -1,14 +1,16 @@
 ---
-tags:
-  - phase/2
-  - documentation
 title: Examples
 aliases:
   - Breadboard Examples
   - Examples
+tags:
+  - documentation
+  - phase/2
+created: 2024-05-30T11:42:12
+modified: 2024-06-12T10:01:55
 ---
 
-# Examples
+## Examples
 
 [github.com/ExaDev/breadboard-examples](https://github.com/ExaDev/breadboard-examples)
 

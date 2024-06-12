@@ -1,12 +1,14 @@
 ---
 title: Translation RU-ENG
-tags:
-  - phase/2
-  - HuggingFace
-  - translation
 aliases:
   - HuggingFace Translation RU-ENG
   - Translation RU-ENG
+tags:
+  - HuggingFace
+  - phase/2
+  - translation
+created: 2024-05-31T19:12:41
+modified: 2024-06-12T10:02:08
 ---
 
 - [github.com/ExaDev/breadboard-examples/translation-RU-ENG](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/translation-RU-ENG)

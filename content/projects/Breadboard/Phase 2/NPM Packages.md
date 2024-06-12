@@ -1,52 +1,62 @@
 ---
+title: 
+aliases: []
 tags:
-  - phase/2
   - npm
   - npm_package
+  - phase/2
+created: 2024-05-30T11:48:38
+modified: 2024-06-12T10:01:48
 ---
 
-Reserved NPM Packages
+serveP NPM Packages
 
-#### [npmjs.com/breadboard-cli](https://www.npmjs.com/package/breadboard-cli)
+## [npmjs.com/breadboard-cli](https://www.npmjs.com/package/breadboard-cli)
 
-#### `create` packages
+## `create` Packages
 
-##### [npmjs.com/create-breadboard](https://www.npmjs.com/package/create-breadboard)
+### [npmjs.com/create-breadboard](https://www.npmjs.com/package/create-breadboard)
 
-```bash
+```ash
 npx create-breadboard
 npm init breadboard
 ```
 
-##### [npmjs.com/create-board](https://www.npmjs.com/package/create-board)
+### [npmjs.com/create-board](https://www.npmjs.com/package/create-board)
 
-```bash
+`bash
+
 npx create-board
+
 npm init board
+
 ```
 
 ##### [npmjs.com/create-breadboard-app](https://www.npmjs.com/package/create-breadboard-app)
 
-```bash
+``bsh
 npx create-breadboard-app
 npm init breadboard-app
 ```
 
-##### [npmjs.com/create-breadboard-kit](https://www.npmjs.com/package/create-breadboard-kit)
+### [npmjs.com/create-breadboard-kit](https://www.npmjs.com/package/create-breadboard-kit)
 
-```bash
+`bash
+
 npx create-breadboard-kit
+
 npm init breadboard-kit
+
 ```
 
 ##### [npmjs.com/create-breadboard-chrome-extension](https://www.npmjs.com/package/create-breadboard-chrome-extension)
 
-```bash
+`bash
 npx create-breadboard-chrome-extension
 npm init breadboard-chrome-extension
 ```
 
-##### [npmjs.com/create-breadboard-extension](https://www.npmjs.com/package/create-breadboard-extension)
+### [npmjs.com/create-breadboard-extension](https://www.npmjs.com/package/create-breadboard-extension)
 
 ```bash
 npx create-breadboard-extension

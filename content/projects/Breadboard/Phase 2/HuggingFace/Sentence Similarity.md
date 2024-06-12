@@ -4,9 +4,11 @@ aliases:
   - HuggingFace Sentence Similarity
   - Sentence Similarity
 tags:
-  - phase/2
   - HuggingFace
+  - phase/2
   - sentence_similarity
+created: 2024-05-31T19:11:53
+modified: 2024-06-12T10:02:05
 ---
 
 - [github.com/ExaDev/breadboard-examples/sentence-similarity](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/sentence-similarity)

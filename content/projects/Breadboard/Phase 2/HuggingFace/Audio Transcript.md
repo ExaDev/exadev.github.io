@@ -1,12 +1,14 @@
 ---
 title: Audio Transcript
+aliases:
+  - Audio Transcript
+  - Audio Transcription
+  - HuggingFace Audio Transcript
 tags:
   - HuggingFace
   - phase/2
-aliases:
-  - Audio Transcript
-  - HuggingFace Audio Transcript
-  - Audio Transcription
+created: 2024-05-31T19:07:03
+modified: 2024-06-12T10:02:00
 ---
 
 - [github.com/ExaDev/breadboard-examples/audio-transcript](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/audio-transcript)
