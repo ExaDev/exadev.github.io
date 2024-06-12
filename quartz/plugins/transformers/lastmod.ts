@@ -1,8 +1,8 @@
+import { Repository } from "@napi-rs/simple-git"
+import chalk from "chalk"
 import fs from "fs"
 import path from "path"
-import { Repository } from "@napi-rs/simple-git"
 import { QuartzTransformerPlugin } from "../types"
-import chalk from "chalk"
 
 export interface Options {
   priority: ("frontmatter" | "git" | "filesystem")[]
@@ -50,11 +50,16 @@ export const CreatedModifiedDate: QuartzTransformerPlugin<Partial<Options> | und
                 created ||= st.birthtimeMs
                 modified ||= st.mtimeMs
               } else if (source === "frontmatter" && file.data.frontmatter) {
-                created ||= file.data.frontmatter.date as MaybeDate
-                modified ||= file.data.frontmatter.lastmod as MaybeDate
-                modified ||= file.data.frontmatter.updated as MaybeDate
-                modified ||= file.data.frontmatter["last-modified"] as MaybeDate
-                published ||= file.data.frontmatter.publishDate as MaybeDate
+                created = (created ||
+                  file.data.frontmatter.created ||
+                  file.data.frontmatter.date) as MaybeDate
+
+                modified = (modified ||
+                  file.data.frontmatter.lastmod ||
+                  file.data.frontmatter.updated ||
+                  file.data.frontmatter.modified ||
+                  file.data.frontmatter["last-modified"] ||
+                  file.data.frontmatter.publishDate) as MaybeDate
               } else if (source === "git") {
                 if (!repo) {
                   // Get a reference to the main git repo.
