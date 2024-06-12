@@ -14,6 +14,9 @@ modified: 2024-06-12T10:38:53
 
 A board generates a response based on the provided task of generating a reply to a review, a guidelines for tone, business voice and the content of a review itself.
 
+- [business-review-replier.ts](https://github.com/ExaDev/breadboard/blob/business-review-reply/packages/breadboard-web/src/boards/business-review-replier.ts)
+- [business-review-replier.json](https://github.com/ExaDev/breadboard/blob/business-review-reply/packages/breadboard-web/public/graphs/business-review-replier.json) [🔗](https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/ExaDev/breadboard/business-review-reply/packages/breadboard-web/public/graphs/business-review-replier.json)
+
 ![](projects/Breadboard/Phase%202/files/Pasted%20image%2020240612092655.png)
 
 ![](projects/Breadboard/Phase%202/files/Pasted%20image%2020240612092647.png)
