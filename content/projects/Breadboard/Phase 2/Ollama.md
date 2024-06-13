@@ -1,6 +1,6 @@
 ---
 title: Using Breadboard with Ollama
-aliases: 
+aliases: []
 tags:
   - breadboard/phase/2
   - LLM
@@ -9,7 +9,7 @@ tags:
   - local_llm
   - ollama
 created: 2024-05-31T19:23:54
-modified: 2024-06-13T16:01:22
+modified: 2024-06-13T16:05:57
 ---
 
 This documentation provides an overview of how a well-designed breadboard can interact with multiple language models simultaneously.
