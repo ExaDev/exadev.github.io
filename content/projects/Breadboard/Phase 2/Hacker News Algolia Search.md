@@ -1,9 +1,11 @@
 ---
-title: 
+title:
 aliases: []
-tags: []
+tags:
+  - breadboard/phase/2
+  - hacker_news
 created: 2024-06-13T09:19:11
-modified: 2024-06-13T09:32:12
+modified: 2024-06-13T09:36:34
 ---
 
 - [TypeScrtipt](https://github.com/breadboard-ai/breadboard/blob/main/packages/breadboard-web/src/boards/hacker_news_algolia_search.ts)
