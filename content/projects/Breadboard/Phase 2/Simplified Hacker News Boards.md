@@ -11,7 +11,7 @@ modified: 2024-06-13T09:13:37
 
 Simplified versions of the [HackerNews Tool](projects/Breadboard/Phase%202/HackerNews%20Tool.md) boards, with reduced inputs and outputs, for use with LLM function calling.
 
-## ![Simple Hacker News Search](projects/Breadboard/Phase%202/Simple%20Hacker%20News%20Search.md)
+## [Simple Hacker News Search](projects/Breadboard/Phase%202/Simple%20Hacker%20News%20Search.md)
 ## Helper Boards
 - Object Manipulator Board
 	- Input:
