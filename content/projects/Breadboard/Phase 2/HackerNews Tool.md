@@ -6,7 +6,7 @@ tags:
   - HackerNews
   - toolworker
 created: 2024-05-30T11:46:06
-modified: 2024-06-12T10:34:25
+modified: 2024-06-13T08:49:41
 ---
 
 HackerNews Tool
@@ -21,3 +21,5 @@ Boards intended for use as nested boards to interact with both the Algolia and F
   [🔗](https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/breadboard-ai/breadboard/main/packages/breadboard-web/public/graphs/hacker_news_firebase_story_from_id.json)
 - [Firebase Top Stories](https://github.com/breadboard-ai/breadboard/blob/main/packages/breadboard-web/src/boards/hacker_news_firebase_top_story_ids.ts)
   [🔗](https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/breadboard-ai/breadboard/main/packages/breadboard-web/public/graphs/hacker_news_firebase_top_story_ids.json)
+
+For better use as an LLM Tool [[Simplified Hacker News Boards]] have been created.
