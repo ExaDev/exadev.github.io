@@ -1,10 +1,12 @@
 ---
-title: LM Studio
+title: Using a local LLM with Breadboard via LM Studio
 aliases: []
 tags:
   - breadboard/phase/2
+  - lm_studio
+  - local_ai
 created: 2024-05-31T19:25:49
-modified: 2024-06-13T11:07:40
+modified: 2024-06-13T11:13:20
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0qr_Tk39zWg?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
