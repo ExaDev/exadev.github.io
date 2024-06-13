@@ -1,6 +1,6 @@
 ---
-title: Ollama
-aliases: []
+title: Using Breadboard with Ollama
+aliases: 
 tags:
   - breadboard/phase/2
   - LLM
