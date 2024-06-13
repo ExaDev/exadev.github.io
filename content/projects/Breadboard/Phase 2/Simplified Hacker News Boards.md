@@ -6,7 +6,7 @@ tags:
   - breadboard/phase/2
   - hacker_news
 created: 2024-06-13T08:45:47
-modified: 2024-06-13T09:13:37
+modified: 2024-06-13T09:16:56
 ---
 
 Simplified versions of the [HackerNews Tool](projects/Breadboard/Phase%202/HackerNews%20Tool.md) boards, with reduced inputs and outputs, for use with LLM function calling.

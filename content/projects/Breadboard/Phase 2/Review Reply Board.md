@@ -7,7 +7,7 @@ tags:
   - Chrome
   - marketing
 created: 2024-06-12T09:26:13
-modified: 2024-06-13T08:45:00
+modified: 2024-06-13T09:28:06
 ---
 
 A board that generates a response based on the provided task of generating a reply to a review, a guidelines for tone, business voice and the content of a review itself.
