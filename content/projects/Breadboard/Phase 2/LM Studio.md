@@ -6,14 +6,14 @@ tags:
   - lm_studio
   - local_ai
 created: 2024-05-31T19:25:49
-modified: 2024-06-13T13:15:18
+modified: 2024-06-13T16:01:42
 ---
-
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/0qr_Tk39zWg?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Introduction
 
 Here we demonstrates the integration of a local language model with a Breadboard using the LM Studio software. Below, we will guide you through the process and explain the functionality of each input parameter.
+
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/0qr_Tk39zWg?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Objective
 
@@ -100,5 +100,3 @@ To make a cake, you will need the following ingredients:
 ## Conclusion
 
 This example illustrates the simplicity and potential of integrating breadboards with language models using LM Studio. By following the steps outlined above, you can create responsive and contextually aware applications.
-
-We hope you found this guide useful. For further inquiries or advanced configurations, feel free to contact our support team.
