@@ -6,7 +6,7 @@ tags:
   - breadboard/phase/2
   - hacker_news
 created: 2024-06-13T08:45:47
-modified: 2024-06-13T16:07:02
+modified: 2024-06-14T11:21:34
 ---
 
 Simplified versions of the [HackerNews Tool](projects/Breadboard/Phase%202/HackerNews%20Tool.md) boards, with reduced inputs and outputs, for use with LLM function calling.
@@ -18,4 +18,4 @@ Simplified versions of the [HackerNews Tool](projects/Breadboard/Phase%202/Hacke
 - [[Object Manipulator Board]]
 - [[Board for Each]]
 - Object Array Manipulator Board
- 	- A board that nests the Object Manipulator and forEach boards
+  - A board that nests the Object Manipulator and forEach boards

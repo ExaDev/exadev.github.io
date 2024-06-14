@@ -5,7 +5,7 @@ tags:
   - breadboard/phase/2
   - hacker_news
 created: 2024-06-13T09:13:26
-modified: 2024-06-13T09:15:00
+modified: 2024-06-14T11:21:59
 ---
 
 ## Responses
@@ -81,3 +81,18 @@ The full verbose output of the Algolia Search is as follows:
 		- `created_at`
 		- `num_comments`
 		- `story_id` < *unsure about how best to handle with non-post queries
+
+## Sourrrce
+
+- [JSON](https://github.com/ExaDev/breadboard/blob/hackernews-simplified/packages/breadboard-web/public/graphs/hacker-news-simplified-algolia-search.json)
+- [TypeScript](https://github.com/ExaDev/breadboard/blob/hackernews-simplified/packages/breadboard-web/src/boards/hacker-news-simplified-algolia-search.ts)
+- [Open in Breadboard Web](https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/ExaDev/breadboard/hackernews-simplified/packages/breadboard-web/public/graphs/hacker-news-simplified-algolia-search.json)
+
+## Preview Mode
+
+<iframe src="https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/ExaDev/breadboard/hackernews-simplified/packages/breadboard-web/public/graphs/hacker-news-simplified-algolia-search.json&embed" style="width: 100%; height: 500px; border: 0;"></iframe>
+
+## Edit Mode
+
+<iframe src="https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/ExaDev/breadboard/hackernews-simplified/packages/breadboard-web/public/graphs/hacker-news-simplified-algolia-search.json" style="width: 100%; height: 500px; border: 0;"></iframe>
+****

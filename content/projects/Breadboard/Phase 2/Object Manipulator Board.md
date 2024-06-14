@@ -4,24 +4,26 @@ aliases: []
 tags:
   - breadboard/phase/2
 created: 2024-06-13T16:06:15
-modified: 2024-06-13T16:06:43
+modified: 2024-06-14T11:25:34
 ---
 
 A board that manipulates objects based on the provided keys.
 
-- Input:
-  - `keys`
-    - The array of keys to include or exclude
-  - `mode`
-    - `include` or `exclude`
-    - Whether to retain or remove the listed keys
-  - `errorOnMissing`
-    - Whether to throw error if any of the keys are not found
-- Output
-  - Object with listed keys removed or retained
+This board is used in the [Simple Hacker News Search](projects/Breadboard/Phase%202/Simple%20Hacker%20News%20Search.md) board to apply the manipulation to each element with the [Board for Each](projects/Breadboard/Phase%202/Board%20for%20Each.md) board.
 
 ## Source
 
 - [TypeScript](https://github.com/ExaDev/breadboard/blob/hackernews-simplified/packages/breadboard-web/src/boards/object-manipulator.ts)
 - [JSON](https://github.com/ExaDev/breadboard/blob/hackernews-simplified/packages/breadboard-web/public/graphs/object-manipulator.json)
+
+## Breadboard Web
+
 - [Open in Breadboard Web](https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/ExaDev/breadboard/hackernews-simplified/packages/breadboard-web/public/graphs/object-manipulator.json)
+
+### Preview Mode
+
+<iframe src="https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/ExaDev/breadboard/hackernews-simplified/packages/breadboard-web/public/graphs/object-manipulator.json&embed" style="width: 100%; height: 500px; border: 0;"></iframe>
+
+### Edit Mode
+
+<iframe src="https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/ExaDev/breadboard/hackernews-simplified/packages/breadboard-web/public/graphs/object-manipulator.json" style="width: 100%; height: 500px; border: 0;"></iframe>
