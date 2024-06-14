@@ -22,7 +22,7 @@ Labelling
 ### Introduction
 We would like to demonstrate one of the boards we have been working on. The purpose of this board is to perform text classification using the Hugging Face API.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-CRGao-60QI?si=1AAALothcSGtmrpg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nIZmNxncF8Y?si=7fkfA48Mf96enxTz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Inputs Overview
 Here are the key inputs for the board:
