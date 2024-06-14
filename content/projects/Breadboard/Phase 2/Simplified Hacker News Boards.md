@@ -9,7 +9,7 @@ created: 2024-06-13T08:45:47
 modified: 2024-06-14T11:21:34
 ---
 
-Simplified versions of the [HackerNews Tool](projects/Breadboard/Phase%202/HackerNews%20Tool.md) boards, with reduced inputs and outputs, for use with LLM function calling.
+Simplified versions of the [index](projects/Breadboard/Phase%202/Hacker%20News/index.md) boards, with reduced inputs and outputs, for use with LLM function calling.
 
 ## [Simple Hacker News Search](projects/Breadboard/Phase%202/Simple%20Hacker%20News%20Search.md)
 
