@@ -20,6 +20,8 @@ modified: 2024-06-12T10:34:26
 
 In this demonstration, we will showcase one of the boards we've been developing, which is designed for text classification, specifically sentiment analysis.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-CRGao-60QI?si=1AAALothcSGtmrpg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### Overview
 
 The primary goal of this board is to perform sentiment analysis on given text inputs using the Hugging Face interface API.
