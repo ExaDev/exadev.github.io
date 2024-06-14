@@ -5,7 +5,7 @@ tags:
   - breadboard/phase/2
   - hacker_news
 created: 2024-06-13T09:13:26
-modified: 2024-06-14T16:56:01
+modified: 2024-06-14T21:47:39
 ---
 
 This is a board that simplifies the response from the [Hacker News Algolia Search](projects/Breadboard/Phase%202/Hacker%20News/Hacker%20News%20Algolia%20Search.md) board. This is achieved by invoking the search and passing the array of results to an instance of the [Board for Each](projects/Breadboard/Phase%202/Board%20for%20Each.md) board.

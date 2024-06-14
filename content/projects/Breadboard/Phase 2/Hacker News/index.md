@@ -17,4 +17,4 @@ Boards intended for use as nested boards to interact with both the Algolia and F
 - [Hacker News Algolia Boards](projects/Breadboard/Phase%202/Hacker%20News/Hacker%20News%20Algolia%20Boards.md)
 - [Hacker News Firebase Boards](projects/Breadboard/Phase%202/Hacker%20News/Hacker%20News%20Firebase%20Boards.md)
 
-For better use as an LLM Tool [[Simplified Hacker News Boards]] have been created.
+For better use as an LLM Tool [[projects/Breadboard/Phase 2/Hacker News/simplified/index]] have been created.

@@ -11,7 +11,7 @@ modified: 2024-06-14T11:22:18
 
 A board that passes each object in an array through a board and returns the modified array.
 
-This board is used with the [Object Manipulator Board](projects/Breadboard/Phase%202/Object%20Manipulator%20Board.md) in the [Simple Hacker News Search](projects/Breadboard/Phase%202/Simple%20Hacker%20News%20Search.md) board to remove unnecessary attributes from the results array.
+This board is used with the [Object Manipulator Board](projects/Breadboard/Phase%202/Object%20Manipulator%20Board.md) in the [Simple Hacker News Search](projects/Breadboard/Phase%202/Hacker%20News/simplified/Simple%20Hacker%20News%20Search.md) board to remove unnecessary attributes from the results array.
 
 - [TypeScript](https://github.com/ExaDev/breadboard/blob/hackernews-simplified/packages/breadboard-web/src/boards/board-for-each.ts)
 - [JSON](https://github.com/ExaDev/breadboard/blob/hackernews-simplified/packages/breadboard-web/public/graphs/board-for-each.json)

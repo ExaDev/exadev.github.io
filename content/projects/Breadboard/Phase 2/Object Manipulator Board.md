@@ -9,7 +9,7 @@ modified: 2024-06-14T11:25:34
 
 A board that manipulates objects based on the provided keys.
 
-This board is used in the [Simple Hacker News Search](projects/Breadboard/Phase%202/Simple%20Hacker%20News%20Search.md) board to apply the manipulation to each element with the [Board for Each](projects/Breadboard/Phase%202/Board%20for%20Each.md) board.
+This board is used in the [Simple Hacker News Search](projects/Breadboard/Phase%202/Hacker%20News/simplified/Simple%20Hacker%20News%20Search.md) board to apply the manipulation to each element with the [Board for Each](projects/Breadboard/Phase%202/Board%20for%20Each.md) board.
 
 ## Source
 
