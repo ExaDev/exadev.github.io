@@ -5,7 +5,7 @@ tags:
   - breadboard/phase/2
   - hacker_news
 created: 2024-06-13T09:13:26
-modified: 2024-06-14T11:21:59
+modified: 2024-06-14T11:35:32
 ---
 
 ## Responses
@@ -80,9 +80,34 @@ The full verbose output of the Algolia Search is as follows:
 	- Outputs
 		- `created_at`
 		- `num_comments`
-		- `story_id` < *unsure about how best to handle with non-post queries
+		- `story_id` < *unsure about how best to handle with non-post queries*
+## Mermaid Diagram
 
-## Sourrrce
+```mermaid
+%%{init: 'themeVariables': { 'fontFamily': 'Fira Code, monospace' }}%%
+graph TD;
+invoke63["invoke <br> id='invoke-63'"] -- "array->output" --> output62{{"output <br> id='output-62'"}}:::output
+subgraph sg_invoke63 [invoke-63]
+invoke63_invoke5["invoke <br> id='invoke-5'"] -- "object->item" --> invoke63_output4{{"output <br> id='output-4'"}}:::output
+invoke63_fn6["runJavascript <br> id='fn-6'"] -- "item->object" --> invoke63_invoke5["invoke <br> id='invoke-5'"]
+invoke63_input3[/"input <br> id='input-3'"/]:::input -- "item->item" --> invoke63_fn6["runJavascript <br> id='fn-6'"]
+end
+sg_invoke63:::slotted -- "lamdba->lamdba" --o invoke63
+
+invoke61["invoke <br> id='invoke-61'"] -- "output->array" --> invoke63["invoke <br> id='invoke-63'"]
+input60[/"input <br> id='input-60'"/]:::input -- "query->query" --> invoke61["invoke <br> id='invoke-61'"]
+input60[/"input <br> id='input-60'"/]:::input -- "tags->tags" --> invoke61["invoke <br> id='invoke-61'"]
+classDef default stroke:#ffab40,fill:#fff2ccff,color:#000
+classDef input stroke:#3c78d8,fill:#c9daf8ff,color:#000
+classDef output stroke:#38761d,fill:#b6d7a8ff,color:#000
+classDef passthrough stroke:#a64d79,fill:#ead1dcff,color:#000
+classDef slot stroke:#a64d79,fill:#ead1dcff,color:#000
+classDef config stroke:#a64d79,fill:#ead1dcff,color:#000
+classDef secrets stroke:#db4437,fill:#f4cccc,color:#000
+classDef slotted stroke:#a64d79
+```
+
+## Source
 
 - [JSON](https://github.com/ExaDev/breadboard/blob/hackernews-simplified/packages/breadboard-web/public/graphs/hacker-news-simplified-algolia-search.json)
 - [TypeScript](https://github.com/ExaDev/breadboard/blob/hackernews-simplified/packages/breadboard-web/src/boards/hacker-news-simplified-algolia-search.ts)
