@@ -1,17 +1,18 @@
 ---
-title: Text Classification
+title: HuggingFace Text Classification / Sentiment Analysis
 aliases:
   - HuggingFace Text Classification
-  - Text Classification
   - Sentiment Analysis
+  - Text Classification
 tags:
+  - breadboard
   - breadboard/phase/2
   - classification
   - HuggingFace
-  - text_classification
   - sentiment_analysis
+  - text_classification
 created: 2024-05-31T19:12:12
-modified: 2024-06-12T10:34:26
+modified: 2024-06-14T21:30:10
 ---
 
 ## Demonstration of Sentiment Analysis Board
@@ -46,6 +47,9 @@ In a subsequent video, we will demonstrate a use case of this board using our [C
 ### Source
 
 [README](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/text-classification/README.md)
+
 [Board](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/text-classification/index.ts)
+
 [Graph](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/text-classification/board.json)
+
 [Breadboard Web Example](https://breadboard-ai.web.app/?mode=list&board=https://raw.githubusercontent.com/ExaDev/breadboard-examples/main/src/examples/text-classification/board.json)
