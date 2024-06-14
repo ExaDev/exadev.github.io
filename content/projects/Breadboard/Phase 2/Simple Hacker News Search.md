@@ -96,7 +96,7 @@ The full verbose output of the Algolia Search is as follows:
 ```mermaid
 %%{init: 'themeVariables': { 'fontFamily': 'Fira Code, monospace' }}%%
 graph TD;
-invoke63["invoke <br> id='forEach'"] -- "array->output" --> output62{{"output <br> id='output'"}}:::output
+invoke63["invoke <br> id='forEach'"] -- "array->output" --> output62{{"output <br> id='mainOutput'"}}:::output
 subgraph sg_invoke63 [forEach]
 invoke63_invoke5["invoke <br> id='pickObjectKeys'"] -- "object->item" --> invoke63_output4{{"output <br> id='forEachOutput'"}}:::output
 invoke63_fn6["runJavascript <br> id='inferType'"] -- "item->object" --> invoke63_invoke5["invoke <br> id='pickObjectKeys'"]
@@ -105,8 +105,8 @@ end
 sg_invoke63:::slotted -- "lamdba->lamdba" --o invoke63
 
 invoke61["invoke <br> id='search'"] -- "output->array" --> invoke63["invoke <br> id='forEach'"]
-input60[/"input <br> id='input'"/]:::input -- "query->query" --> invoke61["invoke <br> id='search'"]
-input60[/"input <br> id='input'"/]:::input -- "tags->tags" --> invoke61["invoke <br> id='search'"]
+input60[/"input <br> id='mainInput'"/]:::input -- "query->query" --> invoke61["invoke <br> id='search'"]
+input60[/"input <br> id='mainInput'"/]:::input -- "tags->tags" --> invoke61["invoke <br> id='search'"]
 classDef default stroke:#ffab40,fill:#fff2ccff,color:#000
 classDef input stroke:#3c78d8,fill:#c9daf8ff,color:#000
 classDef output stroke:#38761d,fill:#b6d7a8ff,color:#000
