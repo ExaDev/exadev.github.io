@@ -8,12 +8,15 @@ tags:
   - breadboard/phase/2
   - Discord
 created: 2024-05-30T11:43:22
-modified: 2024-06-12T10:34:25
+modified: 2024-06-14T10:46:45
 ---
 
 ## BreadBot - Breadboard Discord Bot
 
 ![Pasted image 20240529141552](projects/Breadboard/files/Pasted%20image%2020240529141552.png)
+
+> [!todo]
+> Video coming soon, courtesy of Tina
 
 [github.com/ExaDev/breadbot](https://github.com/ExaDev/breadbot/branches)
 
