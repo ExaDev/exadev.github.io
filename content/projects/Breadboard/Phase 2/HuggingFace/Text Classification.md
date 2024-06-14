@@ -18,7 +18,7 @@ modified: 2024-06-12T10:34:26
 
 In this demonstration, we will showcase one of the boards we've been developing, which is designed for Text Classification, specifically Sentiment Analysis.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-CRGao-60QI?si=1AAALothcSGtmrpg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+![](https://www.youtube.com/embed/-CRGao-60QI?rel=0)
 
 ### Overview
 
@@ -35,7 +35,7 @@ The primary goal of this board is to perform sentiment analysis on given text in
 
 Let's consider the input: "I really like the work that I saw at the conference."
 
-By performing sentiment analysis on this text, we expect a positive result. 
+By performing sentiment analysis on this text, we expect a positive result.
 
 ### Results
 

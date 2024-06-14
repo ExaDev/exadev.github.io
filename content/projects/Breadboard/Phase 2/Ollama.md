@@ -18,7 +18,7 @@ This demonstartion provides an overview of how a well-designed breadboard can in
 
 In this demonstration, we showcase the capability of a breadboard to interact with different language models running locally. This setup is beneficial for developers as it allows for flexibility and ease of switching between language models.
 
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/lMur1gqobFg?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+![](https://www.youtube.com/embed/lMur1gqobFg?rel=0)
 
 ## Setup Overview
 
@@ -47,7 +47,7 @@ The demonstration successfully shows that the same breadboard can be used to int
 
 This demonstration underscores the versatility of breadboards in managing multiple language models. With the ability to tweak and reuse boards, developers can streamline their workflows and enhance productivity.
 
-## Source 
+## Source
 
 [README](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/ollama-llama3/README.md)
 

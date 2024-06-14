@@ -14,7 +14,7 @@ modified: 2024-06-13T16:01:42
 Here we will demonstrate the integration between Breadboard and a language model running locally on LM Studio.
 Below, we will guide you through the process and explain the functionality of each input parameter.
 
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/0qr_Tk39zWg?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+![](https://www.youtube.com/embed/0qr_Tk39zWg?rel=0)
 
 ## Objective
 
@@ -22,7 +22,7 @@ The goal of this project is to showcase how easy it is to integrate Breadboard w
 
 ## Prerequisites
 
-- LM Studio software installed on your local machine, see [Source](#Source) section for more detailed steps.
+- LM Studio software installed on your local machine, see [Source](#source) section for more detailed steps.
 - A basic understanding of language models and Breadboard.
 
 ## Inputs and Parameters
@@ -104,14 +104,11 @@ This example illustrates the simplicity and potential of integrating breadboards
 
 We hope you found this guide useful. For further inquiries or advanced configurations, feel free to contact our support team.
 
-
 ## Source
 
 [README](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/lm-studio/README.md)
 
-
 [Setup](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/lm-studio/Setup.md)
-
 
 [Graph](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/lm-studio/graph.json)
 
