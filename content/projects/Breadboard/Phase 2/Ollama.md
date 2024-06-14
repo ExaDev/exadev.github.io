@@ -48,3 +48,11 @@ The demonstration successfully shows that the same breadboard can be used to int
 This demonstration underscores the versatility of breadboards in managing multiple language models. With the ability to tweak and reuse boards, developers can streamline their workflows and enhance productivity.
 
 ## Source 
+
+[README](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/ollama-llama3/README.md)
+
+[Setup](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/ollama-llama3/Setup.md)
+
+[graph](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/ollama-llama3/graph)
+
+[Board](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/ollama-llama3/index.ts)
