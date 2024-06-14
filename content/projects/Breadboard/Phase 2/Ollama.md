@@ -12,11 +12,11 @@ created: 2024-05-31T19:23:54
 modified: 2024-06-13T16:05:57
 ---
 
-This documentation provides an overview of how a well-designed breadboard can interact with multiple language models simultaneously.
+This demonstartion provides an overview of how a well-designed breadboard can interact with multiple language models simultaneously.
 
 ## Introduction
 
-In this demonstration, we showcase the capability of a breadboard to interface with different language models running locally. This setup is beneficial for developers as it allows for flexibility and ease of switching between models.
+In this demonstration, we showcase the capability of a breadboard to interact with different language models running locally. This setup is beneficial for developers as it allows for flexibility and ease of switching between language models.
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/lMur1gqobFg?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -24,9 +24,9 @@ In this demonstration, we showcase the capability of a breadboard to interface w
 
 We have three instances of the breadboard web editor, each configured to interact with a different language model:
 
-1. **Instance 1**: Connected to the Lama three model.
-2. **Instance 2**: Connected to the Minstrel model.
-3. **Instance 3**: Connected to the Gamma model.
+1. **Instance 1**: Connected to the Llama3 model.
+2. **Instance 2**: Connected to the Mistral model.
+3. **Instance 3**: Connected to the Gemma model.
 
 ## Input Configuration
 
@@ -46,3 +46,5 @@ The demonstration successfully shows that the same breadboard can be used to int
 ## Conclusion
 
 This demonstration underscores the versatility of breadboards in managing multiple language models. With the ability to tweak and reuse boards, developers can streamline their workflows and enhance productivity.
+
+## Source 
