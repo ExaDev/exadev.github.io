@@ -11,18 +11,19 @@ modified: 2024-06-13T16:01:42
 
 ## Introduction
 
-Here we demonstrates the integration of a local language model with a Breadboard using the LM Studio software. Below, we will guide you through the process and explain the functionality of each input parameter.
+Here we will demonstrate the integration between Breadboard and a language model running locally on LM Studio.
+Below, we will guide you through the process and explain the functionality of each input parameter.
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/0qr_Tk39zWg?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Objective
 
-The goal of this project is to showcase how easy it is to integrate a breadboard with a language model and to provide a step-by-step example using the LM Studio software.
+The goal of this project is to showcase how easy it is to integrate Breadboard with a language model and to provide a step-by-step example using the LM Studio software.
 
 ## Prerequisites
 
-- LM Studio software installed on your local machine.
-- A basic understanding of language models and breadboards.
+- LM Studio software installed on your local machine, see [Source](#Source) section for more detailed steps.
+- A basic understanding of language models and Breadboard.
 
 ## Inputs and Parameters
 
@@ -33,7 +34,7 @@ The goal of this project is to showcase how easy it is to integrate a breadboard
 
 ### 2. Stream
 
-- **Description**: A flag that indicates whether the language model should return the response as it is being generated.
+- **Description**: A flag that indicates whether the language model should return the response as it is being generated or wait for completion.
 - **Example Value**: `true` or `false`.
 
 ### 3. System Context
@@ -68,7 +69,7 @@ The goal of this project is to showcase how easy it is to integrate a breadboard
 
 ### Step 3: Viewing the Response
 
-- The response will be generated word by word if the stream flag is set.
+- The response will be generated word by word, if the stream flag is set to True LM Studio will return a response for each word. If set to False LM studio will wait until the whole response is completed and return it all in its entirety.
 - Observe the final response in LM Studio or on your board.
 
 ## Example Output
@@ -100,3 +101,18 @@ To make a cake, you will need the following ingredients:
 ## Conclusion
 
 This example illustrates the simplicity and potential of integrating breadboards with language models using LM Studio. By following the steps outlined above, you can create responsive and contextually aware applications.
+
+We hope you found this guide useful. For further inquiries or advanced configurations, feel free to contact our support team.
+
+
+## Source
+
+[README](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/lm-studio/README.md)
+
+
+[Setup](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/lm-studio/Setup.md)
+
+
+[Graph](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/lm-studio/graph.json)
+
+[Board](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/lm-studio/index.ts)
