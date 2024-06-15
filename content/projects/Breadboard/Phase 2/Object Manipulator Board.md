@@ -13,17 +13,17 @@ This board is used in the [Simple Hacker News Search](projects/Breadboard/Phase%
 
 ## Source
 
-- [TypeScript](https://github.com/ExaDev/breadboard/blob/hackernews-simplified/packages/breadboard-web/src/boards/object-manipulator.ts)
-- [JSON](https://github.com/ExaDev/breadboard/blob/hackernews-simplified/packages/breadboard-web/public/graphs/object-manipulator.json)
+- [TypeScript](https://github.com/breadboard-ai/breadboard/blob/main/packages/breadboard-web/src/boards/object-manipulator.ts)
+- [JSON](https://github.com/breadboard-ai/breadboard/blob/main/packages/breadboard-web/public/graphs/object-manipulator.json)
 
 ## Breadboard Web
 
-- [Open in Breadboard Web](https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/ExaDev/breadboard/hackernews-simplified/packages/breadboard-web/public/graphs/object-manipulator.json)
+- [Open in Breadboard Web](https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/breadboard-ai/breadboard/main/packages/breadboard-web/public/graphs/object-manipulator.json)
 
 ### Preview Mode
 
-<iframe src="https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/ExaDev/breadboard/hackernews-simplified/packages/breadboard-web/public/graphs/object-manipulator.json&embed" style="width: 100%; height: 500px; border: 0;"></iframe>
+<iframe src="https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/breadboard-ai/breadboard/main/packages/breadboard-web/public/graphs/object-manipulator.json&embed" style="width: 100%; height: 500px; border: 0;"></iframe>
 
 ### Edit Mode
 
-<iframe src="https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/ExaDev/breadboard/hackernews-simplified/packages/breadboard-web/public/graphs/object-manipulator.json" style="width: 100%; height: 500px; border: 0;"></iframe>
+<iframe src="https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/breadboard-ai/breadboard/main/packages/breadboard-web/public/graphs/object-manipulator.json" style="width: 100%; height: 500px; border: 0;"></iframe>
