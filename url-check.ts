@@ -1,6 +1,6 @@
 #!/usr/bin/env -S npx -y tsx --no-cache
-import * as fs from "fs"
-import * as path from "path"
+import * as fs from "fs";
+import * as path from "path";
 
 const ESCAPE_CODES = {
   END: "\x1b[0m",
@@ -64,7 +64,7 @@ function readFilesWithExtensions(dir: string, extensions: string[]): string[] {
 
 // Function to extract URLs from a string
 function extractUrls(str: string): string[] {
-  const urlRegex = /(https?:\/\/[^\s\)\]\}>]+)/g
+  const urlRegex = /(https?:\/\/[^\s\)\]\}>\"\,]+)/g
 
   return str.match(urlRegex) || []
 }
@@ -94,14 +94,15 @@ type UrlCheckType = {
   status?: number | "IGNORED"
   success?: boolean
 }
+
 const checkUrlsInDirectory = async (
   directoryPath: string,
   fileExtensions: string[],
   ignoreUrls: string[],
 ): Promise<Set<UrlCheckType>> => {
   const files = readFilesWithExtensions(directoryPath, fileExtensions)
-
   const urlSet = new Set<UrlCheckType>()
+  const checkedUrls = new Set<string>()
 
   for await (const file of files) {
     console.log(
@@ -124,33 +125,51 @@ const checkUrlsInDirectory = async (
           url,
           status: "IGNORED",
         })
-      } else {
+      } else if (!checkedUrls.has(url)) {
+        await addToUrlCheckSet(url, urlSet, file)
+        checkedUrls.add(url)
+      }
+
+      if (checkedUrls.has(url) && !ignoreUrls.includes(url)) {
         console.debug(
           applyStyles(`URL:\t`, [ESCAPE_CODES.BACKGROUND.blue, ESCAPE_CODES.FOREGROUND.black]),
           url,
         )
-        const result = await checkUrlStatus(url)
-
-        const backgroundColour = result.success
+        const urlResult = getUrlCheckInSet(urlSet, url)
+        const backgroundColour = urlResult.success
           ? ESCAPE_CODES.BACKGROUND.green
           : ESCAPE_CODES.BACKGROUND.red
+
         console.debug(
-          applyStyles(`STATUS: ${result.status}`, [
+          applyStyles(`STATUS: ${urlResult.status}`, [
             backgroundColour,
             ESCAPE_CODES.FOREGROUND.black,
           ]),
         )
-        urlSet.add({
-          file,
-          url,
-          status: result.status,
-          success: result.success,
-        })
       }
+
       console.log()
     }
   }
   return urlSet
+}
+
+async function addToUrlCheckSet(url: string, urlSet: Set<UrlCheckType>, file: string) {
+  const result = await checkUrlStatus(url)
+
+  const urlResult = {
+    file,
+    url,
+    status: result.status,
+    success: result.success,
+  }
+
+  urlSet.add(urlResult)
+  return urlResult
+}
+
+function getUrlCheckInSet(urlSet: Set<UrlCheckType>, url: string) {
+  return Array.from(urlSet).find((urlCheck) => urlCheck.url === url)!
 }
 
 function logWithWarningColor(message: string, log = console.debug): void {
@@ -206,6 +225,13 @@ await checkUrlsInDirectory(directoryPath, fileExtensions, ignoreUrls)
             .join("\n\n"),
       )
       process.exit(1)
+    } else {
+      console.debug(
+        applyStyles(["=".repeat(80), `SUCCESS`].join("\n"), [
+          ESCAPE_CODES.FOREGROUND.black,
+          ESCAPE_CODES.BACKGROUND.green,
+        ]),
+      )
     }
   })
   .catch((error) => {
