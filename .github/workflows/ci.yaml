@@ -99,7 +99,7 @@ jobs:
       - name: Build
         run: npx -y quartz build --bundleInfo
       - name: URL Check
-        run: npx run check-urls
+        run: npm run check-urls
       - uses: actions/upload-pages-artifact@v3
         with:
           path: public
