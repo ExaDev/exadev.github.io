@@ -53,6 +53,6 @@ This demonstration underscores the versatility of breadboards in managing multip
 
 [Setup](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/ollama-llama3/Setup.md)
 
-[graph](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/ollama-llama3/graph)
+[graph](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/ollama-llama3/graph.json)
 
 [Board](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/ollama-llama3/index.ts)
