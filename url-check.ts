@@ -1,6 +1,6 @@
 #!/usr/bin/env -S npx -y tsx --no-cache
-import * as fs from "fs";
-import * as path from "path";
+import * as fs from "fs"
+import * as path from "path"
 
 const ESCAPE_CODES = {
   END: "\x1b[0m",
@@ -188,7 +188,10 @@ await checkUrlsInDirectory(directoryPath, fileExtensions, ignoreUrls)
       (result) => "success" in result && result.success === false,
     )
     if (failedUrls.length) {
-      throw new Error(
+      console.error(
+        applyStyles("=".repeat(80), [ESCAPE_CODES.FOREGROUND.black, ESCAPE_CODES.BACKGROUND.red]),
+      )
+      console.error(
         "\n" +
           failedUrls
             .map((result) =>
@@ -198,6 +201,7 @@ await checkUrlsInDirectory(directoryPath, fileExtensions, ignoreUrls)
             )
             .join("\n\n"),
       )
+      process.exit(1)
     }
   })
   .catch((error) => {

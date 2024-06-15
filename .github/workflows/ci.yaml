@@ -96,10 +96,10 @@ jobs:
           node-version: 18
       - run: npm ci
         name: Install dependencies
-      - name: Build
-        run: npx -y quartz build --bundleInfo
       - name: URL Check
         run: npm run check-urls
+      - name: Build
+        run: npx -y quartz build --bundleInfo
       - uses: actions/upload-pages-artifact@v3
         with:
           path: public
