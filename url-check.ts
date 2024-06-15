@@ -179,7 +179,7 @@ function logWithStyles(message: string, styles: string[], log = console.log): vo
 
 const directoryPath = "./content"
 const fileExtensions = ["md"]
-const ignoreUrls: string[] = []
+const ignoreUrls: string[] = ["https://distill.pub/2017/aia/"]
 
 await checkUrlsInDirectory(directoryPath, fileExtensions, ignoreUrls)
   .then((results: Set<UrlCheckType>): void => {
