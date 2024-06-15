@@ -184,12 +184,16 @@ const ignoreUrls: string[] = []
 await checkUrlsInDirectory(directoryPath, fileExtensions, ignoreUrls)
   .then((results: Set<UrlCheckType>): void => {
     console.log("URL check completed.\n")
-    const failedUrls = Array.from(results).filter(
+    const resultsArray = Array.from(results)
+    const failedUrls = resultsArray.filter(
       (result) => "success" in result && result.success === false,
     )
     if (failedUrls.length) {
       console.error(
-        applyStyles("=".repeat(80), [ESCAPE_CODES.FOREGROUND.black, ESCAPE_CODES.BACKGROUND.red]),
+        applyStyles(
+          ["=".repeat(80), `FAILED:\t${failedUrls.length}\\${resultsArray.length}`].join("\n"),
+          [ESCAPE_CODES.FOREGROUND.black, ESCAPE_CODES.BACKGROUND.red],
+        ),
       )
       console.error(
         "\n" +
