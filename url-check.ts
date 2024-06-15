@@ -1,6 +1,10 @@
 #!/usr/bin/env -S npx -y tsx --no-cache
-import * as fs from "fs";
-import * as path from "path";
+import * as crypto from "crypto"
+import * as fs from "fs"
+import * as path from "path"
+
+const CACHE_DIR = "./.url-cache"
+const CACHE_DURATION = 24 * 60 * 60 * 1000 // 24 hours in milliseconds
 
 const ESCAPE_CODES = {
   END: "\x1b[0m",
@@ -62,14 +66,15 @@ function readFilesWithExtensions(dir: string, extensions: string[]): string[] {
   return results
 }
 
-// Function to extract URLs from a string
 function extractUrls(str: string): string[] {
   const urlRegex = /(https?:\/\/[^\s\)\]\}>\"\,]+)/g
-
   return str.match(urlRegex) || []
 }
 
-// Function to check URL response status
+function hashUrl(url: string): string {
+  return crypto.createHash("sha256").update(url).digest("hex")
+}
+
 async function checkUrlStatus(url: string) {
   return await fetch(url, { method: "HEAD" })
     .then((response) => {
@@ -86,6 +91,30 @@ async function checkUrlStatus(url: string) {
         status: -1,
       }
     })
+}
+
+function getCachedUrlStatus(url: string): UrlCheckType | null {
+  const cacheFilePath = path.join(CACHE_DIR, hashUrl(url))
+  if (fs.existsSync(cacheFilePath)) {
+    const cacheContent = JSON.parse(fs.readFileSync(cacheFilePath, "utf8"))
+    const age = Date.now() - cacheContent.timestamp
+    if (age < CACHE_DURATION) {
+      return cacheContent.result
+    }
+  }
+  return null
+}
+
+function cacheUrlStatus(url: string, result: UrlCheckType) {
+  if (!fs.existsSync(CACHE_DIR)) {
+    fs.mkdirSync(CACHE_DIR)
+  }
+  const cacheFilePath = path.join(CACHE_DIR, hashUrl(url))
+  const cacheContent = {
+    timestamp: Date.now(),
+    result,
+  }
+  fs.writeFileSync(cacheFilePath, JSON.stringify(cacheContent, null, "'t"), "utf8")
 }
 
 type UrlCheckType = {
@@ -126,8 +155,21 @@ const checkUrlsInDirectory = async (
           status: "IGNORED",
         })
       } else if (!checkedUrls.has(url)) {
-        await addToUrlCheckSet(url, urlSet, file)
-        checkedUrls.add(url)
+        const cachedResult = getCachedUrlStatus(url)
+        if (cachedResult && cachedResult.success) {
+          console.debug(
+            applyStyles(`RESTORED FROM CACHE:\t`, [
+              ESCAPE_CODES.BACKGROUND.magenta,
+              ESCAPE_CODES.FOREGROUND.black,
+            ]),
+          )
+          urlSet.add(cachedResult)
+          checkedUrls.add(url)
+        } else {
+          const urlResult = await addToUrlCheckSet(url, urlSet, file)
+          cacheUrlStatus(url, urlResult)
+          checkedUrls.add(url)
+        }
       }
 
       if (checkedUrls.has(url) && !ignoreUrls.includes(url)) {
@@ -184,6 +226,7 @@ function logWithStyle(
 ): void {
   return log(formatString(message, startCode, endCode))
 }
+
 function formatString(message: string, startCode: string, endCode: string = ESCAPE_CODES.END): any {
   return `${startCode}${message}${endCode}`
 }
