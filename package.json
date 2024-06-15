@@ -18,6 +18,7 @@
     "format": "npx prettier . --write",
     "test": "tsx ./quartz/util/path.test.ts && tsx ./quartz/depgraph.test.ts",
     "profile": "0x -D prof ./quartz/bootstrap-cli.mjs build --concurrency=1",
+    "check-urls": "npx tsx ./url-check.ts",
     "build": "npx -y quartz build",
     "serve": "npx -y quartz build --serve"
   },

@@ -100,11 +100,14 @@ jobs:
         name: Install dependencies
       - name: Build
         run: npx -y quartz build --bundleInfo
+      - name: URL Check
+        run: npx run check-urls
       - uses: actions/upload-pages-artifact@v3
         with:
           path: public
 
   deploy:
+    if: github.ref == 'refs/heads/main'
     needs: build
     runs-on: ubuntu-latest
     permissions:
