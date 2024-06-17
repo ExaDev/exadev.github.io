@@ -20,6 +20,11 @@ API Key can be generated for free: <https://huggingface.co/settings/tokens>
 > [!warning]
 > Sometimes it will error because model is loading just run the board again
 
-- [github.com/ExaDev/breadboard-examples/question-answering](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/question-answering)
-- [github.com/ExaDev/breadboard-examples/question-answering/index.ts](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/question-answering/index.ts)
-- [github.com/ExaDev/breadboard-examples/question-answering/board.json](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/question-answering/board.json) [🔗](https://breadboard-ai.web.app/?mode=list&board=https://raw.githubusercontent.com/ExaDev/breadboard-examples/main/src/examples/question-answering/board.json)
+<!-- - [github.com/ExaDev/breadboard-examples/question-answering](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/question-answering)
+- [github.com/ExaDev/breadboard-examples/question-answering/index.ts](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/question-answering/index.ts) -->
+<!-- - [github.com/ExaDev/breadboard-examples/question-answering/board.json](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/question-answering/board.json) [🔗](https://breadboard-ai.web.app/?mode=list&board=https://raw.githubusercontent.com/ExaDev/breadboard-examples/main/src/examples/question-answering/board.json) -->
+
+## Code
+
+- [TypeScript](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/question-answering/index.ts)
+- [JSON](
