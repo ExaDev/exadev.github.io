@@ -20,11 +20,19 @@ API Key can be generated for free: <https://huggingface.co/settings/tokens> (use
 
 NOTE: SOMETIMES IT WILL ERROR BECAUSE MODEL IS LOADING, JUST RUN THE BOARD AGAIN
 
-<!-- - [github.com/ExaDev/breadboard-examples/fill-mask](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/fill-mask) -->
-<!-- - [github.com/ExaDev/breadboard-examples/fill-mask/board.json](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/fill-mask/board.json) [🔗](https://breadboard-ai.web.app/?mode=list&board=https://raw.githubusercontent.com/ExaDev/breadboard-examples/main/src/examples/fill-mask/board.json) -->
-
-
 ## Code
 
 - [TypeScript](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/fill-mask/index.ts)
-- 
+- [JSON](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/fill-mask/board.json)
+
+## Breadboard Web
+
+[Open in Breadboard Web](https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/ExaDev/breadboard-examples/main/src/examples/fill-mask/board.json)
+
+### Preview Mode
+
+<iframe src="https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/ExaDev/breadboard-examples/main/src/examples/fill-mask/board.json&embed" style="width: 100%; height: 500px; border: 0;"></iframe>
+
+### Edit Mode
+
+<iframe src="https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/ExaDev/breadboard-examples/main/src/examples/fill-mask/board.json" style="width: 100%; height: 500px; border: 0;"></iframe>
