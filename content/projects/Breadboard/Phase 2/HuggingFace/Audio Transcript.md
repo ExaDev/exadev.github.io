@@ -5,13 +5,13 @@ aliases:
   - Audio Transcription
   - HuggingFace Audio Transcript
 tags:
-  - breadboard/phase/2
-  - breadboard
-  - audio_transcription
   - audio
+  - audio_transcription
+  - breadboard
+  - breadboard/phase/2
   - HuggingFace
 created: 2024-05-31T19:07:03
-modified: 2024-06-17T13:32:45
+modified: 2024-06-17T13:40:23
 ---
 
 This board currently wont work until core kit fetch gets fixed.

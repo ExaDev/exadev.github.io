@@ -13,6 +13,9 @@ created: 2024-05-31T19:11:08
 modified: 2024-06-17T13:32:46
 ---
 
+A board for interacting with the [[Hugging Face]] Image Classification endpoint.
+See more about the endpoint [here](https://huggingface.co/docs/api-inference/detailed_parameters?code=js#image-classification-task).
+
 > [!WARNING]
 > Because the core kit stringifies the request body, this wont currently work inside of the board.
 >
