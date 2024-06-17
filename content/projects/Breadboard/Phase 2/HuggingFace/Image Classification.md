@@ -5,6 +5,7 @@ aliases:
   - Image Classification
 tags:
   - breadboard/phase/2
+  - breadboard
   - classification
   - HuggingFace
   - image_classification
@@ -12,7 +13,7 @@ created: 2024-05-31T19:11:08
 modified: 2024-06-17T13:32:46
 ---
 
-> [!ERROR]
+> [!WARNING]
 > Because the core kit stringifies the request body, this wont currently work inside of the board.
 >
 > However it can still be run on CLI as it demonstrates the expected board functionality using built in fetch function.
