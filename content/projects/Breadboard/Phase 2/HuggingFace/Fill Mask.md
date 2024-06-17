@@ -7,15 +7,15 @@ tags:
   - breadboard/phase/2
   - HuggingFace
 created: 2024-05-31T19:08:34
-modified: 2024-06-17T12:53:20
+modified: 2024-06-17T12:54:10
 ---
 
 Board which calls the Hugging Face Interface Fill Mask Endpoint.
 
 API Key can be generated for free: <https://huggingface.co/settings/tokens> (use a key with WRITE permissions)
 
-> [!NOTE]
-> SOMETIMES IT WILL ERROR BECAUSE MODEL IS LOADING, JUST RUN THE BOARD AGAIN
+> [!warning]
+> Sometimes it will error because model is loading just run the board again
 
 ## Code
 
