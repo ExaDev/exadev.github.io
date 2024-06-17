@@ -8,7 +8,7 @@ tags:
   - HuggingFace
   - sentence_similarity
 created: 2024-05-31T19:11:53
-modified: 2024-06-17T11:05:25
+modified: 2024-06-17T13:06:59
 ---
 
 NOTE: For this board to work we have to set the "sentences" type to array and provide input as : ["string", "string2", "string3"]

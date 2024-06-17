@@ -8,12 +8,8 @@ tags:
   - HuggingFace
   - text_generation
 created: 2024-05-31T19:12:19
-modified: 2024-06-17T11:05:49
+modified: 2024-06-17T13:06:55
 ---
-
-<!-- - [github.com/ExaDev/breadboard-examples/text-generation](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/text-generation)
-- [github.com/ExaDev/breadboard-examples/text-generation/index.ts](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/text-generation/index.ts)
-- [github.com/ExaDev/breadboard-examples/text-generation/board.json](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/text-generation/board.json) [🔗](https://breadboard-ai.web.app/?mode=list&board=https://raw.githubusercontent.com/ExaDev/breadboard-examples/main/src/examples/text-generation/board.json) -->
 
 Board which calls the Hugging Face Interface Text Generation Endpoint.
 
@@ -40,3 +36,4 @@ API Key can be generated for free: <https://huggingface.co/settings/tokens>
 
 ### Edit Mode
 
+<iframe src="https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/ExaDev/breadboard-examples/main/src/examples/text-generation/board.json" style="width: 100%; height: 500px; border: 0;"></iframe>
