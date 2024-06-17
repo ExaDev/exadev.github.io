@@ -19,4 +19,16 @@ Image Classification
 ## Code
 
 - [TypeScript](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/image-classification/index.ts)
-- [JSON](
+- [JSON](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/image-classification/graph.json)
+
+### Breadboard Web
+
+[Open in Breadboard Web](https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/ExaDev/breadboard-examples/main/src/examples/image-classification/graph.json)
+
+### Preview Mode
+
+<iframe src="https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/ExaDev/breadboard-examples/main/src/examples/image-classification/graph.json&embed" style="width: 100%; height: 500px; border: 0;"></iframe>
+
+### Edit Mode
+
+<iframe src="https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/ExaDev/breadboard-examples/main/src/examples/image-classification/graph.json" style="width: 100%; height: 500px; border: 0;"></iframe>
