@@ -9,6 +9,7 @@ modified: 2024-06-17T11:33:45
 ---
 
 ## Completed
+
 - [x] [HuggingFace Text Classification](projects/Breadboard/Phase%202/HuggingFace/Text%20Classification.md)
 - [x] [Using a local LLM with Breadboard via LM Studio](projects/Breadboard/Phase%202/LM%20Studio.md)
 - [x] [Using Breadboard with Ollama](projects/Breadboard/Phase%202/Ollama.md)
@@ -16,8 +17,11 @@ modified: 2024-06-17T11:33:45
 - [x] [HuggingFace Labelling](projects/Breadboard/Phase%202/HuggingFace/Labelling.md)
 - [x] [Chrome Extension Code Walkthrough](projects/Breadboard/Phase%202/Chrome%20Extension.md#Code%20Walkthrough)
 - [x] [Chrome Extension Demo](projects/Breadboard/Phase%202/Chrome%20Extension.md#Walkthrough)
+
 ## Planned
+
 ### Prioritised
+
 - [ ] [Market Research Board](projects/Breadboard/Phase%202/Market%20Research%20Board.md) by [[Joe]]
 - [ ] [Hacker News Research Agent](projects/Breadboard/Phase%202/Hacker%20News/Hacker%20News%20Research%20Agent.md) by [[Joe]]
 - [ ] [Object Manipulator Board](projects/Breadboard/Phase%202/Object%20Manipulator%20Board.md) by [[Joe]]
@@ -31,7 +35,9 @@ modified: 2024-06-17T11:33:45
 - [ ] [HuggingFace Text Generation](projects/Breadboard/Phase%202/HuggingFace/Text%20Generation.md) by [[John]]
 - [ ] [HuggingFace Translation](projects/Breadboard/Phase%202/HuggingFace/Translation%20RU-ENG.md) by [[John]]
 - [ ] [HuggingFace Token Classification](projects/Breadboard/Phase%202/HuggingFace/Token%20Classification.md) by [[John]]
+
 ### Backlog
+
 - [ ] [[Chrome Extension Sentiment Analysis]]
 - [ ] [[Chrome Extension Text Labelling]]
 - [ ] [[Signals and Events Explainer]] by [[James]]
