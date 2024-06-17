@@ -6,15 +6,12 @@ aliases:
   - Translation RU-ENG
 tags:
   - breadboard/phase/2
+  - breadboard
   - HuggingFace
   - translation
 created: 2024-05-31T19:12:41
-modified: 2024-06-17T11:06:30
+modified: 2024-06-17T13:10:44
 ---
-
-<!-- - [github.com/ExaDev/breadboard-examples/translation-RU-ENG](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/translation-RU-ENG)
-- [github.com/ExaDev/breadboard-examples/translation-RU-ENG/index.ts](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/translation-RU-ENG/index.ts)
-- [github.com/ExaDev/breadboard-examples/translation-RU-ENG/board.json](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/translation-RU-ENG/board.json) [🔗](https://breadboard-ai.web.app/?mode=list&board=https://raw.githubusercontent.com/ExaDev/breadboard-examples/main/src/examples/text-generation/board.json) -->
 
 Board which calls the Hugging Face Interface Named Entity Recognition Endpoint.
 
@@ -40,3 +37,4 @@ API Key can be generated for free: <https://huggingface.co/settings/tokens>
 
 ### Edit Mode
 
+<iframe src="https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/ExaDev/breadboard-examples/main/src/examples/translation-RU-ENG/board.json" style="width: 100%; height: 500px; border: 0;"></iframe>
