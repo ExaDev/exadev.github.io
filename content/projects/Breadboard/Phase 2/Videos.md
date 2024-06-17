@@ -5,7 +5,7 @@ aliases:
 tags:
   - breadboard/phase/2
 created: 2024-06-17T10:49:47
-modified: 2024-06-17T11:33:28
+modified: 2024-06-17T11:33:45
 ---
 
 ## Completed
@@ -39,7 +39,6 @@ modified: 2024-06-17T11:33:28
 - [ ] [BGL JSX](projects/Breadboard/Phase%202/BGL%20JSX.md) by [James](James)
 - [ ] [OpenAlex Tool](projects/Breadboard/Phase%202/OpenAlex.md) by [[Tina]]
 - [ ] [BreadBot - Discord Bot](projects/Breadboard/Phase%202/BreadBot.md) by [Tina](Tina)
-
 - [ ] [Slack Integration](projects/Breadboard/Phase%202/Slack%20Integration.md) by [[Will]]
 - [ ] [React Component Library](projects/Breadboard/Phase%202/React%20Component%20Library.md) by [[James]] or [[Alex]]
 - [ ] [Invoker API](projects/Breadboard/Phase%202/Invoker%20API.md) by [[Joe]]
