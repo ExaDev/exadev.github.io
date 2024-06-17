@@ -5,7 +5,7 @@ aliases:
 tags:
   - breadboard/phase/2
 created: 2024-06-17T10:49:47
-modified: 2024-06-17T15:24:35
+modified: 2024-06-17T15:49:50
 ---
 
 ## Completed
@@ -17,11 +17,10 @@ modified: 2024-06-17T15:24:35
 - [x] [HuggingFace Labelling](projects/Breadboard/Phase%202/HuggingFace/Labelling.md)
 - [x] [Chrome Extension Code Walkthrough](projects/Breadboard/Phase%202/Chrome%20Extension.md#Code%20Walkthrough)
 - [x] [Chrome Extension Demo](projects/Breadboard/Phase%202/Chrome%20Extension.md#Walkthrough)
-
-## Needs Embedding
 - [x] [Object Manipulator Board](projects/Breadboard/Phase%202/Object%20Manipulator%20Board.md) by [[Joe]]
 - [x] [Board for Each](projects/Breadboard/Phase%202/Board%20for%20Each.md) by [[Joe]]
 - [x] [Market Research Board](projects/Breadboard/Phase%202/Market%20Research%20Board.md) by [[Joe]]
+
 ## Planned
 
 ### Prioritised
