@@ -45,16 +45,18 @@ Upon analysing the input, the API returns scores for specific labels. In this ca
 
 In a subsequent video, we will demonstrate a use case of this board using our [Chrome Breadboard extension](../Chrome%20Extension.md).
 
-### Source
+## Code
 
-[README](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/text-classification/README.md)
+- [TypeScript](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/text-classification/index.ts)
+- [Board](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/text-classification/index.ts)
 
-[Board](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/text-classification/index.ts)
+## Breadboard Web
 
-[Graph](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/text-classification/board.json)
+[Open in Breadboard Web](https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/ExaDev/breadboard-examples/main/src/examples/text-classification/board.json)
 
-[Breadboard Web Example](https://breadboard-ai.web.app/?mode=list&board=https://raw.githubusercontent.com/ExaDev/breadboard-examples/main/src/examples/text-classification/board.json)
+### Preview Mode
 
-### Code
+<iframe src="https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/ExaDev/breadboard-examples/main/src/examples/text-classification/board.json&embed" style="width: 100%; height: 500px; border: 0;"></iframe>
 
-- [TypeScript](
+### Edit Mode
+
