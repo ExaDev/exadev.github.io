@@ -10,13 +10,13 @@ modified: 2024-06-17T15:49:50
 
 ## Completed
 
-- [x] [HuggingFace Text Classification](projects/Breadboard/Phase%202/HuggingFace/Text%20Classification.md)
-- [x] [Using a local LLM with Breadboard via LM Studio](projects/Breadboard/Phase%202/LM%20Studio.md)
-- [x] [Using Breadboard with Ollama](projects/Breadboard/Phase%202/Ollama.md)
-- [x] [Automated Business Review Responses](projects/Breadboard/Phase%202/Review%20Reply%20Board.md)
-- [x] [HuggingFace Labelling](projects/Breadboard/Phase%202/HuggingFace/Labelling.md)
-- [x] [Chrome Extension Code Walkthrough](projects/Breadboard/Phase%202/Chrome%20Extension.md#Code%20Walkthrough)
-- [x] [Chrome Extension Demo](projects/Breadboard/Phase%202/Chrome%20Extension.md#Walkthrough)
+- [x] [HuggingFace Text Classification](projects/Breadboard/Phase%202/HuggingFace/Text%20Classification.md) by [John](people/John.md)
+- [x] [Using a local LLM with Breadboard via LM Studio](projects/Breadboard/Phase%202/LM%20Studio.md) by [John](people/John.md)
+- [x] [Using Breadboard with Ollama](projects/Breadboard/Phase%202/Ollama.md) by [John](people/John.md)
+- [x] [Automated Business Review Responses](projects/Breadboard/Phase%202/Review%20Reply%20Board.md) by [Will](people/Will.md)
+- [x] [HuggingFace Labelling](projects/Breadboard/Phase%202/HuggingFace/Labelling.md) by [John](people/John.md)
+- [x] [Chrome Extension Code Walkthrough](projects/Breadboard/Phase%202/Chrome%20Extension.md#Code%20Walkthrough) by [Alex](Alex)
+- [x] [Chrome Extension Demo](projects/Breadboard/Phase%202/Chrome%20Extension.md#Walkthrough) by [Alex](Alex)
 - [x] [Object Manipulator Board](projects/Breadboard/Phase%202/Object%20Manipulator%20Board.md) by [[Joe]]
 - [x] [Board for Each](projects/Breadboard/Phase%202/Board%20for%20Each.md) by [[Joe]]
 - [x] [Market Research Board](projects/Breadboard/Phase%202/Market%20Research%20Board.md) by [[Joe]]
