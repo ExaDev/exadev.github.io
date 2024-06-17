@@ -9,7 +9,7 @@ tags:
   - HuggingFace
   - image_classification
 created: 2024-05-31T19:11:08
-modified: 2024-06-12T10:34:26
+modified: 2024-06-17T11:05:07
 ---
 
 Image Classification

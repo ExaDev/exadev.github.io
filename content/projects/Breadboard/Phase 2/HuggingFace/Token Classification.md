@@ -9,7 +9,7 @@ tags:
   - HuggingFace
   - token_classification
 created: 2024-05-31T19:12:27
-modified: 2024-06-12T10:34:26
+modified: 2024-06-17T11:07:57
 ---
 
 - [github.com/ExaDev/breadboard-examples/token-classification](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/token-classification)

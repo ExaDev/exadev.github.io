@@ -8,7 +8,7 @@ tags:
   - HuggingFace
   - sentence_similarity
 created: 2024-05-31T19:11:53
-modified: 2024-06-12T10:34:26
+modified: 2024-06-17T11:05:25
 ---
 
 - [github.com/ExaDev/breadboard-examples/sentence-similarity](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/sentence-similarity)

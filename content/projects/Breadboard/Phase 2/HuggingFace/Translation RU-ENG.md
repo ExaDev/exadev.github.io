@@ -1,6 +1,7 @@
 ---
 title: Translation RU-ENG
 aliases:
+  - HuggingFace Translation
   - HuggingFace Translation RU-ENG
   - Translation RU-ENG
 tags:
@@ -8,7 +9,7 @@ tags:
   - HuggingFace
   - translation
 created: 2024-05-31T19:12:41
-modified: 2024-06-12T10:34:26
+modified: 2024-06-17T11:06:30
 ---
 
 - [github.com/ExaDev/breadboard-examples/translation-RU-ENG](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/translation-RU-ENG)

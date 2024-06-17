@@ -1,17 +1,16 @@
 ---
-title: Gallery
+title: NextJS
 aliases:
   - Breadboard Gallery
   - Gallery
+  - NextJS
 tags:
   - breadboard/phase/2
   - NextJS
   - StaticCMS
 created: 2024-05-30T11:45:25
-modified: 2024-06-12T10:34:25
+modified: 2024-06-17T11:00:23
 ---
-
-## Gallery
 
 - [github.com/ExaDev/breadboard-gallery](https://github.com/ExaDev/breadboard-gallery)
 

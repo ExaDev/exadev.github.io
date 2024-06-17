@@ -8,7 +8,7 @@ tags:
   - HuggingFace
   - text_generation
 created: 2024-05-31T19:12:19
-modified: 2024-06-12T10:34:26
+modified: 2024-06-17T11:05:49
 ---
 
 - [github.com/ExaDev/breadboard-examples/text-generation](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/text-generation)

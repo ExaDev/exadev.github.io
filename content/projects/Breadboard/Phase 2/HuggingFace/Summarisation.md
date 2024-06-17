@@ -10,7 +10,7 @@ tags:
   - summarisation
   - summarization
 created: 2024-05-31T19:12:02
-modified: 2024-06-12T10:34:26
+modified: 2024-06-17T11:05:37
 ---
 
 - [github.com/ExaDev/breadboard-examples/summarization](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/summarization)
