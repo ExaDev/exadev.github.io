@@ -628,8 +628,8 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options> 
                     width: "100%",
                     height: "350px",
                     src: playlistId
-                      ? `https://www.youtube.com/embed/${videoId}?list=${playlistId}`
-                      : `https://www.youtube.com/embed/${videoId}`,
+                      ? `https://www.youtube.com/embed/${videoId}?list=${playlistId}&rel=0`
+                      : `https://www.youtube.com/embed/${videoId}?rel=0`,
                   }
                 } else if (playlistId) {
                   // YouTube playlist only.
