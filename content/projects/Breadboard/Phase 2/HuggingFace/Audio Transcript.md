@@ -11,9 +11,6 @@ created: 2024-05-31T19:07:03
 modified: 2024-06-17T12:40:06
 ---
 
-- [github.com/ExaDev/breadboard-examples/audio-transcript](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/audio-transcript)
--
-
 This board currently wont work until core kit fetch gets fixed.
 
 This board will produce an audio transcript of the provided audio file.
