@@ -4,16 +4,17 @@ aliases:
   - HuggingFace Image Classification
   - Image Classification
 tags:
-  - breadboard/phase/2
   - breadboard
+  - breadboard/phase/2
   - classification
   - HuggingFace
   - image_classification
 created: 2024-05-31T19:11:08
-modified: 2024-06-17T13:32:46
+modified: 2024-06-17T13:40:43
 ---
 
 A board for interacting with the [[Hugging Face]] Image Classification endpoint.
+
 See more about the endpoint [here](https://huggingface.co/docs/api-inference/detailed_parameters?code=js#image-classification-task).
 
 > [!WARNING]
