@@ -1,9 +1,11 @@
 ---
 title: Videos
-aliases: []
-tags: []
+aliases:
+  - Breadboard Videos
+tags:
+  - breadboard/phase/2
 created: 2024-06-17T10:49:47
-modified: 2024-06-17T11:16:05
+modified: 2024-06-17T11:17:53
 ---
 
 ## Completed
@@ -19,15 +21,15 @@ modified: 2024-06-17T11:16:05
 - [ ] [Hacker News Research Agent](projects/Breadboard/Phase%202/Hacker%20News/Hacker%20News%20Research%20Agent.md) by [[Joe]]
 - [ ] [Object Manipulator Board](projects/Breadboard/Phase%202/Object%20Manipulator%20Board.md) by [[Joe]]
 - [ ] [Board for Each](projects/Breadboard/Phase%202/Board%20for%20Each.md) by [[Joe]]
-- [ ] [HuggingFace Audio Transcript](projects/Breadboard/Phase%202/HuggingFace/Audio%20Transcript.md)
-- [ ] [HuggingFace Fill Mask](projects/Breadboard/Phase%202/HuggingFace/Fill%20Mask.md)
-- [ ] [HuggingFace Image Classification](projects/Breadboard/Phase%202/HuggingFace/Image%20Classification.md)
-- [ ] [HuggingFace Question Answering](projects/Breadboard/Phase%202/HuggingFace/Question%20Answering.md)
-- [ ] [HuggingFace Sentence Similarity](projects/Breadboard/Phase%202/HuggingFace/Sentence%20Similarity.md)
-- [ ] [HuggingFace Summarisation](projects/Breadboard/Phase%202/HuggingFace/Summarisation.md)
-- [ ] [HuggingFace Text Generation](projects/Breadboard/Phase%202/HuggingFace/Text%20Generation.md)
-- [ ] [HuggingFace Translation](projects/Breadboard/Phase%202/HuggingFace/Translation%20RU-ENG.md)
-- [ ] [HuggingFace Token Classification](projects/Breadboard/Phase%202/HuggingFace/Token%20Classification.md)
+- [ ] [HuggingFace Audio Transcript](projects/Breadboard/Phase%202/HuggingFace/Audio%20Transcript.md) by [[John]]
+- [ ] [HuggingFace Fill Mask](projects/Breadboard/Phase%202/HuggingFace/Fill%20Mask.md) by [[John]]
+- [ ] [HuggingFace Image Classification](projects/Breadboard/Phase%202/HuggingFace/Image%20Classification.md) by [[John]]
+- [ ] [HuggingFace Question Answering](projects/Breadboard/Phase%202/HuggingFace/Question%20Answering.md) by [[John]]
+- [ ] [HuggingFace Sentence Similarity](projects/Breadboard/Phase%202/HuggingFace/Sentence%20Similarity.md) by [[John]]
+- [ ] [HuggingFace Summarisation](projects/Breadboard/Phase%202/HuggingFace/Summarisation.md) by [[John]]
+- [ ] [HuggingFace Text Generation](projects/Breadboard/Phase%202/HuggingFace/Text%20Generation.md) by [[John]]
+- [ ] [HuggingFace Translation](projects/Breadboard/Phase%202/HuggingFace/Translation%20RU-ENG.md) by [[John]]
+- [ ] [HuggingFace Token Classification](projects/Breadboard/Phase%202/HuggingFace/Token%20Classification.md) by [[John]]
 
 - [ ] [[Chrome Extension Sentiment Analysis]]
 - [ ] [[Chrome Extension Text Labelling]]
