@@ -5,7 +5,7 @@ aliases:
 tags:
   - breadboard/phase/2
 created: 2024-06-17T10:49:47
-modified: 2024-06-17T13:18:27
+modified: 2024-06-17T14:45:12
 ---
 
 ## Completed
@@ -18,14 +18,15 @@ modified: 2024-06-17T13:18:27
 - [x] [Chrome Extension Code Walkthrough](projects/Breadboard/Phase%202/Chrome%20Extension.md#Code%20Walkthrough)
 - [x] [Chrome Extension Demo](projects/Breadboard/Phase%202/Chrome%20Extension.md#Walkthrough)
 
+## Needs Embedding
+- [x] [Object Manipulator Board](projects/Breadboard/Phase%202/Object%20Manipulator%20Board.md) by [[Joe]]
+- [x] [Board for Each](projects/Breadboard/Phase%202/Board%20for%20Each.md) by [[Joe]]
 ## Planned
 
 ### Prioritised
 
 - [ ] [Market Research Board](projects/Breadboard/Phase%202/Market%20Research%20Board.md) by [[Joe]]
 - [ ] [Hacker News Research Agent](projects/Breadboard/Phase%202/Hacker%20News/Hacker%20News%20Research%20Agent.md) by [[Joe]]
-- [ ] [Object Manipulator Board](projects/Breadboard/Phase%202/Object%20Manipulator%20Board.md) by [[Joe]]
-- [ ] [Board for Each](projects/Breadboard/Phase%202/Board%20for%20Each.md) by [[Joe]]
 - [ ] [HuggingFace Audio Transcript](projects/Breadboard/Phase%202/HuggingFace/Audio%20Transcript.md) by [[John]]
 - [ ] [HuggingFace Fill Mask](projects/Breadboard/Phase%202/HuggingFace/Fill%20Mask.md) by [[John]]
 - [ ] [HuggingFace Image Classification](projects/Breadboard/Phase%202/HuggingFace/Image%20Classification.md) by [[John]]
