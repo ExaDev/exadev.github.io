@@ -4,8 +4,10 @@ aliases: []
 tags:
   - breadboard/phase/2
 created: 2024-06-13T16:06:15
-modified: 2024-06-14T11:25:34
+modified: 2024-06-17T15:25:33
 ---
+
+![](https://youtu.be/VLwT21SHV_c)
 
 A board that manipulates objects based on the provided keys.
 

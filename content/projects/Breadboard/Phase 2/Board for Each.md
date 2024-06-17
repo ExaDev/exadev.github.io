@@ -6,8 +6,10 @@ tags:
   - breadboard/phase/2
   - utility
 created: 2024-06-13T16:07:02
-modified: 2024-06-17T11:14:53
+modified: 2024-06-17T15:26:10
 ---
+
+![](https://youtu.be/wMokaeXWKps)
 
 A board that passes each object in an array through a board and returns the modified array.
 

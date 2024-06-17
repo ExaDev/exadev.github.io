@@ -4,7 +4,7 @@ aliases: []
 tags:
   - breadboard/phase/2
 created: 2024-05-30T11:47:48
-modified: 2024-06-13T09:20:31
+modified: 2024-06-17T15:25:03
 ---
 
 Market Research and Competitor Analysis boards `[WIP]`
@@ -24,3 +24,5 @@ Boards:
   - Abstracted out the [[projects/Breadboard/Phase 2/Google Custom Search Engine Tool]]
 
 Continuation: [[projects/Breadboard/Phase 2/Product Launch Board]] and [[projects/Breadboard/Phase 2/Product Marketing Strategy Board]]
+
+![](https://youtu.be/GYfLNDM4A5A)
