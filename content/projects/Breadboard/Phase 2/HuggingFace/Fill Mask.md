@@ -20,5 +20,11 @@ API Key can be generated for free: <https://huggingface.co/settings/tokens> (use
 
 NOTE: SOMETIMES IT WILL ERROR BECAUSE MODEL IS LOADING, JUST RUN THE BOARD AGAIN
 
-- [github.com/ExaDev/breadboard-examples/fill-mask](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/fill-mask)
-- [github.com/ExaDev/breadboard-examples/fill-mask/board.json](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/fill-mask/board.json) [🔗](https://breadboard-ai.web.app/?mode=list&board=https://raw.githubusercontent.com/ExaDev/breadboard-examples/main/src/examples/fill-mask/board.json)
+<!-- - [github.com/ExaDev/breadboard-examples/fill-mask](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/fill-mask) -->
+<!-- - [github.com/ExaDev/breadboard-examples/fill-mask/board.json](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/fill-mask/board.json) [🔗](https://breadboard-ai.web.app/?mode=list&board=https://raw.githubusercontent.com/ExaDev/breadboard-examples/main/src/examples/fill-mask/board.json) -->
+
+
+## Code
+
+- [TypeScript](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/fill-mask/index.ts)
+- 
