@@ -9,39 +9,39 @@ tags:
   - breadboard/phase/2
   - utility
 created: 2024-06-13T16:07:02
-modified: 2024-06-17T15:39:14
+modified: 2024-06-17T15:49:16
 ---
 
 ![](https://youtu.be/wMokaeXWKps)
 
-This Board allows for seamless data manipulation by processing arrays with custom logic boards. Whether you're dealing with text, numbers, or other data types, the "Board for Each" makes it easy to apply transformations and achieve the desired output.
+This Board allows for data manipulation by processing arrays with custom logic boards.
+
+Whether you're dealing with text, numbers, or other data types, the "Board for Each" makes it easy to apply transformations and achieve the desired output.
 
 **The Functionality**:
 - **Input**: An array of items and a logic board.
 - **Output**: Processed array with transformations applied to each item.
 
-For example, given the array containing the phrase "The quick brown fox" with its capitalization inverted, the output would be "tHE QUICK BROWN FOX".
+For example, given the array containing the phrase "The quick brown fox" with its capitalisation inverted, the output would be "tHE QUICK BROWN FOX".
 
 ## How It Works
 
 1. **Initial Setup**:
-   - The logic board can accept various inputs, including whole boards or specific data arrays.
-   
+	- The logic board can accept various inputs, including whole boards or specific data arrays.
 2. **Code Implementation**:
-   - The board operates by evaluating each item in the input array.
-   - A ternary operation within the logic board determines whether to change the case of each character.
-
+	- The board operates by evaluating each item in the input array.
+	- A ternary operation within the logic board determines whether to change the case of each character.
 3. **Execution Process**:
-   - The board processes each item in the array individually.
-   - Results are accumulated and emitted once all items are processed.
+	- The board processes each item in the array individually.
+	- Results are accumulated and emitted once all items are processed.
 
 ## Practical Example
 
 Let's look at a simple example:
 
-- **Input Array**: ["The", "quick", "brown", "fox"]
+- **Input Array**: `["The", "quick", "brown", "fox"]`
 - **Logic Board**: Inverts the capitalisation of each character.
-- **Output**: ["tHE", "|QUICK", "BROWN", "FOX"]
+- **Output**: `["tHE", "QUICK", "BROWN", "FOX"]`
 
 This demonstrates the board's ability to handle arbitrary arrays and apply the specified logic uniformly across all items.
 
