@@ -8,7 +8,7 @@ tags:
   - HuggingFace
   - Question Answering
 created: 2024-05-31T19:11:44
-modified: 2024-06-17T11:05:15
+modified: 2024-06-17T13:02:20
 ---
 
 Board which calls the Hugging Face Interface Question Answering Endpoint.
