@@ -29,5 +29,12 @@ Because the core kit stringifies the request body, this wont work inside of the 
 
 ## Breadboard Web
 
-## Preview Mode
+[Open in Breadboard Web](https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/ExaDev/breadboard-examples/main/src/examples/audio-transcript/graph.json)
+
+### Preview Mode
+
 <iframe src="https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/ExaDev/breadboard-examples/main/src/examples/audio-transcript/graph.json&embed" style="width: 100%; height: 500px; border: 0;"></iframe>
+
+### Edit Mode
+
+<iframe src="https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/ExaDev/breadboard-examples/main/src/examples/audio-transcript/graph.json" style="width: 100%; height: 500px; border: 0;"></iframe>
