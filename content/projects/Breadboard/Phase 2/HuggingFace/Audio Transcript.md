@@ -8,7 +8,7 @@ tags:
   - breadboard/phase/2
   - HuggingFace
 created: 2024-05-31T19:07:03
-modified: 2024-06-17T12:40:06
+modified: 2024-06-17T12:52:58
 ---
 
 This board currently wont work until core kit fetch gets fixed.
