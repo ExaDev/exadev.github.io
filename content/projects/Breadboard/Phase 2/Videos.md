@@ -5,7 +5,7 @@ aliases:
 tags:
   - breadboard/phase/2
 created: 2024-06-17T10:49:47
-modified: 2024-06-17T11:33:45
+modified: 2024-06-17T13:17:16
 ---
 
 ## Completed
