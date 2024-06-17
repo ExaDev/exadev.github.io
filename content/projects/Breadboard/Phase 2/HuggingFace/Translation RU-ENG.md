@@ -5,12 +5,12 @@ aliases:
   - HuggingFace Translation RU-ENG
   - Translation RU-ENG
 tags:
-  - breadboard/phase/2
   - breadboard
+  - breadboard/phase/2
   - HuggingFace
   - translation
 created: 2024-05-31T19:12:41
-modified: 2024-06-17T13:10:44
+modified: 2024-06-17T13:13:36
 ---
 
 Board which calls the Hugging Face Interface Named Entity Recognition Endpoint.
