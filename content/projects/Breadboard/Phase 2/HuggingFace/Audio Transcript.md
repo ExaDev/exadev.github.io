@@ -23,3 +23,8 @@ This API endpoint expects a raw binary file: <https://huggingface.co/docs/api-in
 Because the core kit stringifies the request body, this wont work inside of the board. However it can still be run on CLI as it demonstrates the expected board functionality using built in fetch function.
 
 ## Code
+
+- [TypeScript](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/audio-transcript/index.ts)
+- [JSON](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/audio-transcript/graph.json)
+
+## Breadboard Web
