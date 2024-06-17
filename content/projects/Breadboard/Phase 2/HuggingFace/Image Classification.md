@@ -12,7 +12,7 @@ created: 2024-05-31T19:11:08
 modified: 2024-06-17T12:52:03
 ---
 
-> ![ERROR]
+> [!ERROR]
 > Until Core Kit gets patched to prevent stringification of everything, this will not work in Breadboard Web.
 
 - [github.com/ExaDev/breadboard-examples/image-classification](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/image-classification)
