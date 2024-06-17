@@ -4,17 +4,14 @@ aliases:
   - HuggingFace Token Classification
   - Token Classification
 tags:
+  - breadboard
   - breadboard/phase/2
   - classification
   - HuggingFace
   - token_classification
 created: 2024-05-31T19:12:27
-modified: 2024-06-17T11:07:57
+modified: 2024-06-17T13:09:19
 ---
-
-<!-- - [github.com/ExaDev/breadboard-examples/token-classification](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/token-classification)
-- [github.com/ExaDev/breadboard-examples/token-classification/index.ts](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/token-classification/index.ts)
-- [github.com/ExaDev/breadboard-examples/token-classification/board.json](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/token-classification/board.json) [🔗](https://breadboard-ai.web.app/?mode=list&board=https://raw.githubusercontent.com/ExaDev/breadboard-examples/main/src/examples/text-generation/board.json) -->
 
 Board which calls the Hugging Face Interface Token Classification Endpoint.
 
@@ -32,4 +29,12 @@ API Key can be generated for free: <https://huggingface.co/settings/tokens>
 
 ## Breadboard Web
 
+[Open in Breadboard Web](https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/ExaDev/breadboard-examples/main/src/examples/token-classification/board.json)
 
+### Preview Mode
+
+<iframe src="https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/ExaDev/breadboard-examples/main/src/examples/token-classification/board.json&embed" style="width: 100%; height: 500px; border: 0;"></iframe>
+
+### Edit Mode
+
+<iframe src="https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/ExaDev/breadboard-examples/main/src/examples/token-classification/board.json" style="width: 100%; height: 500px; border: 0;"></iframe>
