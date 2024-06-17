@@ -5,7 +5,7 @@ aliases:
 tags:
   - breadboard/phase/2
 created: 2024-06-17T10:49:47
-modified: 2024-06-17T13:17:16
+modified: 2024-06-17T13:18:27
 ---
 
 ## Completed
@@ -38,8 +38,8 @@ modified: 2024-06-17T13:17:16
 
 ### Backlog
 
-- [ ] [[Chrome Extension Sentiment Analysis]]
-- [ ] [[Chrome Extension Text Labelling]]
+- [ ] [Chrome Extension Sentiment Analysis](projects/Breadboard/Phase%202/Chrome%20Extension.md#Sentiment%20Analysis)
+- [ ] [Chrome Extension Text Labelling](projects/Breadboard/Phase%202/Chrome%20Extension.md#Text%20Labelling)
 - [ ] [[Signals and Events Explainer]] by [[James]]
 - [ ] [NextJS](projects/Breadboard/Phase%202/NextJS.md) by [James](James)
 - [ ] [BGL JSX](projects/Breadboard/Phase%202/BGL%20JSX.md) by [James](James)

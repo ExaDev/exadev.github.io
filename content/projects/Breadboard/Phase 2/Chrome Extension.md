@@ -8,7 +8,7 @@ tags:
   - React
   - Vite
 created: 2024-06-07T10:05:18
-modified: 2024-06-17T11:10:41
+modified: 2024-06-17T13:17:51
 ---
 
 ## Chrome Summariser Extension
@@ -94,3 +94,6 @@ Stay tuned for more functionalities including:
 - **Text Labelling**: Categorise and label text efficiently.
 - **Audio Transcription**: Record audio and generate transcripts using an upcoming audio transcription board.
 
+## Sentiment Analysis
+
+## Text Labelling
