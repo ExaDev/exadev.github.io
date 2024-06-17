@@ -5,7 +5,7 @@ aliases:
 tags:
   - breadboard/phase/2
 created: 2024-06-17T10:49:47
-modified: 2024-06-17T11:17:53
+modified: 2024-06-17T11:33:28
 ---
 
 ## Completed
@@ -17,6 +17,7 @@ modified: 2024-06-17T11:17:53
 - [x] [Chrome Extension Code Walkthrough](projects/Breadboard/Phase%202/Chrome%20Extension.md#Code%20Walkthrough)
 - [x] [Chrome Extension Demo](projects/Breadboard/Phase%202/Chrome%20Extension.md#Walkthrough)
 ## Planned
+### Prioritised
 - [ ] [Market Research Board](projects/Breadboard/Phase%202/Market%20Research%20Board.md) by [[Joe]]
 - [ ] [Hacker News Research Agent](projects/Breadboard/Phase%202/Hacker%20News/Hacker%20News%20Research%20Agent.md) by [[Joe]]
 - [ ] [Object Manipulator Board](projects/Breadboard/Phase%202/Object%20Manipulator%20Board.md) by [[Joe]]
@@ -30,7 +31,7 @@ modified: 2024-06-17T11:17:53
 - [ ] [HuggingFace Text Generation](projects/Breadboard/Phase%202/HuggingFace/Text%20Generation.md) by [[John]]
 - [ ] [HuggingFace Translation](projects/Breadboard/Phase%202/HuggingFace/Translation%20RU-ENG.md) by [[John]]
 - [ ] [HuggingFace Token Classification](projects/Breadboard/Phase%202/HuggingFace/Token%20Classification.md) by [[John]]
-
+### Backlog
 - [ ] [[Chrome Extension Sentiment Analysis]]
 - [ ] [[Chrome Extension Text Labelling]]
 - [ ] [[Signals and Events Explainer]] by [[James]]
