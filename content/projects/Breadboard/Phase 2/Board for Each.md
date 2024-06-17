@@ -1,12 +1,15 @@
 ---
 title: Board for Each
-aliases: []
+aliases:
+  - Board for Each
+  - Board For Each Board
+  - For Each Board
 tags:
   - breadboard
   - breadboard/phase/2
   - utility
 created: 2024-06-13T16:07:02
-modified: 2024-06-17T15:35:48
+modified: 2024-06-17T15:39:14
 ---
 
 ![](https://youtu.be/wMokaeXWKps)
@@ -53,6 +56,8 @@ We continuously strive to improve our tools. In upcoming updates, we plan to int
 ## Conclusion
 
 The "Board for Each" is a versatile tool designed to simplify data processing tasks. Whether you need to invert text capitalisation or apply more complex transformations, this board can handle it efficiently. Stay tuned for more updates and additional functionalities in our next video.
+
+---
 
 This board is used with the [Object Manipulator Board](projects/Breadboard/Phase%202/Object%20Manipulator%20Board.md) in the [Simple Hacker News Search](projects/Breadboard/Phase%202/Hacker%20News/simplified/Simple%20Hacker%20News%20Search.md) board to remove unnecessary attributes from the results array.
 
