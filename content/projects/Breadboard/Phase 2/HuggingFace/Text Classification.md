@@ -13,7 +13,7 @@ tags:
   - sentiment_analysis
   - text_classification
 created: 2024-05-31T19:12:12
-modified: 2024-06-17T13:03:17
+modified: 2024-06-17T13:04:55
 ---
 
 ## Demonstration of Sentiment Analysis Board
@@ -60,3 +60,4 @@ In a subsequent video, we will demonstrate a use case of this board using our [C
 
 ### Edit Mode
 
+<iframe src="https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/ExaDev/breadboard-examples/main/src/examples/text-classification/board.json" style="width: 100%; height: 500px; border: 0;"></iframe>
