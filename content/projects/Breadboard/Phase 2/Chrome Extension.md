@@ -8,7 +8,7 @@ tags:
   - React
   - Vite
 created: 2024-06-07T10:05:18
-modified: 2024-06-14T22:11:12
+modified: 2024-06-17T11:10:41
 ---
 
 ## Chrome Summariser Extension
@@ -46,7 +46,11 @@ This follows the same structure as the summariser, but the focus here was to int
 
 Welcome to the Chrome Extension that leverages the power of Breadboard to summarise web pages or selected text effortlessly. Whether you need to condense lengthy articles or extract key points from specific paragraphs, our extension is designed to make this process seamless and efficient.
 
+### Walkthrough
+
 ![](https://youtu.be/X24Xggq_nNU)
+
+### Code Walkthrough
 
 ![](https://youtu.be/YC3ueVfCxP0)
 
