@@ -9,18 +9,19 @@ tags:
   - HuggingFace
   - image_classification
 created: 2024-05-31T19:11:08
-modified: 2024-06-17T12:52:03
+modified: 2024-06-17T13:32:46
 ---
 
 > [!ERROR]
-> Until Core Kit gets patched to prevent stringification of everything, this will not work in Breadboard Web.
-
-- [github.com/ExaDev/breadboard-examples/image-classification](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/image-classification)
+> Because the core kit stringifies the request body, this wont currently work inside of the board.
+>
+> However it can still be run on CLI as it demonstrates the expected board functionality using built in fetch function.
 
 ## Code
 
 - [TypeScript](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/image-classification/index.ts)
 - [JSON](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/image-classification/graph.json)
+
 <!--
 ### Breadboard Web
 
