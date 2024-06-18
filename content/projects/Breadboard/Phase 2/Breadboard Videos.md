@@ -3,10 +3,10 @@ title: Breadboard Videos
 aliases:
   - Breadboard Videos
 tags:
-  - breadboard/phase/2
   - breadboard
+  - breadboard/phase/2
 created: 2024-06-17T10:49:47
-modified: 2024-06-17T15:49:50
+modified: 2024-06-18T08:19:34
 ---
 
 ## Completed

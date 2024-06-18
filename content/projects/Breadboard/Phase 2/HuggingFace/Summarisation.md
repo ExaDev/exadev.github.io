@@ -10,7 +10,7 @@ tags:
   - summarisation
   - summarization
 created: 2024-05-31T19:12:02
-modified: 2024-06-17T13:02:44
+modified: 2024-06-18T08:20:38
 ---
 
 Board which calls the Hugging Face Interface Summarization Endpoint.

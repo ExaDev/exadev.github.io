@@ -7,8 +7,10 @@ tags:
   - breadboard/phase/2
   - HuggingFace
 created: 2024-05-31T19:08:34
-modified: 2024-06-17T12:54:10
+modified: 2024-06-18T08:21:34
 ---
+
+![](https://youtu.be/1JkFbhX-OLg)
 
 Board which calls the Hugging Face Interface Fill Mask Endpoint.
 

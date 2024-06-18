@@ -10,8 +10,10 @@ tags:
   - HuggingFace
   - token_classification
 created: 2024-05-31T19:12:27
-modified: 2024-06-17T13:09:19
+modified: 2024-06-18T08:21:19
 ---
+
+![](https://youtu.be/gITcehjKItY)
 
 Board which calls the Hugging Face Interface Token Classification Endpoint.
 

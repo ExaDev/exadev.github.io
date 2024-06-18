@@ -10,8 +10,10 @@ tags:
   - HuggingFace
   - translation
 created: 2024-05-31T19:12:41
-modified: 2024-06-17T13:13:36
+modified: 2024-06-18T08:20:59
 ---
+
+![](https://youtu.be/fBUiGLX8zkc)
 
 Board which calls the Hugging Face Interface Named Entity Recognition Endpoint.
 

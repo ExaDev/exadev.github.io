@@ -10,7 +10,7 @@ tags:
   - HuggingFace
   - image_classification
 created: 2024-05-31T19:11:08
-modified: 2024-06-17T13:40:43
+modified: 2024-06-18T08:19:57
 ---
 
 A board for interacting with the [[Hugging Face]] Image Classification endpoint.
@@ -40,3 +40,5 @@ See more about the endpoint [here](https://huggingface.co/docs/api-inference/det
 
 <iframe src="https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/ExaDev/breadboard-examples/main/src/examples/image-classification/graph.json" style="width: 100%; height: 500px; border: 0;"></iframe>
 -->
+
+![](https://youtu.be/6XrJgXb4gsU)

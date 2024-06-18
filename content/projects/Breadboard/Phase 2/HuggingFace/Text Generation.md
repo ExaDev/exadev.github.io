@@ -8,7 +8,7 @@ tags:
   - HuggingFace
   - text_generation
 created: 2024-05-31T19:12:19
-modified: 2024-06-17T13:06:55
+modified: 2024-06-18T08:20:38
 ---
 
 Board which calls the Hugging Face Interface Text Generation Endpoint.
