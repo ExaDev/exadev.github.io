@@ -10,10 +10,64 @@ tags:
   - HuggingFace
   - token_classification
 created: 2024-05-31T19:12:27
-modified: 2024-06-18T08:21:19
+modified: 2024-06-18T08:47:03
 ---
+The Token Classification Board is part of the open-source Breadboard project. This board leverages the Hugging Face Inference API to highlight key parts of a given text. It is particularly useful for quickly identifying important topics or entities within a text, such as in research papers or presentations.
 
 ![](https://youtu.be/gITcehjKItY)
+
+## Features
+
+- **API Integration:** Utilises the Hugging Face Inference API.
+- **Text Highlighting:** Automatically identifies and highlights key parts of the text.
+- **Optimised Performance:** Options for caching and model loading to improve response times.
+
+## Inputs
+
+### API Key
+
+The API key is required to access the Hugging Face Inference API.
+
+### Input Text
+
+The text from which you wish to extract key parts. For example: 
+
+```
+My name is Sarah Jessica Parker, and today I will discuss language models, computer science, and AI.
+```
+
+### Aggregation Strategy
+
+Defines how the identified keys are grouped together.
+
+### Use Cache
+
+A flag indicating whether to use a cached response if the language model has previously processed the same input. This can significantly speed up response times.
+
+### Wait for Model
+
+A flag useful for large language models, instructing the API to wait for the model to load before returning a response.
+
+## Example Usage
+
+Consider the following input text:
+
+```
+My name is Sarah Jessica Parker, and today I will discuss language models, computer science, and AI.
+```
+
+When processed, the board highlights the key topics: `language models`, `computer science`, and `AI`.
+
+## Use Cases
+
+- **Research Papers:** Quickly identify and highlight all topics discussed within a paper.
+- **Presentations:** Extract key topics from presentation transcripts efficiently.
+
+## Conclusion
+
+The Token Classification Board provides an efficient way to process and highlight important parts of a text, making it a valuable tool for various text analysis tasks. Thank you for exploring the capabilities of this board.
+
+---
 
 Board which calls the Hugging Face Interface Token Classification Endpoint.
 
