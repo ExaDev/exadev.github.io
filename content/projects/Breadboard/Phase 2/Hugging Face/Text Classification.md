@@ -43,7 +43,7 @@ By performing sentiment analysis on this text, we expect a positive result.
 
 Upon analysing the input, the API returns scores for specific labels. In this case, the "positive" label received a very high confidence level, indicating that the text was perceived as highly positive.
 
-In a subsequent video, we will demonstrate a use case of this board using our [Chrome Breadboard extension](../Chrome%20Extension.md).
+In a subsequent video, we will demonstrate a use case of this board using our [Chrome Breadboard extension](projects/Breadboard/Phase%202/Chrome%20Extension.md).
 
 ## Code
 

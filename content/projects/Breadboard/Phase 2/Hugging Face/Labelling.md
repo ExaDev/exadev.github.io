@@ -38,7 +38,7 @@ When we send the input to the API, the response confirms that "refund" is the hi
 
 ## Conclusion
 
-This simple example illustrates the functionality of our text classification board. In a later video, we will demonstrate a use case of this board using our [Chrome Breadbaord extension](../Chrome%20Extension.md).
+This simple example illustrates the functionality of our text classification board. In a later video, we will demonstrate a use case of this board using our [Chrome Breadbaord extension](projects/Breadboard/Phase%202/Chrome%20Extension.md).
 
 ## Source
 

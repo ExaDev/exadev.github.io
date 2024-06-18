@@ -3,7 +3,7 @@ title: June Documentation Sprint
 aliases: []
 tags: []
 created: 2024-06-18T08:59:01
-modified: 2024-06-18T09:04:34
+modified: 2024-06-18T09:15:22
 ---
 
 - [Visual Editor + Agent Kit MVP ☂️ · Issue #1818](https://github.com/breadboard-ai/breadboard/issues/1818)

@@ -15,7 +15,7 @@ Simplified versions of the [Hacker News](projects/Breadboard/Phase%202/Hacker%20
 
 ## Helper Boards
 
-- [[Object Manipulator Board]]
-- [[Board for Each]]
+- [[projects/Breadboard/Phase 2/Object Manipulator Board]]
+- [[projects/Breadboard/Phase 2/Board for Each]]
 - Object Array Manipulator Board
   - A board that nests the Object Manipulator and forEach boards
