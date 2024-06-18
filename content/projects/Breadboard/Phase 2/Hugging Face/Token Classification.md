@@ -10,9 +10,18 @@ tags:
   - HuggingFace
   - token_classification
 created: 2024-05-31T19:12:27
-modified: 2024-06-18T08:47:03
+modified: 2024-06-18T08:52:05
 ---
-The Token Classification Board is part of the open-source Breadboard project. This board leverages the Hugging Face Inference API to highlight key parts of a given text. It is particularly useful for quickly identifying important topics or entities within a text, such as in research papers or presentations.
+
+The Token Classification Board for Breadboard leverages the Hugging Face Inference API to highlight key parts of a given text. It is particularly useful for quickly identifying important topics or entities within a text, such as in research papers or presentations.
+
+> [!warning]
+> Sometimes it will error because model is loading just run the board again
+
+View the Hugging Face Inference API Token Classification documentation [here](https://huggingface.co/docs/api-inference/detailed_parameters?code=curl#token-classification-task) 
+
+>[!info]
+> Generate a free Hugging Face API key at: https://huggingface.co/settings/tokens
 
 ![](https://youtu.be/gITcehjKItY)
 
@@ -66,19 +75,6 @@ When processed, the board highlights the key topics: `language models`, `compute
 ## Conclusion
 
 The Token Classification Board provides an efficient way to process and highlight important parts of a text, making it a valuable tool for various text analysis tasks. Thank you for exploring the capabilities of this board.
-
----
-
-Board which calls the Hugging Face Interface Token Classification Endpoint.
-
-For more details see: <https://huggingface.co/docs/api-inference/detailed_parameters?code=curl#token-classification-task>
-
-API Key can be generated for free: <https://huggingface.co/settings/tokens>
-
-> [!warning]
-> Sometimes it will error because model is loading just run the board again
-
-## Code
 
 - [TypeScript](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/token-classification/index.ts)
 - [JSON](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/token-classification/board.json)
