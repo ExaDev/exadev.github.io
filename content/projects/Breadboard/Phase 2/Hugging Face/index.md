@@ -1,6 +1,7 @@
 ---
-title: HuggingFace
+title: Hugging Face
 aliases:
+  - Hugging Face
   - HuggingFace
 tags:
   - breadboard
@@ -8,5 +9,5 @@ tags:
   - HuggingFace
   - language_model
 created: 2024-05-31T17:44:42
-modified: 2024-06-18T08:20:38
+modified: 2024-06-18T08:24:57
 ---
