@@ -11,19 +11,57 @@ tags:
   - breadboard/phase/2
   - HuggingFace
 created: 2024-05-31T19:07:03
-modified: 2024-06-18T08:20:09
+modified: 2024-06-18T08:34:42
 ---
 
-This board currently wont work until core kit fetch gets fixed.
+In this demonstration, we showcase one of the Breadboard project's boards, specifically a Hugging Face board designed for audio transcription. This board leverages the Hugging Face Inference API to convert audio files into text transcripts.
 
-This board will produce an audio transcript of the provided audio file.
-
-This API endpoint expects a raw binary file: <https://huggingface.co/docs/api-inference/detailed_parameters?code=js#automatic-speech-recognition-task>
+Find out more about speech recognition with the Hugging Face Inference API [here](https://huggingface.co/docs/api-inference/detailed_parameters?code=js#automatic-speech-recognition-task). 
 
 > [!WARNING]
 > Because the core kit stringifies the request body, this wont work inside of the board.
 >
 > However it can still be run on CLI as it demonstrates the expected board functionality using built in fetch function.
+
+![](https://youtu.be/PHNF026epos)
+
+## Key Components
+
+1. **Hugging Face Inference API**: The board uses the Hugging Face Inference API to perform audio transcription. This requires an API key to access the service.
+2. **Purple Web Environment**: Due to a current bug in the core kit where all requests are stringified, the demo is conducted within the Purple Web environment. This bug affects the API endpoint, which expects a raw binary file instead of a stringified request.
+
+## Input Parameters
+
+- **File Name**: The name of the audio file to be transcribed.
+- **API Key**: The Hugging Face Inference API key necessary for accessing the transcription service.
+
+## Demonstration Steps
+
+1. **Prepare the Audio File**: Ensure you have the audio file ready for transcription. For this demonstration, we use a sample audio file with the following content:
+
+```
+Hello. I am Google Translate. Please make a transcript of what I am saying.
+```
+
+2. **Run the Board**: Execute the board with the specified audio file and API key. The board processes the audio and returns the transcribed text.
+
+## Output
+
+Upon running the board, the output is as follows:
+
+```
+Hello, I am Google Translate. Please make a transcript of what I am saying.
+```
+
+This demonstrates the accuracy of the transcription, with room for improvements in future iterations.
+
+## Future Integration
+
+There are plans to integrate this functionality with the Breadboard Chrome API or Chrome extension, although this is still a work in progress.
+
+## Conclusion
+
+This demonstration highlights the capability of the Breadboard project's Hugging Face board to accurately transcribe audio files using the Hugging Face Inference API. Further enhancements and integrations are planned to expand its usability and efficiency. Thank you for exploring this demonstration.
 
 ## Code
 
@@ -43,5 +81,3 @@ This API endpoint expects a raw binary file: <https://huggingface.co/docs/api-in
 
 <iframe src="https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/ExaDev/breadboard-examples/main/src/examples/audio-transcript/graph.json" style="width: 100%; height: 500px; border: 0;"></iframe>
 -->
-
-![](https://youtu.be/PHNF026epos)

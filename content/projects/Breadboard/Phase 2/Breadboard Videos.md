@@ -6,7 +6,7 @@ tags:
   - breadboard
   - breadboard/phase/2
 created: 2024-06-17T10:49:47
-modified: 2024-06-18T08:19:34
+modified: 2024-06-18T08:34:58
 ---
 
 ## Completed
@@ -27,9 +27,9 @@ modified: 2024-06-18T08:19:34
 ### Prioritised
 
 - [ ] [Hacker News Research Agent](projects/Breadboard/Phase%202/Hacker%20News/Hacker%20News%20Research%20Agent.md) by [[Joe]]
-- [ ] [HuggingFace Audio Transcript](projects/Breadboard/Phase%202/Hugging%20Face/Audio%20Transcript.md) by [[John]]
+- [x] [HuggingFace Audio Transcript](projects/Breadboard/Phase%202/Hugging%20Face/Audio%20Transcript.md) by [[John]]
 - [ ] [HuggingFace Fill Mask](projects/Breadboard/Phase%202/Hugging%20Face/Fill%20Mask.md) by [[John]]
-- [ ] [HuggingFace Image Classification](projects/Breadboard/Phase%202/Hugging%20Face/Image%20Classification.md) by [[John]]
+- [x] [HuggingFace Image Classification](projects/Breadboard/Phase%202/Hugging%20Face/Image%20Classification.md) by [[John]]
 - [ ] [HuggingFace Question Answering](projects/Breadboard/Phase%202/Hugging%20Face/Question%20Answering.md) by [[John]]
 - [ ] [HuggingFace Sentence Similarity](projects/Breadboard/Phase%202/Hugging%20Face/Sentence%20Similarity.md) by [[John]]
 - [ ] [HuggingFace Summarisation](projects/Breadboard/Phase%202/Hugging%20Face/Summarisation.md) by [[John]]
