@@ -10,19 +10,74 @@ tags:
   - HuggingFace
   - translation
 created: 2024-05-31T19:12:41
-modified: 2024-06-18T08:20:59
+modified: 2024-06-18T08:45:32
 ---
 
-![](https://youtu.be/fBUiGLX8zkc)
-
-Board which calls the Hugging Face Interface Named Entity Recognition Endpoint.
-
-For more details see: <https://huggingface.co/docs/api-inference/detailed_parameters?code=curl#named-entity-recognition-ner-task>
-
-API Key can be generated for free: <https://huggingface.co/settings/tokens>
+The Russian to English Translation Board leverages the inference API by Hugging Face to perform translations from Russian to English.
 
 > [!warning]
 > Sometimes it will error because model is loading just run the board again
+
+For more information on the Hugging Face Inference API's Translation endpoint, see [here](https://huggingface.co/docs/api-inference/detailed_parameters?code=curl#named-entity-recognition-ner-task).
+
+![](https://youtu.be/fBUiGLX8zkc)
+
+## Features
+
+- **API Integration**: Utilises Hugging Face's inference API for translation tasks.
+- **Input Handling**: Processes Russian text for translation.
+- **Caching**: Supports caching to provide quicker responses for previously encountered inputs.
+- **Model Loading**: Allows for waiting on larger models to load before generating responses.
+
+## Inputs and Parameters
+
+1. **API Key**: 
+   - **Description**: A unique key that grants access to the Hugging Face inference API.
+   - **Usage**: Required for authentication and accessing the translation service.
+
+2. **Input Text**: 
+   - **Description**: The Russian text that you want to translate into English.
+   - **Example**: "Меня зовут Вольфганг, и я живу в Берлине."
+
+3. **Use Cache**:
+   - **Description**: A boolean flag indicating if the model should return a cached response for previously seen inputs.
+   - **Default**: `false`
+
+4. **Wait for Model**:
+   - **Description**: A boolean flag that, when set, allows the system to wait for the model to fully load before generating a response.
+   - **Default**: `true`
+
+## Example Usage
+
+Here is an example of how to use the board:
+
+### Input
+
+```json
+{
+  "api_key": "YOUR_API_KEY",
+  "input_text": "Меня зовут Вольфганг, и я живу в Берлине.",
+  "use_cache": false,
+  "wait_for_model": true
+}
+```
+
+### Output
+
+```json
+{
+  "translated_text": "My name is Wolfgang and I live in Berlin."
+}
+```
+
+The input text "Меня зовут Вольфганг, и я живу в Берлине." is correctly translated to "My name is Wolfgang and I live in Berlin."
+
+## Future Enhancements
+
+- **Browser Extension**: Integration with the Breadboard Chrome extension to enable text selection and translation directly in the browser.
+- **Additional Languages**: Expansion to support translations for more languages.
+
+This documentation provides a comprehensive overview of the Russian to English Translation Board. Future updates and additional features will be documented as they are developed.
 
 ## Code
 
