@@ -7,10 +7,18 @@ tags:
   - breadboard/phase/2
   - HuggingFace
 created: 2024-05-31T19:08:34
-modified: 2024-06-18T08:53:46
+modified: 2024-06-18T08:57:06
 ---
 
 The Hugging Face Fill Mask Board leverages the Hugging Face Inference API to perform sentence completion tasks. This board allows users to input a sentence with a masked word, and it will predict and fill in the masked word based on the context provided.
+
+Read more about the Hugging Face Inference API Fill Mask Task [here](https://huggingface.co/docs/api-inference/detailed_parameters?code=js#fill-mask-task).
+
+> [!warning]
+> Sometimes it will error because model is loading just run the board again
+
+>[!note]
+> Generate a free Hugging Face API [here](https://huggingface.co/settings/tokens)
 
 ![](https://youtu.be/1JkFbhX-OLg)
 
@@ -51,17 +59,6 @@ During our demonstration, the language model provided responses that may not hav
 ## Conclusion
 
 The Hugging Face Fill Mask Board offers a glimpse into the capabilities of AI-powered sentence completion. While the current model may require further tuning, it presents a fascinating application of language models in natural language processing tasks.
-
-Thank you for exploring the Hugging Face Fill Mask Board documentation.
-
----
-
-Board which calls the Hugging Face Interface Fill Mask Endpoint.
-
-API Key can be generated for free: <https://huggingface.co/settings/tokens> (use a key with WRITE permissions)
-
-> [!warning]
-> Sometimes it will error because model is loading just run the board again
 
 ## Code
 
