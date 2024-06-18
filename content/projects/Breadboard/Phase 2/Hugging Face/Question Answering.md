@@ -8,14 +8,15 @@ tags:
   - HuggingFace
   - Question Answering
 created: 2024-05-31T19:11:44
-modified: 2024-06-18T08:38:16
+modified: 2024-06-18T08:41:57
 ---
 
-![](https://youtu.be/92wBNLWuO28)
-
-## Overview
-
 The Question and Answer Board is a versatile component designed for the Breadboard project. This board leverages the Hugging Face Inference API to process natural language queries. By providing context, users can ask questions and receive relevant answers from the language model.
+
+> [!warning]
+> Sometimes it will error because model is loading just run the board again
+
+![](https://youtu.be/92wBNLWuO28)
 
 ## Inputs
 
@@ -57,14 +58,6 @@ One practical application of the Question and Answer Board is for creating a dyn
 The Question and Answer Board offers a powerful tool for integrating natural language understanding into your projects. Whether for developing an interactive FAQ system or other applications requiring dynamic question answering, this board is designed to provide reliable and relevant responses based on the given context.
 
 Explore the capabilities of the Question and Answer Board and integrate it into your Breadboard projects to enhance user interaction and information retrieval.
----
-
-Board which calls the Hugging Face Interface Question Answering Endpoint.
-
-API Key can be generated for free: <https://huggingface.co/settings/tokens>
-
-> [!warning]
-> Sometimes it will error because model is loading just run the board again
 
 ## Code
 
