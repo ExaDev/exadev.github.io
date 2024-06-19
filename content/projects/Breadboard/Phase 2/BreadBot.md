@@ -7,6 +7,7 @@ aliases:
 tags:
   - breadboard/phase/2
   - Discord
+  - breadboard
 created: 2024-05-30T11:43:22
 modified: 2024-06-19T14:00:52
 ---
