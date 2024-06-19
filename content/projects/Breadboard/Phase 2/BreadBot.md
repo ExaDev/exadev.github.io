@@ -59,14 +59,14 @@ The `run` command executes the board and involves the following steps:
 
 - **User Input Collection:** Prompts the user to enter values for any inputs required by the board.
 - **Board Execution:** Processes the inputs and outputs the results from the board.
-- **Validation:** Ensures the URL is valid and the board is recognized.
+- **Validation:** Ensures the URL is valid and the board is recognised.
 
 ### Error Handling
 
 Bread Bot handles errors by validating URLs and board structures:
 
 - Invalid URLs are rejected with a message stating the URL is invalid.
-- Valid URLs pointing to invalid boards receive a message indicating the board is not recognized.
+- Valid URLs pointing to invalid boards receive a message indicating the board is not recognised.
 
 ### Example Workflow
 1. **Loading a Board:**
