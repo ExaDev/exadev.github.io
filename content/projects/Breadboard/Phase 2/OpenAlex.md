@@ -7,16 +7,16 @@ tags:
   - OpenAlex
   - toolworker
 created: 2024-05-30T11:45:43
-modified: 2024-06-19T15:14:01
+modified: 2024-06-19T15:16:28
 ---
 
-The Open Alex Entity Search Results Board is a simple and efficient tool within the Breadboard web ecosystem. It queries the Open Alex API to provide a list of entities related to a given search term. This documentation will guide you through the board's functionality, configuration options, and underlying components.
+The OpenAlex Entity Search Results Board is a simple and efficient tool within the Breadboard web ecosystem. It queries the OpenAlex API to provide a list of entities related to a given search term. This documentation will guide you through the board's functionality, configuration options, and underlying components.
 
 ![](https://youtu.be/HXbsFOdww-I)
 
 ## Features
 
-- **Entity Type Selection:** A drop-down list of Open Alex entity types allows users to choose the type of entities they want to search and receive.
+- **Entity Type Selection:** A drop-down list of OpenAlex entity types allows users to choose the type of entities they want to search and receive.
 - **Pagination Control:** Users can specify the number of pages to return and the number of results per page.
 - **Field Selection:** Users can select specific fields for the entities to determine which details are returned in the search results.
 - **Search Term Input:** The search term can be customised, and by using double quotes, users can ensure exact matches for their queries.
@@ -26,7 +26,7 @@ The Open Alex Entity Search Results Board is a simple and efficient tool within 
 ### Entity Type
 
 - **Default:** `work`
-- **Options:** Various entity types provided by Open Alex.
+- **Options:** Various entity types provided by OpenAlex.
 
 ### Pagination
 
@@ -61,7 +61,7 @@ Currently, the board is run through Breadboard web. It is designed as a tool wor
 
 Stay tuned for upcoming demonstrations and updates on this feature.
 
-Thank you for using the Open Alex Entity Search Results Board within the Breadboard project.
+Thank you for using the OpenAlex Entity Search Results Board within the Breadboard project.
 
 ## Breadboard Web
 
