@@ -1,16 +1,16 @@
 ---
 title: OpenAlex Tool
-aliases: 
+aliases: []
 tags:
+  - breadboard
   - breadboard/phase/2
   - OpenAlex
   - toolworker
-  - breadboard
 created: 2024-05-30T11:45:43
-modified: 2024-06-19T15:09:59
+modified: 2024-06-19T15:14:01
 ---
 
-The Open Alex Entity Search Results Board is a simple and efficient board within the Breadboard web ecosystem. It queries the Open Alex API for a list of entities related to a given search term. This documentation will guide you through the board's functionality, configuration options, and the underlying components that make it work.
+The Open Alex Entity Search Results Board is a simple and efficient tool within the Breadboard web ecosystem. It queries the Open Alex API to provide a list of entities related to a given search term. This documentation will guide you through the board's functionality, configuration options, and underlying components.
 
 ![](https://youtu.be/HXbsFOdww-I)
 
@@ -45,37 +45,30 @@ The Open Alex Entity Search Results Board is a simple and efficient board within
 ## How It Works
 
 1. **Core Kit and Template Kit Integration:**
-   - The board uses the Core Kit and Template Kit.
-   - The Code Node, part of the Core Kit, handles the main logic behind the scenes.
-
+	- The board uses the Core Kit and Template Kit.
+	- The Code Node, part of the Core Kit, handles the main logic behind the scenes.
 2. **URL Template Node:**
-   - This node, from the Template Kit, safely constructs a URL with the selected path and query parameters.
-
+	- This node, from the Template Kit, safely constructs a URL with the selected path and query parameters.
 3. **Fetch Node:**
-   - The constructed URL is passed to the Fetch Node (part of the Core Kit).
-   - This node fetches the details and returns the response.
-
+	- The constructed URL is passed to the Fetch Node (part of the Core Kit).
+	- This node fetches the details and returns the response.
 4. **Custom Node for Object Spreading:**
-   - The response is passed to a custom node that spreads the properties of the given object into a new object, ensuring the correct type is returned to the output.
+	- The response is passed to a custom node that spreads the properties of the given object into a new object, ensuring the correct type is returned to the output.
 
 ## Usage
 
-Currently, the board is run through Breadboard web. It is designed as a tool worker board, and in the future, there are plans to utilise the specialist worker from the Agents Kit to call and run this board as a tool.
+Currently, the board is run through Breadboard web. It is designed as a tool worker board, with future plans to utilise the specialist worker from the Agents Kit to call and run this board as a tool.
 
 Stay tuned for upcoming demonstrations and updates on this feature.
 
 Thank you for using the Open Alex Entity Search Results Board within the Breadboard project.
 
----
-## OpenAlex Tool
+## Breadboard Web
 
-> [!todo]
-> Video demonstrating basic board coming soon, courtesy of Tina
+### Preview Mode
 
-> [!todo]
-> New board using toolworker to call OpenAlex board and interpret results, including a video demonstration, coming soon courtesy of Tina
+<iframe src="https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/breadboard-ai/breadboard/main/packages/breadboard-web/public/graphs/open-alex-entity-search-list.json&embed" style="width: 100%; height: 500px; border: 0;"></iframe>
 
-OpenAlex is a free public API for scholarly data. The repository allows easy access to open-access academic literature, which can be fed into Breadboard boards for analysis.
+### Edit Mode
 
-- [Entity Search](https://github.com/breadboard-ai/breadboard/blob/main/packages/breadboard-web/src/boards/open-alex-entity-search-list.ts)
-  [🔗](https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/breadboard-ai/breadboard/main/packages/breadboard-web/public/graphs/open-alex-entity-search-list.json)
+<iframe src="https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/breadboard-ai/breadboard/main/packages/breadboard-web/public/graphs/open-alex-entity-search-list.json&embed&edit" style="width: 100%; height: 500px; border: 0;"></iframe>
