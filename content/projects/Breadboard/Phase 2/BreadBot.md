@@ -64,11 +64,13 @@ BreadBot handles errors by validating URLs and board structures:
 
 1. **Loading a Board:**
 	- The user enters a valid URL and board.
-	- The bot progressively updates the message, showing an hourglass icon initially, which changes to green text as each stage completes.
+	- The bot progressively updates the message, showing an hourglass icon initially, which changes to green tick as each stage completes.
 	- The bot extracts and displays stats about the board, attaches the JSON schema, Mermaid markdown file, and the PNG diagram to the message.
 2. **Running a Board:**
+	- The user enters a valid URL and board.
+	- The bot runs the board prompting the user to provide input for input properties in the board.
 	- The user provides values for required inputs (e.g., "greeting" and "name").
-	- The bot outputs the joined strings as a result (e.g., "Hello World").
+	- The bot outputs the result (e.g., the joined strings of "Hello World").
 
 ## Advanced Features and Limitations
 
