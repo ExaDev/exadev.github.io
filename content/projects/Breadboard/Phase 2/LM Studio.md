@@ -13,8 +13,6 @@ modified: 2024-06-18T10:00:42
 
 Here we will demonstrate the integration between Breadboard and a language model running locally on LM Studio.
 
-Below, we will guide you through the process and explain the functionality of each input parameter.
-
 ![](https://www.youtube.com/embed/0qr_Tk39zWg?rel=0)
 
 ## Objective
