@@ -17,7 +17,7 @@ The OpenAlex Entity Search Results Board is a simple and efficient tool within t
 ## Features
 
 - **Entity Type Selection:** A drop-down list of OpenAlex entity types allows users to choose the type of entities they want to search and receive.
-- **Pagination Control:** Users can specify the number of pages to return and the number of results per page.
+- **Search Result Customisation:** Users can specify the number of pages to return and the number of results per page.
 - **Field Selection:** Users can select specific fields for the entities to determine which details are returned in the search results.
 - **Search Term Input:** The search term can be customised, and by using double quotes, users can ensure exact matches for their queries.
 
