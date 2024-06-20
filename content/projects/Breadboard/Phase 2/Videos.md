@@ -8,7 +8,7 @@ tags:
 created: 2024-06-17T10:49:47
 modified: 2024-06-20T15:28:33
 ---
-
+![](https://www.youtube.com/playlist?list=PLhROjVY7N7UUDfeDwDxFNVJbkKM0mGU5I)
 ## Completed
 
 - [x] [HuggingFace Text Classification](projects/Breadboard/Phase%202/Hugging%20Face/Text%20Classification.md) by [John](people/John.md)
