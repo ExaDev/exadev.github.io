@@ -8,18 +8,58 @@ tags:
   - HuggingFace
   - text_generation
 created: 2024-05-31T19:12:19
-modified: 2024-06-18T08:20:38
+modified: 2024-06-20T11:14:35
 ---
 
-Board which calls the Hugging Face Interface Text Generation Endpoint.
+This board leverages the Hugging Face Inference API to generate text based on a given input, making it a powerful tool for various applications.Ï
 
-API Key can be generated for free: <https://huggingface.co/settings/tokens>
+>[!note]
+	 Generate a free API Key [here](https://huggingface.co/settings/tokens)
 
 > [!warning]
 > Sometimes it will error because model is loading just run the board again
 
 > [!warning] STRANGE BUG
 > The numbers in the schema are treated as strings, until we force to use defaults
+
+![](https://youtu.be/8X4w9x7z6XA)
+
+## Features
+
+- **Text Completion:** Given a piece of text, the board uses the Hugging Face Inference API to predict and complete the text based on the provided context.
+- **Versatile Input:** Users can input any piece of text as context, and the language model will attempt to generate a coherent continuation.
+- **Language Model Integration:** Utilises state-of-the-art language models from Hugging Face to provide accurate and contextually relevant text completions.
+
+## Inputs
+
+- **API Key:** Required to access the Hugging Face Inference API. Ensure you have a valid API key to use this board.
+- **Context Text:** The piece of text you want to provide as context. The language model uses this text to generate the subsequent output.
+
+## Example Usage
+
+To demonstrate the functionality of the Hugging Face Text Generation Board, consider the following example:
+
+1. **Input:**
+   - API Key: `<Your-API-Key>`
+   - Context Text: "At the end of the rainbow, there is"
+
+2. **Output:**
+   - Generated Text: "At the end of the rainbow, there is treasure waiting to be discovered."
+
+The board successfully completes the input text, providing a coherent and contextually appropriate continuation.
+
+## Use Cases
+
+The Hugging Face Text Generation Board can be utilised in various scenarios, including but not limited to:
+
+- **Story Writing:** Assists in generating ideas or continuing a story based on a given context.
+- **Speech Writing:** Provides coherent text completions that can aid in speech preparation.
+- **Email Drafting:** Helps in drafting emails by suggesting completions based on the initial text.
+- **Creative Writing:** Sparks creativity by offering suggestions and continuations for creative writing projects.
+
+## Conclusion
+
+The Hugging Face Text Generation Board is a versatile and powerful tool within the Breadboard project, offering endless possibilities for text generation and completion tasks. Whether you are writing stories, preparing speeches, or drafting emails, this board can assist in generating contextually relevant text to enhance your projects.
 
 ## Code
 
