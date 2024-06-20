@@ -13,7 +13,7 @@ created: 2024-05-31T19:12:27
 modified: 2024-06-18T08:52:05
 ---
 
-The Token Classification Board for Breadboard leverages the Hugging Face Inference API to highlight key parts of a given text. It is particularly useful for quickly identifying important topics or entities within a text, such as in research papers or presentations.
+The Token Classification Board leverages the Hugging Face Inference API to highlight key parts of a given text. It is particularly useful for quickly identifying important topics or entities within text, such as in research papers or presentations.
 
 > [!warning]
 > Sometimes it will error because model is loading just run the board again
