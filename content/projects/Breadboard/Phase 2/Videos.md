@@ -6,7 +6,7 @@ tags:
   - breadboard
   - breadboard/phase/2
 created: 2024-06-17T10:49:47
-modified: 2024-06-20T08:36:56
+modified: 2024-06-20T15:28:33
 ---
 
 ## Completed
@@ -27,15 +27,14 @@ modified: 2024-06-20T08:36:56
 - [x] [HuggingFace Fill Mask](projects/Breadboard/Phase%202/Hugging%20Face/Fill%20Mask.md) by [[John]]
 - [x] [HuggingFace Image Classification](projects/Breadboard/Phase%202/Hugging%20Face/Image%20Classification.md) by [[John]]
 - [x] [HuggingFace Question Answering](projects/Breadboard/Phase%202/Hugging%20Face/Question%20Answering.md) by [[John]]
+- [x] [HuggingFace Sentence Similarity](projects/Breadboard/Phase%202/Hugging%20Face/Sentence%20Similarity.md) by [[John]]
+- [x] [HuggingFace Summarisation](projects/Breadboard/Phase%202/Hugging%20Face/Summarisation.md) by [[John]]
+- [x] [HuggingFace Text Generation](projects/Breadboard/Phase%202/Hugging%20Face/Text%20Generation.md) by [[John]]
 ## Planned
 
 ### Prioritised
 
 - [ ] [Hacker News Research Agent](projects/Breadboard/Phase%202/Hacker%20News/Hacker%20News%20Research%20Agent.md) by [[Joe]]
-- [ ] [HuggingFace Sentence Similarity](projects/Breadboard/Phase%202/Hugging%20Face/Sentence%20Similarity.md) by [[John]]
-- [ ] [HuggingFace Summarisation](projects/Breadboard/Phase%202/Hugging%20Face/Summarisation.md) by [[John]]
-- [ ] [HuggingFace Text Generation](projects/Breadboard/Phase%202/Hugging%20Face/Text%20Generation.md) by [[John]]
-
 ### Backlog
 
 - [ ] [Chrome Extension Sentiment Analysis](projects/Breadboard/Phase%202/Chrome%20Extension.md#Sentiment%20Analysis)
