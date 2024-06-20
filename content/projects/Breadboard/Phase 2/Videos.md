@@ -6,7 +6,7 @@ tags:
   - breadboard
   - breadboard/phase/2
 created: 2024-06-17T10:49:47
-modified: 2024-06-18T09:59:49
+modified: 2024-06-20T08:36:56
 ---
 
 ## Completed
@@ -43,8 +43,8 @@ modified: 2024-06-18T09:59:49
 - [ ] [[Signals and Events Explainer]] by [[James]]
 - [ ] [NextJS](projects/Breadboard/Phase%202/NextJS.md) by [James](James)
 - [ ] [BGL JSX](projects/Breadboard/Phase%202/BGL%20JSX.md) by [James](James)
-- [ ] [OpenAlex Tool](projects/Breadboard/Phase%202/OpenAlex.md) by [[Tina]]
-- [ ] [BreadBot - Discord Bot](projects/Breadboard/Phase%202/BreadBot.md) by [Tina](Tina)
+- [x] [OpenAlex Tool](projects/Breadboard/Phase%202/OpenAlex.md) by [[Tina]]
+- [x] [BreadBot - Discord Bot](projects/Breadboard/Phase%202/BreadBot.md) by [Tina](Tina)
 - [ ] [Slack Integration](projects/Breadboard/Phase%202/Slack%20Integration.md) by [[Will]]
 - [ ] [React Component Library](projects/Breadboard/Phase%202/React%20Component%20Library.md) by [[James]] or [[Alex]]
 - [ ] [Invoker API](projects/Breadboard/Phase%202/Invoker%20API.md) by [[Joe]]
