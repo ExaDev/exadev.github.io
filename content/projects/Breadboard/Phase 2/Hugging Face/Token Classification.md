@@ -71,10 +71,14 @@ When processed, the board highlights the key topics: `language models`, `compute
 
 - **Research Papers:** Quickly identify and highlight all topics discussed within a paper.
 - **Presentations:** Extract key topics from presentation transcripts efficiently.
+- **Documentation** Quickly indetify and highlight key parts of a system.
+- **Document Processing** Scan through documents to check if certain key words exist, for example checking if CV's sent have keywords we are looking for.
 
 ## Conclusion
 
-The Token Classification Board provides an efficient way to process and highlight important parts of a text, making it a valuable tool for various text analysis tasks. Thank you for exploring the capabilities of this board.
+The Token Classification Board provides an efficient way to process and highlight important parts of a text, making it a valuable tool for various text analysis tasks.
+
+## Source 
 
 - [TypeScript](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/token-classification/index.ts)
 - [JSON](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/token-classification/board.json)

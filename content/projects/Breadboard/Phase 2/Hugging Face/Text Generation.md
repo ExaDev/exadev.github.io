@@ -21,7 +21,7 @@ API Key can be generated for free: <https://huggingface.co/settings/tokens>
 > [!warning] STRANGE BUG
 > The numbers in the schema are treated as strings, until we force to use defaults
 
-## Code
+## Source
 
 - [TypeScript](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/text-generation/index.ts)
 - [JSON](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/text-generation/board.json)

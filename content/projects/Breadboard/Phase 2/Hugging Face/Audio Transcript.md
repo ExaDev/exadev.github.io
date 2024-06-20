@@ -19,7 +19,7 @@ In this demonstration, we showcase one of the Breadboard project's boards, speci
 Find out more about speech recognition with the Hugging Face Inference API [here](https://huggingface.co/docs/api-inference/detailed_parameters?code=js#automatic-speech-recognition-task). 
 
 > [!WARNING]
-> Because the core kit stringifies the request body, this wont work inside of the board.
+> Because the core kit stringifies the request body, this wont work inside of the board or Breadboard Web. 
 >
 > However it can still be run on CLI as it demonstrates the expected board functionality using built in fetch function.
 
@@ -28,7 +28,7 @@ Find out more about speech recognition with the Hugging Face Inference API [here
 ## Key Components
 
 1. **Hugging Face Inference API**: The board uses the Hugging Face Inference API to perform audio transcription. This requires an API key to access the service.
-2. **Purple Web Environment**: Due to a current bug in the core kit where all requests are stringified, the demo is conducted within the Purple Web environment. This bug affects the API endpoint, which expects a raw binary file instead of a stringified request.
+2. **Breadboard Web**: Due to a current bug in the core kit where all requests are stringified, This bug affects the API endpoint, which expects a raw binary file instead of a stringified request. Becaue of this we will be demonstrating the board on the CLI. 
 
 ## Input Parameters
 
@@ -50,20 +50,22 @@ Hello. I am Google Translate. Please make a transcript of what I am saying.
 Upon running the board, the output is as follows:
 
 ```
-Hello, I am Google Translate. Please make a transcript of what I am saying.
+Hello, I am GUGAL Translate. Please make a transcript of what I am saying.
 ```
 
 This demonstrates the accuracy of the transcription, with room for improvements in future iterations.
 
 ## Future Integration
 
-There are plans to integrate this functionality with the Breadboard Chrome API or Chrome extension, although this is still a work in progress.
+There are plans to integrate this functionality with the [Chrome Breadboard extension](../Chrome%20Extension.md), although this is still a work in progress.
+
+The chrome extension would either accept file uploads or allow audio recordings which would then be transcribed using this board we have demonstrated.
 
 ## Conclusion
 
 This demonstration highlights the capability of the Breadboard project's Hugging Face board to accurately transcribe audio files using the Hugging Face Inference API. Further enhancements and integrations are planned to expand its usability and efficiency. Thank you for exploring this demonstration.
 
-## Code
+## Source
 
 - [TypeScript](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/audio-transcript/index.ts)
 - [JSON](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/audio-transcript/graph.json)
