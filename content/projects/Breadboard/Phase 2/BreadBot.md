@@ -9,7 +9,7 @@ tags:
   - breadboard/phase/2
   - Discord
 created: 2024-05-30T11:43:22
-modified: 2024-06-19T15:09:21
+modified: 2024-06-20T08:44:29
 ---
 
 ![BreadBot Logo](projects/Breadboard/files/Pasted%20image%2020240529141552.png)
@@ -64,11 +64,13 @@ BreadBot handles errors by validating URLs and board structures:
 
 1. **Loading a Board:**
 	- The user enters a valid URL and board.
-	- The bot progressively updates the message, showing an hourglass icon initially, which changes to green text as each stage completes.
+	- The bot progressively updates the message, showing an hourglass icon initially, which changes to green tick as each stage completes.
 	- The bot extracts and displays stats about the board, attaches the JSON schema, Mermaid markdown file, and the PNG diagram to the message.
 2. **Running a Board:**
+	- The user enters a valid URL and board.
+	- The bot runs the board prompting the user to provide input for input properties in the board.
 	- The user provides values for required inputs (e.g., "greeting" and "name").
-	- The bot outputs the joined strings as a result (e.g., "Hello World").
+	- The bot outputs the result (e.g., the joined strings of "Hello World").
 
 ## Advanced Features and Limitations
 
@@ -79,4 +81,4 @@ BreadBot handles errors by validating URLs and board structures:
 
 ## Conclusion
 
-BreadBot is a proof of concept for integrating board operations within Discord. Although still under development, it demonstrates the potential for dynamic board management and interaction through Discord. Thank you for exploring this demo.
+BreadBot is a proof of concept for integrating board operations within Discord. Although still under development, it demonstrates the potential for dynamic board management and interaction through Discord.
