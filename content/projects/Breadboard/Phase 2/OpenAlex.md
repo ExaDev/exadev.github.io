@@ -7,7 +7,7 @@ tags:
   - OpenAlex
   - toolworker
 created: 2024-05-30T11:45:43
-modified: 2024-06-19T15:16:28
+modified: 2024-06-20T09:04:35
 ---
 
 The OpenAlex Entity Search Results Board is a simple and efficient tool within the Breadboard web ecosystem. It queries the OpenAlex API to provide a list of entities related to a given search term. This documentation will guide you through the board's functionality, configuration options, and underlying components.
@@ -28,19 +28,17 @@ The OpenAlex Entity Search Results Board is a simple and efficient tool within t
 - **Default:** `work`
 - **Options:** Various entity types provided by OpenAlex.
 
-### Pagination
-
+### Search Result Customisation
 - **Number of Pages:** User-defined.
 - **Results per Page:** User-defined.
 
 ### Field Selection
-
+- **Default:** `id,display_name,title,relevance_score`
 - **Selectable Fields:** Users can choose which details to receive in the search results.
 
 ### Search Term
-
 - **Default:** `artificial intelligence`
-- **Custom Example:** `machine learning` (using double quotes for exact matches).
+- **Custom Example:** `"machine learning"` (using double quotes for exact matches).
 
 ## How It Works
 
