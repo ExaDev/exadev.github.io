@@ -19,9 +19,6 @@ This board leverages the Hugging Face Inference API to generate text based on a 
 > [!warning]
 > Sometimes it will error because model is loading just run the board again
 
-> [!warning] STRANGE BUG
-> The numbers in the schema are treated as strings, until we force to use defaults
-
 ![](https://youtu.be/8X4w9x7z6XA)
 
 ## Features
@@ -44,7 +41,7 @@ To demonstrate the functionality of the Hugging Face Text Generation Board, cons
    - Context Text: "At the end of the rainbow, there is"
 
 2. **Output:**
-   - Generated Text: "At the end of the rainbow, there is treasure waiting to be discovered."
+   - Generated Text: "At the end of the rainbow, there is treasure waiting to be discovered ..."
 
 The board successfully completes the input text, providing a coherent and contextually appropriate continuation.
 
