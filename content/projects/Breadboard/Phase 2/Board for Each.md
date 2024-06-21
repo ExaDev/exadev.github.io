@@ -9,7 +9,7 @@ tags:
   - breadboard/phase/2
   - utility
 created: 2024-06-13T16:07:02
-modified: 2024-06-18T08:19:42
+modified: 2024-06-21T08:17:02
 ---
 
 ![](https://youtu.be/wMokaeXWKps)
