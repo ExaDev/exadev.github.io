@@ -3,10 +3,10 @@ title: Universal Filter Board
 aliases:
   - Universal Filter Breadboard
 tags:
-  - breadboard/phase/2
   - breadboard
+  - breadboard/phase/2
 created: 2024-06-21T08:19:04
-modified: 2024-06-21T08:26:57
+modified: 2024-06-21T08:41:23
 ---
 
 Inspired the concept of the [Placeholder Board](projects/Breadboard/Phase%202/boards/Placeholder%20Board.md) as the "logic" / "wiring" could be written already
