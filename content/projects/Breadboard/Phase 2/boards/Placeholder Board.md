@@ -30,3 +30,5 @@ modified: 2024-06-21T11:33:04
 	- Create a basic prototype of the placeholder board.
 	- Define the mapping schema for inputs and outputs.
 	- Test with a sample concrete board to ensure compatibility and functionality.
+
+
