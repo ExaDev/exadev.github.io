@@ -15,12 +15,12 @@ modified: 2024-06-21T11:33:04
 2. **Implementation Steps:**
 	- Design the placeholder board structure.
 	- Define interface parameters: `inputs`, `outputs`, `mappings`.
-	- Allow passing a concrete board as an implementation to this placeholder.
+	- Allow passing a concrete board as an implementation to this placeholder, effectively enabling dependency injection.
 3. **Functionality:**
 	- Interface-like behaviour:
 		- Acts as a middle layer between input data and the concrete board.
 	- Accepts mappings of inputs and outputs to connect with the concrete implementation board.
-	- In theory in a board that uses the placeholder board, could then have the placeholder board replaced with a concrete board that implements the same interface.
+	- By using this placeholder board, it effectively allows the replacement with a concrete board that adheres to the same interface.
 4. **Design Considerations:**
 	- Flexibility:
 		- Ensure it can accommodate various implementations.
