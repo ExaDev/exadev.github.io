@@ -6,7 +6,7 @@ tags:
   - breadboard
   - breadboard/phase/2
 created: 2024-06-17T10:49:47
-modified: 2024-06-21T10:07:39
+modified: 2024-06-21T11:21:55
 ---
 
 ![](https://www.youtube.com/playlist?list=PLhROjVY7N7UUDfeDwDxFNVJbkKM0mGU5I)
@@ -36,7 +36,7 @@ modified: 2024-06-21T10:07:39
 ## Planned
 
 ### Prioritised
-- [ ] [HuggingFace Summarisation](projects/Breadboard/Phase%202/Hugging%20Face/Summarisation.md) by [[John]]
+- [x] [HuggingFace Summarisation](projects/Breadboard/Phase%202/Hugging%20Face/Summarisation.md) by [[John]]
 - [ ] [Hacker News Research Agent](projects/Breadboard/Phase%202/Hacker%20News/Hacker%20News%20Research%20Agent.md) by [[Joe]]
 ### Backlog
 
