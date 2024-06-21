@@ -6,7 +6,7 @@ tags:
   - breadboard
   - breadboard/phase/2
 created: 2024-06-21T08:27:01
-modified: 2024-06-21T10:07:02
+modified: 2024-06-21T11:26:08
 ---
 
 1. **Concept:**
@@ -20,7 +20,7 @@ modified: 2024-06-21T10:07:02
 	- Interface-like behaviour:
 		- Acts as a middle layer between input data and the concrete board.
 	- Accepts mappings of inputs and outputs to connect with the concrete implementation board.
-	- In theory theory in a board that uses the placeholder board, could then have the placeholder board replaced with a concrete board that implements the same interface.
+	- In theory in a board that uses the placeholder board, could then have the placeholder board replaced with a concrete board that implements the same interface.
 4. **Design Considerations:**
 	- Flexibility:
 		- Ensure it can accommodate various implementations.
