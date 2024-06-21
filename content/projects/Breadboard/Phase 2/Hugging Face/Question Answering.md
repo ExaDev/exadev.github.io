@@ -11,7 +11,7 @@ created: 2024-05-31T19:11:44
 modified: 2024-06-18T08:41:57
 ---
 
-The Question and Answer Board is a versatile component designed for the Breadboard project. This board leverages the Hugging Face Inference API to process natural language queries. By providing context, users can ask questions and receive relevant answers from the language model.
+The Question and Answering Board leverages the Hugging Face Inference API to process natural language queries. By providing context, users can ask questions and receive relevant answers from the language model.
 
 > [!warning]
 > Sometimes it will error because model is loading just run the board again

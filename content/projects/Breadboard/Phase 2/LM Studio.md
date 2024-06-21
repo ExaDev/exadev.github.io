@@ -101,8 +101,6 @@ To make a cake, you will need the following ingredients:
 
 This example illustrates the simplicity and potential of integrating breadboards with language models using LM Studio. By following the steps outlined above, you can create responsive and contextually aware applications.
 
-We hope you found this guide useful. For further inquiries or advanced configurations, feel free to contact our support team.
-
 ## Source
 
 [README](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/lm-studio/README.md)

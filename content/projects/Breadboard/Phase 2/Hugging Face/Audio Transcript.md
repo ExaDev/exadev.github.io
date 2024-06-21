@@ -25,11 +25,6 @@ Find out more about speech recognition with the Hugging Face Inference API [here
 
 ![](https://youtu.be/PHNF026epos)
 
-## Key Components
-
-1. **Hugging Face Inference API**: The board uses the Hugging Face Inference API to perform audio transcription. This requires an API key to access the service.
-2. **Breadboard Web**: Due to a current bug in the core kit where all requests are stringified, This bug affects the API endpoint, which expects a raw binary file instead of a stringified request. Becaue of this we will be demonstrating the board on the CLI. 
-
 ## Input Parameters
 
 - **File Name**: The name of the audio file to be transcribed.
@@ -67,8 +62,7 @@ This demonstration highlights the capability of the Breadboard project's Hugging
 
 ## Source
 
-- [TypeScript](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/audio-transcript/index.ts)
-- [JSON](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/audio-transcript/graph.json)
+- [TypeScript](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/audio-transcript-no-core-kit/index.ts)
 
 <!--
 ## Breadboard Web

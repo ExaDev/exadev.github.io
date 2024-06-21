@@ -47,12 +47,11 @@ This could be useful functionality in our [Chrome Breadboard API](../Chrome%20Ex
 
 ## Conclusion
 
-This demonstration illustrates the current capabilities and future potential of the hooking face board for image classification within the Breadboard project. Thank you for your attention.
+This demonstration illustrates the current capabilities and future potential of the Hugging Face board for image classification within the Breadboard project.
 
 ## Source
 
-- [TypeScript](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/image-classification/index.ts)
-- [JSON](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/image-classification/graph.json)
+- [TypeScript](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/image-classification-no-core-kit/index.ts)
 
 <!--
 ### Breadboard Web

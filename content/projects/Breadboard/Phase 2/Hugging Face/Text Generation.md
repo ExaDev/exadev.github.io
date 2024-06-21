@@ -11,13 +11,13 @@ created: 2024-05-31T19:12:19
 modified: 2024-06-20T11:14:35
 ---
 
-This board leverages the Hugging Face Inference API to generate text based on a given input, making it a powerful tool for various applications.Ï
+This board leverages the Hugging Face Inference API to generate text based on a given input, making it a powerful tool for various applications.
 
 >[!note]
 	 Generate a free API Key [here](https://huggingface.co/settings/tokens)
 
 > [!warning]
-> Sometimes it will error because model is loading just run the board again
+> Sometimes it will error because model is loading just run the board again.
 
 ![](https://youtu.be/8X4w9x7z6XA)
 

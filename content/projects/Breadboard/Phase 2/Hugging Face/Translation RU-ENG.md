@@ -16,7 +16,7 @@ modified: 2024-06-18T08:45:32
 The Russian to English Translation Board leverages the Hugging Face inference API to perform translations from Russian to English.
 
 > [!warning]
-> Sometimes it will error because model is loading just run the board again
+> Sometimes it will error because model is loading just run the board again.
 
 For more information on the Hugging Face Inference API's Translation endpoint, see [here](https://huggingface.co/docs/api-inference/detailed_parameters?code=curl#named-entity-recognition-ner-task).
 
