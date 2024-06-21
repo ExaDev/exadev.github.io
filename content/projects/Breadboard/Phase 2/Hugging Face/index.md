@@ -9,5 +9,7 @@ tags:
   - HuggingFace
   - language_model
 created: 2024-05-31T17:44:42
-modified: 2024-06-18T08:24:57
+modified: 2024-06-21T10:09:43
 ---
+
+![](https://www.youtube.com/playlist?list=PLhROjVY7N7UWS968EJXPkxfpDXv2EPQMa)
