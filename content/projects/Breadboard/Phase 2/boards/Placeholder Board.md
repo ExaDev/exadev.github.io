@@ -6,7 +6,7 @@ tags:
   - breadboard
   - breadboard/phase/2
 created: 2024-06-21T08:27:01
-modified: 2024-06-21T08:38:52
+modified: 2024-06-21T10:07:02
 ---
 
 1. **Concept:**
