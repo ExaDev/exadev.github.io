@@ -6,7 +6,7 @@ tags:
   - breadboard
   - breadboard/phase/2
 created: 2024-06-17T10:49:47
-modified: 2024-06-21T09:56:20
+modified: 2024-06-21T10:07:39
 ---
 
 ![](https://www.youtube.com/playlist?list=PLhROjVY7N7UUDfeDwDxFNVJbkKM0mGU5I)
@@ -48,3 +48,7 @@ modified: 2024-06-21T09:56:20
 - [ ] [Slack Integration](projects/Breadboard/Phase%202/Slack%20Integration.md) by [[Will]]
 - [ ] [React Component Library](projects/Breadboard/Phase%202/React%20Component%20Library.md) by [[James]] or [[Alex]]
 - [ ] [Invoker API](projects/Breadboard/Phase%202/Invoker%20API.md) by [[Joe]]
+- [ ] [Holiday Tool](projects/Breadboard/Phase%202/Holidays.md)
+- [ ] [AutoBake](projects/Breadboard/Phase%201/AutoBake.md)
+- [ ] [CourseCrafter](projects/Breadboard/Phase%201/CourseCrafter.md)
+- [ ] [DevPulse](projects/Breadboard/Phase%201/DevPulse.md)
