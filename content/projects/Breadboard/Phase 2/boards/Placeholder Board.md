@@ -6,11 +6,11 @@ tags:
   - breadboard
   - breadboard/phase/2
 created: 2024-06-21T08:27:01
-modified: 2024-06-21T08:36:07
+modified: 2024-06-21T08:38:52
 ---
 
 1. **Concept:**
-	- Serve as an interface for the [universal filter](projects/Breadboard/Phase%202/boards/Universal%20Filter%20Boards.md) board.
+	- Serve as an interface for the [universal filter](projects/Breadboard/Phase%202/boards/Universal%20Filter%20Board.md) board.
 	- Act as a template to facilitate implementation.
 2. **Implementation Steps:**
 	- Design the placeholder board structure.
