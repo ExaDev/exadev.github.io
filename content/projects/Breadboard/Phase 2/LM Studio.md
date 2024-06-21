@@ -13,8 +13,6 @@ modified: 2024-06-18T10:00:42
 
 Here we will demonstrate the integration between Breadboard and a language model running locally on LM Studio.
 
-Below, we will guide you through the process and explain the functionality of each input parameter.
-
 ![](https://www.youtube.com/embed/0qr_Tk39zWg?rel=0)
 
 ## Objective
@@ -102,8 +100,6 @@ To make a cake, you will need the following ingredients:
 ## Conclusion
 
 This example illustrates the simplicity and potential of integrating breadboards with language models using LM Studio. By following the steps outlined above, you can create responsive and contextually aware applications.
-
-We hope you found this guide useful. For further inquiries or advanced configurations, feel free to contact our support team.
 
 ## Source
 

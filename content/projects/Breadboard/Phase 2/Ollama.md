@@ -12,8 +12,6 @@ created: 2024-05-31T19:23:54
 modified: 2024-06-13T16:05:57
 ---
 
-This demonstartion provides an overview of how a well-designed breadboard can interact with multiple language models simultaneously.
-
 ## Introduction
 
 In this demonstration, we showcase the capability of a breadboard to interact with different language models running locally. This setup is beneficial for developers as it allows for flexibility and ease of switching between language models.

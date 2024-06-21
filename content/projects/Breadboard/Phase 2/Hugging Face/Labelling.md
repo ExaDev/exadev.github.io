@@ -38,7 +38,7 @@ When we send the input to the API, the response confirms that "refund" is the hi
 
 ## Conclusion
 
-This simple example illustrates the functionality of our text classification board. In a later video, we will demonstrate a use case of this board using our [Chrome Breadbaord extension](projects/Breadboard/Phase%202/Chrome%20Extension.md).
+This simple example illustrates the functionality of our text classification board. In a later video, we will demonstrate a use case of this board using our [Chrome Breadbaord extension](../Chrome%20Extension.md).
 
 ## Source
 
@@ -49,3 +49,11 @@ This simple example illustrates the functionality of our text classification boa
 [Graph](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/labelling/board.json)
 
 [Breadboard Web Example](https://breadboard-ai.web.app/?mode=build&board=https%3A%2F%2Fraw.githubusercontent.com%2FExaDev%2Fbreadboard-examples%2FHugging-Face-Clean-History%2Fsrc%2Fexamples%2Flabelling%2Fboard.json)
+
+### Preview Mode
+
+<iframe src="https://breadboard-ai.web.app/?mode=build&board=https%3A%2F%2Fraw.githubusercontent.com%2FExaDev%2Fbreadboard-examples%2FHugging-Face-Clean-History%2Fsrc%2Fexamples%2Flabelling%2Fboard.json&embed" style="width: 100%; height: 500px; border: 0;"></iframe
+
+### Edit Mode
+
+<iframe src="https://breadboard-ai.web.app/?mode=build&board=https%3A%2F%2Fraw.githubusercontent.com%2FExaDev%2Fbreadboard-examples%2FHugging-Face-Clean-History%2Fsrc%2Fexamples%2Flabelling%2Fboard.json" style="width: 100%; height: 500px; border: 0;"></iframe>

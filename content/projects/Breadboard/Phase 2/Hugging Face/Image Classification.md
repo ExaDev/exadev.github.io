@@ -13,7 +13,7 @@ created: 2024-05-31T19:11:08
 modified: 2024-06-18T08:30:38
 ---
 
-In this section, we will provide a demonstration of using a Breadboard to perform image classification with Hugging Face.
+In this section, we will provide a demonstration of using Breadboard to perform image classification using the Hugging Face inference API.
 
 > [!WARNING]
 > Because the core kit stringifies the request body, this wont currently work inside of the board.
@@ -24,14 +24,10 @@ In this section, we will provide a demonstration of using a Breadboard to perfor
 
 ## Introduction
 
-In this demonstration, we will be showcasing how to use a hooking face board to classify images. This demo is performed using the CLI environment due to a current bug in the core kit. The issue lies in the way requests are handled: they are always stringified, while the API endpoint expects raw binary format images.
+In this demonstration, we will be showcasing how to use a board to classify images. This demo is performed using the CLI environment due to a current bug in the core kit. The issue lies in the way requests are handled: they are always stringified, while the API endpoint expects raw binary format images.
 
 See more about the endpoint [here](https://huggingface.co/docs/api-inference/detailed_parameters?code=js#image-classification-task).
-
-## API Endpoint and Current Limitations
-
-The API endpoint used in this demonstration requires the image to be in a raw binary format. Due to the aforementioned bug, this functionality is currently not possible using the Breadboard web interface. As a workaround, the demonstration is conducted using the CLI environment.
-
+ 
 ## Image Classification Process
 
 The Hugging Face board takes an image as input and returns a set of labels attempting to classify the image. For this demonstration, we will use a picture of a cat.
@@ -47,16 +43,15 @@ Upon running the board, the output consists of labels related to the image conte
 
 ## Future Use Cases
 
-We aim to integrate this image classification functionality with the Google Red Board Chrome API. This would enable users to upload images via a browser or take screenshots and classify these images using the Hugging Face board. This integration is planned for future updates.
+This could be useful functionality in our [Chrome Breadboard API](../Chrome%20Extension.md). This would enable users to upload images via a browser or take screenshots and classify these images using the Hugging Face board.
 
 ## Conclusion
 
-This demonstration illustrates the current capabilities and future potential of the hooking face board for image classification within the Breadboard project. Thank you for your attention.
+This demonstration illustrates the current capabilities and future potential of the Hugging Face board for image classification within the Breadboard project.
 
-## Code
+## Source
 
-- [TypeScript](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/image-classification/index.ts)
-- [JSON](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/image-classification/graph.json)
+- [TypeScript](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/image-classification-no-core-kit/index.ts)
 
 <!--
 ### Breadboard Web

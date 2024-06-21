@@ -60,7 +60,7 @@ During our demonstration, the language model provided responses that may not hav
 
 The Hugging Face Fill Mask Board offers a glimpse into the capabilities of AI-powered sentence completion. While the current model may require further tuning, it presents a fascinating application of language models in natural language processing tasks.
 
-## Code
+## Source
 
 - [TypeScript](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/fill-mask/index.ts)
 - [JSON](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/fill-mask/board.json)

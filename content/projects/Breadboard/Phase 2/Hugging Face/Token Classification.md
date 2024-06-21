@@ -13,10 +13,10 @@ created: 2024-05-31T19:12:27
 modified: 2024-06-18T08:52:05
 ---
 
-The Token Classification Board for Breadboard leverages the Hugging Face Inference API to highlight key parts of a given text. It is particularly useful for quickly identifying important topics or entities within a text, such as in research papers or presentations.
+The Token Classification Board leverages the Hugging Face Inference API to highlight key parts of a given text. It is particularly useful for quickly identifying important topics or entities within text, such as in research papers, presentations and API documentation.
 
 > [!warning]
-> Sometimes it will error because model is loading just run the board again
+> Sometimes it will error because model is loading just run the board again.
 
 View the Hugging Face Inference API Token Classification documentation [here](https://huggingface.co/docs/api-inference/detailed_parameters?code=curl#token-classification-task) 
 
@@ -71,10 +71,14 @@ When processed, the board highlights the key topics: `language models`, `compute
 
 - **Research Papers:** Quickly identify and highlight all topics discussed within a paper.
 - **Presentations:** Extract key topics from presentation transcripts efficiently.
+- **Documentation** Quickly indetify and highlight key parts of a system.
+- **Document Processing** Scan through documents to check if certain key words exist, for example checking if CV's sent have keywords we are looking for.
 
 ## Conclusion
 
-The Token Classification Board provides an efficient way to process and highlight important parts of a text, making it a valuable tool for various text analysis tasks. Thank you for exploring the capabilities of this board.
+The Token Classification Board provides an efficient way to process and highlight important parts of a text, making it a valuable tool for various text analysis tasks.
+
+## Source 
 
 - [TypeScript](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/token-classification/index.ts)
 - [JSON](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/token-classification/board.json)

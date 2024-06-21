@@ -13,10 +13,10 @@ created: 2024-05-31T19:12:41
 modified: 2024-06-18T08:45:32
 ---
 
-The Russian to English Translation Board leverages the inference API by Hugging Face to perform translations from Russian to English.
+The Russian to English Translation Board leverages the Hugging Face inference API to perform translations from Russian to English.
 
 > [!warning]
-> Sometimes it will error because model is loading just run the board again
+> Sometimes it will error because model is loading just run the board again.
 
 For more information on the Hugging Face Inference API's Translation endpoint, see [here](https://huggingface.co/docs/api-inference/detailed_parameters?code=curl#named-entity-recognition-ner-task).
 
@@ -77,9 +77,8 @@ The input text "Меня зовут Вольфганг, и я живу в Бер
 - **Browser Extension**: Integration with the Breadboard Chrome extension to enable text selection and translation directly in the browser.
 - **Additional Languages**: Expansion to support translations for more languages.
 
-This documentation provides a comprehensive overview of the Russian to English Translation Board. Future updates and additional features will be documented as they are developed.
 
-## Code
+## Source
 
 - [TypeScript](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/translation-RU-ENG/index.ts)
 - [JSON](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/translation-RU-ENG/board.json)
