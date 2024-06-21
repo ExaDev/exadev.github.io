@@ -6,7 +6,7 @@ tags:
   - breadboard
   - breadboard/phase/2
 created: 2024-06-17T10:49:47
-modified: 2024-06-21T08:15:58
+modified: 2024-06-21T09:56:20
 ---
 
 ![](https://www.youtube.com/playlist?list=PLhROjVY7N7UUDfeDwDxFNVJbkKM0mGU5I)
@@ -30,12 +30,13 @@ modified: 2024-06-21T08:15:58
 - [x] [HuggingFace Image Classification](projects/Breadboard/Phase%202/Hugging%20Face/Image%20Classification.md) by [[John]]
 - [x] [HuggingFace Question Answering](projects/Breadboard/Phase%202/Hugging%20Face/Question%20Answering.md) by [[John]]
 - [x] [HuggingFace Sentence Similarity](projects/Breadboard/Phase%202/Hugging%20Face/Sentence%20Similarity.md) by [[John]]
-- [x] [HuggingFace Summarisation](projects/Breadboard/Phase%202/Hugging%20Face/Summarisation.md) by [[John]]
 - [x] [HuggingFace Text Generation](projects/Breadboard/Phase%202/Hugging%20Face/Text%20Generation.md) by [[John]]
+- [x] [OpenAlex Tool](projects/Breadboard/Phase%202/OpenAlex.md) by [[Tina]]
+- [x] [BreadBot - Discord Bot](projects/Breadboard/Phase%202/BreadBot.md) by [Tina](Tina)
 ## Planned
 
 ### Prioritised
-
+- [ ] [HuggingFace Summarisation](projects/Breadboard/Phase%202/Hugging%20Face/Summarisation.md) by [[John]]
 - [ ] [Hacker News Research Agent](projects/Breadboard/Phase%202/Hacker%20News/Hacker%20News%20Research%20Agent.md) by [[Joe]]
 ### Backlog
 
@@ -44,8 +45,6 @@ modified: 2024-06-21T08:15:58
 - [ ] [[Signals and Events Explainer]] by [[James]]
 - [ ] [NextJS](projects/Breadboard/Phase%202/NextJS.md) by [James](James)
 - [ ] [BGL JSX](projects/Breadboard/Phase%202/BGL%20JSX.md) by [James](James)
-- [x] [OpenAlex Tool](projects/Breadboard/Phase%202/OpenAlex.md) by [[Tina]]
-- [x] [BreadBot - Discord Bot](projects/Breadboard/Phase%202/BreadBot.md) by [Tina](Tina)
 - [ ] [Slack Integration](projects/Breadboard/Phase%202/Slack%20Integration.md) by [[Will]]
 - [ ] [React Component Library](projects/Breadboard/Phase%202/React%20Component%20Library.md) by [[James]] or [[Alex]]
 - [ ] [Invoker API](projects/Breadboard/Phase%202/Invoker%20API.md) by [[Joe]]
