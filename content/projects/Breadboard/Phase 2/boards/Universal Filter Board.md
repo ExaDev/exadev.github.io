@@ -1,7 +1,10 @@
 ---
 title: Universal Filter Board
-aliases: []
-tags: []
+aliases:
+  - Universal Filter Breadboard
+tags:
+  - breadboard/phase/2
+  - breadboard
 created: 2024-06-21T08:19:04
 modified: 2024-06-21T08:26:57
 ---
