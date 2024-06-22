@@ -6,7 +6,7 @@ tags:
   - breadboard
   - breadboard/phase/2
 created: 2024-06-21T08:19:04
-modified: 2024-06-22T22:12:52
+modified: 2024-06-22T22:31:12
 ---
 
 Inspired the concept of the [Placeholder Board](projects/Breadboard/Phase%202/boards/Placeholder%20Board.md) as the "logic" / "wiring" could be written already
@@ -44,13 +44,15 @@ Inspired the concept of the [Placeholder Board](projects/Breadboard/Phase%202/bo
 - Implement feedback loop functionality.
 - Test with a diverse set of input data to validate effectiveness and adaptability.
 ## Use-cases
+
 Filtering an array of results from another board:
+
 - Query improvement:
 	- Inputs:
 		- Query that produced the results.
 		- Results from another board performing any form of query that produces a list of results.
 	- Processed outputs can then be passed to another board to optimise the query based on the "good" and "bad" results.
-	- Processed outputs 
+		- Probably justification for a reusable "[[Prompt Optimiser Board]]" to be use in conjunction with this board.
 - OpenAlex Search:
 	- Outputs of a traditional query search
 	- LLM filters based on a prompt: "Select the most relevant results for query X."
