@@ -6,7 +6,7 @@ tags:
   - breadboard
   - breadboard/phase/2
 created: 2024-06-21T08:19:04
-modified: 2024-06-22T21:54:54
+modified: 2024-06-22T22:12:52
 ---
 
 Inspired the concept of the [Placeholder Board](projects/Breadboard/Phase%202/boards/Placeholder%20Board.md) as the "logic" / "wiring" could be written already
@@ -44,11 +44,13 @@ Inspired the concept of the [Placeholder Board](projects/Breadboard/Phase%202/bo
 - Implement feedback loop functionality.
 - Test with a diverse set of input data to validate effectiveness and adaptability.
 ## Use-cases
-- Filtering an array of results from another board:
-	- OpenAlex Seach:
-		- Outputs of a traditional query search
-		- LLM filters based on a prompt: "Select the most relevant results for query X."
-	- Genetic-algorithm like board
-		- LLM as a fitness function to select candidates for the next generation.
-		- Feedback loop to refine the selection process.
-		- 
+Filtering an array of results from another board:
+- OpenAlex Search:
+	- Outputs of a traditional query search
+	- LLM filters based on a prompt: "Select the most relevant results for query X."
+- Query improvement board:
+	- Inputs are results from another 
+- Genetic-algorithm like board
+	- Prompt to assess each item in the passed in array
+	- LLM then acts as a fitness function to select candidates for the next generation.
+	- Feedback loop to refine the selection process.
