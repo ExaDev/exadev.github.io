@@ -49,8 +49,8 @@ Filtering an array of results from another board:
 	- Inputs:
 		- Query that produced the results.
 		- Results from another board performing any form of query that produces a list of results.
-	- Outputs:
-		- Refined query based on the selected results.
+	- Processed outputs can then be passed to another board to optimise the query based on the "good" and "bad" results.
+	- Processed outputs 
 - OpenAlex Search:
 	- Outputs of a traditional query search
 	- LLM filters based on a prompt: "Select the most relevant results for query X."
