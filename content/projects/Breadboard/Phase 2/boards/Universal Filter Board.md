@@ -45,15 +45,15 @@ Inspired the concept of the [Placeholder Board](projects/Breadboard/Phase%202/bo
 - Test with a diverse set of input data to validate effectiveness and adaptability.
 ## Use-cases
 Filtering an array of results from another board:
-- OpenAlex Search:
-	- Outputs of a traditional query search
-	- LLM filters based on a prompt: "Select the most relevant results for query X."
-- Query improvement board:
+- Query improvement:
 	- Inputs:
 		- Query that produced the results.
 		- Results from another board performing any form of query that produces a list of results.
 	- Outputs:
 		- Refined query based on the selected results.
+- OpenAlex Search:
+	- Outputs of a traditional query search
+	- LLM filters based on a prompt: "Select the most relevant results for query X."
 - Genetic-algorithm like board
 	- Prompt to assess each item in the passed in array
 	- LLM then acts as a fitness function to select candidates for the next generation.
