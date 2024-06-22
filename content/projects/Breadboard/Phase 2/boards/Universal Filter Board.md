@@ -43,5 +43,7 @@ Inspired the concept of the [Placeholder Board](projects/Breadboard/Phase%202/bo
 - Define and integrate filtering criteria.
 - Implement feedback loop functionality.
 - Test with a diverse set of input data to validate effectiveness and adaptability.
-## Example
-
+## Examples
+- Filtering an array of results from another board:
+	- OpenAlex Seach:
+		- 
