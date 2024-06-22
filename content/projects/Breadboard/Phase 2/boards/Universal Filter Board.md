@@ -49,7 +49,7 @@ Filtering an array of results from another board:
 	- Outputs of a traditional query search
 	- LLM filters based on a prompt: "Select the most relevant results for query X."
 - Query improvement board:
-	- Inputs are results from another 
+	- Inputs are results from another board performing a qyer
 - Genetic-algorithm like board
 	- Prompt to assess each item in the passed in array
 	- LLM then acts as a fitness function to select candidates for the next generation.
