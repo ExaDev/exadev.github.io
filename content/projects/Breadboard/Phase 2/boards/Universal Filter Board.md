@@ -46,4 +46,5 @@ Inspired the concept of the [Placeholder Board](projects/Breadboard/Phase%202/bo
 ## Examples
 - Filtering an array of results from another board:
 	- OpenAlex Seach:
-		- 
+		- Outputs of a traditional query search
+		- LLM filters based on a prompt: "Select the most relevant results for a given query."
