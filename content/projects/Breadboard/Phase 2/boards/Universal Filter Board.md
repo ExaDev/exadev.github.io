@@ -43,8 +43,12 @@ Inspired the concept of the [Placeholder Board](projects/Breadboard/Phase%202/bo
 - Define and integrate filtering criteria.
 - Implement feedback loop functionality.
 - Test with a diverse set of input data to validate effectiveness and adaptability.
-## Examples
+## Use-cases
 - Filtering an array of results from another board:
 	- OpenAlex Seach:
 		- Outputs of a traditional query search
-		- LLM filters based on a prompt: "Select the most relevant results for a given query."
+		- LLM filters based on a prompt: "Select the most relevant results for query X."
+	- Genetic-algorithm like board
+		- LLM as a fitness function to select candidates for the next generation.
+		- Feedback loop to refine the selection process.
+		- 
