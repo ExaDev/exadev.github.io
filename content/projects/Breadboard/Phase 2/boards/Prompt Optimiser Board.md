@@ -6,11 +6,12 @@ tags:
   - breadboard
   - breadboard/phase/2
 created: 2024-06-22T22:31:12
-modified: 2024-06-22T22:31:17
+modified: 2024-06-22T22:54:42
 ---
 
 - Initially for use with the outputs of [[Universal Filter Board]] to optimise the query based on the "accepted" and "rejected" results.
 - Sample data
+
 ```json
 {
   "prompt": "What are the health benefits of regular exercise?",
