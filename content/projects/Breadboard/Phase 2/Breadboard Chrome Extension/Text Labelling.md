@@ -1,5 +1,5 @@
 ---
-title: Breadboard Chrome Extension for Labelling Text
+title: Text Labelling Breadboard Chrome Extension
 aliases: []
 tags:
   - breadboard/phase/2
@@ -9,7 +9,7 @@ tags:
   - sentiment
   - Vite
 created: 2024-06-25T11:35:15
-modified: 2024-06-26T08:45:26
+modified: 2024-06-26T08:47:39
 ---
 
 ## Chrome Extension for Performing Text Labelling

@@ -1,5 +1,5 @@
 ---
-title: Breadboard Chrome Extension for Sentiment Analysis
+title: Sentiment Analysis Breadboard Chrome Extension
 aliases: []
 tags:
   - breadboard/phase/2
@@ -9,7 +9,7 @@ tags:
   - sentiment
   - Vite
 created: 2024-06-25T11:35:15
-modified: 2024-06-26T08:42:35
+modified: 2024-06-26T08:47:00
 ---
 
 ## Chrome Extension for Performing Sentiment Analysis

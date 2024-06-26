@@ -1,5 +1,5 @@
 ---
-title: Breadboard Chrome Extension for Summarising Text
+title: Summarising Text Breadboard Chrome Extension
 aliases: []
 tags:
   - breadboard/phase/2
@@ -9,7 +9,7 @@ tags:
   - summarisation
   - Vite
 created: 2024-06-25T11:35:15
-modified: 2024-06-26T08:42:33
+modified: 2024-06-26T08:47:09
 ---
 
 ## Chrome Extension for Summarising Web Pages
