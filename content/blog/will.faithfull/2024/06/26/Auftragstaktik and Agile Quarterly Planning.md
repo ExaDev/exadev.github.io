@@ -1,6 +1,14 @@
+---
+title: 
+aliases: []
+tags: []
+created: 2024-06-26T16:00:25
+modified: 2024-06-26T16:02:43
+---
+
 I was introduced to the term Auftragstaktik by Andrew Parker (https://www.anthropologist.dev/) and I've been taken by it ever since. What is it? And what does it have to do with delivering software?
 
-# History
+## History
 
 Auftragstaktik translates as "Mission Tactics". It's a method of military command and delegation adopted by the Prussian army in the mid-19th century. During the Austro-Prussian (1866) and Franco-Prussian (1870-1871) wars, the Prussian army observed that the increased lethality of weapons and the greater dispersion of forces meant that commanders of military units were often unable to directly observe and control their forces.$^1$
 
@@ -10,13 +18,13 @@ The innovation was to understand that by issuing less specific, more intent-driv
 
 This delegated autonomy requires a high level of trust, and the Prussians cultivated a pervasive culture throughout their army such that superiors could reasonably expect their subordinates to approach a problem in the same way as they would. They did this through another innovation - the General Staff. A permanent, full time professional body that studied war even in times of peace, and had a structured rigorous training programme through which all staff officers had to pass.
 
-# Agile
+## Agile
 
 Enough history. How does this relate to delivering software? You can draw an immediate parallel between Befehlstaktik and Waterfall. In waterfall, requirements are exhaustively analysed up front, and a detailed specification for the software is built. 
 
 We can therefore draw a parallel between Auftragstaktik and Agile as similar philosophies. We accept that we cannot have knowledge of all details and requirements up front, and we anticipate that we are going to have to learn, and use our initiative to solve problems as they occur. We generally wish to delegate the autonomy of how to solve a problem to those closest to the problem.
 
-# Applying these principles
+## Applying These Principles
 
 One of our clients, like many software companies, holds a quarterly planning session. We had the sense that we were packing too much into a quarter, and these planning sessions could last hours as we debated minutiae of implementation details of various tickets.
 
@@ -42,9 +50,10 @@ We adjusted our quarterly planning process thusly:
 
 The purpose of this is to delegate the initiative to the development team. The C-Suite presents the development team with problems, and the development team is free to propose solutions to those problems.
 
-By avoiding debate at the implementation level, we keep our planning sessions short, focussed and at the appropriate level of abstraction for the people in the room. By retaining debate at the tactical initiative level, we allow the C-Suite visibility of plans and the capability to inform clients and stakeholders.
+By avoiding debate at the implementation level, we keep our planning sessions short, focused and at the appropriate level of abstraction for the people in the room. By retaining debate at the tactical initiative level, we allow the C-Suite visibility of plans and the capability to inform clients and stakeholders.
 
 By decoupling intents and initiatives from a timescale and instead focussing on "moving the dial", we remove the anxiety previously associated with quarterly reviews, and encourage open, honest and frank communication without fear of reprisal, fostering greater trust.
 
 References
+
 1. *Nelsen II, John T. ""Auftragstaktik": A Case for Decentralized Battle." The US Army War College Quarterly: Parameters 17.1 (1987): 22.*
