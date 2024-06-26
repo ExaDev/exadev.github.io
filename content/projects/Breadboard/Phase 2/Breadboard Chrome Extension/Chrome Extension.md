@@ -11,7 +11,7 @@ created: 2024-06-07T10:05:18
 modified: 2024-06-25T19:21:56
 ---
 
-## Chrome Summariser Extension
+## Breadboard Chrome Extension
 
 A Chrome extension for using Breadboard with the Google Chrome API. Currently, the extension has a single purpose: to summarise web page content and select text. This version of the extension is exploratory. When feasible, a more generalised version will be created to be used with any board.
 
@@ -39,61 +39,7 @@ This follows the same structure as the summariser, but the focus here was to int
 
 - [Claude summary](https://github.com/ExaDev/breadboard/blob/claude-summarisation-board-test/packages/breadboard-chrome-extension/src/breadboard/graphs/claudeBoard.json)
   [🔗](https://breadboard-ai.web.app/?board=https%3A%2F%2Fraw.githubusercontent.com%2FExaDev%2Fbreadboard%2Fclaude-summarisation-board-test%2Fpackages%2Fbreadboard-chrome-extension%2Fsrc%2Fbreadboard%2Fgraphs%2FclaudeBoard.json)
+- [Sentiment analysis](https://github.com/ExaDev/breadboard/blob/breadboard-sentiment-analysis-chrome-extension/packages/breadboard-chrome-extension/src/breadboard/graphs/sentimentBoard.json)
+  [🔗](https://breadboard-ai.web.app/?mode=build&board=https%3A%2F%2Fraw.githubusercontent.com%2FExaDev%2Fbreadboard%2Fbreadboard-sentiment-analysis-chrome-extension%2Fpackages%2Fbreadboard-chrome-extension%2Fsrc%2Fbreadboard%2Fgraphs%2FsentimentBoard.json)
 
-### Chrome Extension for Summarising Web Pages
-
-#### Overview
-
-Welcome to the Chrome Extension that leverages the power of Breadboard to summarise web pages or selected text effortlessly. Whether you need to condense lengthy articles or extract key points from specific paragraphs, our extension is designed to make this process seamless and efficient.
-
-### Walkthrough
-
-![](https://youtu.be/X24Xggq_nNU)
-
-### Code Walkthrough
-
-![](https://youtu.be/YC3ueVfCxP0)
-
-#### Key Features
-
-- **Summarise Entire Pages**: With just a click, generate a concise summary of the entire web page you're viewing.
-- **Summarise Selected Text**: Highlight any text on the page, right-click, and choose the option to Summarise your selection for a targeted overview.
-- **Automatic Downloads**: Summaries are automatically downloaded as text files for easy access and storage.
-- **Customisable Settings**: Manage your API keys and other settings directly within the extension for personalised use.
-
-#### How It Works
-
-1. **Activate the Extension**: Click on the Breadboard icon in the Chrome toolbar to open the extension popup.
-2. **Choose Your Option**: Select whether you want to Summarise the entire page or just a highlighted section.
-3. **View Your Summary**: The extension will process your request, and a summary will be generated and downloaded if necessary.
-
-#### Detailed Walkthrough
-
-- **Step 1**: Click on the Breadboard icon at the top of your Chrome browser.
-- **Step 2**: Choose to either Summarise the whole page or selected text. For summarising the entire page, click the respective button and wait for the summary to appear. For summarising selected text, highlight the desired text, then right-click and choose "Summarise Selection."
-- **Step 3**: The summary will be processed and displayed in the extension popup. For selected text, you will also see a badge indicating that the process is running and when it completes, the summary will be downloaded as a text file.
-
-#### Settings Page
-
-Customise your experience by accessing the settings page within the extension:
-
-- **API Key Management**: Add or remove API keys as needed. Simply input your key, add it to the list, and save your settings.
-- **User Interface**: The settings page mimics the Breadboard web app's style for a familiar user experience.
-
-#### Technical Details
-
-- **Built with React and Vite**: The extension utilizes React for its front-end components and Vite for the build process, ensuring a smooth and efficient performance.
-- **Background Script**: Handles context menu interactions, sending text selections to Breadboard, and managing background tasks for summarization.
-- **Permissions**: Requires permissions for scripting, accessing the active tab, local storage, context menus, and downloading files to function properly.
-
-#### Upcoming Features
-
-Stay tuned for more functionalities including:
-
-- **Sentiment Analysis**: Understand the emotional tone of the text.
-- **Text Labelling**: Categorise and label text efficiently.
-- **Audio Transcription**: Record audio and generate transcripts using an upcoming audio transcription board.
-
-## Sentiment Analysis
-
-## Text Labelling
+> [!note] For [[SentimentAnalysis]] and [[Text Labelling]], a Hugging Face API key can be generated for free [here](https://huggingface.co/settings/tokens).
