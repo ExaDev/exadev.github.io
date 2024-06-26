@@ -5,10 +5,11 @@ tags:
   - breadboard/phase/2
   - Chrome
   - chrome_extension
-  - sentiment
   - React
+  - sentiment
   - Vite
 created: 2024-06-25T11:35:15
+modified: 2024-06-26T08:42:35
 ---
 
 ## Chrome Extension for Performing Sentiment Analysis
@@ -26,7 +27,7 @@ This is a variant of the Chrome Extension for summarising web pages or selected 
 
 ![](https://youtu.be/-eeI93zytjM)
 
-### Examples - Using an article about Advantages and Disadvantages of ReactJS
+### Examples - Using an Article about Advantages and Disadvantages of ReactJS
 
 1. **Positive Sentiment**: Selecting text about "reusability" may show high positive scores due to positive phrases.
 2. **Negative Sentiment**: Text discussing "complexity" may have high negative scores because of words like "difficulties", "challenges", and "complexity".
@@ -49,6 +50,7 @@ The sentiment analysis is powered by a model from Hugging Face. The model proces
 ### Conclusion
 
 The Sentiment Analysis Board for the Breadboard project simplifies the process of determining the sentiment of selected text. By using the Hugging Face API, the extension provides accurate sentiment analysis with a user-friendly interface.
+
 For further details, refer to the extension settings and Hugging Face documentation on generating API keys and using sentiment models.
 
 > [!note] Hugging Face API key can be generated [here](https://huggingface.co/settings/tokens).

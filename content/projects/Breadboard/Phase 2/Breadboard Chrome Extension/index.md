@@ -8,7 +8,7 @@ tags:
   - React
   - Vite
 created: 2024-06-07T10:05:18
-modified: 2024-06-25T19:21:56
+modified: 2024-06-26T08:43:33
 ---
 
 ## Breadboard Chrome Extension
@@ -27,7 +27,7 @@ Two basic chrome extensions that were built initially while exploring the availa
 
 An initial chrome extension built with Vite, React and Typescript that runs a basic breadboard. Users can type a message into the extension's popup window and have the message logged back to them as they type it.
 
-- [breadboaBd-chrome-extension-for-summarising-page](https://github.com/ExaDev/breadboard/tree/breadboard-chrome-extension-for-summarising-page/packages/breadboard-chrome-extension)
+- [breadboard-chrome-extension-for-summarising-page](https://github.com/ExaDev/breadboard/tree/breadboard-chrome-extension-for-summarising-page/packages/breadboard-chrome-extension)
 
 The most up-to-date and stable version of this project, that uses the Claude API and Breadboard to summarise either all the text in the current chrome tab or a selected piece of text. The summariser can be run both from the extension's main popup window and from the context menu after selecting a bit of text from a page, right-clicking and selecting the "Breadboard > Get summary" option in the context menu. Compared to the initial branches that were the starting point for this project, the summariser follows a different structure in terms of organising files which seemed like a better choice for a chrome extension built with Vite and React.
 
@@ -42,4 +42,4 @@ This follows the same structure as the summariser, but the focus here was to int
 - [Sentiment analysis](https://github.com/ExaDev/breadboard/blob/breadboard-sentiment-analysis-chrome-extension/packages/breadboard-chrome-extension/src/breadboard/graphs/sentimentBoard.json)
   [🔗](https://breadboard-ai.web.app/?mode=build&board=https%3A%2F%2Fraw.githubusercontent.com%2FExaDev%2Fbreadboard%2Fbreadboard-sentiment-analysis-chrome-extension%2Fpackages%2Fbreadboard-chrome-extension%2Fsrc%2Fbreadboard%2Fgraphs%2FsentimentBoard.json)
 
-> [!note] For [[SentimentAnalysis]] and [[Text Labelling]], a Hugging Face API key can be generated for free [here](https://huggingface.co/settings/tokens).
+> [!note] For [Sentiment Analysis](projects/Breadboard/Phase%202/Breadboard%20Chrome%20Extension/Sentiment%20Analysis.md) and [[Text Labelling]], a Hugging Face API key can be generated for free [here](https://huggingface.co/settings/tokens).
