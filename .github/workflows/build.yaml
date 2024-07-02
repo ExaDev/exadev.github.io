@@ -144,4 +144,6 @@ jobs:
           artifact_name: pages
 
       - name: Mark release as published
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: gh release edit ${{ env.TIMESTAMP_TAG }} --draft=false
