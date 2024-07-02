@@ -11,8 +11,6 @@ concurrency:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 jobs:
   build:
@@ -72,10 +70,32 @@ jobs:
     permissions:
       id-token: write
       pages: write
+      contents: write
+
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+
     steps:
+      - name: Check out the repo
+        uses: actions/checkout@v4
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Get latest commit ISO timestamp
+        id: get-timestamp
+        run: echo "COMMIT_TIMESTAMP=$(git log -1 --pretty=format:'%cI')" >> $GITHUB_ENV
+
+      - name: Create Release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ env.COMMIT_TIMESTAMP }}
+          release_name: ${{ env.COMMIT_TIMESTAMP }}
+          body: |
+            Automated release for commit ${{ github.sha }}
+          draft: false
+          prerelease: false
