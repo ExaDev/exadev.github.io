@@ -90,6 +90,11 @@ jobs:
         id: get_timestamp
         run: echo "COMMIT_TIMESTAMP=$(git log -1 --pretty=format:'%cI')" >> $GITHUB_ENV
 
+      - name: Create and push tag on given commit
+        run: |
+          git tag $COMMIT_TIMESTAMP $COMMIT_HASH
+          git push origin $COMMIT_TIMESTAMP
+
       - name: Get artifacts from build job
         uses: actions/download-artifact@v4
         with:
