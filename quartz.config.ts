@@ -86,7 +86,7 @@ const config: QuartzConfig = {
         enableSiteMap: true,
         includeEmptyFiles: false,
         rssFullHtml: true,
-        rssLimit: Infinity,
+        rssLimit: undefined,
         filterFn: ([fullSlug, details]) => {
           return !fullSlug.startsWith("projects/Breadboard/")
         },
