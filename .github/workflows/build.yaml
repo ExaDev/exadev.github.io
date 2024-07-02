@@ -90,10 +90,14 @@ jobs:
         id: get_timestamp
         run: echo "COMMIT_TIMESTAMP=$(git log -1 --pretty=format:'%cI')" >> $GITHUB_ENV
 
+      - name: Make tag name from timestamp
+        id: make_tag_name
+        run: echo "TIMESTAMP_TAG=$(date -d $COMMIT_TIMESTAMP +%Y%m%d%H%M%S)" >> $GITHUB_ENV
+
       - name: Create and push tag on given commit
         run: |
-          git tag $COMMIT_TIMESTAMP $COMMIT_HASH
-          git push origin $COMMIT_TIMESTAMP
+          git tag $TIMESTAMP_TAG $COMMIT_HASH
+          git push origin $TIMESTAMP_TAG
 
       - name: Get artifacts from build job
         uses: actions/download-artifact@v4
@@ -105,7 +109,7 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           name: ${{ env.COMMIT_TIMESTAMP }}
-          tag_name: ${{ env.COMMIT_TIMESTAMP }}
+          tag_name: ${{ env.TIMESTAMP_TAG }}
           fail_on_unmatched_files: true
           target_commitish: ${{ env.COMMIT_HASH }}
           generate_release_notes: true
