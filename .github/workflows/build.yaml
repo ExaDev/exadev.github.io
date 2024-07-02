@@ -93,9 +93,10 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           path: public
+          name: github-pages
 
       - name: Create GitHub Release
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2
         with:
           name: ${{ env.COMMIT_TIMESTAMP }}
           tag_name: ${{ env.COMMIT_TIMESTAMP }}
