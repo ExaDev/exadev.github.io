@@ -20,12 +20,15 @@ export type ContentDetails = {
   description?: string
 }
 
+export type FilterFn = ([fullSlug, ContentDetails]: [FullSlug, ContentDetails]) => boolean
+
 interface Options {
   enableSiteMap: boolean
   enableRSS: boolean
   rssLimit?: number
   rssFullHtml: boolean
   includeEmptyFiles: boolean
+  filterFn?: FilterFn
 }
 
 const defaultOptions: Options = {
@@ -48,7 +51,12 @@ function generateSiteMap(cfg: GlobalConfiguration, idx: ContentIndex): string {
   return `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">${urls}</urlset>`
 }
 
-function generateRSSFeed(cfg: GlobalConfiguration, idx: ContentIndex, limit?: number): string {
+function generateRSSFeed(
+  cfg: GlobalConfiguration,
+  idx: ContentIndex,
+  limit?: number,
+  filterFn: FilterFn = () => true,
+): string {
   const base = cfg.baseUrl ?? ""
 
   const createURLEntry = (slug: SimpleSlug, content: ContentDetails): string => `<item>
@@ -60,6 +68,8 @@ function generateRSSFeed(cfg: GlobalConfiguration, idx: ContentIndex, limit?: nu
   </item>`
 
   const items = Array.from(idx)
+    // .filter(filterFn?.bind(null) ?? (() => true))
+    .filter(filterFn)
     .sort(([_, f1], [__, f2]) => {
       if (f1.date && f2.date) {
         return f2.date.getTime() - f1.date.getTime()
@@ -150,7 +160,7 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
         emitted.push(
           await write({
             ctx,
-            content: generateRSSFeed(cfg, linkIndex, opts.rssLimit),
+            content: generateRSSFeed(cfg, linkIndex, opts.rssLimit, opts.filterFn),
             slug: "index" as FullSlug,
             ext: ".xml",
           }),
