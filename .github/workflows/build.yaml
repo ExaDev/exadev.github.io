@@ -92,7 +92,7 @@ jobs:
 
       - name: Make tag name from timestamp
         id: make_tag_name
-        run: echo "TIMESTAMP_TAG=$(date -d $COMMIT_TIMESTAMP +%Y%m%d%H%M%S)" >> $GITHUB_ENV
+        run: echo "TIMESTAMP_TAG=$(date -d $COMMIT_TIMESTAMP +%Y/%m/%d/%H%M%S)" >> $GITHUB_ENV
 
       - name: Create and push tag on given commit
         run: |
