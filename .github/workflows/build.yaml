@@ -59,7 +59,7 @@ jobs:
       - name: Build
         run: npx -y quartz build --bundleInfo
 
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-artifact@v3
         with:
           path: public
 
@@ -106,6 +106,10 @@ jobs:
           files: public/**
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
 
       - name: Deploy to GitHub Pages
         id: deployment
