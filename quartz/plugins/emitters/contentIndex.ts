@@ -86,7 +86,8 @@ function generateRSSFeed(
     .join("")
 
   return `<?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0">
+<?xml-stylesheet type="text/xsl" href="/rss.xsl"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
       <title>${escapeHTML(cfg.pageTitle)}</title>
       <link>https://${base}</link>
