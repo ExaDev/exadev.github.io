@@ -4,6 +4,7 @@ aliases: []
 tags:
   - breadboard
   - hacker_news
+  - board
 created: 2024-06-14T16:56:00
 modified: 2024-06-14T17:02:04
 ---

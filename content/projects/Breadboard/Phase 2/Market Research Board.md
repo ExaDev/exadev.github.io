@@ -3,6 +3,7 @@ title: Market Research Board
 aliases: []
 tags:
   - breadboard/phase/2
+  - board
 created: 2024-05-30T11:47:48
 modified: 2024-06-17T15:44:17
 ---
@@ -39,25 +40,25 @@ The Market Research Board is designed to streamline the process of market resear
 ## How Does It Work?
 
 1. **Google Custom Search Engine Integration:**
-	- The board uses the Google Custom Search Engine (CSE) API to fetch search results.
-	- Secrets for accessing the API are pre-configured, ensuring smooth operation.
+   - The board uses the Google Custom Search Engine (CSE) API to fetch search results.
+   - Secrets for accessing the API are pre-configured, ensuring smooth operation.
 2. **Search Query Execution:**
-	- For example, a query for "Google Breadboard" is run, typically returning a specific blog post by Dimitri as the top result.
-	- The tool then processes this result, extracting and presenting key information.
+   - For example, a query for "Google Breadboard" is run, typically returning a specific blog post by Dimitri as the top result.
+   - The tool then processes this result, extracting and presenting key information.
 3. **Data Processing:**
-	- The raw HTML from the search result is fetched and parsed.
-	- The data is then converted into a pseudo-markdown format to facilitate context processing by the language model (GNI in this case).
+   - The raw HTML from the search result is fetched and parsed.
+   - The data is then converted into a pseudo-markdown format to facilitate context processing by the language model (GNI in this case).
 4. **Prompt and Data Merging:**
-	- The processed data is merged with the prompt configuration to generate a concise, bullet-pointed output.
+   - The processed data is merged with the prompt configuration to generate a concise, bullet-pointed output.
 
 ## Current Capabilities and Future Plans
 
 - **Current Output:**
-	- The tool provides fairly accurate search terms and initial analysis, offering a solid starting point for further refinement.
+  - The tool provides fairly accurate search terms and initial analysis, offering a solid starting point for further refinement.
 - **Future Enhancements:**
-	- Enhanced Intelligence: More granular summarisation of multiple results is planned, moving beyond simply popping off the first result.
-	- Improved Prompt Tuning: Fine-tuning prompts to generate more detailed and accurate product definitions.
-	- Broader Search Integration: Using the output to push more comprehensive search terms into CSE for a wider range of results, followed by summarisation against a core product definition.
+  - Enhanced Intelligence: More granular summarisation of multiple results is planned, moving beyond simply popping off the first result.
+  - Improved Prompt Tuning: Fine-tuning prompts to generate more detailed and accurate product definitions.
+  - Broader Search Integration: Using the output to push more comprehensive search terms into CSE for a wider range of results, followed by summarisation against a core product definition.
 
 ## Applications and Continuations
 

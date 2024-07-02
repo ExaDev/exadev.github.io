@@ -9,6 +9,7 @@ tags:
   - breadboard/phase/2
   - HuggingFace
   - translation
+  - board
 created: 2024-05-31T19:12:41
 modified: 2024-06-18T08:45:32
 ---
@@ -31,15 +32,18 @@ For more information on the Hugging Face Inference API's Translation endpoint, s
 
 ## Inputs and Parameters
 
-1. **API Key**: 
+1. **API Key**:
+
    - **Description**: A unique key that grants access to the Hugging Face inference API.
    - **Usage**: Required for authentication and accessing the translation service.
 
-2. **Input Text**: 
+2. **Input Text**:
+
    - **Description**: The Russian text that you want to translate into English.
    - **Example**: "Меня зовут Вольфганг, и я живу в Берлине."
 
 3. **Use Cache**:
+
    - **Description**: A boolean flag indicating if the model should return a cached response for previously seen inputs.
    - **Default**: `false`
 
@@ -76,7 +80,6 @@ The input text "Меня зовут Вольфганг, и я живу в Бер
 
 - **Browser Extension**: Integration with the Breadboard Chrome extension to enable text selection and translation directly in the browser.
 - **Additional Languages**: Expansion to support translations for more languages.
-
 
 ## Source
 

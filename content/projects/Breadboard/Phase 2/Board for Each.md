@@ -8,6 +8,7 @@ tags:
   - breadboard
   - breadboard/phase/2
   - utility
+  - board
 created: 2024-06-13T16:07:02
 modified: 2024-06-21T08:17:02
 ---
@@ -19,6 +20,7 @@ This Board allows for data manipulation by processing arrays with custom logic b
 Whether you're dealing with text, numbers, or other data types, the "Board for Each" makes it easy to apply transformations and achieve the desired output.
 
 **The Functionality**:
+
 - **Input**: An array of items and a logic board.
 - **Output**: Processed array with transformations applied to each item.
 
@@ -27,13 +29,13 @@ For example, given the array containing the phrase "The quick brown fox" with it
 ## How It Works
 
 1. **Initial Setup**:
-	- The logic board can accept various inputs, including whole boards or specific data arrays.
+   - The logic board can accept various inputs, including whole boards or specific data arrays.
 2. **Code Implementation**:
-	- The board operates by evaluating each item in the input array.
-	- A ternary operation within the logic board determines whether to change the case of each character.
+   - The board operates by evaluating each item in the input array.
+   - A ternary operation within the logic board determines whether to change the case of each character.
 3. **Execution Process**:
-	- The board processes each item in the array individually.
-	- Results are accumulated and emitted once all items are processed.
+   - The board processes each item in the array individually.
+   - Results are accumulated and emitted once all items are processed.
 
 ## Practical Example
 

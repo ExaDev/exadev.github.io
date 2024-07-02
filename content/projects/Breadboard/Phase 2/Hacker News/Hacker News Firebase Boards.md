@@ -1,7 +1,8 @@
 ---
 title:
 aliases: []
-tags: []
+tags:
+  - board
 created: 2024-06-13T09:22:10
 modified: 2024-06-13T09:36:56
 ---

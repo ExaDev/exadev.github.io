@@ -9,6 +9,7 @@ tags:
   - classification
   - HuggingFace
   - image_classification
+  - board
 created: 2024-05-31T19:11:08
 modified: 2024-06-18T08:30:38
 ---
@@ -27,7 +28,7 @@ In this section, we will provide a demonstration of using Breadboard to perform 
 In this demonstration, we will be showcasing how to use a board to classify images. This demo is performed using the CLI environment due to a current bug in the core kit. The issue lies in the way requests are handled: they are always stringified, while the API endpoint expects raw binary format images.
 
 See more about the endpoint [here](https://huggingface.co/docs/api-inference/detailed_parameters?code=js#image-classification-task).
- 
+
 ## Image Classification Process
 
 The Hugging Face board takes an image as input and returns a set of labels attempting to classify the image. For this demonstration, we will use a picture of a cat.

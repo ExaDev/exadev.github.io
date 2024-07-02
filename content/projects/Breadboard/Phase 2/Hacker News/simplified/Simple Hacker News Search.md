@@ -6,6 +6,7 @@ aliases:
 tags:
   - breadboard/phase/2
   - hacker_news
+  - board
 created: 2024-06-13T09:13:26
 modified: 2024-06-15T10:16:20
 ---
@@ -34,10 +35,7 @@ The full verbose output of the Algolia Search is as follows:
       "title": {
         "fullyHighlighted": false,
         "matchLevel": "full",
-        "matchedWords": [
-          "artificial",
-          "intelligence"
-        ],
+        "matchedWords": ["artificial", "intelligence"],
         "value": "Using <em>Artificial</em> <em>Intelligence</em> to Augment Human <em>Intelligence</em>"
       },
       "url": {
@@ -46,21 +44,9 @@ The full verbose output of the Algolia Search is as follows:
         "value": "https://distill.pub/2017/aia/"
       }
     },
-    "_tags": [
-      "story",
-      "author_runesoerensen",
-      "story_15850254"
-    ],
+    "_tags": ["story", "author_runesoerensen", "story_15850254"],
     "author": "runesoerensen",
-    "children": [
-      15850455,
-      15850526,
-      15850542,
-      15850598,
-      15850715,
-      15850797,
-      15854811
-    ],
+    "children": [15850455, 15850526, 15850542, 15850598, 15850715, 15850797, 15854811],
     "created_at": "2017-12-05T06:56:57Z",
     "created_at_i": 1512457017,
     "num_comments": 30,
@@ -70,7 +56,7 @@ The full verbose output of the Algolia Search is as follows:
     "title": "Using Artificial Intelligence to Augment Human Intelligence",
     "updated_at": "2023-09-07T03:31:26Z",
     "url": "https://distill.pub/2017/aia/"
-  },
+  }
 ]
 ```
 
@@ -78,18 +64,18 @@ The full verbose output of the Algolia Search is as follows:
 
 ```json
 [
- {
-  "author": "runesoerensen",
-  "created_at": "2017-12-05T06:56:57Z",
-  "num_comments": 30,
-  "objectID": "15850254",
-  "points": 254,
-  "story_id": 15850254,
-  "title": "Using Artificial Intelligence to Augment Human Intelligence",
-  "updated_at": "2023-09-07T03:31:26Z",
-  "url": "https://distill.pub/2017/aia/",
-  "objectType": "story"
- }
+  {
+    "author": "runesoerensen",
+    "created_at": "2017-12-05T06:56:57Z",
+    "num_comments": 30,
+    "objectID": "15850254",
+    "points": 254,
+    "story_id": 15850254,
+    "title": "Using Artificial Intelligence to Augment Human Intelligence",
+    "updated_at": "2023-09-07T03:31:26Z",
+    "url": "https://distill.pub/2017/aia/",
+    "objectType": "story"
+  }
 ]
 ```
 
