@@ -1,4 +1,4 @@
-name: Build
+name: Build and Deploy
 
 on:
   push:
@@ -75,27 +75,32 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-
     steps:
       - name: Check out the repo
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Get git commit hash
+        id: get_commit_hash
+        run: echo "COMMIT_HASH=$(git rev-parse HEAD)" >> $GITHUB_ENV
+
+      - name: Get the ISO timestamp of the latest commit
+        id: get_timestamp
+        run: echo "COMMIT_TIMESTAMP=$(git log -1 --pretty=format:'%cI')" >> $GITHUB_ENV
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v1
+        with:
+          name: ${{ env.COMMIT_TIMESTAMP }}
+          tag_name: ${{ env.COMMIT_TIMESTAMP }}
+          fail_on_unmatched_files: true
+          target_commitish: ${{ env.COMMIT_HASH }}
+          generate_release_notes: true
+          files: public/**
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
-      - name: Get latest commit ISO timestamp
-        id: get-timestamp
-        run: echo "COMMIT_TIMESTAMP=$(git log -1 --pretty=format:'%cI')" >> $GITHUB_ENV
-
-      - name: Create Release
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          tag_name: ${{ env.COMMIT_TIMESTAMP }}
-          release_name: ${{ env.COMMIT_TIMESTAMP }}
-          body: |
-            Automated release for commit ${{ github.sha }}
-          draft: false
-          prerelease: false
