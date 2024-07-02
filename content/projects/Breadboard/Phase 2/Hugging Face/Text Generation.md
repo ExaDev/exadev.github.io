@@ -7,14 +7,16 @@ tags:
   - breadboard/phase/2
   - HuggingFace
   - text_generation
+  - board
 created: 2024-05-31T19:12:19
 modified: 2024-06-20T11:14:35
 ---
 
 This board leverages the Hugging Face Inference API to generate text based on a given input, making it a powerful tool for various applications.
 
->[!note]
-	 Generate a free API Key [here](https://huggingface.co/settings/tokens)
+> [!note]
+
+     Generate a free API Key [here](https://huggingface.co/settings/tokens)
 
 > [!warning]
 > Sometimes it will error because model is loading just run the board again.
@@ -37,6 +39,7 @@ This board leverages the Hugging Face Inference API to generate text based on a 
 To demonstrate the functionality of the Hugging Face Text Generation Board, consider the following example:
 
 1. **Input:**
+
    - API Key: `<Your-API-Key>`
    - Context Text: "At the end of the rainbow, there is"
 
