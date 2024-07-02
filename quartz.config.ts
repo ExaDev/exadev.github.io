@@ -88,7 +88,7 @@ const config: QuartzConfig = {
         rssFullHtml: true,
         rssLimit: undefined,
         filterFn: ([fullSlug, details]) => {
-          return !fullSlug.startsWith("projects/Breadboard/")
+          return fullSlug.startsWith("blog/")
         },
       }),
       Plugin.Assets(),
