@@ -1,14 +1,11 @@
 ---
-title: ExaDev Breadboard Activity
+title: Breadboard
 aliases:
-  - Breadboard
   - ExaDev Breadboard Activity
 tags: []
 created: 2024-05-30T13:14:15
-modified: 2024-06-12T09:39:31
+modified: 2024-06-21T08:16:16
 ---
-
-# ExaDev Breadboard Activity
 
 A collection of activities, examples, projects and contributions by the [ExaDev](https://exadev.io/) team members using Google Labs' [Breadboard](https://breadboard-ai.github.io/breadboard/).
 
@@ -23,6 +20,6 @@ Find out more:
 > [!TIP]
 > The `🔗` links will open the board in Breadboard Web
 
-## [Phase 1](Phase%201/index.md)
+## [Phase 1](projects/Breadboard/Phase%201/index.md)
 
-## [Phase 2](Phase%202/index.md)
+## [Phase 2](projects/Breadboard/Phase%202/index.md)

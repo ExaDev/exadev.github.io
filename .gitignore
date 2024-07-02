@@ -12,3 +12,11 @@ replit.nix
 content/.obsidian/workspace.json
 content/.obsidian/graph.json
 .vscode
+.url-cache/
+
+.idea/
+
+content/.smart-connections/
+
+content/smart-chats/
+Untitled.md

@@ -14,10 +14,10 @@ const config: QuartzConfig = {
     analytics: {
       provider: "plausible",
     },
-    locale: "en-US",
+    locale: "en-GB",
     baseUrl: "exadev.github.io",
     ignorePatterns: ["private", "templates", ".obsidian"],
-    defaultDateType: "created",
+    defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
@@ -63,7 +63,11 @@ const config: QuartzConfig = {
         },
         keepBackground: false,
       }),
-      Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
+      Plugin.ObsidianFlavoredMarkdown({
+        enableInHtmlEmbed: true,
+        enableYouTubeEmbed: true,
+        enableCheckbox: true,
+      }),
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.TableOfContents(),
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
@@ -78,14 +82,20 @@ const config: QuartzConfig = {
       Plugin.FolderPage(),
       Plugin.TagPage(),
       Plugin.ContentIndex({
-        enableSiteMap: true,
         enableRSS: true,
+        enableSiteMap: true,
+        includeEmptyFiles: false,
+        rssFullHtml: true,
+        rssLimit: Infinity,
+        filterFn: ([fullSlug, details]) => {
+          return !fullSlug.startsWith("projects/Breadboard/")
+        },
       }),
       Plugin.Assets(),
       Plugin.Static(),
       Plugin.NotFoundPage(),
     ],
   },
-};
+}
 
-export default config;
+export default config
