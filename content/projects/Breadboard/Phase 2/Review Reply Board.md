@@ -7,6 +7,7 @@ tags:
   - breadboard/phase/2
   - business
   - marketing
+  - board
 created: 2024-06-12T09:26:13
 modified: 2024-06-14T21:28:06
 ---

@@ -5,6 +5,7 @@ tags:
   - breadboard/phase/2
   - JSX
   - XML
+  - board
 created: 2024-05-30T11:44:38
 modified: 2024-06-12T10:34:25
 ---
@@ -17,13 +18,13 @@ e.g.
 
 ```tsx
 <board>
-	<nodes>
-		<node id="input-1" type="input" />
-		<node id="output-1" type="output" />
-	</nodes>
-	<edges>
-		<edge from="input-1" out="say" to="output-1" in="hear" />
-	</edges>
+  <nodes>
+    <node id="input-1" type="input" />
+    <node id="output-1" type="output" />
+  </nodes>
+  <edges>
+    <edge from="input-1" out="say" to="output-1" in="hear" />
+  </edges>
 </board>
 ```
 

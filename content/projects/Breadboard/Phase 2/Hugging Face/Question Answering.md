@@ -7,6 +7,7 @@ tags:
   - breadboard/phase/2
   - HuggingFace
   - Question Answering
+  - board
 created: 2024-05-31T19:11:44
 modified: 2024-06-18T08:41:57
 ---

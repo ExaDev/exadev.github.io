@@ -10,16 +10,17 @@ tags:
   - breadboard
   - breadboard/phase/2
   - HuggingFace
+  - board
 created: 2024-05-31T19:07:03
 modified: 2024-06-18T08:34:42
 ---
 
 In this demonstration, we showcase one of the Breadboard project's boards, specifically a Hugging Face board designed for audio transcription. This board leverages the Hugging Face Inference API to convert audio files into text transcripts.
 
-Find out more about speech recognition with the Hugging Face Inference API [here](https://huggingface.co/docs/api-inference/detailed_parameters?code=js#automatic-speech-recognition-task). 
+Find out more about speech recognition with the Hugging Face Inference API [here](https://huggingface.co/docs/api-inference/detailed_parameters?code=js#automatic-speech-recognition-task).
 
 > [!WARNING]
-> Because the core kit stringifies the request body, this wont work inside of the board or Breadboard Web. 
+> Because the core kit stringifies the request body, this wont work inside of the board or Breadboard Web.
 >
 > However it can still be run on CLI as it demonstrates the expected board functionality using built in fetch function.
 

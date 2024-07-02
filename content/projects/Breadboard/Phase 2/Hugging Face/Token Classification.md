@@ -9,6 +9,7 @@ tags:
   - classification
   - HuggingFace
   - token_classification
+  - board
 created: 2024-05-31T19:12:27
 modified: 2024-06-18T08:52:05
 ---
@@ -18,9 +19,9 @@ The Token Classification Board leverages the Hugging Face Inference API to highl
 > [!warning]
 > Sometimes it will error because model is loading just run the board again.
 
-View the Hugging Face Inference API Token Classification documentation [here](https://huggingface.co/docs/api-inference/detailed_parameters?code=curl#token-classification-task) 
+View the Hugging Face Inference API Token Classification documentation [here](https://huggingface.co/docs/api-inference/detailed_parameters?code=curl#token-classification-task)
 
->[!info]
+> [!info]
 > Generate a free Hugging Face API key at: https://huggingface.co/settings/tokens
 
 ![](https://youtu.be/gITcehjKItY)
@@ -39,7 +40,7 @@ The API key is required to access the Hugging Face Inference API.
 
 ### Input Text
 
-The text from which you wish to extract key parts. For example: 
+The text from which you wish to extract key parts. For example:
 
 ```
 My name is Sarah Jessica Parker, and today I will discuss language models, computer science, and AI.
@@ -78,7 +79,7 @@ When processed, the board highlights the key topics: `language models`, `compute
 
 The Token Classification Board provides an efficient way to process and highlight important parts of a text, making it a valuable tool for various text analysis tasks.
 
-## Source 
+## Source
 
 - [TypeScript](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/token-classification/index.ts)
 - [JSON](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/token-classification/board.json)

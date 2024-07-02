@@ -6,6 +6,7 @@ aliases:
 tags:
   - breadboard/phase/2
   - HuggingFace
+  - board
 created: 2024-05-31T19:08:34
 modified: 2024-06-18T08:57:06
 ---
@@ -17,14 +18,14 @@ Read more about the Hugging Face Inference API Fill Mask Task [here](https://hug
 > [!warning]
 > Sometimes it will error because model is loading just run the board again
 
->[!note]
+> [!note]
 > Generate a free Hugging Face API [here](https://huggingface.co/settings/tokens)
 
 ![](https://youtu.be/1JkFbhX-OLg)
 
 ## Functionality
 
-The primary function of the Hugging Face Fill Mask Board is sentence completion. Users provide a sentence with a placeholder (mask) where a word is missing, and the board predicts and fills in the most suitable word for that position. 
+The primary function of the Hugging Face Fill Mask Board is sentence completion. Users provide a sentence with a placeholder (mask) where a word is missing, and the board predicts and fills in the most suitable word for that position.
 
 **Example Sentence:**
 
