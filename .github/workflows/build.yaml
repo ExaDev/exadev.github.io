@@ -59,9 +59,10 @@ jobs:
       - name: Build
         run: npx -y quartz build --bundleInfo
 
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
           path: public
+          name: public
 
   deploy:
     if: github.ref == 'refs/heads/main'
