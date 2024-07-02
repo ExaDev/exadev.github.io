@@ -13,14 +13,14 @@
   },
   "scripts": {
     "quartz": "./quartz/bootstrap-cli.mjs",
-    "docs": "npx quartz build --serve -d docs",
+    "docs": "npx . --serve -d docs",
     "check": "tsc --noEmit && npx prettier . --check",
     "format": "npx prettier . --write",
     "test": "tsx ./quartz/util/path.test.ts && tsx ./quartz/depgraph.test.ts",
     "profile": "0x -D prof ./quartz/bootstrap-cli.mjs build --concurrency=1",
     "check-urls": "npx tsx ./url-check.ts",
-    "build": "npx -y quartz build",
-    "serve": "npx -y quartz build --serve"
+    "build": "npx . build",
+    "serve": "npx . build --serve"
   },
   "engines": {
     "npm": ">=9.3.1",
