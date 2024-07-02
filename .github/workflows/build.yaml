@@ -127,6 +127,7 @@ jobs:
           # target_commitish: ${{ env.COMMIT_HASH }}
           generate_release_notes: true
           files: pages.tar.gz
+          draft: true
 
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -141,3 +142,6 @@ jobs:
         uses: actions/deploy-pages@v4
         with:
           artifact_name: pages
+
+      - name: Mark release as published
+        run: gh release edit ${{ env.TIMESTAMP_TAG }} --draft=false
