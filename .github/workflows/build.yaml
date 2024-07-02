@@ -89,6 +89,12 @@ jobs:
         id: get_timestamp
         run: echo "COMMIT_TIMESTAMP=$(git log -1 --pretty=format:'%cI')" >> $GITHUB_ENV
 
+      - name: Get artifacts from build job
+        uses: actions/download-artifact@v3
+        with:
+          name: public
+          path: public
+
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v1
         with:
