@@ -93,7 +93,7 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           path: public
-          name: github-pages
+          name: public
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
