@@ -14,7 +14,7 @@ const config: QuartzConfig = {
     analytics: {
       provider: "plausible",
     },
-    locale: "en-US",
+    locale: "en-GB",
     baseUrl: "exadev.github.io",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
@@ -82,8 +82,14 @@ const config: QuartzConfig = {
       Plugin.FolderPage(),
       Plugin.TagPage(),
       Plugin.ContentIndex({
-        enableSiteMap: true,
         enableRSS: true,
+        enableSiteMap: true,
+        includeEmptyFiles: false,
+        rssFullHtml: true,
+        rssLimit: Infinity,
+        filterFn: ([fullSlug, details]) => {
+          return !fullSlug.startsWith("projects/Breadboard/")
+        },
       }),
       Plugin.Assets(),
       Plugin.Static(),

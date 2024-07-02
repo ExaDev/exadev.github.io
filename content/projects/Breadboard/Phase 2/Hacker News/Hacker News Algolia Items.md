@@ -4,6 +4,7 @@ aliases: []
 tags:
   - breadboard/phase/2
   - hacker_news
+  - board
 created: 2024-06-13T09:21:01
 modified: 2024-06-13T09:49:19
 ---

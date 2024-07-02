@@ -6,6 +6,7 @@ tags:
   - breadboard/phase/2
   - OpenAlex
   - toolworker
+  - board
 created: 2024-05-30T11:45:43
 modified: 2024-06-20T09:11:11
 ---
@@ -29,29 +30,32 @@ The OpenAlex Entity Search Results Board is a simple and efficient tool within t
 - **Options:** Various entity types provided by OpenAlex.
 
 ### Search Result Customisation
+
 - **Number of Pages:** User-defined.
 - **Results per Page:** User-defined.
 
 ### Field Selection
+
 - **Default:** `id,display_name,title,relevance_score`
 - **Selectable Fields:** Users can choose which details to receive in the search results.
 
 ### Search Term
+
 - **Default:** `artificial intelligence`
 - **Custom Example:** `"machine learning"` (using double quotes for exact matches).
 
 ## How It Works
 
 1. **Core Kit and Template Kit Integration:**
-	- The board uses the Core Kit and Template Kit.
-	- The Code Node, part of the Core Kit, handles the main logic behind the scenes.
+   - The board uses the Core Kit and Template Kit.
+   - The Code Node, part of the Core Kit, handles the main logic behind the scenes.
 2. **URL Template Node:**
-	- This node, from the Template Kit, safely constructs a URL with the selected path and query parameters.
+   - This node, from the Template Kit, safely constructs a URL with the selected path and query parameters.
 3. **Fetch Node:**
-	- The constructed URL is passed to the Fetch Node (part of the Core Kit).
-	- This node fetches the details and returns the response.
+   - The constructed URL is passed to the Fetch Node (part of the Core Kit).
+   - This node fetches the details and returns the response.
 4. **Custom Node for Object Spreading:**
-	- The response is passed to a custom node that spreads the properties of the given object into a new object, ensuring the correct type is returned to the output.
+   - The response is passed to a custom node that spreads the properties of the given object into a new object, ensuring the correct type is returned to the output.
 
 ## Usage
 

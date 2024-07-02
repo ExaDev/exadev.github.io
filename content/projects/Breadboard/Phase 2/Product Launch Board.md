@@ -3,6 +3,7 @@ title: Product Launch Board
 aliases: []
 tags:
   - breadboard/phase/2
+  - board
 created: 2024-06-12T11:16:20
 modified: 2024-06-12T15:04:44
 started: false

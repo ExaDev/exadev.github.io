@@ -7,6 +7,7 @@ tags:
   - breadboard/phase/2
   - HuggingFace
   - sentence_similarity
+  - board
 created: 2024-05-31T19:11:53
 modified: 2024-06-20T14:14:40
 ---
@@ -33,6 +34,7 @@ Given a source sentence and a list of sentences, the board compares each sentenc
 ### Example
 
 When provided with a source sentence and three target sentences, the board produces the following results:
+
 - **Sentence 1**: Relatively high similarity score.
 - **Sentence 2**: Highest similarity score of 0.94.
 - **Sentence 3**: Very low similarity score, indicating it is not related to the source sentence.

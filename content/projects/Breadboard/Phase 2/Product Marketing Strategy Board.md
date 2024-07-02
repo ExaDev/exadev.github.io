@@ -3,6 +3,7 @@ title: Product Marketing Strategy Board
 aliases: []
 tags:
   - breadboard/phase/2
+  - board
 created: 2024-06-12T11:18:18
 modified: 2024-06-18T10:03:09
 ---
