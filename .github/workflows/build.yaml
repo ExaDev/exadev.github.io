@@ -116,7 +116,7 @@ jobs:
           ls -lah
 
       - name: Make formatted release name
-        run: echo "RELEASE_NAME=$(date -d $COMMIT_TIMESTAMP +%Y/%m/%d %H:%M:%S)" >> $GITHUB_ENV
+        run: echo "RELEASE_NAME=$(date -d $COMMIT_TIMESTAMP '+%Y/%m/%d %H:%M:%S')" >> $GITHUB_ENV
 
       - uses: actions/upload-pages-artifact@v3
         with:
