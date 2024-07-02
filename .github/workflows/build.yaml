@@ -115,10 +115,13 @@ jobs:
           tar -czf pages.tar.gz public
           ls -lah
 
+      - name: Make formatted release name
+        run: echo "RELEASE_NAME=$(date -d $COMMIT_TIMESTAMP +%Y/%m/%d %H:%M:%S)" >> $GITHUB_ENV
+
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          name: ${{ env.COMMIT_TIMESTAMP }}
+          name: ${{ env.RELEASE_NAME }}
           tag_name: ${{ env.TIMESTAMP_TAG }}
           fail_on_unmatched_files: true
           # target_commitish: ${{ env.COMMIT_HASH }}
