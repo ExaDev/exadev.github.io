@@ -9,7 +9,7 @@ tags:
   - business
   - marketing
 created: 2024-06-12T09:26:13
-modified: 2024-07-03T17:08:36
+modified: 2024-07-03T17:18:47
 ---
 
 A prototype has been developed for automating responses to business reviews using Google’s Gemini model. This prototype is particularly useful for businesses managing their reviews via the Google Business Profile API.
@@ -53,6 +53,8 @@ This demo board is a wrapper board to pass a sample review to the `business-revi
 #### Edit Mode
 
 <iframe src="https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/ExaDev/breadboard/business-review-reply/packages/breadboard-web/public/graphs/business-review-replier-demo.json" style="width: 100%; height: 500px; border: 0;"></iframe>
+
+<iframe src="http://localhost:5173/?board=https://raw.githubusercontent.com/ExaDev/breadboard/business-review-reply/packages/breadboard-web/public/graphs/business-review-replier-demo.json&embed" style="width: 100%; height: 500px; border: 0;"></iframe>
 
 ## Source Code
 
