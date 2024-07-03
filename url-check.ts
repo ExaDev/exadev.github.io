@@ -1,7 +1,7 @@
 #!/usr/bin/env -S npx -y tsx --no-cache
-import * as crypto from "crypto"
-import * as fs from "fs"
-import * as path from "path"
+import * as crypto from "crypto";
+import * as fs from "fs";
+import * as path from "path";
 
 const CACHE_DIR = "./.url-cache"
 const CACHE_DURATION = 24 * 60 * 60 * 1000 // 24 hours in milliseconds
@@ -251,6 +251,9 @@ const fileExtensions = ["md"]
 const ignoreUrls: string[] = [
   "https://distill.pub/2017/aia/",
   "https://www.healthline.com/health/fitness-exercise/benefits-of-exercise",
+  "https://huggingface.co/settings/tokens",
+  "https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/exercise/art-20048389",
+  "https://www.cdc.gov/physicalactivity/basics/pa-health/index.htm",
 ]
 
 const errors: any[] = []
