@@ -21,9 +21,9 @@ As you can see from the video below, if someone came to me with a product idea t
 
 ![](https://www.youtube.com/embed/lFe6koESrH4?rel=0)
 
-<https://breadboard-ai.web.app/?board=https://exadev.github.io/boards/exam-coach.bgl.json>
+<https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/ExaDev/breadboard/business-review-reply/packages/breadboard-web/public/graphs/business-review-replier-demo.json>
 
-<iframe src="https://breadboard-ai.web.app/?board=https://exadev.github.io/boards/exam-coach.bgl.json&embed" style="width: 100%; height: 500px; border: 0;"></iframe>
+<iframe src="https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/ExaDev/breadboard/business-review-reply/packages/breadboard-web/public/graphs/business-review-replier-demo.json&embed" style="width: 100%; height: 500px; border: 0;"></iframe>
 
 All that's left is the frontend, backend, infrastructure, external integrations, testing, billing and subscription management, business operations, support, maintenance.. you get the picture.
 
