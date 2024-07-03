@@ -1,6 +1,6 @@
 import { Root } from "hast"
 import { GlobalConfiguration } from "../../cfg"
-import { getDate } from "../../components/Date"
+import { ValidDateType, getDate, getDates } from "../../components/Date"
 import { escapeHTML } from "../../util/escape"
 import { FilePath, FullSlug, SimpleSlug, joinSegments, simplifySlug } from "../../util/path"
 import { QuartzEmitterPlugin } from "../types"
@@ -18,6 +18,8 @@ export type ContentDetails = {
   richContent?: string
   date?: Date
   description?: string
+} & {
+  [Key in ValidDateType]?: Date
 }
 
 export type FilterFn = ([fullSlug, ContentDetails]: [FullSlug, ContentDetails]) => boolean
@@ -131,6 +133,7 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
       for (const [tree, file] of content) {
         const slug = file.data.slug!
         const date = getDate(ctx.cfg.configuration, file.data) ?? new Date()
+        const dates = getDates(file.data)
         if (opts?.includeEmptyFiles || (file.data.text && file.data.text !== "")) {
           linkIndex.set(slug, {
             title: file.data.frontmatter?.title!,
@@ -141,6 +144,7 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
               ? escapeHTML(toHtml(tree as Root, { allowDangerousHtml: true }))
               : undefined,
             date: date,
+            ...dates,
             description: file.data.description ?? "",
           })
         }
