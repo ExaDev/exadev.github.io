@@ -1,6 +1,6 @@
 import { Root } from "hast"
 import { GlobalConfiguration } from "../../cfg"
-import { getDate } from "../../components/Date"
+import { ValidDateType, getDate, getDates } from "../../components/Date"
 import { escapeHTML } from "../../util/escape"
 import { FilePath, FullSlug, SimpleSlug, joinSegments, simplifySlug } from "../../util/path"
 import { QuartzEmitterPlugin } from "../types"
@@ -18,6 +18,8 @@ export type ContentDetails = {
   richContent?: string
   date?: Date
   description?: string
+} & {
+  [Key in ValidDateType]?: Date
 }
 
 export type FilterFn = ([fullSlug, ContentDetails]: [FullSlug, ContentDetails]) => boolean
@@ -70,6 +72,10 @@ function generateRSSFeed(
   const items = Array.from(idx)
     // .filter(filterFn?.bind(null) ?? (() => true))
     .filter(filterFn)
+    .map(([slug, item]): [FullSlug, ContentDetails] => {
+      item.date = selectDate(item)
+      return [slug, item]
+    })
     .sort(([_, f1], [__, f2]) => {
       if (f1.date && f2.date) {
         return f2.date.getTime() - f1.date.getTime()
@@ -131,6 +137,7 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
       for (const [tree, file] of content) {
         const slug = file.data.slug!
         const date = getDate(ctx.cfg.configuration, file.data) ?? new Date()
+        const dates = getDates(file.data)
         if (opts?.includeEmptyFiles || (file.data.text && file.data.text !== "")) {
           linkIndex.set(slug, {
             title: file.data.frontmatter?.title!,
@@ -141,6 +148,7 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
               ? escapeHTML(toHtml(tree as Root, { allowDangerousHtml: true }))
               : undefined,
             date: date,
+            ...dates,
             description: file.data.description ?? "",
           })
         }
@@ -193,4 +201,8 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
     },
     getQuartzComponents: () => [],
   }
+}
+export function selectDate(item: ContentDetails): Date {
+  const value = item.created ?? item.modified ?? item.date ?? new Date()
+  return value
 }
