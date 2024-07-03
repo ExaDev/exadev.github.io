@@ -21,12 +21,12 @@ The Object Manipulator board was developed to work initially with the [For Each 
 
 ## How It Works
 
-1. **Input Configuration**: 
+1. **Input Configuration**:
 	- Define the keys you are interested in.
 	- Choose between pick and omit modes based on your requirements.
-1. **Sample Object Handling**: 
+1. **Sample Object Handling**:
 	- Apply the configuration to a sample object to observe the effects.
-2. **Strict Mode Activation**: 
+2. **Strict Mode Activation**:
 	- Enable strict mode to ensure keys' presence according to the chosen operation mode.
 
 ## Usage Example
@@ -34,7 +34,7 @@ The Object Manipulator board was developed to work initially with the [For Each 
 ### Pick Mode
 
 - **Configuration**: Picking `name` and `surname` from the input object.
-- **Output**: 
+- **Output**:
 
 ```json
 {
@@ -46,7 +46,7 @@ The Object Manipulator board was developed to work initially with the [For Each 
 ### Omit Mode
 
 - **Configuration**: Omitting `surname` from the input object.
-- **Output**: 
+- **Output**:
 
 ```json
 {
@@ -73,8 +73,8 @@ This board is used in the [Simple Hacker News Search](projects/Breadboard/Phase%
 
 ## Source
 
-- [TypeScript](https://github.com/breadboard-ai/breadboard/blob/main/packages/breadboard-web/src/boards/object-manipulator.ts)
-- [JSON](https://github.com/breadboard-ai/breadboard/blob/main/packages/breadboard-web/public/graphs/object-manipulator.json)
+- [TypeScript](https://github.com/breadboard-ai/breadboard/blob/main/packages/visual-editor/src/boards/object-manipulator.ts)
+- [JSON](https://github.com/breadboard-ai/breadboard/blob/main/packages/visual-editor/public/graphs/object-manipulator.json)
 
 ## Breadboard Web
 
