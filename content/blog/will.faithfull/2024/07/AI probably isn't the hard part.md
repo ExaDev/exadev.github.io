@@ -1,5 +1,5 @@
 ---
-title: 
+title: "AI" probably isn't the hard part
 aliases: []
 tags:
   - breadboard
