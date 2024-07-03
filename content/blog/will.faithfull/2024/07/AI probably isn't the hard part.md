@@ -4,7 +4,7 @@ aliases: []
 tags:
   - breadboard
 created: 2024-07-03T14:00:10
-modified: 2024-07-03T15:43:53
+modified: 2024-07-03T16:00:07
 ---
 
 We're all frogs in the AI pot and it's surprising how much the temperature of the water has increased recently. The commoditisation of LLMs-as-a-service and the proliferation of their capabilities has thrown people's understanding of how difficult some problems are into disarray. Sure, this isn't a new problem, as [XKCD](https://xkcd.com/1425/) famously remarked on, but recently I think the dial has moved again.
