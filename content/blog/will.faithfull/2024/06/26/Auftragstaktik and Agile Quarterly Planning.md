@@ -1,24 +1,24 @@
 ---
-title:
+title: 
 aliases: []
 tags:
   - agile
-  - software_development
   - auftragstaktik
-  - mission_tactics
-  - waterfall
-  - military_strategy
-  - delegated_autonomy
+  - business_objectives
   - c_suite
+  - delegated_autonomy
+  - implementation_details
+  - military_strategy
+  - mission_tactics
+  - project_management
+  - software_development
+  - software_engineering
   - strategic_planning
   - tactical_initiatives
-  - implementation_details
-  - project_management
-  - software_engineering
   - team_collaboration
-  - business_objectives
+  - waterfall
 created: 2024-06-26T16:00:25
-modified: 2024-06-26T16:02:43
+modified: 2024-06-28T13:22:15
 ---
 
 I was introduced to the term Auftragstaktik by Andrew Parker (<https://www.anthropologist.dev/>) and I've been taken by it ever since. What is it? And what does it have to do with delivering software?
@@ -68,6 +68,8 @@ The purpose of this is to delegate the initiative to the development team. The C
 By avoiding debate at the implementation level, we keep our planning sessions short, focused and at the appropriate level of abstraction for the people in the room. By retaining debate at the tactical initiative level, we allow the C-Suite visibility of plans and the capability to inform clients and stakeholders.
 
 By decoupling intents and initiatives from a timescale and instead focussing on "moving the dial", we remove the anxiety previously associated with quarterly reviews, and encourage open, honest and frank communication without fear of reprisal, fostering greater trust.
+
+The best bit? Our quarterly plan now fits on one page, and takes seconds for a human to parse. It used to be a hodgepodge of implementation tickets spanning pages and pages.
 
 References
 
