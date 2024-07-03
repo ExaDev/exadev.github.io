@@ -4,12 +4,12 @@ aliases:
   - Automated Business Review Responses
   - Review Reply Board
 tags:
+  - board
   - breadboard/phase/2
   - business
   - marketing
-  - board
 created: 2024-06-12T09:26:13
-modified: 2024-06-14T21:28:06
+modified: 2024-07-03T17:08:36
 ---
 
 A prototype has been developed for automating responses to business reviews using Google’s Gemini model. This prototype is particularly useful for businesses managing their reviews via the Google Business Profile API.
