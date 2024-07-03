@@ -1,7 +1,7 @@
 #!/usr/bin/env -S npx -y tsx --no-cache
-import * as crypto from "crypto";
-import * as fs from "fs";
-import * as path from "path";
+import * as crypto from "crypto"
+import * as fs from "fs"
+import * as path from "path"
 
 const CACHE_DIR = "./.url-cache"
 const CACHE_DURATION = 24 * 60 * 60 * 1000 // 24 hours in milliseconds
@@ -248,7 +248,10 @@ function logWithStyles(message: string, styles: string[], log = console.log): vo
 
 const directoryPath = "./content"
 const fileExtensions = ["md"]
-const ignoreUrls: string[] = ["https://distill.pub/2017/aia/"]
+const ignoreUrls: string[] = [
+  "https://distill.pub/2017/aia/",
+  "https://www.healthline.com/health/fitness-exercise/benefits-of-exercise",
+]
 
 const errors: any[] = []
 await checkUrlsInDirectory(directoryPath, fileExtensions, ignoreUrls).then(
