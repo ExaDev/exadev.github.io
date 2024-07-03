@@ -114,7 +114,7 @@ function cacheUrlStatus(url: string, result: UrlCheckType) {
     timestamp: Date.now(),
     result,
   }
-  fs.writeFileSync(cacheFilePath, JSON.stringify(cacheContent, null, "'t"), "utf8")
+  fs.writeFileSync(cacheFilePath, JSON.stringify(cacheContent, null, "\t"), "utf8")
 }
 
 type UrlCheckType = {
