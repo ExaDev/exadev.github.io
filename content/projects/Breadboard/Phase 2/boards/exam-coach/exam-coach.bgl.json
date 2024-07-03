@@ -1,0 +1,164 @@
+{
+  "title": "IELTS-exam-practice",
+  "description": "A board to act as a coach / practice tool for exam questions. It can be seeded with a question, answer and marking scheme and will then give constructive feedback about the student's answer.",
+  "version": "0.0.1",
+  "metadata": {
+    "comments": [],
+    "tags": []
+  },
+  "edges": [
+    {
+      "from": "promptTemplate-f5db9f16",
+      "to": "specialist-3a9247e9",
+      "out": "prompt",
+      "in": "task"
+    },
+    {
+      "from": "input",
+      "to": "specialist-3a9247e9",
+      "out": "property-2",
+      "in": "in"
+    },
+    {
+      "from": "input",
+      "to": "specialist-3a9247e9",
+      "out": "property-4",
+      "in": "persona"
+    },
+    {
+      "from": "input",
+      "to": "promptTemplate-f5db9f16",
+      "out": "property-3",
+      "in": "MarkingScheme"
+    },
+    {
+      "from": "input",
+      "to": "promptTemplate-f5db9f16",
+      "out": "context",
+      "in": "Question"
+    },
+    {
+      "from": "specialist-3a9247e9",
+      "to": "output",
+      "out": "out",
+      "in": "context"
+    }
+  ],
+  "nodes": [
+    {
+      "type": "input",
+      "id": "input",
+      "configuration": {
+        "schema": {
+          "properties": {
+            "context": {
+              "type": "object",
+              "title": "Question",
+              "examples": [],
+              "default": "{\"role\":\"user\",\"parts\":[{\"text\":\"In the last few decades there has been a significant increase in the number of opportunities for international travel, with more transport routes and cheaper fares.\\n\\nThere are undoubtedly benefits flowing from this growth in international tourism. People now have a greater awareness of other cultures than was the case even one generation ago. Travelling widely to enjoy such things as the art, customs and cuisine of different countries used to be the preserve of the wealthy classes. Now even the less well-off have access to them.\\n\\nThere are, however, drawbacks associated with this level of mobility. Firstly, a number of resorts, even whole countries, have so many tourists that the culture and environment are severely damaged. For example, traditional crafts are replaced by the manufacturing of cheap trinkets and local singing and dancing are packaged for tourist consumption. Because tourists stay for only a short time they often don't care if they behave badly or litter the streets. Secondly, although the hospitality industry does bring employment, it tends to be precarious because much of it is seasonal, with long periods of the year offering no work. The income from tourism is unevenly distributed, with a small number of big businesses (e.g. property developers) making a lot of money but the majority of people working for low wages as waiters or guides. Related to this is the fact that money spent by tourists is seldom retained by the local economy: profits are frequently taken out by multinational corporations. Finally, international travel adds to greenhouse gases, leading to harmful climate change.\\n\\nIn my view, despite the advantages of travel to both tourists and host countries, these do not compensate for the damage inflicted on the environment, social structures and individuals by mass tourism.\"}]}",
+              "behavior": [
+                "llm-content"
+              ],
+              "format": "text-inline"
+            },
+            "property-2": {
+              "type": "object",
+              "behavior": [
+                "llm-content"
+              ],
+              "title": "Answer",
+              "examples": [],
+              "default": "{\"role\":\"user\",\"parts\":[{\"text\":\"In the last few decades there has been a significant increase in the number of opportunities for international travel, with more transport routes and cheaper fares.\\n\\nThere are undoubtedly benefits flowing from this growth in international tourism. People now have a greater awareness of other cultures than was the case even one generation ago. Travelling widely to enjoy such things as the art, customs and cuisine of different countries used to be the preserve of the wealthy classes. Now even the less well-off have access to them.\\n\\nThere are, however, drawbacks associated with this level of mobility. Firstly, a number of resorts, even whole countries, have so many tourists that the culture and environment are severely damaged. For example, traditional crafts are replaced by the manufacturing of cheap trinkets and local singing and dancing are packaged for tourist consumption. Because tourists stay for only a short time they often don't care if they behave badly or litter the streets. Secondly, although the hospitality industry does bring employment, it tends to be precarious because much of it is seasonal, with long periods of the year offering no work. The income from tourism is unevenly distributed, with a small number of big businesses (e.g. property developers) making a lot of money but the majority of people working for low wages as waiters or guides. Related to this is the fact that money spent by tourists is seldom retained by the local economy: profits are frequently taken out by multinational corporations. Finally, international travel adds to greenhouse gases, leading to harmful climate change.\\n\\nIn my view, despite the advantages of travel to both tourists and host countries, these do not compensate for the damage inflicted on the environment, social structures and individuals by mass tourism.\"}]}",
+              "format": "text-inline"
+            },
+            "property-3": {
+              "type": "object",
+              "behavior": [
+                "llm-content"
+              ],
+              "title": "MarkingScheme",
+              "examples": [],
+              "default": "{\"role\":\"user\",\"parts\":[{\"text\":\"## Band 9\\n\\n**Task achievement**\\nAll the requirements of the task are fully and appropriately satisfied.\\n\\nThere may be extremely rare lapses in content.\\n\\n**Coherence and cohesion**\\nThe message can be followed effortlessly.\\n\\nCohesion is used in such a way that it very rarely attracts attention.\\n\\nAny lapses in coherence or cohesion are minimal.\\n\\nParagraphing is skilfully managed.\\n\\n**Lexical resource**\\nFull flexibility and precise use are evident within the scope of the task.\\n\\nA wide range of vocabulary is used accurately and appropriately with very natural and sophisticated control of lexical features.\\n\\nMinor errors in spelling and word formation are extremely rare and have minimal impact on communication.\\n\\n**Grammatical range and accuracy**\\nA wide range of structures within the scope of the task is used with full flexibility and control.\\n\\nPunctuation and grammar are used appropriately throughout.\\n\\nMinor errors are extremely rare and have minimal impact on communication.\\n\\n## Band 8\\n\\n**Task achievement**\\nThe response covers all the requirements of the task appropriately, relevantly and sufficiently.\\n\\n(Academic) Key features are skilfully selected, and clearly presented, highlighted and illustrated.\\n\\n(General Training) All bullet points are clearly presented, and appropriately illustrated or extended.\\n\\nThere may be occasional omissions or lapses in content.\\n**Coherence and cohesion**\\nThe message can be followed with ease.\\n\\nInformation and ideas are logically sequenced, and cohesion is well managed.\\n\\nOccasional lapses in coherence or cohesion may occur.\\n\\nParagraphing is used sufficiently and appropriately.\\n**Lexical resource**\\nA wide resource is fluently and flexibly used to convey precise meanings within the scope of the task.\\n\\nThere is a skilful use of uncommon and/or idiomatic items when appropriate, despite occasional inaccuracies in word choice and collocation.\\n\\nOccasional errors in spelling and/or word formation may occur, but have minimal impact on communication.\\n**Grammatical range and accuracy**\\nA wide range of structures within the scope of the task is flexibly and accurately used.\\n\\nThe majority of sentences are error-free, and punctuation is well managed.\\n\\nOccasional, non-systematic errors and inappropriacies occur, but have minimal impact on communication.\\n\\n## Band 7\\n\\n**Task achievement**\\nThe response covers the requirements of the task.\\n\\nThe content is relevant and accurate – there may be a few omissions or lapses. The format is appropriate.\\n\\n(Academic) Key features which are selected are covered and clearly highlighted but could be more fully or more appropriately illustrated or extended.\\n\\n(Academic) It presents a clear overview, the data are appropriately categorised, and main trends or differences are identified.\\n\\n(General Training) All bullet points are covered and clearly highlighted but could be more fully or more appropriately illustrated or extended. It presents a clear purpose. The tone is consistent and appropriate to the task. Any lapses are minimal.\\n**Coherence and cohesion**\\nInformation and ideas are logically organised and there is a clear progression throughout the response. A few lapses may occur.\\n\\nA range of cohesive devices including reference and substitution is used flexibly but with some inaccuracies or some over/under use.\\n**Lexical resource**\\nThe resource is sufficient to allow some flexibility and precision.\\n\\nThere is some ability to use less common and/or idiomatic items.\\n\\nAn awareness of style and collocation is evident, though inappropriacies occur.\\n\\nThere are only a few errors in spelling and/or word formation, and they do not detract from overall clarity.\\n**Grammatical range and accuracy**\\nA variety of complex structures is used with some flexibility and accuracy.\\n\\nGrammar and punctuation are generally well controlled, and error-free sentences are frequent.\\n\\nA few errors in grammar may persist, but these do not impede communication\\n\\n## Band 6\\n\\n**Task achievement**\\nThe response focuses on the requirements of the task and an appropriate format is used.\\n\\n(Academic) Key features which are selected are covered and adequately highlighted. A relevant overview is attempted. Information is appropriately selected and supported using figures/data.\\n\\n(General Training) All bullet points are covered and adequately highlighted. The purpose is generally clear. There may be minor inconsistencies in tone.\\n\\nSome irrelevant, inappropriate or inaccurate information may occur in areas of detail or when illustrating or extending the main points.\\n\\nSome details may be missing (or excessive) and further extension or illustration may be needed.\\n\\n**Coherence and cohesion**\\nInformation and ideas are generally arranged coherently and there is a clear overall progression.\\n\\nCohesive devices are used to some good effect but cohesion within and/or between sentences may be faulty or mechanical due to misuse, overuse or omission.\\n\\nThe use of reference and substitution may lack flexibility or clarity and result in some repetition or error.\\n\\n**Lexical resource**\\nThe resource is generally adequate and appropriate for the task.\\n\\nThe meaning is generally clear in spite of a rather restricted range or a lack of precision in word choice.\\n\\nIf the writer is a risk-taker, there will be a wider range of vocabulary used but higher degrees of inaccuracy or inappropriacy.\\n\\nThere are some errors in spelling and/or word formation, but these do not impede communication.\\n\\n**Grammatical range and accuracy**\\nA mix of simple and complex sentence forms is used but flexibility is limited.\\n\\nExamples of more complex structures are not marked by the same level of accuracy as in simple structures.\\n\\nErrors in grammar and punctuation occur, but rarely impede communication.\\n\\n## Band 5\\n\\n**Task achievement**\\nThe response generally addresses the requirements of the task. The format may be inappropriate in places.\\n\\n(Academic) Key features which are selected are not adequately covered. The recounting of detail is mainly mechanical. There may be no data to support the description.\\n\\n(General Training) All bullet points are presented but one or more may not be adequately covered. The purpose may be unclear at times. The tone may be variable and sometimes inappropriate.\\n\\nThere may be a tendency to focus on details (without referring to the bigger picture).\\n\\nThe inclusion of irrelevant, inappropriate or inaccurate material in key areas detracts from the task achievement.\\n\\nThere is limited detail when extending and illustrating the main points\\n\\n**Coherence and cohesion**\\nOrganisation is evident but is not wholly logical and there may be a lack of overall progression. Nevertheless, there is a sense of underlying coherence to the response.\\n\\nThe relationship of ideas can be followed but the sentences are not fluently linked to each other.\\n\\nThere may be limited/overuse of cohesive devices with some inaccuracy.\\n\\nThe writing may be repetitive due to inadequate and/or inaccurate use of reference and substitution.\\n\\n**Lexical resource**\\nThe resource is limited but minimally adequate for the task.\\n\\nSimple vocabulary may be used accurately but the range does not permit much variation in expression.\\n\\nThere may be frequent lapses in the appropriacy of word choice, and a lack of flexibility is apparent in frequent simplifications and/or repetitions.\\n\\nErrors in spelling and/or word formation may be noticeable and may cause some difficulty for the reader.\\n\\n**Grammatical range and accuracy**\\nThe range of structures is limited and rather repetitive.\\n\\nAlthough complex sentences are attempted, they tend to be faulty, and the greatest accuracy is achieved on simple sentences.\\n\\nGrammatical errors may be frequent and cause some difficulty for the reader.\\n\\nPunctuation may be faulty.\\n\\n## Band 4\\n\\n**Task achievement**\\nThe response is an attempt to address the task.\\n\\n(Academic) Few key features have been selected.\\n\\n(General Training) Not all bullet points are presented.\\n\\n(General Training) The purpose of the letter is not clearly explained and may be confused.The tone may be inappropriate.\\n\\nThe format may be inappropriate.\\n\\nKey features/bullet points which are presented may be irrelevant, repetitive, inaccurate or inappropriate.\\n\\n**Coherence and cohesion**\\nInformation and ideas are evident but not arranged coherently, and there is no clear progression within the response.\\n\\nRelationships between ideas can be unclear and/or inadequately marked. There is some use of basic cohesive devices, which may be inaccurate or repetitive.\\n\\nThere is inaccurate use or a lack of substitution or referencing\\n\\n**Lexical resource**\\nThe resource is limited and inadequate for or unrelated to the task. Vocabulary is basic and may be used repetitively.\\n\\nThere may be inappropriate use of lexical chunks (e.g. memorised phrases, formulaic language and/or language from the input material).\\n\\nInappropriate word choice and/or errors in word formation and/or in spelling may impede meaning\\n\\n**Grammatical range and accuracy**\\nA very limited range of structures is used.\\n\\nSubordinate clauses are rare and simple sentences predominate.\\n\\nSome structures are produced accurately but grammatical errors are frequent and may impede meaning.\\n\\nPunctuation is often faulty or inadequate\\n\\n## Band 3\\n\\n**Task achievement**\\nThe response does not address the requirements of the task (possibly because of misunderstanding of the data/diagram/situation).\\n\\nKey features/bullet points which are presented may be largely irrelevant.\\n\\nLimited information is presented, and this may be used repetitively\\n\\n**Coherence and cohesion**\\nThere is no apparent logical organisation. Ideas are discernible but difficult to relate to each other.\\n\\nMinimal use of sequencers or cohesive devices. Those used do not necessarily indicate a logical relationship between ideas.\\n\\nThere is difficulty in identifying referencing.\\n\\n**Lexical resource**\\nThe resource is inadequate (which may be due to the response being significantly underlength).\\n\\nPossible over-dependence on input material or memorised language.\\n\\nControl of word choice and/or spelling is very limited, and errors predominate. These errors may severely impede meaning.\\n\\n**Grammatical range and accuracy**\\nSentence forms are attempted, but errors in grammar and punctuation predominate (except in memorised phrases or those taken from the input material). This prevents most meaning from coming through.\\n\\nLength may be insufficient to provide evidence of control of sentence forms.\\n\\n## Band 2\\n\\n**Task achievement**\\nThe content barely relates to the task.\\n\\n**Coherence and cohesion**\\nThere is little relevant message, or the entire response may be off-topic.\\n\\nThere is little evidence of control of organisational features.\\n\\n**Lexical resource**\\nThe resource is extremely limited with few recognisable strings, apart from memorised phrases.\\n\\nThere is no apparent control of word formation and/or spelling.\\n\\n**Grammatical range and accuracy**\\nThere is little or no evidence of sentence forms (except in memorised phrases).\\n\\n## Band 1\\n\\n**Task achievement**\\nResponses of 20 words or fewer are rated at Band 1.\\n\\nThe content is wholly unrelated to the task.\\n\\nAny copied rubric must be discounted.\\n\\n**Coherence and cohesion**\\nResponses of 20 words or fewer are rated at Band 1.\\n\\nThe writing fails to communicate any message and appears to be by a virtual non-writer.\\n\\n**Lexical resource**\\nResponses of 20 words or fewer are rated at Band 1.\\n\\nNo resource is apparent, except for a few isolated words.\\n\\n**Grammatical range and accuracy**\\nResponses of 20 words or fewer are rated at Band 1.\\n\\nNo rateable language is evident\\n\\n## Band 0\\n\\nShould only be used where a candidate did not attend or attempt the question in any way, used a language other than English throughout, or where there is proof that a candidate’s answer has been totally memorised.\"}]}",
+              "format": "text-inline"
+            },
+            "property-4": {
+              "type": "object",
+              "behavior": [
+                "llm-content"
+              ],
+              "title": "Persona",
+              "examples": [],
+              "default": "{\"role\":\"user\",\"parts\":[{\"text\":\"You are a friendly, but objective and constructive english tutor, who is helping one of your students prepare for a writing exam. You are always polite and constructive in your feedback to the students, but equally you do not shy away from being honest and objective about their shortcomings. \\n\\nThey will answer a practice question. You will read their answer, and mark it according to the marking scheme that follows, providing constructive feedback.\\n\\nProvide a specific grade, mark or band if the marking scheme provides them.\"}]}",
+              "format": "text-inline"
+            }
+          },
+          "type": "object",
+          "required": []
+        }
+      },
+      "metadata": {
+        "visual": {
+          "x": -442,
+          "y": -154,
+          "collapsed": false
+        }
+      }
+    },
+    {
+      "type": "output",
+      "id": "output",
+      "configuration": {
+        "schema": {
+          "properties": {
+            "context": {
+              "type": "array",
+              "title": "Context",
+              "examples": [],
+              "items": {
+                "type": "object",
+                "behavior": [
+                  "llm-content"
+                ]
+              },
+              "default": "null"
+            }
+          },
+          "type": "object",
+          "required": []
+        }
+      },
+      "metadata": {
+        "visual": {
+          "x": 552,
+          "y": 84,
+          "collapsed": false
+        }
+      }
+    },
+    {
+      "id": "specialist-3a9247e9",
+      "type": "specialist",
+      "metadata": {
+        "visual": {
+          "x": 95,
+          "y": -123,
+          "collapsed": false
+        }
+      }
+    },
+    {
+      "id": "promptTemplate-f5db9f16",
+      "type": "promptTemplate",
+      "metadata": {
+        "visual": {
+          "x": -323,
+          "y": 158,
+          "collapsed": false
+        }
+      },
+      "configuration": {
+        "template": "## Question\n{{Question}}\n## Marking Scheme\n{{MarkingScheme}}"
+      }
+    }
+  ]
+}

@@ -2,10 +2,10 @@
 title: Market Research Board
 aliases: []
 tags:
-  - breadboard/phase/2
   - board
+  - breadboard/phase/2
 created: 2024-05-30T11:47:48
-modified: 2024-06-17T15:44:17
+modified: 2024-07-03T13:37:56
 ---
 
 <!-- Market Research and Competitor Analysis boards `[WIP]`
