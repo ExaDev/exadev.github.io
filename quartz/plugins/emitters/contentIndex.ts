@@ -72,6 +72,10 @@ function generateRSSFeed(
   const items = Array.from(idx)
     // .filter(filterFn?.bind(null) ?? (() => true))
     .filter(filterFn)
+    .map(([slug, item]): [FullSlug, ContentDetails] => {
+      item.date = selectDate(item)
+      return [slug, item]
+    })
     .sort(([_, f1], [__, f2]) => {
       if (f1.date && f2.date) {
         return f2.date.getTime() - f1.date.getTime()
@@ -197,4 +201,8 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
     },
     getQuartzComponents: () => [],
   }
+}
+export function selectDate(item: ContentDetails): Date {
+  const value = item.created ?? item.modified ?? item.date ?? new Date()
+  return value
 }
