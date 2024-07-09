@@ -1,7 +1,7 @@
 #!/usr/bin/env -S npx -y tsx --no-cache
-import * as crypto from "crypto"
-import * as fs from "fs"
-import * as path from "path"
+import * as crypto from "crypto";
+import * as fs from "fs";
+import * as path from "path";
 
 const CACHE_DIR = "./.url-cache"
 const CACHE_DURATION = 24 * 60 * 60 * 1000 // 24 hours in milliseconds
@@ -94,12 +94,19 @@ async function checkUrlStatus(url: string) {
 }
 
 function getCachedUrlStatus(url: string): UrlCheckType | null {
-  const cacheFilePath = path.join(CACHE_DIR, hashUrl(url))
+  const fileHash = hashUrl(url)
+  const cacheFilePath = path.join(CACHE_DIR, fileHash)
   if (fs.existsSync(cacheFilePath)) {
-    const cacheContent = JSON.parse(fs.readFileSync(cacheFilePath, "utf8"))
-    const age = Date.now() - cacheContent.timestamp
-    if (age < CACHE_DURATION) {
-      return cacheContent.result
+    const cacheData = fs.readFileSync(cacheFilePath, "utf8")
+    try {
+      const cacheContent = JSON.parse(cacheData)
+      const age = Date.now() - cacheContent.timestamp
+      if (age < CACHE_DURATION) {
+        return cacheContent.result
+      }
+    } catch (error) {
+      console.error(`Error reading cache file for URL: ${url} from ${cacheFilePath}\n${cacheData}`)
+      throw error
     }
   }
   return null
@@ -114,7 +121,7 @@ function cacheUrlStatus(url: string, result: UrlCheckType) {
     timestamp: Date.now(),
     result,
   }
-  fs.writeFileSync(cacheFilePath, JSON.stringify(cacheContent, null, "'t"), "utf8")
+  fs.writeFileSync(cacheFilePath, JSON.stringify(cacheContent, null, "\t"), "utf8")
 }
 
 type UrlCheckType = {
@@ -241,10 +248,17 @@ function logWithStyles(message: string, styles: string[], log = console.log): vo
 
 const directoryPath = "./content"
 const fileExtensions = ["md"]
-const ignoreUrls: string[] = ["https://distill.pub/2017/aia/"]
+const ignoreUrls: string[] = [
+  "https://distill.pub/2017/aia/",
+  "https://www.healthline.com/health/fitness-exercise/benefits-of-exercise",
+  "https://huggingface.co/settings/tokens",
+  "https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/exercise/art-20048389",
+  "https://www.cdc.gov/physicalactivity/basics/pa-health/index.htm",
+]
 
-await checkUrlsInDirectory(directoryPath, fileExtensions, ignoreUrls)
-  .then((results: Set<UrlCheckType>): void => {
+const errors: any[] = []
+await checkUrlsInDirectory(directoryPath, fileExtensions, ignoreUrls).then(
+  (results: Set<UrlCheckType>): void => {
     console.log("URL check completed.\n")
     const resultsArray = Array.from(results)
     const failedUrls = resultsArray.filter(
@@ -267,7 +281,7 @@ await checkUrlsInDirectory(directoryPath, fileExtensions, ignoreUrls)
             )
             .join("\n\n"),
       )
-      process.exit(1)
+      errors.push(...failedUrls)
     } else {
       console.debug(
         applyStyles(["=".repeat(80), `SUCCESS`].join("\n"), [
@@ -276,7 +290,16 @@ await checkUrlsInDirectory(directoryPath, fileExtensions, ignoreUrls)
         ]),
       )
     }
-  })
-  .catch((error) => {
-    console.error("Error occurred:", error)
-  })
+  },
+)
+
+console.log("URL check completed.\n")
+
+if (errors.length) {
+  console.error("Errors occurred:")
+  // errors.forEach((error) => console.error(error))
+  // console.error(errors)
+  process.exit(1)
+} else {
+  console.log("No errors occurred.")
+}

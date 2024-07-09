@@ -63,8 +63,8 @@ The "Board for Each" is a versatile tool designed to simplify data processing ta
 
 This board is used with the [Object Manipulator Board](projects/Breadboard/Phase%202/Object%20Manipulator%20Board.md) in the [Simple Hacker News Search](projects/Breadboard/Phase%202/Hacker%20News/simplified/Simple%20Hacker%20News%20Search.md) board to remove unnecessary attributes from the results array.
 
-- [TypeScript](https://github.com/breadboard-ai/breadboard/blob/main/packages/breadboard-web/src/boards/board-for-each.ts)
-- [JSON](https://github.com/breadboard-ai/breadboard/blob/main/packages/breadboard-web/public/graphs/board-for-each.json)
+- [TypeScript](https://github.com/breadboard-ai/breadboard/blob/main/packages/visual-editor/src/boards/board-for-each.ts)
+- [JSON](https://github.com/breadboard-ai/breadboard/blob/main/packages/visual-editor/public/graphs/board-for-each.json)
 - [Open in Breadboard Web](https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/breadboard-ai/breadboard/main/packages/breadboard-web/public/graphs/board-for-each.json)
 
 ## Breadboard Web
