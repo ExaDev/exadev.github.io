@@ -54,8 +54,6 @@ This demo board is a wrapper board to pass a sample review to the `business-revi
 
 <iframe src="https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/ExaDev/breadboard/business-review-reply/packages/breadboard-web/public/graphs/business-review-replier-demo.json" style="width: 100%; height: 500px; border: 0;"></iframe>
 
-<iframe src="http://localhost:5173/?board=https://raw.githubusercontent.com/ExaDev/breadboard/business-review-reply/packages/breadboard-web/public/graphs/business-review-replier-demo.json&embed" style="width: 100%; height: 500px; border: 0;"></iframe>
-
 ## Source Code
 
 - [business-review-replier.ts](https://github.com/ExaDev/breadboard/blob/business-review-reply/packages/breadboard-web/src/boards/business-review-replier.ts)
