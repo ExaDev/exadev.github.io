@@ -5,12 +5,12 @@ aliases:
   - Board For Each Board
   - For Each Board
 tags:
+  - board
   - breadboard
   - breadboard/phase/2
   - utility
-  - board
 created: 2024-06-13T16:07:02
-modified: 2024-06-21T08:17:02
+modified: 2024-07-10T15:23:09
 ---
 
 ![](https://youtu.be/wMokaeXWKps)

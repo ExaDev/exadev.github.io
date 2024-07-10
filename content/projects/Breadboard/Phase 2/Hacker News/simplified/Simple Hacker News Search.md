@@ -11,7 +11,7 @@ created: 2024-06-13T09:13:26
 modified: 2024-06-15T10:16:20
 ---
 
-This is a board that simplifies the response from the [Hacker News Algolia Search](projects/Breadboard/Phase%202/Hacker%20News/Hacker%20News%20Algolia%20Search.md) board. This is achieved by invoking the search and passing the array of results to an instance of the [Board for Each](projects/Breadboard/Phase%202/Board%20for%20Each.md) board.
+This is a board that simplifies the response from the [Hacker News Algolia Search](projects/Breadboard/Phase%202/Hacker%20News/Algolia/Hacker%20News%20Algolia%20Search.md) board. This is achieved by invoking the search and passing the array of results to an instance of the [Board for Each](projects/Breadboard/Phase%202/Board%20for%20Each.md) board.
 
 The [Board for Each](projects/Breadboard/Phase%202/Board%20for%20Each.md) board is passed the array and a board to manipulate each item in the array. The `$board` parameter in this case is an anonymous board that first infers the type of the item (e.g. `post` or `comment`), and then passes the the item to an instance of the [Object Manipulator Board](projects/Breadboard/Phase%202/Object%20Manipulator%20Board.md) which picks out the desired attributes.
 

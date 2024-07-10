@@ -48,7 +48,7 @@ modified: 2024-06-21T11:24:25
 - [ ] [Slack Integration](projects/Breadboard/Phase%202/Slack%20Integration.md) by [[Will]]
 - [ ] [React Component Library](projects/Breadboard/Phase%202/React%20Component%20Library.md) by [[James]] or [[Alex]]
 - [ ] [Invoker API](projects/Breadboard/Phase%202/Invoker%20API.md) by [[Joe]]
-- [ ] [Holiday Tool](projects/Breadboard/Phase%202/Holidays.md)
+- [ ] [Holiday Tool](projects/Breadboard/Phase%202/Holiday%20Boards.md)
 - [ ] [AutoBake](projects/Breadboard/Phase%201/AutoBake.md)
 - [ ] [CourseCrafter](projects/Breadboard/Phase%201/CourseCrafter.md)
 - [ ] [DevPulse](projects/Breadboard/Phase%201/DevPulse.md)

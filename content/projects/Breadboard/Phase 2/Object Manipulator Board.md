@@ -4,7 +4,7 @@ aliases: []
 tags:
   - breadboard/phase/2
 created: 2024-06-13T16:06:15
-modified: 2024-06-17T15:39:39
+modified: 2024-07-10T15:36:11
 ---
 
 ![](https://youtu.be/VLwT21SHV_c)

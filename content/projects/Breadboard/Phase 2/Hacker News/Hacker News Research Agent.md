@@ -2,11 +2,11 @@
 title: Hacker News Research Agent
 aliases: []
 tags:
+  - board
   - breadboard
   - hacker_news
-  - board
 created: 2024-06-14T16:56:00
-modified: 2024-06-14T17:02:04
+modified: 2024-07-10T15:37:52
 ---
 
 This board makes used of the various Hacker News boards to perform research on the Hacker News platform.

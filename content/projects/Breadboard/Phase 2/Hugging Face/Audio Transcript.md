@@ -7,12 +7,12 @@ aliases:
 tags:
   - audio
   - audio_transcription
+  - board
   - breadboard
   - breadboard/phase/2
   - HuggingFace
-  - board
 created: 2024-05-31T19:07:03
-modified: 2024-06-18T08:34:42
+modified: 2024-07-10T15:37:30
 ---
 
 In this demonstration, we showcase one of the Breadboard project's boards, specifically a Hugging Face board designed for audio transcription. This board leverages the Hugging Face Inference API to convert audio files into text transcripts.
@@ -66,6 +66,7 @@ This demonstration highlights the capability of the Breadboard project's Hugging
 - [TypeScript](https://github.com/ExaDev/breadboard-examples/blob/main/src/examples/audio-transcript-no-core-kit/index.ts)
 
 <!--
+
 ## Breadboard Web
 
 [Open in Breadboard Web](https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/ExaDev/breadboard-examples/main/src/examples/audio-transcript/graph.json)
