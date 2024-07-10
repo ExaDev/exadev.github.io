@@ -9,7 +9,7 @@ tags:
   - business
   - marketing
 created: 2024-06-12T09:26:13
-modified: 2024-07-03T17:18:47
+modified: 2024-07-10T15:35:07
 ---
 
 A prototype has been developed for automating responses to business reviews using Google’s Gemini model. This prototype is particularly useful for businesses managing their reviews via the Google Business Profile API.
