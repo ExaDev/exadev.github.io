@@ -6,7 +6,7 @@ aliases:
 tags:
   - breadboard
 created: 2024-06-21T08:16:16
-modified: 2024-07-10T16:55:43
+modified: 2024-07-11T12:12:06
 ---
 
 ## Phase 1
@@ -56,3 +56,4 @@ modified: 2024-07-10T16:55:43
 - [Product Launch Board](projects/Breadboard/Phase%202/Product%20Launch%20Board.md)
 - [Product Marketing Strategy Board](projects/Breadboard/Phase%202/Product%20Marketing%20Strategy%20Board.md)
 - [Review Reply Board](projects/Breadboard/Phase%202/Review%20Reply%20Board.md)
+- [[Gemini Nano Demo]]
