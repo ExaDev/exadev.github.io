@@ -6,7 +6,7 @@ aliases:
 tags:
   - breadboard
 created: 2024-06-21T08:16:16
-modified: 2024-07-10T15:37:51
+modified: 2024-07-10T16:55:43
 ---
 
 ## Phase 1
