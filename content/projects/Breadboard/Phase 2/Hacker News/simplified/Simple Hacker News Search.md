@@ -107,7 +107,7 @@ classDef slotted stroke:#a64d79
 
 ## Source
 
-- [JSON](https://github.com/breadboard-ai/breadboard/blob/main/packages/example-boards/src/boards/hacker-news-simplified-algolia-search.json)
+- [JSON](https://github.com/breadboard-ai/breadboard/blob/main/packages/visual-editor/public/example-boards/hacker-news-simplified-algolia-search.json)
 - [TypeScript](https://github.com/breadboard-ai/breadboard/blob/main/packages/example-boards/src/boards/hacker-news-simplified-algolia-search.ts)
 - [Open in Breadboard Web](https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/breadboard-ai/breadboard/main/packages/visual-editor/public/example-boards/hacker-news-simplified-algolia-search.json)
 
