@@ -13,17 +13,17 @@ This board makes used of the various Hacker News boards to perform research on t
 
 ## Source
 
-- [TypeScript](https://github.com/ExaDev/breadboard/blob/hacker-news-researcher/packages/breadboard-web/src/boards/hacker-news-research.ts)
-- [JSON](https://github.com/ExaDev/breadboard/blob/hacker-news-researcher/packages/visual-editor/public/example-boards/hacker-news-research.json)
+<!-- - [TypeScript](https://github.com/ExaDev/breadboard/blob/hacker-news-researcher/packages/breadboard-web/src/boards/hacker-news-research.ts) -->
+- [JSON](https://exadev.github.io/boards/hacker-news-researcher.bgl.json)
 
 ## Breadboard Web
 
-- [Open in Breadboard Web](https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/ExaDev/breadboard/hacker-news-researcher/packages/visual-editor/public/example-boards/hacker-news-research.json)
+- [Open in Breadboard Web](https://breadboard-ai.web.app/?board=https://exadev.github.io/boards/hacker-news-researcher.bgl.json)
 
 ## Preview Mode
 
-<iframe src="https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/ExaDev/breadboard/hacker-news-researcher/packages/visual-editor/public/example-boards/hacker-news-research.json&embed" style="width: 100%; height: 500px; border: 0;"></iframe>
+<iframe src="https://breadboard-ai.web.app/?board=https://exadev.github.io/boards/hacker-news-researcher.bgl.json&embed" style="width: 100%; height: 500px; border: 0;"></iframe>
 
 ## Edit Mode
 
-<iframe src="https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/ExaDev/breadboard/hacker-news-researcher/packages/visual-editor/public/example-boards/hacker-news-research.json" style="width: 100%; height: 500px; border: 0;"></iframe>
+<iframe src="https://breadboard-ai.web.app/?board=https://exadev.github.io/boards/hacker-news-researcher.bgl.json" style="width: 100%; height: 500px; border: 0;"></iframe>
