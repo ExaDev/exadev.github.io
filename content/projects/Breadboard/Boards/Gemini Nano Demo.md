@@ -3,7 +3,7 @@ title: Gemini Nano Demo
 aliases: []
 tags: []
 created: 2024-07-11T12:12:06
-modified: 2024-07-11T13:33:36
+modified: 2024-07-11T18:09:27
 ---
 
 [https://exadev.github.io/boards/gemini-nano-demo.bgl.json](https://breadboard-ai.web.app/?board=https://exadev.github.io/boards/gemini-nano-demo.bgl.json)

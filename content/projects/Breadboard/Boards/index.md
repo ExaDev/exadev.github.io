@@ -56,8 +56,8 @@ modified: 2024-07-11T15:35:44
 - [Product Launch Board](projects/Breadboard/Phase%202/Product%20Launch%20Board.md)
 - [Product Marketing Strategy Board](projects/Breadboard/Phase%202/Product%20Marketing%20Strategy%20Board.md)
 - [Review Reply Board](projects/Breadboard/Phase%202/Review%20Reply%20Board.md)
-- [[Gemini Nano Demo]]
-- [Spread](projects/Breadboard/Spread.md)
-- [Coalesce](projects/Breadboard/Coalesce.md)
+- [[projects/Breadboard/Boards/Gemini Nano Demo]]
+- [Spread](projects/Breadboard/Boards/Spread.md)
+- [Coalesce](projects/Breadboard/Boards/Coalesce.md)
 - [[Rest]]
 - [[From Entries]]
