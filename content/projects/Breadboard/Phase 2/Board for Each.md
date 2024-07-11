@@ -65,14 +65,14 @@ This board is used with the [Object Manipulator Board](projects/Breadboard/Phase
 
 - [TypeScript](https://github.com/breadboard-ai/breadboard/blob/main/packages/example-boards/src/boards/board-for-each.ts)
 - [JSON](https://github.com/breadboard-ai/breadboard/blob/main/packages/example-boards/src/boards/public/example-boards/board-for-each.json)
-- [Open in Breadboard Web](https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/breadboard-ai/breadboard/main/packages/breadboard-web/public/graphs/board-for-each.json)
+- [Open in Breadboard Web](https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/breadboard-ai/breadboard/main/packages/visual-editor/public/example-boards/board-for-each.json)
 
 ## Breadboard Web
 
 ### Preview Mode
 
-<iframe src="https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/breadboard-ai/breadboard/main/packages/breadboard-web/public/graphs/board-for-each.json&embed" style="width: 100%; height: 500px; border: 0;"></iframe>
+<iframe src="https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/breadboard-ai/breadboard/main/packages/visual-editor/public/example-boards/board-for-each.json&embed" style="width: 100%; height: 500px; border: 0;"></iframe>
 
 ### Edit Mode
 
-<iframe src="https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/breadboard-ai/breadboard/main/packages/breadboard-web/public/graphs/board-for-each.json" style="width: 100%; height: 500px; border: 0;"></iframe>
+<iframe src="https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/breadboard-ai/breadboard/main/packages/visual-editor/public/example-boards/board-for-each.json" style="width: 100%; height: 500px; border: 0;"></iframe>

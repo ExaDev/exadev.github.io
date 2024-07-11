@@ -109,12 +109,12 @@ classDef slotted stroke:#a64d79
 
 - [JSON](https://github.com/breadboard-ai/breadboard/blob/main/packages/example-boards/src/boards/public/example-boards/hacker-news-simplified-algolia-search.json)
 - [TypeScript](https://github.com/breadboard-ai/breadboard/blob/main/packages/example-boards/src/boards/hacker-news-simplified-algolia-search.ts)
-- [Open in Breadboard Web](https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/breadboard-ai/breadboard/main/packages/breadboard-web/public/graphs/hacker-news-simplified-algolia-search.json)
+- [Open in Breadboard Web](https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/breadboard-ai/breadboard/main/packages/visual-editor/public/example-boards/hacker-news-simplified-algolia-search.json)
 
 ## Preview Mode
 
-<iframe src="https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/breadboard-ai/breadboard/main/packages/breadboard-web/public/graphs/hacker-news-simplified-algolia-search.json&embed" style="width: 100%; height: 500px; border: 0;"></iframe>
+<iframe src="https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/breadboard-ai/breadboard/main/packages/visual-editor/public/example-boards/hacker-news-simplified-algolia-search.json&embed" style="width: 100%; height: 500px; border: 0;"></iframe>
 
 ## Edit Mode
 
-<iframe src="https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/breadboard-ai/breadboard/main/packages/breadboard-web/public/graphs/hacker-news-simplified-algolia-search.json" style="width: 100%; height: 500px; border: 0;"></iframe>
+<iframe src="https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/breadboard-ai/breadboard/main/packages/visual-editor/public/example-boards/hacker-news-simplified-algolia-search.json" style="width: 100%; height: 500px; border: 0;"></iframe>

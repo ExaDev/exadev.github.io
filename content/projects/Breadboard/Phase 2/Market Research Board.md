@@ -21,7 +21,7 @@ A set of boards to:
 Boards:
 
 - [Market Researcher](https://github.com/ExaDev/breadboard/blob/competitor-analysis/packages/breadboard-web/src/boards/market-researcher.ts)
-  [🔗](https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/ExaDev/breadboard/competitor-analysis/packages/breadboard-web/public/graphs/market-researcher.json)
+  [🔗](https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/ExaDev/breadboard/competitor-analysis/packages/visual-editor/public/example-boards/market-researcher.json)
   - Abstracted out the [[projects/Breadboard/Phase 2/Google Custom Search Engine Tool]]
 
 Continuation: [[projects/Breadboard/Phase 2/Product Launch Board]] and [[projects/Breadboard/Phase 2/Product Marketing Strategy Board]] -->

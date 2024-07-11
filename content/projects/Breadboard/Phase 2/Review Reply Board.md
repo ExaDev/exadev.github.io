@@ -48,19 +48,19 @@ This demo board is a wrapper board to pass a sample review to the `business-revi
 
 #### Preview Mode
 
-<iframe src="https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/ExaDev/breadboard/business-review-reply/packages/breadboard-web/public/graphs/business-review-replier-demo.json&embed" style="width: 100%; height: 500px; border: 0;"></iframe>
+<iframe src="https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/ExaDev/breadboard/business-review-reply/packages/visual-editor/public/example-boards/business-review-replier-demo.json&embed" style="width: 100%; height: 500px; border: 0;"></iframe>
 
 #### Edit Mode
 
-<iframe src="https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/ExaDev/breadboard/business-review-reply/packages/breadboard-web/public/graphs/business-review-replier-demo.json" style="width: 100%; height: 500px; border: 0;"></iframe>
+<iframe src="https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/ExaDev/breadboard/business-review-reply/packages/visual-editor/public/example-boards/business-review-replier-demo.json" style="width: 100%; height: 500px; border: 0;"></iframe>
 
 ## Source Code
 
 - [business-review-replier.ts](https://github.com/ExaDev/breadboard/blob/business-review-reply/packages/breadboard-web/src/boards/business-review-replier.ts)
-- [business-review-replier.json](https://github.com/ExaDev/breadboard/blob/business-review-reply/packages/breadboard-web/public/graphs/business-review-replier.json)
+- [business-review-replier.json](https://github.com/ExaDev/breadboard/blob/business-review-reply/packages/visual-editor/public/example-boards/business-review-replier.json)
 
 ## Conclusion
 
 The Breadboard project allows for the creation of complex AI solutions without extensive coding, using a visual builder. This facilitates faster development and makes AI technology more accessible to a wider range of users.
 
-Try this board yourself by [opening it in Breadboard Web](https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/ExaDev/breadboard/business-review-reply/packages/breadboard-web/public/graphs/business-review-replier.json).
+Try this board yourself by [opening it in Breadboard Web](https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/ExaDev/breadboard/business-review-reply/packages/visual-editor/public/example-boards/business-review-replier.json).
