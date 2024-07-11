@@ -1,5 +1,5 @@
 ---
-title: 
+title:
 aliases: []
 tags:
   - board
@@ -9,7 +9,7 @@ created: 2024-06-13T09:21:01
 modified: 2024-07-11T17:21:00
 ---
 
-<!-- - [TypeScript](https://github.com/breadboard-ai/breadboard/blob/main/packages/example-boards/src/boards/hacker-news-firebase-story-from-id.ts) -->
+- [TypeScript](https://github.com/ExaDev/breadboard/blob/main/packages/visual-editor/src/boards/hacker-news-algolia-items.ts)
 
 - [JSON](https://github.com/breadboard-ai/breadboard/blob/main/packages/visual-editor/public/example-boards/hacker-news-algolia-items.json)
 
