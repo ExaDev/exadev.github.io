@@ -73,7 +73,7 @@ This board is used in the [Simple Hacker News Search](projects/Breadboard/Phase%
 
 ## Source
 
-- [TypeScript](https://github.com/breadboard-ai/breadboard/blob/main/packages/visual-editor/src/boards/object-manipulator.ts)
+- [TypeScript](https://github.com/breadboard-ai/breadboard/blob/main/packages/example-boards/src/boards/object-manipulator.ts)
 - [JSON](https://github.com/breadboard-ai/breadboard/blob/main/packages/visual-editor/public/graphs/object-manipulator.json)
 
 ## Breadboard Web
