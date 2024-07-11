@@ -58,6 +58,6 @@ modified: 2024-07-11T13:34:14
 - [Review Reply Board](projects/Breadboard/Phase%202/Review%20Reply%20Board.md)
 - [[Gemini Nano Demo]]
 - [[Spread]]
-- [[Coalesce]]
+- [Coalesce](projects/Breadboard/Coalesce.md)
 - [[Rest]]
 - [[From Entries]]
