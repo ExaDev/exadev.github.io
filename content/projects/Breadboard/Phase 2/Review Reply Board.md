@@ -56,7 +56,6 @@ This demo board is a wrapper board to pass a sample review to the `business-revi
 
 ## Source Code
 
-<!-- - [business-review-replier.ts](https://github.com/ExaDev/breadboard/blob/business-review-reply/packages/breadboard-web/src/boards/business-review-replier.ts) -->
 - [business-review-replier.json](https://exadev.github.io/boards/business-review-reply-generator.bgl.json)
 - [business-review-replier-demo.json](https://exadev.github.io/boards/business-review-reply-generator-demo.bgl.json)
 

@@ -13,7 +13,6 @@ This board makes used of the various Hacker News boards to perform research on t
 
 ## Source
 
-<!-- - [TypeScript](https://github.com/ExaDev/breadboard/blob/hacker-news-researcher/packages/breadboard-web/src/boards/hacker-news-research.ts) -->
 - [JSON](https://exadev.github.io/boards/hacker-news-researcher.bgl.json)
 
 ## Breadboard Web
