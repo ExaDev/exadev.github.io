@@ -69,8 +69,8 @@ Thank you for using the OpenAlex Entity Search Results Board within the Breadboa
 
 ### Preview Mode
 
-<iframe src="https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/breadboard-ai/breadboard/main/packages/visual-editor/public/example-boards/open-alex-entity-search-list.json&embed" style="width: 100%; height: 500px; border: 0;"></iframe>
+<iframe src="https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/breadboard-ai/breadboard/main/packages/visual-editor/public/example-boards/playground/open-alex-entity-search-list.json&embed" style="width: 100%; height: 500px; border: 0;"></iframe>
 
 ### Edit Mode
 
-<iframe src="https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/breadboard-ai/breadboard/main/packages/visual-editor/public/example-boards/open-alex-entity-search-list.json&embed&edit" style="width: 100%; height: 500px; border: 0;"></iframe>
+<iframe src="https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/breadboard-ai/breadboard/main/packages/visual-editor/public/example-boards/playground/open-alex-entity-search-list.json&embed&edit" style="width: 100%; height: 500px; border: 0;"></iframe>

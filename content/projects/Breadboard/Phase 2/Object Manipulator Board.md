@@ -73,17 +73,17 @@ This board is used in the [Simple Hacker News Search](projects/Breadboard/Phase%
 
 ## Source
 
-- [TypeScript](https://github.com/breadboard-ai/breadboard/blob/main/packages/example-boards/src/boards/object-manipulator.ts)
+- [TypeScript](https://github.com/breadboard-ai/breadboard/blob/main/packages/example-boards/src/boards/playground/object-manipulator.ts)
 - [JSON](https://github.com/breadboard-ai/breadboard/blob/main/packages/visual-editor/public/example-boards/object-manipulator.json)
 
 ## Breadboard Web
 
-- [Open in Breadboard Web](https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/breadboard-ai/breadboard/main/packages/visual-editor/public/example-boards/object-manipulator.json)
+- [Open in Breadboard Web](https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/breadboard-ai/breadboard/main/packages/visual-editor/public/example-boards/playground/object-manipulator.json)
 
 ### Preview Mode
 
-<iframe src="https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/breadboard-ai/breadboard/main/packages/visual-editor/public/example-boards/object-manipulator.json&embed" style="width: 100%; height: 500px; border: 0;"></iframe>
+<iframe src="https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/breadboard-ai/breadboard/main/packages/visual-editor/public/example-boards/playground/object-manipulator.json&embed" style="width: 100%; height: 500px; border: 0;"></iframe>
 
 ### Edit Mode
 
-<iframe src="https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/breadboard-ai/breadboard/main/packages/visual-editor/public/example-boards/object-manipulator.json" style="width: 100%; height: 500px; border: 0;"></iframe>
+<iframe src="https://breadboard-ai.web.app/?board=https://raw.githubusercontent.com/breadboard-ai/breadboard/main/packages/visual-editor/public/example-boards/playground/object-manipulator.json" style="width: 100%; height: 500px; border: 0;"></iframe>
