@@ -309,7 +309,10 @@ async function main() {
     core.setOutput("success", success)
     core.setOutput("failed", failed)
     core.setOutput("skipped", skipped)
+  } else {
+    console.log("Script not running in GitHub Actions")
   }
+
   console.log("URL check completed.\n")
 
   if (failed > 0) {
