@@ -1,5 +1,6 @@
 #!/usr/bin/env -S npx -y tsx --no-cache
 import * as core from "@actions/core";
+import { SummaryTableCell, SummaryTableRow } from "@actions/core/lib/summary";
 import * as crypto from "crypto";
 import * as fs from "fs";
 import * as path from "path";
@@ -255,7 +256,7 @@ async function main() {
     "https://www.healthline.com/health/fitness-exercise/benefits-of-exercise",
     "https://huggingface.co/settings/tokens",
     "https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/exercise/art-20048389",
-    "https://www.cdc.gov/physicalactivity/basics/pa-health/index.htm",
+    // "https://www.cdc.gov/physicalactivity/basics/pa-health/index.htm",
   ]
 
   const results: UrlCheckType[] = await checkUrlsInDirectory(
@@ -312,6 +313,13 @@ async function main() {
     core.setOutput("failed", failed)
     core.setOutput("skipped", skipped)
     core.endGroup()
+
+    const table: SummaryTableRow[] = results.map(result => makeCells(result))
+    const header: SummaryTableRow = makeHeader()
+    table.unshift(header)
+
+    await core.summary.addTable(table).write()
+    
     if (failed > 0) {
       core.setFailed(`Checks of ${failed}/${total} URLs failing.`)
     }
@@ -339,3 +347,29 @@ if (import.meta.url === `file://${process.argv[1]}`) {
 function runningInGithubActions(): boolean {
   return !!process.env.GITHUB_ACTIONS
 }
+
+function statusText(status: string | number | undefined): string {
+  if (typeof status === "number" && status >= 200 && status < 300) {
+    return "✅"
+  } else if (status === "IGNORED") {
+    return "⏭️"
+  } else {
+    return "❌"
+  }
+}
+
+function makeCells(result: UrlCheckType): SummaryTableRow {
+  const cells: SummaryTableCell[] = []
+  cells.push({ data: statusText(result.status) })
+  cells.push({ data: result.file })
+  cells.push({ data: result.url })
+  return cells
+}
+function makeHeader(): SummaryTableRow {
+  const cells: SummaryTableCell[] = []
+  cells.push({ data: "Status", header: true })
+  cells.push({ data: "File", header: true })
+  cells.push({ data: "URL" , header: true })
+  return cells
+}
+
