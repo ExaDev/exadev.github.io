@@ -314,12 +314,15 @@ async function main() {
     core.setOutput("skipped", skipped)
     core.endGroup()
 
-    const table: SummaryTableRow[] = results.map(result => makeCells(result))
-    const header: SummaryTableRow = makeHeader()
-    table.unshift(header)
+    const table: SummaryTableRow[] = [makeHeader()].concat(
+      results.map((result) => makeCells(result)),
+    )
 
-    await core.summary.addTable(table).write()
-    
+    await core.summary
+      .addHeading("Results table")
+      .addTable(table)
+      .write()
+
     if (failed > 0) {
       core.setFailed(`Checks of ${failed}/${total} URLs failing.`)
     }
@@ -369,7 +372,6 @@ function makeHeader(): SummaryTableRow {
   const cells: SummaryTableCell[] = []
   cells.push({ data: "Status", header: true })
   cells.push({ data: "File", header: true })
-  cells.push({ data: "URL" , header: true })
+  cells.push({ data: "URL", header: true })
   return cells
 }
-
