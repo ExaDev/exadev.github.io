@@ -55,6 +55,7 @@ jobs:
       contents: read
       issues: write
       statuses: write
+      checks: write
     steps:
       - uses: actions/checkout@v4
 
