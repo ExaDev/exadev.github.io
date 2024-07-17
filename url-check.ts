@@ -323,7 +323,7 @@ async function main() {
       .write()
 
     if (failed > 0) {
-      // core.setFailed(`Checks of ${failed}/${total} URLs failing.`)
+      core.setFailed(`Checks of ${failed}/${total} URLs failing.`)
     }
   } else {
     console.log("Script not running in GitHub Actions")
