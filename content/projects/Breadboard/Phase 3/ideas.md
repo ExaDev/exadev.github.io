@@ -27,7 +27,9 @@ modified: 2024-07-17T08:24:02
 - Identifying pain points and areas for improvement
 - Communicating user feedback to the team
 
-## Workstream 4: Enhancing Breadboard's Capabilities
+## Workstream 4: Ecosystem Development and Community Engagement
 
+- Collaborating with project contributors to contribute to the development roadmap.
+- Engaging with the tech community to discuss and explore use-cases, features and integrations for Breadboard.
 
 ## Example Demonstrators
