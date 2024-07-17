@@ -96,6 +96,7 @@
     "yargs": "^17.7.2"
   },
   "devDependencies": {
+    "@actions/core": "^1.10.1",
     "@types/cli-spinner": "^0.2.3",
     "@types/d3": "^7.4.3",
     "@types/hast": "^3.0.4",
