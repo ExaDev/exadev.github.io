@@ -360,18 +360,28 @@ async function main() {
     core.setOutput("failed", failedCount)
     core.setOutput("skipped", skippedCount)
 
-    // set statuses
-    // const octokit: Octokit = new Octokit()
-
-    const images = generateImages({
+    const resultCounts = {
       passed: successCount,
       failed: failedCount,
       skipped: skippedCount,
-    })
+    }
+    console.debug({ result: resultCounts })
+    // set statuses
+    // const octokit: Octokit = new Octokit()
 
-    const octokit = new Octokit()
+    const images = generateImages(resultCounts)
+    console.log({ images })
 
     const [owner, repo] = process.env.GITHUB_REPOSITORY!.split("/")
+    console.debug({
+      context: {
+        sha: context.sha,
+        repo,
+        owner,
+      },
+    })
+    const octokit = new Octokit()
+    console.debug("OctoKit instace created")
     octokit.rest.checks.create({
       repo,
       owner,
@@ -386,11 +396,15 @@ async function main() {
       },
     } satisfies RestEndpointMethodTypes["checks"]["create"]["parameters"])
 
+    console.debug("Check created")
+
     const table: SummaryTableRow[] = [makeHeader()].concat(
       results.sort((a, b) => getOrder(a) - getOrder(b)).map((result) => makeCells(result)),
     )
 
     await core.summary.addHeading("Results table").addTable(table).write()
+
+    console.debug("Summary table added")
 
     if (failedCount > 0) {
       // core.setFailed(`Checks of ${failedCount}/${totalCount} URLs failing.`)
