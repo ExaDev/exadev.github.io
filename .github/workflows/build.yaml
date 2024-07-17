@@ -84,6 +84,8 @@ jobs:
 
       - run: npm run check-urls
         id: test
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   # preview:
   #   name: Preview when PR exists branch
