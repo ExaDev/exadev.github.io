@@ -305,10 +305,16 @@ async function main() {
   const total: number = results.length
 
   if (runningInGithubActions()) {
+    console.debug("Running in GitHub Actions")
+    core.startGroup("URL Check Results")
     core.setOutput("total", total)
     core.setOutput("success", success)
     core.setOutput("failed", failed)
     core.setOutput("skipped", skipped)
+    core.endGroup()
+    if (failed > 0) {
+      core.setFailed(`Checks of ${failed}/${total} URLs failing.`)
+    }
   } else {
     console.log("Script not running in GitHub Actions")
   }
