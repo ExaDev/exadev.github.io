@@ -51,6 +51,10 @@ jobs:
       passed: ${{ steps.test.outputs.passed }}
       failed: ${{ steps.test.outputs.failed }}
       skipped: ${{ steps.test.outputs.skipped }}
+    permissions:
+      contents: read
+      issues: write
+      statuses: write
     steps:
       - uses: actions/checkout@v4
 
