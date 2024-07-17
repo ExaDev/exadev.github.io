@@ -5,6 +5,8 @@ import * as crypto from "crypto";
 import * as fs from "fs";
 import * as path from "path";
 
+import github, { context } from "@actions/github";
+
 const CACHE_DIR = "./.url-cache"
 const CACHE_DURATION = 24 * 60 * 60 * 1000 // 24 hours in milliseconds
 
@@ -357,6 +359,30 @@ async function main() {
     core.setOutput("failed", failedCount)
     core.setOutput("skipped", skippedCount)
 
+    // set statuses
+    // const octokit: Octokit = new Octokit()
+
+    const images = generateImages({
+      passed: successCount,
+      failed: failedCount,
+      skipped: skippedCount,
+    })
+
+    const GITHUB_TOKEN = core.getInput("GITHUB_TOKEN")
+    const octokit = github.getOctokit(GITHUB_TOKEN)
+    octokit.rest.checks.create({
+      ...context.repo,
+      name: "URL check",
+      head_sha: context.sha,
+      status: "completed",
+      conclusion: failedCount > 0 ? "failure" : "success",
+      output: {
+        title: "URL check",
+        summary: `Checked ${totalCount} URLs. ${failedCount} failed, ${successCount} succeeded, ${skippedCount} skipped.`,
+        images,
+      },
+    })
+
     const table: SummaryTableRow[] = [makeHeader()].concat(
       results.sort((a, b) => getOrder(a) - getOrder(b)).map((result) => makeCells(result)),
     )
@@ -423,4 +449,34 @@ function statusCode(status: string | number | undefined): string {
   } else {
     return ""
   }
+}
+function generateImages(count: {
+  passed: number
+  failed: number
+  skipped: number
+}): { alt: string; image_url: string; caption?: string }[] {
+  const dashboardUrl = "https://svg.test-summary.com/dashboard.svg"
+
+  const image_url = `${dashboardUrl}?p=${count.passed}&f=${count.failed}&s=${count.skipped}`
+
+  const total = count.passed + count.failed + count.skipped
+  const caption = [
+    `Passed: ${count.passed}`,
+    `Failed: ${count.failed}`,
+    `Skipped: ${count.skipped}`,
+    `Total: ${total}`,
+  ].join(", ")
+
+  const alt = [
+    `${count.passed}/${total} tests passed`,
+    `Icon generation credit to https://github.com/test-summary/action`,
+  ].join("\n")
+
+  return [
+    {
+      alt,
+      image_url,
+      caption,
+    },
+  ]
 }
