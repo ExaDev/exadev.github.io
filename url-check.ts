@@ -5,7 +5,8 @@ import * as crypto from "crypto";
 import * as fs from "fs";
 import * as path from "path";
 
-import github, { context } from "@actions/github";
+import { context } from "@actions/github";
+import { Octokit, RestEndpointMethodTypes } from "@octokit/action";
 
 const CACHE_DIR = "./.url-cache"
 const CACHE_DURATION = 24 * 60 * 60 * 1000 // 24 hours in milliseconds
@@ -368,10 +369,12 @@ async function main() {
       skipped: skippedCount,
     })
 
-    const GITHUB_TOKEN = core.getInput("GITHUB_TOKEN")
-    const octokit = github.getOctokit(GITHUB_TOKEN)
+    const octokit = new Octokit()
+
+    const [owner, repo] = process.env.GITHUB_REPOSITORY!.split("/")
     octokit.rest.checks.create({
-      ...context.repo,
+      repo,
+      owner,
       name: "URL check",
       head_sha: context.sha,
       status: "completed",
@@ -381,7 +384,7 @@ async function main() {
         summary: `Checked ${totalCount} URLs. ${failedCount} failed, ${successCount} succeeded, ${skippedCount} skipped.`,
         images,
       },
-    })
+    } satisfies RestEndpointMethodTypes["checks"]["create"]["parameters"])
 
     const table: SummaryTableRow[] = [makeHeader()].concat(
       results.sort((a, b) => getOrder(a) - getOrder(b)).map((result) => makeCells(result)),
@@ -479,4 +482,19 @@ function generateImages(count: {
       caption,
     },
   ]
+}
+
+function generateSVG({
+  passed,
+  failed,
+  skipped = 0,
+}: {
+  passed: number
+  failed: number
+  skipped: number
+}): string {
+  const total = passed + failed + skipped
+  const percentage = (passed / total) * 100
+  const color = percentage === 100 ? "brightgreen" : percentage === 0 ? "red" : "yellow"
+  return `https://img.shields.io/badge/Tests-${passed}%20passed-brightgreen?style=flat-square`
 }
