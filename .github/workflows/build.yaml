@@ -76,8 +76,7 @@ jobs:
             ${{ runner.os }}-build-
             ${{ runner.os }}-
 
-      - run: npm ci
-        name: npm run check-urls
+      - run: npm run check-urls
 
   # preview:
   #   name: Preview when PR exists branch
