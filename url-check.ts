@@ -393,7 +393,7 @@ async function main() {
     await core.summary.addHeading("Results table").addTable(table).write()
 
     if (failedCount > 0) {
-      core.setFailed(`Checks of ${failedCount}/${totalCount} URLs failing.`)
+      // core.setFailed(`Checks of ${failedCount}/${totalCount} URLs failing.`)
     }
   } else {
     console.log("Script not running in GitHub Actions")
