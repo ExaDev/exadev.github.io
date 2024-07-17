@@ -307,12 +307,11 @@ async function main() {
 
   if (runningInGithubActions()) {
     console.debug("Running in GitHub Actions")
-    core.startGroup("URL Check Results")
+
     core.setOutput("total", total)
     core.setOutput("success", success)
     core.setOutput("failed", failed)
     core.setOutput("skipped", skipped)
-    core.endGroup()
 
     const table: SummaryTableRow[] = [makeHeader()].concat(
       results.map((result) => makeCells(result)),
