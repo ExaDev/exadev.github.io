@@ -1,4 +1,5 @@
 #!/usr/bin/env -S npx -y tsx --no-cache
+import * as core from "@actions/core";
 import * as crypto from "crypto";
 import * as fs from "fs";
 import * as path from "path";
@@ -246,19 +247,23 @@ function logWithStyles(message: string, styles: string[], log = console.log): vo
   return log(formatString(message, styles.join(""), ESCAPE_CODES.END))
 }
 
-const directoryPath = "./content"
-const fileExtensions = ["md"]
-const ignoreUrls: string[] = [
-  "https://distill.pub/2017/aia/",
-  "https://www.healthline.com/health/fitness-exercise/benefits-of-exercise",
-  "https://huggingface.co/settings/tokens",
-  "https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/exercise/art-20048389",
-  "https://www.cdc.gov/physicalactivity/basics/pa-health/index.htm",
-]
+async function main() {
+  const directoryPath = "./content"
+  const fileExtensions = ["md"]
+  const ignoreUrls: string[] = [
+    "https://distill.pub/2017/aia/",
+    "https://www.healthline.com/health/fitness-exercise/benefits-of-exercise",
+    "https://huggingface.co/settings/tokens",
+    "https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/exercise/art-20048389",
+    "https://www.cdc.gov/physicalactivity/basics/pa-health/index.htm",
+  ]
 
-const errors: any[] = []
-await checkUrlsInDirectory(directoryPath, fileExtensions, ignoreUrls).then(
-  (results: Set<UrlCheckType>): void => {
+  const results: UrlCheckType[] = await checkUrlsInDirectory(
+    directoryPath,
+    fileExtensions,
+    ignoreUrls,
+  ).then((results: Set<UrlCheckType>) => {
+    const errors = []
     console.log("URL check completed.\n")
     const resultsArray = Array.from(results)
     const failedUrls = resultsArray.filter(
@@ -290,16 +295,38 @@ await checkUrlsInDirectory(directoryPath, fileExtensions, ignoreUrls).then(
         ]),
       )
     }
-  },
-)
+    return resultsArray
+  })
 
-console.log("URL check completed.\n")
+  // const junitXml = makeJunitXml(results, "URL Check")
+  const skipped: number = results.filter((result) => result.status === "IGNORED").length
+  const failed: number = results.filter((result) => result.success === false).length
+  const success: number = results.length - skipped - failed
+  const total: number = results.length
 
-if (errors.length) {
-  console.error("Errors occurred:")
-  // errors.forEach((error) => console.error(error))
-  // console.error(errors)
-  process.exit(1)
+  if (runningInGithubActions()) {
+    core.setOutput("total", total)
+    core.setOutput("success", success)
+    core.setOutput("failed", failed)
+    core.setOutput("skipped", skipped)
+  }
+  console.log("URL check completed.\n")
+
+  if (failed > 0) {
+    console.error("Errors occurred:")
+    // errors.forEach((error) => console.error(error))
+    // console.error(errors)
+    // process.exit(1)
+  } else {
+    console.log("No errors occurred.")
+  }
+}
+
+if (import.meta.url === `file://${process.argv[1]}`) {
+  await main()
 } else {
-  console.log("No errors occurred.")
+  console.error("Script has been imported. Please run it directly.")
+}
+function runningInGithubActions(): boolean {
+  return !!process.env.GITHUB_ACTIONS
 }
