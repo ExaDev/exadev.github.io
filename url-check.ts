@@ -366,11 +366,19 @@ async function main() {
       skipped: skippedCount,
     }
     console.debug({ result: resultCounts })
+    const statusImage = generateImages(resultCounts)
     // set statuses
     // const octokit: Octokit = new Octokit()
 
-    const images = generateImages(resultCounts)
+    const images = [statusImage]
     console.log({ images })
+    const generatedSvg = generateSVG(resultCounts)
+    // const generatedSvg = generateSVG({
+    //   failed: Math.floor(Math.random() * 10),
+    //   passed: Math.floor(Math.random() * 10),
+    //   skipped: Math.floor(Math.random() * 10),
+    // })
+    fs.writeFileSync("dashboard.svg", generatedSvg)
 
     const [owner, repo] = process.env.GITHUB_REPOSITORY!.split("/")
     console.debug({
@@ -402,7 +410,14 @@ async function main() {
       results.sort((a, b) => getOrder(a) - getOrder(b)).map((result) => makeCells(result)),
     )
 
-    await core.summary.addHeading("Results table").addTable(table).write()
+    await core.summary
+      .addHeading("Overview")
+      .addImage(statusImage.image_url, statusImage.alt)
+      .addBreak()
+      .addRaw(generatedSvg)
+      .addHeading("Results table")
+      .addTable(table)
+      .write()
 
     console.debug("Summary table added")
 
@@ -467,11 +482,11 @@ function statusCode(status: string | number | undefined): string {
     return ""
   }
 }
-function generateImages(count: {
-  passed: number
-  failed: number
-  skipped: number
-}): { alt: string; image_url: string; caption?: string }[] {
+function generateImages(count: { passed: number; failed: number; skipped: number }): {
+  alt: string
+  image_url: string
+  caption?: string
+} {
   const dashboardUrl = "https://svg.test-summary.com/dashboard.svg"
 
   const image_url = `${dashboardUrl}?p=${count.passed}&f=${count.failed}&s=${count.skipped}`
@@ -489,13 +504,7 @@ function generateImages(count: {
     `Icon generation credit to https://github.com/test-summary/action`,
   ].join("\n")
 
-  return [
-    {
-      alt,
-      image_url,
-      caption,
-    },
-  ]
+  return { alt, image_url, caption }
 }
 
 function generateSVG({
@@ -508,7 +517,169 @@ function generateSVG({
   skipped: number
 }): string {
   const total = passed + failed + skipped
-  const percentage = (passed / total) * 100
-  const color = percentage === 100 ? "brightgreen" : percentage === 0 ? "red" : "yellow"
-  return `https://img.shields.io/badge/Tests-${passed}%20passed-brightgreen?style=flat-square`
+  const startingAngle = -90
+  const innderRadius = 25
+  const outerRadius = 50
+  const strokeWidth = 10
+  const passedAngle = (passed / total) * 360
+  const failedAngle = (failed / total) * 360
+  const skippedAngle = (skipped / total) * 360
+  const passedColor = "#2ecc71"
+  const failedColor = "#e74c3c"
+  const skippedColor = "#bdc3c7"
+  const width = 100
+  const height = 100
+  const centreX = width / 2
+  const centreY = height / 2
+  const circleParameters = {
+    innderRadius,
+    outerRadius,
+    strokeWidth,
+  }
+
+  const backgroundCircle = segmentPathFn(centreX, centreY, innderRadius, outerRadius, 0, 360)
+
+  const passedSegment = segmentPathFn(
+    centreX,
+    centreY,
+    innderRadius,
+    outerRadius,
+    startingAngle,
+    startingAngle + passedAngle,
+  )
+  const failedSegment = segmentPathFn(
+    centreX,
+    centreY,
+    innderRadius,
+    outerRadius,
+    startingAngle + passedAngle,
+    startingAngle + passedAngle + failedAngle,
+  )
+  const skippedSegment = segmentPathFn(
+    centreX,
+    centreY,
+    innderRadius,
+    outerRadius,
+    startingAngle + passedAngle + failedAngle,
+    startingAngle + passedAngle + failedAngle + skippedAngle,
+  )
+
+  const svgArray = []
+  // svgArray.push(backgroundCircle)
+  if (passedAngle > 0) svgArray.push({ path: passedSegment, fill: passedColor })
+  if (failedAngle > 0) svgArray.push({ path: failedSegment, fill: failedColor })
+  if (skippedAngle > 0) svgArray.push({ path: skippedSegment, fill: skippedColor, strokeWidth: 0 })
+
+  return [
+    `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}">`,
+    ,
+    ...svgArray.map((args) => constructSvgPath(args)),
+    "</svg>",
+  ].join("\n")
+}
+
+function constructSvgPath({
+  path,
+  fill = "none",
+  stroke = "none",
+  strokeWidth = 0,
+}: {
+  path: string
+  fill?: string
+  stroke?: string
+  strokeWidth?: number
+}): string {
+  return `<path d="${path}" fill="${fill}" stroke="${stroke}" stroke-width="${strokeWidth}" />`
+}
+
+function _2(
+  svg: (strings: TemplateStringsArray, ...values: any[]) => string,
+  svgSize: number,
+  range: (n: number) => number[],
+  segments: number,
+  segment: (n: number) => string,
+): string {
+  return svg`<svg height=${svgSize} viewBox="0 0 ${svgSize} ${svgSize}">
+  ${range(segments).map(segment).join("\n  ")}
+</svg>`
+}
+
+function _polarToCartesian() {
+  return (x: number, y: number, r: number, degrees: number): [number, number] => {
+    const radians = (degrees * Math.PI) / 180.0
+    return [x + r * Math.cos(radians), y + r * Math.sin(radians)]
+  }
+}
+
+interface PolarToCartesianFn {
+  (x: number, y: number, r: number, degrees: number): [number, number]
+}
+
+interface SegmentPathFn {
+  (x: number, y: number, r0: number, r1: number, d0: number, d1: number): string
+}
+
+function polarToCartesian(x: number, y: number, r: number, degrees: number): [number, number] {
+  const radians = (degrees * Math.PI) / 180.0
+  return [x + r * Math.cos(radians), y + r * Math.sin(radians)]
+}
+
+function segmentPath(polarToCartesianFn: PolarToCartesianFn = polarToCartesian): SegmentPathFn {
+  return (x, y, r0, r1, d0, d1) => {
+    const arc: number = Math.abs(d0 - d1) > 180 ? 1 : 0
+    const point = (radius: number, degree: number): string =>
+      polarToCartesianFn(x, y, radius, degree)
+        .map((n) => n.toPrecision(5))
+        .join(",")
+    return [
+      `M${point(r0, d0)}`,
+      `A${r0},${r0},0,${arc},1,${point(r0, d1)}`,
+      `L${point(r1, d1)}`,
+      `A${r1},${r1},0,${arc},0,${point(r1, d0)}`,
+      "Z",
+    ].join("")
+  }
+}
+// const segmentPathFn: SegmentPathFn = segmentPath()
+function segmentPathFn(...args: Parameters<SegmentPathFn>): ReturnType<SegmentPathFn> {
+  return segmentPath()(...args)
+}
+function _segment(
+  svgSize: number,
+  segments: number,
+  margin: number,
+  segmentPath: SegmentPathFn,
+  radius: number,
+  width: number,
+): (n: number) => string {
+  return (n: number) => {
+    const center: number = svgSize / 2
+    const degrees: number = 360 / segments
+    const start: number = degrees * n
+    const end: number = degrees * (n + 1 - margin) + (margin == 0 ? 1 : 0)
+    const path: string = segmentPath(center, center, radius, radius - width, start, end)
+    const fill: any = randomColour()
+    return `<path d="${path}" style="fill:${fill};stroke:none" />`
+  }
+}
+
+function _segmentCircle(
+  segments: number,
+  polarToCartesian: PolarToCartesianFn,
+  svgSize: number,
+  radius: number,
+  width: number,
+): (n: number) => string {
+  return (n = 0): string => {
+    const degree: number = n * (360 / segments)
+    const alpha: number = 1 / Math.log2(segments)
+    const [cx, cy] = polarToCartesian(svgSize / 2, svgSize / 2, radius - width, degree).map((n) =>
+      n.toPrecision(4),
+    )
+    const fill: any = randomColour()
+    return `<circle cx=${cx} cy=${cy} r=${width} style="fill:${fill};stroke:none" />`
+  }
+}
+function randomColour(): string {
+  return `hsl(${Math.random() * 360}, 100%, 50%)`
 }
