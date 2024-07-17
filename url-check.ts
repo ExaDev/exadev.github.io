@@ -81,7 +81,7 @@ async function checkUrlStatus(url: string) {
   return await fetch(url, { method: "HEAD" })
     .then((response) => {
       return {
-        success: response.status < 400 || response.status >= 500,
+        success: response.status >= 200 && response.status < 300,
         url,
         status: response.status,
       }
