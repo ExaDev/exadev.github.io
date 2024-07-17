@@ -256,7 +256,7 @@ async function main() {
     "https://www.healthline.com/health/fitness-exercise/benefits-of-exercise",
     "https://huggingface.co/settings/tokens",
     "https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/exercise/art-20048389",
-    // "https://www.cdc.gov/physicalactivity/basics/pa-health/index.htm",
+    "https://www.cdc.gov/physicalactivity/basics/pa-health/index.htm",
   ]
 
   const results: UrlCheckType[] = await checkUrlsInDirectory(
