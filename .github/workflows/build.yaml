@@ -47,6 +47,10 @@ jobs:
 
   test:
     runs-on: ubuntu-latest
+    outputs:
+      passed: ${{ steps.test.outputs.passed }}
+      failed: ${{ steps.test.outputs.failed }}
+      skipped: ${{ steps.test.outputs.skipped }}
     steps:
       - uses: actions/checkout@v4
 
@@ -79,6 +83,7 @@ jobs:
       - run: npm ci
 
       - run: npm run check-urls
+        id: test
 
   # preview:
   #   name: Preview when PR exists branch
