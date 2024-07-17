@@ -33,6 +33,11 @@ modified: 2024-07-17T08:24:02
 - Engaging with the tech community to discuss and explore use-cases, features and integrations for Breadboard.
 
 ### Workstream 5: Technical Contributions and Feedback
-While the primary focus of contributions
+
+- While the primary focus of contributions is not on the codebase, technical contributions will be made where appropriate.
+- Identification, diagnosis, reproduction and submissions of bugs and issues.
+- Collaborating with the development team to provide feedback on new features and improvements.
+
+### Workstream 6: "Braedboard Marketplace" - Rapid Deployment of Breadboard Solutions
 
 ## Example Demonstrators
