@@ -314,13 +314,37 @@ async function main() {
     core.setOutput("skipped", skipped)
 
     const table: SummaryTableRow[] = [makeHeader()].concat(
-      results.map((result) => makeCells(result)),
+      results
+        .sort((a, b) => {
+          if (typeof a.status === "number" && typeof b.status === "number") {
+            return a.status - b.status
+          } else if (typeof a.status === "number") {
+            return -1
+          } else if (typeof b.status === "number") {
+            return 1
+          } else {
+            return 0
+          }
+        })
+        .sort((a, b) => {
+          if (a.success === b.success) {
+            return 0
+          } else if (a.success === false) {
+            return -1
+          } else if (b.success === false) {
+            return 1
+          } else if (a.success === true) {
+            return -1
+          } else if (b.success === true) {
+            return 1
+          } else {
+            return 0
+          }
+        })
+        .map((result) => makeCells(result)),
     )
 
-    await core.summary
-      .addHeading("Results table")
-      .addTable(table)
-      .write()
+    await core.summary.addHeading("Results table").addTable(table).write()
 
     if (failed > 0) {
       core.setFailed(`Checks of ${failed}/${total} URLs failing.`)
@@ -350,7 +374,7 @@ function runningInGithubActions(): boolean {
   return !!process.env.GITHUB_ACTIONS
 }
 
-function statusText(status: string | number | undefined): string {
+function statusSymbol(status: string | number | undefined): string {
   if (typeof status === "number" && status >= 200 && status < 300) {
     return "✅"
   } else if (status === "IGNORED") {
@@ -362,15 +386,24 @@ function statusText(status: string | number | undefined): string {
 
 function makeCells(result: UrlCheckType): SummaryTableRow {
   const cells: SummaryTableCell[] = []
-  cells.push({ data: statusText(result.status) })
+  cells.push({ data: statusSymbol(result.status) })
+  cells.push({ data: statusCode(result.status) })
   cells.push({ data: result.file })
   cells.push({ data: result.url })
   return cells
 }
 function makeHeader(): SummaryTableRow {
   const cells: SummaryTableCell[] = []
+  cells.push({ data: "Result", header: true })
   cells.push({ data: "Status", header: true })
   cells.push({ data: "File", header: true })
   cells.push({ data: "URL", header: true })
   return cells
+}
+function statusCode(status: string | number | undefined): string {
+  if (typeof status === "number") {
+    return status.toString()
+  } else {
+    return ""
+  }
 }
