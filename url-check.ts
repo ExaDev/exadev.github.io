@@ -248,6 +248,36 @@ function logWithStyles(message: string, styles: string[], log = console.log): vo
   return log(formatString(message, styles.join(""), ESCAPE_CODES.END))
 }
 
+function getOrder(result: UrlCheckType): number {
+  const { status, success } = result
+
+  if (typeof status === "number") {
+    if (status < 200 || status >= 300) {
+      if (success === false) return 1
+      if (success === undefined) return 2
+      if (success === true) return 3
+    } else {
+      if (success === false) return 10
+      if (success === undefined) return 11
+      if (success === true) return 12
+    }
+  }
+
+  if (status === undefined) {
+    if (success === false) return 4
+    if (success === undefined) return 5
+    if (success === true) return 6
+  }
+
+  if (status === "IGNORED") {
+    if (success === false) return 7
+    if (success === undefined) return 8
+    if (success === true) return 9
+  }
+
+  throw new Error(`Unexpected result: ${JSON.stringify(result)}`)
+}
+
 async function main() {
   const directoryPath = "./content"
   const fileExtensions = ["md"]
@@ -299,55 +329,41 @@ async function main() {
     return resultsArray
   })
 
-  // const junitXml = makeJunitXml(results, "URL Check")
-  const skipped: number = results.filter((result) => result.status === "IGNORED").length
-  const failed: number = results.filter((result) => result.success === false).length
-  const success: number = results.length - skipped - failed
-  const total: number = results.length
+  const skippedResults: UrlCheckType[] = results.filter((result) => result.status === "IGNORED")
+  const skippedCount: number = skippedResults.length
+
+  const failedResults: UrlCheckType[] = results
+    .filter((result) => skippedResults.indexOf(result) === -1)
+    .filter((result) => !result.success)
+  const failedCount: number = failedResults.length
+
+  // const successfullResults: UrlCheckType[] = results.filter((result) => failedResults.indexOf(result) === -1).filter((result) => skippedResults.indexOf(result) === -1)
+  const successfullResults: UrlCheckType[] = results.filter((result) => result.success)
+  const successCount: number = successfullResults.length
+
+  const totalCount = skippedCount + failedCount + successCount
+  if (totalCount !== results.length) {
+    throw new Error(
+      `Error: Total count of results (${totalCount}) does not match the number of results (${results.length}).`,
+    )
+  }
 
   if (runningInGithubActions()) {
     console.debug("Running in GitHub Actions")
 
-    core.setOutput("total", total)
-    core.setOutput("success", success)
-    core.setOutput("failed", failed)
-    core.setOutput("skipped", skipped)
+    core.setOutput("total", totalCount)
+    core.setOutput("success", successCount)
+    core.setOutput("failed", failedCount)
+    core.setOutput("skipped", skippedCount)
 
     const table: SummaryTableRow[] = [makeHeader()].concat(
-      results
-        .sort((a, b) => {
-          if (typeof a.status === "number" && typeof b.status === "number") {
-            return a.status - b.status
-          } else if (typeof a.status === "number") {
-            return -1
-          } else if (typeof b.status === "number") {
-            return 1
-          } else {
-            return 0
-          }
-        })
-        .sort((a, b) => {
-          if (a.success === b.success) {
-            return 0
-          } else if (a.success === false) {
-            return -1
-          } else if (b.success === false) {
-            return 1
-          } else if (a.success === true) {
-            return -1
-          } else if (b.success === true) {
-            return 1
-          } else {
-            return 0
-          }
-        })
-        .map((result) => makeCells(result)),
+      results.sort((a, b) => getOrder(a) - getOrder(b)).map((result) => makeCells(result)),
     )
 
     await core.summary.addHeading("Results table").addTable(table).write()
 
-    if (failed > 0) {
-      core.setFailed(`Checks of ${failed}/${total} URLs failing.`)
+    if (failedCount > 0) {
+      core.setFailed(`Checks of ${failedCount}/${totalCount} URLs failing.`)
     }
   } else {
     console.log("Script not running in GitHub Actions")
@@ -355,7 +371,7 @@ async function main() {
 
   console.log("URL check completed.\n")
 
-  if (failed > 0) {
+  if (failedCount > 0) {
     console.error("Errors occurred:")
     // errors.forEach((error) => console.error(error))
     // console.error(errors)
