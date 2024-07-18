@@ -7,4 +7,4 @@ created: 2024-07-17T08:21:07
 modified: 2024-07-17T08:24:32
 ---
 
-- [Ideas](projects/Breadboard/Phase%203/ideas.md)
+- [Ideas](projects/Breadboard/Phase%203/propsoals/index.md)
