@@ -626,3 +626,7 @@ Health metrics of different formats, mediums and from different platforms includ
 Breadboard can be used to create data pipelines that span multiple cloud providers, allowing for data to be processed and transformed across different environments. This proposal aims to demonstrate the interoperability of Breadboard with various cloud services.
 
 ---
+
+Course Coach
+
+---
