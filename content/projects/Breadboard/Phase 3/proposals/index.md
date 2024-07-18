@@ -753,3 +753,7 @@ Given a domain-specific corpus of knowledge, Breadboard can respond to questions
 Given a domain-specific language and a set of rules, Breadboard can be used to interpret, process, execute, translate and describe commands written in the language. Breadboard can also provide feedback, suggestions, and responses based on the input received.
 
 ---
+
+### Data Dashboard Generation
+
+Based on a collection of data sources and existing 
