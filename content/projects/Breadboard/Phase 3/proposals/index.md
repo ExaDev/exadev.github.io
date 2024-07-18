@@ -3,7 +3,7 @@ title: Ideas
 aliases: []
 tags: []
 created: 2024-07-18T10:29:09
-modified: 2024-07-18T12:47:06
+modified: 2024-07-18T12:47:39
 ---
 
 ## Ideas
@@ -538,5 +538,58 @@ Showcase how Breadboard can be used with low-code/no-code development platforms 
 - Detailed integration guides
 - Example projects for low-code/no-code development
 - Best practices for optimising development workflows
+
+---
+
+### Advanced Home Automation System
+
+Target: Tech enthusiast
+Objective: Integrate inputs and outputs of a home automation system into various breadboards to control and monitor home devices.
+
+---
+
+### Realtime IoT Data Processing
+
+---
+
+### Cloud Infrastructure Insights and Optimisation
+
+Using the various APIs offered by cloud providers such as GCP, Breadboard can be used to monitor and optimise cloud infrastructure for both cost and performance. This proposal aims to demonstrate the capabilities of Breadboard in managing cloud resources effectively.
+
+---
+
+### Dynamic Service Data Pluggability
+
+Breadboard can be used to consume unpredictable, unclean, or noisy data from various sources and transform it into a structured format. This structured data can then be fed into other services or boards for further processing. This proposal aims to showcase the flexibility and adaptability of Breadboard in handling dynamic data sources.
+
+---
+
+### BreadBot Robot
+
+Using a Pi based platform such as the UGV Rover or the PiCar, create a robot that can process inputs and outputs from Breadboard to perform tasks such as object detection, navigation, and interaction.
+
+---
+
+### Hydroponic Gardener
+
+Using a "dumb" hydroponic system, use the image processing capabilities of Breadboard to monitor plant health, water levels, and nutrient levels. Implement a feedback loop to control the system based on the data collected.
+
+---
+
+### Smart Home Security System
+
+Similar to the home automation system, but with a focus on anomaly detection and security. Use Breadboard to process inputs from various sensors and cameras to continuously build a baseline of "normal" activity and alert the user to any deviations.
+
+---
+
+### Short Range Health Monitoring System
+
+---
+
+### Communications Node
+
+---
+
+### Long Range Health Monitoring System
 
 ---
