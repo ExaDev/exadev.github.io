@@ -756,7 +756,7 @@ Given a domain-specific language and a set of rules, Breadboard can be used to i
 
 ### Data Dashboard Generation
 
-Based on a collection of data sources, dashboard configuration schemas and existing dashboards, Breadboard can be used to generate new dashboards and modify existing dashboards for paltforms such as Grafana, Retool, Tableau, PowerBI, and Looker.
+Based on a collection of data sources, dashboard configuration schemas and existing dashboards, Breadboard can be used to generate new dashboards and modify existing dashboards for platform such as Grafana, Retool, Tableau, PowerBI, and Looker.
 Providing the platform supports integration of custom components, Breadboard itself can be integrated as a data source or as a data processing pipeline.
 
 ---
@@ -767,7 +767,8 @@ Given a codebase, Breadboard can be used to analyse, review, and provide feedbac
 
 ---
 
-
 ### Automated Test Case Evaluation and Generation
 
-With access to a codebase and 
+With access to a codebase, testing framework documentation and test code, and test results, Breadboard can be used to evaluate the quality of test cases, generate new test cases, and provide insights into the test coverage and effectiveness of the testing strategy.
+
+---
