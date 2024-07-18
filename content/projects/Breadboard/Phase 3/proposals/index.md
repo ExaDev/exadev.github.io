@@ -693,3 +693,57 @@ Given a set of dietary requirements, preferences, and restrictions, Breadboard c
 Given a target language and proficiency level, Breadboard can consume data from language learning platforms, dictionaries, and language APIs to provide vocabulary lists, grammar exercises, and conversational practice tailored to the user's needs. Breadboard can also provide feedback on pronunciation, grammar, and fluency.
 
 ---
+
+### Interactive Art Installation
+
+Using Breadboard to process inputs from various sensors, cameras, and microphones, create an interactive art installation that responds to the environment, user interactions, and external stimuli. Breadboard can be used to generate visual and auditory outputs that change based on the input received.
+
+---
+
+### Interactive Storytelling Experience
+
+Using Breadboard to generate dialogue, responses, and actions for characters in a story, create an interactive storytelling experience where the user can influence the plot, characters, and outcomes. Breadboard can be used to create branching narratives, dynamic characters, and immersive environments.
+
+---
+
+### Virtual Event Host
+
+Given a set of event details, Breadboard can be used to host virtual events, including webinars, conferences, and workshops. Breadboard can manage registration, scheduling, communication, and content delivery for the event, providing a seamless and engaging experience for participants.
+
+---
+
+### Realtime Financial Data Analyst
+
+Consuming financial data from various sources such as stock exchanges, news feeds, and economic indicators, Breadboard can be used to analyse market trends, predict price movements, and provide insights for investment decisions. Breadboard can also generate alerts, reports, and recommendations based on the data received.
+
+---
+
+### Personalised Content Recommendation Engine
+
+Given a user's preferences, interests, and viewing history, Breadboard can consume data from content platforms, social media, and recommendation engines to provide personalised content recommendations. Breadboard can also generate playlists, reading lists, and suggestions based on the user's profile.
+
+---
+
+### Virtual Personal Shopper
+
+Given a user's preferences, sizes, and style, Breadboard can consume data from fashion retailers, trend reports, and style guides to provide personalised shopping recommendations. Breadboard can also generate outfit suggestions, wardrobe updates, and shopping lists based on the user's needs.
+
+---
+
+### Virtual Travel Guide
+
+Given a user's destination, interests, and budget, Breadboard can consume data from travel platforms, reviews, and booking sites to provide personalised travel recommendations. Breadboard can also generate itineraries, sightseeing suggestions, and travel tips based on the user's profile.
+
+---
+
+### Automated Legal Document Processing
+
+Given a set of legal documents, contracts, or agreements, Breadboard can be used to process, analyse, and extract key information from the text. Breadboard can also generate summaries, reports, and insights based on the content of the documents.
+
+---
+
+### Domain Specific Language Interpreter
+
+Given a domain-specific language and a set of rules, Breadboard can be used to interpret, process, execute, translate and describe commands written in the language. Breadboard can also provide feedback, suggestions, and responses based on the input received.
+
+---
