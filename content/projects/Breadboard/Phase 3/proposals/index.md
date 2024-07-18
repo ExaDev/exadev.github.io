@@ -742,6 +742,12 @@ Given a set of legal documents, contracts, or agreements, Breadboard can be used
 
 ---
 
+### Domain Expert System
+
+Given a domain-specific corpus of knowledge, Breadboard can respond to questions, provide explanations, facilitate discussions and guide user exploration of the domain
+
+---
+
 ### Domain Specific Language Interpreter
 
 Given a domain-specific language and a set of rules, Breadboard can be used to interpret, process, execute, translate and describe commands written in the language. Breadboard can also provide feedback, suggestions, and responses based on the input received.
