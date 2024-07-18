@@ -586,10 +586,26 @@ Similar to the home automation system, but with a focus on anomaly detection and
 
 ---
 
+### 3D Print Optimisation
+
+3D models, print configurations,printer specifications, print logs, live print imagery, post-print imagery, and subjective qualatitive feedback from the user, Breadboard can be used to process and analyse the data to provide insights and recommendations for optimising 3D prints. This includes print settings, model modifications,  material selection, post-processing techniques and even printer maintenance.
+
+---
+
 ### Communications Node
+
+Integrating with a peer-to-peer messaging medium such as Meshtastic over LoRaWAN. Using a local language-model Breadboard can use the knowledge encoded in the language model to provide conversational responses to messages in an offline environment.
 
 ---
 
 ### Long Range Health Monitoring System
+
+Health metrics of different formats, mediums and from different platforms including including wearables, medical devices, IoT devices and even manually entered data, or pictures of consumables can be processed and analysed using Breadboard.
+
+---
+
+### Cross-Cloud Data Pipelines
+
+Breadboard can be used to create data pipelines that span multiple cloud providers, allowing for data to be processed and transformed across different environments. This proposal aims to demonstrate the interoperability of Breadboard with various cloud services.
 
 ---
