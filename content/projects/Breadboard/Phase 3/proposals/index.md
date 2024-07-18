@@ -681,3 +681,15 @@ Similar to the formative feedback component of the oral examination assistant, B
 Breadboard can also be used to generate assessments and assignments that align with an overall syllabus, learning outcome or curriculum. This can be used to generate indicative practice questions, quizzes, and exams.
 
 ---
+
+### Personalised Recipe Generator
+
+Given a set of dietary requirements, preferences, and restrictions, Breadboard can consume data from various recipe databases, supermarket APIs, and nutritional information to generate personalised recipes that meet the user's needs. Breadboard can also provide shopping lists, cooking instructions, and nutritional information for each recipe.
+
+---
+
+### Language Learning Assistant
+
+Given a target language and proficiency level, Breadboard can consume data from language learning platforms, dictionaries, and language APIs to provide vocabulary lists, grammar exercises, and conversational practice tailored to the user's needs. Breadboard can also provide feedback on pronunciation, grammar, and fluency.
+
+---
