@@ -627,6 +627,37 @@ Breadboard can be used to create data pipelines that span multiple cloud provide
 
 ---
 
-Course Coach
+### Course Coach
+
+Given a learning goal provided by the user, Breadboard can consume data from the user's existing work, learning, and personal schedules, and provide a personalised learning plan, including resources, exercises, and assessments to help the user achieve their goal.
+
+---
+
+### Educational Role-play Assistant
+
+Given a scenario and a set of characters, Breadboard can be used to generate dialogue, responses, and actions for each character, creating an interactive role-play experience for educational purposes.
+
+---
+
+### Oral Examination Assistant
+
+For some professional certifications, oral examinations are required. They are often conducted in a simulated environment where the candidate interacts with an actor who is provided with background information about the scenario. This makes revision and practice difficult or unsustainably expensive. Breadboard can be provided with the scenario and the background information and can be used to conduct the conversation with the candidate, providing a realistic and consistent experience.
+
+After the fact, the full transcript, background information and marking criteria can be provided to Breadboard to provide feedback on the candidate's performance.
+
+---
+
+### Personal Finance Manager
+
+Given access to historic bank statement data, Breadboard can be used to analyse spending habits, identify trends, and provide general recommendations for budgeting and saving, or towards specific financial goals.
+If the user is interested in investing, Breadboard can consume data from various financial APIs to provide insights and provide feedback on financial activities suggested by the user.
+
+---
+
+### Assessment and Feedback System
+
+Similar to the formative feedback component of the oral examination assistant, Breadboard can be used to provide feedback on written assessments and assignments. Given a marking criteria, Breadboard can provide feedback on the content, structure, and style of the submission.
+
+Breadboard can also be used to generate assessments and assignments that align with an overall syllabus, learning outcome or curriculum. This can be used to generate indicative practice questions, quizzes, and exams.
 
 ---
