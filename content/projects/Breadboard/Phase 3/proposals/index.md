@@ -584,11 +584,26 @@ Similar to the home automation system, but with a focus on anomaly detection and
 
 ### Short Range Health Monitoring System
 
+During exercise or day-to-day activities, Breadboard can be used to monitor health metrics such as heart rate, blood pressure, and oxygen levels.
+Breadboard can process and analyse this data to provide guidance on exercise intensity, recovery, and overall health.
+
+---
+
+### Live UAV Pilot Assistant
+
+Breadboard can consume environmental data, forecast data, real-time telemetry data from a UAV including imagery, and based on a free-form text input of the flight's goal, provide insights and recommendations to the pilot to optimise flight paths, battery usage, and safety
+
+---
+
+### Wellness Tracker
+
+Taking multivariate data from devices such as screen time, app usage, sleep patterns, and physical activity, Breadboard can be used to process and analyse the data to provide insights and recommendations for improving overall wellness.
+
 ---
 
 ### 3D Print Optimisation
 
-3D models, print configurations,printer specifications, print logs, live print imagery, post-print imagery, and subjective qualatitive feedback from the user, Breadboard can be used to process and analyse the data to provide insights and recommendations for optimising 3D prints. This includes print settings, model modifications,  material selection, post-processing techniques and even printer maintenance.
+3D models, print configurations,printer specifications, print logs, live print imagery, post-print imagery, and subjective qualitative feedback from the user, Breadboard can be used to process and analyse the data to provide insights and recommendations for optimising 3D prints. This includes print settings, model modifications,  material selection, post-processing techniques and even printer maintenance tips
 
 ---
 
