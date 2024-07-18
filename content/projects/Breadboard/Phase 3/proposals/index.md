@@ -756,4 +756,4 @@ Given a domain-specific language and a set of rules, Breadboard can be used to i
 
 ### Data Dashboard Generation
 
-Based on a collection of data sources and existing 
+Based on a collection of data sources, dashboard configuration schemas 
