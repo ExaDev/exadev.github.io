@@ -550,6 +550,8 @@ Objective: Integrate inputs and outputs of a home automation system into various
 
 ### Realtime IoT Data Processing
 
+Consuming data that may be sporadic and from devices with differing communication protocols and data formats, breadboard can perform continuous or ad-hoc processing, analysis, normalisation, and description of the data.
+
 ---
 
 ### Cloud Infrastructure Insights and Optimisation
