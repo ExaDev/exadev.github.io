@@ -543,14 +543,15 @@ Showcase how Breadboard can be used with low-code/no-code development platforms 
 
 ### Advanced Home Automation System
 
-Target: Tech enthusiast
-Objective: Integrate inputs and outputs of a home automation system into various breadboards to control and monitor home devices.
+Integrate inputs and outputs of a home automation system into various breadboards to control and monitor home devices.
+Breadboard can be used to process and analyse data from sensors, cameras, and other devices to provide insights, recommendations and automate tasks.
+Some scenarios include consuming meteorological data to adjust heating and cooling systems, monitoring energy grid prices and consumption consumption to optimise usage, and detecting anomalies in security systems.
 
 ---
 
 ### Realtime IoT Data Processing
 
-Consuming data that may be sporadic and from devices with differing communication protocols and data formats, breadboard can perform continuous or ad-hoc processing, analysis, normalisation, and description of the data.
+Consuming data that may be sporadic and from devices with differing communication protocols and data formats, breadboard can perform continuous or ad-hoc processing, analysis, normalisation, retransmission and description of the data.
 
 ---
 
@@ -569,6 +570,7 @@ Breadboard can be used to consume unpredictable, unclean, or noisy data from var
 ### BreadBot Robot
 
 Using a Pi based platform such as the UGV Rover or the PiCar, create a robot that can process inputs and outputs from Breadboard to perform tasks such as object detection, navigation, and interaction.
+Breadboard can be used to generation solutions to unhandled scenarios, such as when the robot encounters an obstacle or when it needs to make a decision based on multiple inputs. The result of executing the solution can be fed back into Breadboard for further processing. The results can then be used by Breadboard to generate a re-useable solution for similar scenarios in the future.
 
 ---
 
