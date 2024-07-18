@@ -607,7 +607,7 @@ Taking multivariate data from devices such as screen time, app usage, sleep patt
 
 ### 3D Print Optimisation
 
-3D models, print configurations,printer specifications, print logs, live print imagery, post-print imagery, and subjective qualitative feedback from the user, Breadboard can be used to process and analyse the data to provide insights and recommendations for optimising 3D prints. This includes print settings, model modifications,  material selection, post-processing techniques and even printer maintenance tips
+3D models, print configurations,printer specifications, print logs, live print imagery, post-print imagery, and subjective qualitative feedback from the user, Breadboard can be used to process and analyse the data to provide insights and recommendations for optimising 3D prints. This includes print settings, model modifications, material selection, post-processing techniques and even printer maintenance tips
 
 ---
 
@@ -756,4 +756,15 @@ Given a domain-specific language and a set of rules, Breadboard can be used to i
 
 ### Data Dashboard Generation
 
-Based on a collection of data sources, dashboard configuration schemas 
+Based on a collection of data sources, dashboard configuration schemas and existing dashboards, Breadboard can be used to generate new dashboards and modify existing dashboards for paltforms such as Grafana, Retool, Tableau, PowerBI, and Looker.
+Providing the platform supports integration of custom components, Breadboard itself can be integrated as a data source or as a data processing pipeline.
+
+---
+
+### Code Reviewer
+
+Given a codebase, Breadboard can be used to analyse, review, and provide feedback on the code quality, structure, and style. Breadboard can also generate reports, suggestions, and recommendations for improving the codebase.
+
+---
+
+
