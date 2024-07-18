@@ -617,6 +617,18 @@ Integrating with a peer-to-peer messaging medium such as Meshtastic over LoRaWAN
 
 ---
 
+### Project Analyst
+
+Given a project brief with component of different types, Breadboard can be used to orchestrate a team of specialist agents to assess the project, provide feedback, and generate a report on the project's feasibility, risks, and potential rewards.
+
+---
+
+### Project Planner
+
+Given a project brief, Breadboard can be used to generate a project plan, including tasks, milestones, dependencies, and resources required to complete the project. Breadboard can also be used to track progress, provide reminders, and adjust the plan based on changing circumstances.
+
+---
+
 ### Long Range Health Monitoring System
 
 Health metrics of different formats, mediums and from different platforms including including wearables, medical devices, IoT devices and even manually entered data, or pictures of consumables can be processed and analysed using Breadboard.
@@ -626,6 +638,12 @@ Health metrics of different formats, mediums and from different platforms includ
 ### Cross-Cloud Data Pipelines
 
 Breadboard can be used to create data pipelines that span multiple cloud providers, allowing for data to be processed and transformed across different environments. This proposal aims to demonstrate the interoperability of Breadboard with various cloud services.
+
+---
+
+### Work Journal and Productivity Tracker
+
+By consuming data from various sources such as calendars, task lists, communication tools, Breadboard can be used to prompt the user to conversationally log their progress, create journal entries, and provide summaries, reports, insights and recommendations for improving productivity.
 
 ---
 
