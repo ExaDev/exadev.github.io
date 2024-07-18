@@ -3,24 +3,42 @@ title: Ideas
 aliases: []
 tags: []
 created: 2024-07-18T10:29:09
-modified: 2024-07-18T10:39:42
+modified: 2024-07-18T12:44:59
 ---
 
-## Ideas
+# Ideas
 
 ## Workstreams
 
-[Workstream 1 Enhancing Breadboard Onboarding and Documentation](projects/Breadboard/Phase%203/proposals/Workstream%201%20Enhancing%20Breadboard%20Onboarding%20and%20Documentation.md)
+### Workstream 1: Enhancing Breadboard Onboarding and Documentation
 
-[Workstream 2 Creating Documented Examples and Demonstrators](projects/Breadboard/Phase%203/proposals/Workstream%202%20Creating%20Documented%20Examples%20and%20Demonstrators.md)
+- Step-by-step guide for new users
+- Advanced tutorials and best practices for experienced users and developers wanting to write boards in TypeScript
+- Video tutorials and walkthroughs for common use cases
 
-[Workstream 3 Improving User Experience and Usability](projects/Breadboard/Phase%203/proposals/Workstream%203%20Improving%20User%20Experience%20and%20Usability.md)
+### Workstream 2: Creating Documented Examples and Demonstrators
 
-[Workstream 4 Ecosystem Development and Community Engagement](projects/Breadboard/Phase%203/proposals/Workstream%204%20Ecosystem%20Development%20and%20Community%20Engagement.md)
+- Documented examples and demonstrators showing the capabilities of Breadboard.
+- Serving as practical reference for users to understand and utilise Breadboard's features in various scenarios
 
-[Workstream 5 Technical Contributions and Feedback](projects/Breadboard/Phase%203/proposals/Workstream%205%20Technical%20Contributions%20and%20Feedback.md)
+### Workstream 3: Improving User Experience and Usability
 
-[Workstream 6 Braedboard Marketplace - Rapid Deployment of Breadboard Solutions](projects/Breadboard/Phase%203/proposals/Workstream%206%20Braedboard%20Marketplace%20-%20Rapid%20Deployment%20of%20Breadboard%20Solutions.md)
+- Undertaking ad-hoc user research to gather feedback on Breadboard's usability
+- Identifying pain points and areas for improvement
+- Communicating user feedback to the team
+
+### Workstream 4: Ecosystem Development and Community Engagement
+
+- Collaborating with project contributors to contribute to the development roadmap.
+- Engaging with the tech community to discuss and explore use-cases, features and integrations for Breadboard.
+
+### Workstream 5: Technical Contributions and Feedback
+
+- While the primary focus of contributions is not on the codebase, technical contributions will be made where appropriate.
+- Identification, diagnosis, reproduction and submissions of bugs and issues.
+- Collaborating with the development team to provide feedback on new features and improvements.
+
+### Workstream 6: "Braedboard Marketplace" - Rapid Deployment of Breadboard Solutions
 
 ## Case Study / Showcase Proposals
 
@@ -520,3 +538,99 @@ Showcase how Breadboard can be used with low-code/no-code development platforms 
 - Detailed integration guides
 - Example projects for low-code/no-code development
 - Best practices for optimising development workflows
+
+#### Workstream 1 Enhancing Breadboard Onboarding and Documentation
+
+---
+
+title:
+aliases: []
+tags: []
+created: 2024-07-18T10:29:09
+modified: 2024-07-18T10:29:19
+---
+
+## Workstream 1: Enhancing Breadboard Onboarding and Documentation
+
+- Step-by-step guide for new users
+- Advanced tutorials and best practices for experienced users and developers wanting to write boards in TypeScript
+- Video tutorials and walkthroughs for common use cases
+
+### Workstream 2 Creating Documented Examples and Demonstrators
+
+---
+
+title:
+aliases: []
+tags: []
+created: 2024-07-18T10:29:09
+modified: 2024-07-18T10:31:49
+---
+
+## Workstream 2: Creating Documented Examples and Demonstrators
+
+- Documented examples and demonstrators showing the capabilities of Breadboard.
+- Serving as practical reference for users to understand and utilise Breadboard's features in various scenarios
+
+### Workstream 3 Improving User Experience and Usability
+
+---
+
+title:
+aliases: []
+tags: []
+created: 2024-07-18T10:29:09
+modified: 2024-07-18T10:31:49
+---
+
+## Workstream 3: Improving User Experience and Usability
+
+- Undertaking ad-hoc user research to gather feedback on Breadboard's usability
+- Identifying pain points and areas for improvement
+- Communicating user feedback to the team
+
+### Workstream 4 Ecosystem Development and Community Engagement
+
+---
+
+title:
+aliases: []
+tags: []
+created: 2024-07-18T10:29:09
+modified: 2024-07-18T10:31:49
+---
+
+## Workstream 4: Ecosystem Development and Community Engagement
+
+- Collaborating with project contributors to contribute to the development roadmap.
+- Engaging with the tech community to discuss and explore use-cases, features and integrations for Breadboard.
+
+### Workstream 5 Technical Contributions and Feedback
+
+---
+
+title:
+aliases: []
+tags: []
+created: 2024-07-18T10:29:09
+modified: 2024-07-18T10:31:49
+---
+
+## Workstream 5: Technical Contributions and Feedback
+
+- While the primary focus of contributions is not on the codebase, technical contributions will be made where appropriate.
+- Identification, diagnosis, reproduction and submissions of bugs and issues.
+- Collaborating with the development team to provide feedback on new features and improvements.
+
+### Workstream 6 Braedboard Marketplace - Rapid Deployment of Breadboard Solutions
+
+---
+
+title:
+aliases: []
+tags: []
+created: 2024-07-18T10:29:09
+modified: 2024-07-18T10:31:49
+---
+
+## Workstream 6: "Braedboard Marketplace" - Rapid Deployment of Breadboard Solutions
