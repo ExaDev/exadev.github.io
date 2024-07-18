@@ -1,15 +1,23 @@
-### Integration with Low-code / No-code Development Platforms
+---
+title: 
+aliases: []
+tags: []
+created: 2024-07-18T10:29:09
+modified: 2024-07-18T10:31:49
+---
 
-#### Objective
+## Integration with Low-code / No-code Development Platforms
+
+### Objective
 
 Showcase how Breadboard can be used with low-code/no-code development platforms like Bubble and Webflow to create application skeletons and integrate system logic.
 
-#### Key Components
+### Key Components
 
 - Integrating with Bubble and Webflow
 - Use cases including application creation and system logic integration
 
-#### Outcomes
+### Outcomes
 
 - Detailed integration guides
 - Example projects for low-code/no-code development

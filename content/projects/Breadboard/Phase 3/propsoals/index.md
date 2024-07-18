@@ -3,7 +3,7 @@ title: Ideas
 aliases: []
 tags: []
 created: 2024-07-17T08:22:13
-modified: 2024-07-18T10:29:16
+modified: 2024-07-18T10:31:49
 ---
 
 ## Ideas
