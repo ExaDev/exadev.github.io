@@ -3,9 +3,10 @@ name: Build, Test and Deploy
 on:
   push:
   workflow_dispatch:
+  pull_request:
 
 concurrency:
-  cancel-in-progress: false
+  cancel-in-progress: true
   group: ${{ github.workflow }}-${{ github.ref }}
 
 permissions:
@@ -124,6 +125,9 @@ jobs:
   #         preview: true
 
   deploy:
+    concurrency:
+      cancel-in-progress: false
+      group: ${{ github.workflow }}-${{ github.ref }}-deploy
     if: github.ref == 'refs/heads/main' && github.event_name == 'push'
     needs:
       - build
