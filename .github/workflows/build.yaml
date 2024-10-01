@@ -3,6 +3,7 @@ name: Build, Test and Deploy
 on:
   push:
   workflow_dispatch:
+  pull_request:
 
 concurrency:
   cancel-in-progress: false
