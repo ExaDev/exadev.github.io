@@ -125,6 +125,9 @@ jobs:
   #         preview: true
 
   deploy:
+    concurrency:
+      cancel-in-progress: false
+      group: ${{ github.workflow }}-${{ github.ref }}-deploy
     if: github.ref == 'refs/heads/main' && github.event_name == 'push'
     needs:
       - build
